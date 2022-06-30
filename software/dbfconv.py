@@ -1,3 +1,3 @@
 from dbfread import DBF
-for row in DBF('V_FIU_GLI.dbf'):
+for row in DBF('./datasets/originals/Aree_inondabili.dbf'):
     print(row)

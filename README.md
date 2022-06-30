@@ -15,8 +15,8 @@
 
 ### Prevention:
 
-#### Source: 
+**Source:** *MinERva*
 
-#### Dataset: Opere di difesa costiera - 2020
+**Dataset:** *Opere di difesa costiera - 2020*
 Il 'Catalogo delle opere di difesa' contiene le informazioni relative alle protezioni costiere presenti sia a mare che nell'entroterra del litorale emiliano-romagnolo. Tali opere sono state erette nel tempo da parte di enti diversi, allo scopo di difendere le spiagge dal fenomeno dell'erosione e l'entroterra dagli allagamenti in occorrenza degli eventi di alta marea eccezionale.
 

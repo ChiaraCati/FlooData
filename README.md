@@ -65,5 +65,17 @@ https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-reno
 * localizzazione delle situazioni a rischio elevato o molto elevato:
 https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-reno-rischio-idraulico-e-assetto-della-rete-idrografica/resource/c84abc40-4543-4612-b210-99627fa6bfcf
 
+**Banca dati geologica**
+
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444
+
+*Dataset disponibili che potrebbero interessarci:*
+
+* Banca dati geologica 10k - Frane, depositi di bal bla non lo so 
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444/resource/45092acf-cca2-42c5-805c-fda27bc97135
+
+* Carta Inventario delle frane e Archivio storico delle frane
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444/resource/743a65a3-2c8b-4e44-b041-064372358715
+
 
 ***

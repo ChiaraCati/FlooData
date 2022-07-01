@@ -4,7 +4,7 @@ from dbfread import DBF
 import pandas as pd
 import pprint
 
-name = 'AbR_LocalizzRiscTitII_ETRS89UTM32N'
+name = 'Coperture_quaternarie_10K'
 idx = -1
 
 df = pd.DataFrame()

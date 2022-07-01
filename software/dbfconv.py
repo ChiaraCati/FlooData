@@ -4,12 +4,12 @@ from dbfread import DBF
 import pandas as pd
 import pprint
 
-name = 'Localita_colpite_Erosione_1946_2020'
+name = 'AbR_LocalizzRiscTitII_ETRS89UTM32N'
 idx = -1
 
 df = pd.DataFrame()
 
-for row in DBF('../datasets/originals/Localita_colpite_Erosione_1946_2020.dbf', encoding='utf-8'):
+for row in DBF('../datasets/originals/'+name+'.dbf', encoding='latin-1'):
     
     #qui aggiunge le colonne la prima volta che le vede come keys
     if idx == -1:
@@ -30,7 +30,7 @@ for row in DBF('../datasets/originals/Localita_colpite_Erosione_1946_2020.dbf', 
 
 pprint.pprint(df)
 
-df.to_csv('../datasets/dbf-esempi/'+name+'.csv')
+df.to_csv('../datasets/dbf-esempi/'+name+'.csv', encoding='utf-8')
 
 
 

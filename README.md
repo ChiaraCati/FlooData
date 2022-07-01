@@ -43,17 +43,27 @@ Le cartografie riassumono la distribuzione dei diversi tipi di danno registrati 
 
 https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/rete-regionale-per-la-qualita-ambientale-acque-superficiali-fluviali-dati-2010-2020/resource/25b540a9-012e-48ae-bddf-54a94b252732
 
-**Datibacino reno:**
+**Datibacino Po:**
 
-https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-reno-rischio-idraulico-e-assetto-della-rete-idrografica
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-fiume-po-fasce-fluviali/resource/1f0b43c4-4bcc-497c-8af4-6ba2cb750c1e
 
-*Dataset disponibili che potrebbero interessarci: *
+*Dataset disponibili che potrebbero interessarci:*
 
+* Aree inondabili bacino fiume Po:
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-fiume-po-fasce-fluviali/resource/1f0b43c4-4bcc-497c-8af4-6ba2cb750c1e
 
-
-**Dati  bacino Po:**
+**Dati  bacino Reno:**
 
 https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-fiume-po-fasce-fluviali
+
+
+*Dataset disponibili che potrebbero interessarci:*
+
+* Aree alta probabilità inondazione fiume Reno:
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-reno-rischio-idraulico-e-assetto-della-rete-idrografica/resource/1408fbe8-fe7f-4a61-aba5-b5ed7bc8ee07
+
+* localizzazione delle situazioni a rischio elevato o molto elevato:
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/pai-bacino-reno-rischio-idraulico-e-assetto-della-rete-idrografica/resource/c84abc40-4543-4612-b210-99627fa6bfcf
 
 
 ***

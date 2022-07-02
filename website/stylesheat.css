@@ -1,5 +1,22 @@
 body {
     background-color: aqua;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed !important;
+    width: 100%;
+}
+ .push {
+    width: 100%;
+    height: 3.25rem;
+ }
+
+ .section{
+    padding: 5rem ;
+ }

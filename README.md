@@ -14,9 +14,9 @@ Damages were, then, divided into two categories:
 * **Damages on the coast** (mostly damages caused by sea events)
 * **Damages on the mainland** (damages cused by floods and earth-quakes)
 
-This distinction was introduced as we elaborated our second objective: whether there is a distinction in terms of risk perception towards these two different areas. 
+This distinction was introduced as we elaborated our second objective: whether there is a distinction in terms of risk perception towards these two different areas[^1].
 
-Finally, information on damages has been crossed with information on different kind of interventions, mainly distinguishing between preventive and reparatory ones. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
+Finally, information on damages has been crossed with information on different kind of activities, mainly distinguishing between preventive measures and reparatory interventions. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
 
 
 ## Scenario
@@ -123,3 +123,9 @@ https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-s
 **FIN_Bonifiche Mezzi regionali**
 Idem sopra
 https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-regionali-bonifiche-1523630733353-1846/resource/efd3b9b6-7ec9-4cde-972e-72ffe695836e
+
+
+## Footnotes
+
+
+[^1] cfr. Unesco's definition of Water-Disasters at https://en.unesco.org/themes/water-security/hydrology/water-related-disasters

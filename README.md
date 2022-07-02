@@ -1,12 +1,32 @@
 # FlooData
  Project for Open Access and Digital ethics.
 
- Objectives: 
+## Introduction 
+
+FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Minica Palmirani at the Master Course of Dhigital Humanities and Digitl Kowldge (Univesity of Bologna) during the A.Y. 2021/2022.
+
+The project aims at making a valuable reuse of idrogeological Open Data concerning the Italian Region of Emilia-Romagna.
+
+We first hypotyzed a relationship between idrogeological damages and the measures undertaken by different actors consdering them at local, national and (maybe) international level.  
+
+Damages were divided into two categories distinguishing between the two main ecosystems characterizing the observed region:
+
+* the coast 
+* and the mainland 
+
+This distinction was as we introduced our second hypothesys: whether there is a distinction in terms of attention towards these two different areas. 
+
+
+
 
  Dati sulle alluvioni e sulle calamità costiere in emilia romagna,
  incrociati con i lavori di prevenzine e ricostruzione.
 
+## DATASETS:
+Almeno 2
 
+- uno sulla situazione idrica, quindi: calamità idriche come alluvioni, mareggiate, trremoti 
+- uno sulle iniziative: preventivo e riparativo (distinguwre tipo iniziative: pub/priv, naz/regio/internaz)
 ## SOFTWARES:
 
 **dbfconv.py** converts .dbf files into .csv files for analysis puprposes
@@ -71,11 +91,24 @@ https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06
 
 *Dataset disponibili che potrebbero interessarci:*
 
-* Banca dati geologica 10k - Frane, depositi di bal bla non lo so 
-https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444/resource/45092acf-cca2-42c5-805c-fda27bc97135
-
 * Carta Inventario delle frane e Archivio storico delle frane
 https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444/resource/743a65a3-2c8b-4e44-b041-064372358715
 
 
-***
+#### Dati finanziamenti per interventi:
+Analisi etica a partire da quello dei terremoti 
+
+**Finanziamenti Piani di Azione Ambientali**
+
+Elenco dei finanziamenti per gli interventi previsti dal Piano di Azione Ambientale, dati aggiornati al 2021 
+
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-piani-di-azione-ambientali-1523630733363-1846
+
+**FIN_Bonifiche Mezzi statali**
+Ci sono un paio di bonifiche a dei torrenti può torare utile da aggregare ad altre info 
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-statali-bonifiche-1523630733354-1846/resource/8cc2700c-f21c-47c5-9041-2d7b0f4eb375
+
+
+**FIN_Bonifiche Mezzi regionali**
+Idem sopra
+https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-regionali-bonifiche-1523630733353-1846/resource/efd3b9b6-7ec9-4cde-972e-72ffe695836e

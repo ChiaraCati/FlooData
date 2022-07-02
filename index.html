@@ -11,6 +11,7 @@
   </head>
   
   <body>
+
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
@@ -35,17 +36,13 @@
               Project
             </a>
 
-            <a class="navbar-item" href="#Visualization">
-                Visualization
-            </a>
-
-            <a class="navbar-item" href="#Analysis">
-                Analysis
+            <a class="navbar-item" href="#Inspection">
+              Data Inspection
             </a>
       
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="#Documentation">
-                Documentation
+              <a class="navbar-link" href="#Analysis">
+                Datasets Analysis
               </a>
       
               <div class="navbar-dropdown">
@@ -55,23 +52,16 @@
                 <a class="navbar-item">
                   II dataset documentation
                 </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Mash up dataset
+                </a>
               </div>
             </div>
-            
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" href="#Metadata">
-                  Metadata
-                </a>
-        
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                    I dataset documentation
-                  </a>
-                  <a class="navbar-item">
-                    II dataset documentation
-                  </a>
-                </div>
-            </div>
+
+            <a class="navbar-item" href="#Metadata">
+              Metadata
+            </a>
 
             <a class="navbar-item" href="#Licence">
                 Licence
@@ -81,53 +71,141 @@
                 Team
             </a>
 
-            <a class="navbar-item" href="https://github.com/ChiaraCati/Owater" target=”_blank”>
-                Github
-            </a>
           </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary" href="https://github.com/ChiaraCati/Owater" target=”_blank”>
+                  <strong>Github Documentation</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
     </nav>
+    
+    <div id="Home">
+    <video autoplay muted loop id="myVideo">
+      <source src="website/img/video/Waves in the ocean.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
 
-      <section id="Home" class="section">
-        <h1 class="title">Home</h1>
+      <section class="section">
+        <h1 class="title">How to not be scared by Moby Dick</h1>
         <h2 class="subtitle">
           A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
         </h2>
       </section>
+    </div>
 
-      <section id="Project" class="section">
+    <section id="Project" class="section">
+        <div class="content is-medium">
         <h1 class="title">Project</h1>
-        <h2 class="subtitle">
-          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
-        </h2>
-      </section>
+        <p>
+          The project's goal is to make useful use of open data from idrogeology related to the Emilia-Romagna region of Italy. 
+          Our initial goal is to examine any connections between idrogeological harms and the actions taken by various players to address them at the local, national, and (perhaps) international levels.<span class="br"></span>
+          Then, damages were separated into two groups:</p>
+          <ul>
+            <li>Damages on the coast (mostly damages caused by sea events)</li>
+            <li> Damages on the mainland (damages cused by floods and earth-quakes)</li>
+          </ul>
+          <p>
+          This distinction was made when we elaborated on our second goal, which was to see whether there is a difference in how these two unique sectors are perceived as far as risk goes.
+          Information on damages has now been combined with data on various interventions, primarily differentiating between preventive and reparative ones.
+          This additional distinction was developed in an effort to be clear about the level of local and larger-scale institutions' (preferably private and public) contribution to the preservation of this area. <span class="br"></span>
+            To do so we collect data from (?).
+        </p>
+        </div>
+        <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Actors</p>
+                <p class="title">3,456</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Initiatives</p>
+                <p class="title">123</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Disasters</p>
+                <p class="title">456K</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Dataset</p>
+                <p class="title">789</p>
+              </div>
+            </div>
+          </nav>
+    </section>
 
-      <section id="Visualization" class="section">
-        <h1 class="title">Visualization</h1>
-        <h2 class="subtitle">
-          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
-        </h2>
-      </section>
+    <section id="Inspection" class="section">
+      <div class="content is-medium">
+        <h1 class="title">Data Inspection</h1>
+        <p>Here insert visualization plus a brif data Analysis. Discourse proposal:</p>
+        <ul>
+          <li>What is the water disaster? How many disasters a year? What is the typology of the water disaster? What is their distribution on the territory?</li>
+          <li> How potentially harmful are these disasters? (4 types?) Which areas are most affected?</li>
+          <li>How do humans react to the water disaster? Who finances the initiatives? Are there more preventive or interventional initiatives?</li>
+          <li>Report interesting foundings over data</li>
+        </ul>
+      </div>
+      
+    </section>
 
       <section id="Analysis" class="section">
-        <h1 class="title">Analysis</h1>
-        <h2 class="subtitle">
-          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
-        </h2>
-      </section>
-
-      <section id="Documentation" class="section">
-        <h1 class="title">Documentation</h1>
-        <h2 class="subtitle">
-          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
-        </h2>
+        <div class="content is-medium">
+          <h1 class="title">Analysis</h1>
+          <p>
+            A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+          </p>
+        </div>
+        
       </section>
 
       <section id="Metadata" class="section">
+        <div class="content is-medium">
         <h1 class="title">Metadata</h1>
-        <h2 class="subtitle">
+        <p class="subtitle">
           A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
-        </h2>
+        </p>
+      </div>
+        <div class="tabs is-boxed">
+          <ul>
+            <li class="is-active">
+              <a>
+                <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                <span>Pictures</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                <span>Music</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                <span>Videos</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                <span>Documents</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
       </section>
 
       <section id="Licence" class="section">

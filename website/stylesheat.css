@@ -1,5 +1,4 @@
 body {
-    background-color: aqua;
     height: 100%;
     width: 100%;
 }
@@ -8,15 +7,35 @@ html {
     scroll-behavior: smooth;
 }
 
-nav{
+.navbar{
     position: fixed !important;
     width: 100%;
 }
- .push {
-    width: 100%;
-    height: 3.25rem;
- }
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: auto;
+    min-height: 100vh;
+}
 
  .section{
     padding: 5rem ;
+ }
+
+ #Home > section{
+    position: absolute;
+    top: 50vh;
+    background-color: rgba(240, 255, 255, 0.5);
+}
+
+ .br{
+    display: block;
+    margin-bottom: 1rem;
+ }
+
+ .level{
+    padding-top: 4em;
  }

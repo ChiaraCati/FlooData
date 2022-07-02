@@ -3,18 +3,20 @@
 
 ## Introduction 
 
-FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Minica Palmirani at the Master Course of Dhigital Humanities and Digitl Kowldge (Univesity of Bologna) during the A.Y. 2021/2022.
+FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Monica Palmirani at the Master Course of Digital Humanities and Digital Knowldge (Univesity of Bologna) during the A.Y. 2021/2022.
 
 The project aims at making a valuable reuse of idrogeological Open Data concerning the Italian Region of Emilia-Romagna.
 
 We first hypotyzed a relationship between idrogeological damages and the measures undertaken by different actors consdering them at local, national and (maybe) international level.  
 
-Damages were divided into two categories distinguishing between the two main ecosystems characterizing the observed region:
+Damages were, then, divided into two categories:
 
-* the coast 
-* and the mainland 
+* **Damages on the coast** (mostly damages caused by sea events)
+* **Damages on the mainland** (damages cused by floods and earth-quakes)
 
-This distinction was as we introduced our second hypothesys: whether there is a distinction in terms of attention towards these two different areas. 
+This distinction was introduced as we elaborated our second hypothesys: whether there is a distinction in terms of risk perception towards these two different areas. 
+
+Finally information on damages has been crossed with information on different kind of interentions, mainly distinguishing 
 
 
 

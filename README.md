@@ -16,7 +16,16 @@ Damages were, then, divided into two categories:
 
 This distinction was introduced as we elaborated our second objective: whether there is a distinction in terms of risk perception towards these two different areas. 
 
-Finally information on damages has been crossed with information on different kind of interentions, mainly distinguishing 
+Finally information on damages has been crossed with information on different kind of interventions, mainly distinguishing between preventive and reparatry ones. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
+
+
+## Scenario
+
+1. Qualcosa sull'emilia romagna
+
+2. Qualcosa sul dissesto idrogeologico 
+
+3. Perché è mportante ed utile questo lavror dato il contesto di cui sopra?
 
 
 

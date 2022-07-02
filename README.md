@@ -22,7 +22,7 @@ Finally, information on damages has been crossed with information on different k
 ## Scenario
 
 
-Emilia Romagna is the sixth widest region in Italy in terms of surface area, and it has a variegated hydrogeological conformation, offering a moltitude of ecoystems, that are actually undergoing a drastic transformation due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ([ARPAE]{https://www.arpae.it/it}) in its report on [Climate change in Emilia-Romagna]{https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna}
+Emilia Romagna is the sixth widest region in Italy in terms of surface area, and it has a variegated hydrogeological conformation, offering a moltitude of ecoystems, that are actually undergoing a drastic transformation due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna), 
 
 2. Qualcosa sul dissesto idrogeologico 
 

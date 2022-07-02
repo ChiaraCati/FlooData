@@ -5,7 +5,7 @@
 
 FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Monica Palmirani at the Master Course of Digital Humanities and Digital Knowldge (Univesity of Bologna) during the A.Y. 2021/2022.
 
-The project aims at making a valuable reuse of idrogeological Open Data concerning the Italian Region of Emilia-Romagna.
+The project's aim is to make a valuable reuse of idrogeological Open Data concerning the Italian Region of Emilia-Romagna.
 
 Our first objective is to analyze if there is a relationship between idrogeological damages and the measures undertaken by different actors consdering them at local, national and (maybe) international level.  
 
@@ -14,14 +14,15 @@ Damages were, then, divided into two categories:
 * **Damages on the coast** (mostly damages caused by sea events)
 * **Damages on the mainland** (damages cused by floods and earth-quakes)
 
-This distinction was introduced as we elaborated our second objective: whether there is a distinction in terms of risk perception towards these two different areas. 
+This distinction was introduced as we elaborated our second objective: whether there is a distinction in terms of risk perception towards these two different areas[^1].
 
-Finally information on damages has been crossed with information on different kind of interventions, mainly distinguishing between preventive and reparatry ones. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
+Finally, information on damages has been crossed with information on different kind of activities, mainly distinguishing between preventive measures and reparatory interventions. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
 
 
 ## Scenario
 
-1. Qualcosa sull'emilia romagna
+
+Emilia Romagna is the sixth widest region in Italy in terms of surface area, and it has a variegated hydrogeological conformation, offering a moltitude of ecoystems, that are actually undergoing a drastic transformation due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna), 
 
 2. Qualcosa sul dissesto idrogeologico 
 
@@ -123,3 +124,9 @@ https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-s
 **FIN_Bonifiche Mezzi regionali**
 Idem sopra
 https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-regionali-bonifiche-1523630733353-1846/resource/efd3b9b6-7ec9-4cde-972e-72ffe695836e
+
+
+## Footnotes
+
+
+[^1] cfr. Unesco's definition of Water-Disasters at https://en.unesco.org/themes/water-security/hydrology/water-related-disasters

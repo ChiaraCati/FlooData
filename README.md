@@ -22,11 +22,12 @@ Finally, information on damages has been crossed with information on different k
 ## Scenario
 
 
-Emilia Romagna is the sixth widest region in Italy in terms of surface area, and it has a variegated hydrogeological conformation, offering a moltitude of ecoystems, that are actually undergoing a drastic transformation due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna), 
+Emilia-Romagna is the sixth widest region in Italy in terms of surface area.and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). The increasemnt of temperatures is now affecting stability of natural water sources as well as the wellbeing of water surfaces and rivers on mainland and the preservation of coast areas. 
 
 2. Qualcosa sul dissesto idrogeologico 
+As the Italian Institute for Environmental Protection and Research, [ISPRA](oip) (Istituto Superiore per la Protezione e la Ricerca Ambientale), ([ISPRA]()) stated ER's morphology is extremely frigile due to intense weather events and  proneness to landslides of the territory.
 
-3. Perché è mportante ed utile questo lavror dato il contesto di cui sopra?
+3. Perché è mportante ed utile questo lavrintense methereological or dato il contesto di cui sopra?
 
 
 

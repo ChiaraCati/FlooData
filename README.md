@@ -43,6 +43,7 @@ Almeno 2
 ## SOFTWARES:
 
 **dbfconv.py** converts .dbf files into .csv files for analysis puprposes
+**geoconv.py** converts places' names into latitude and longitude coordinates, in rder to locate them on maps.
 
 ## CONVERTED AND USEFUL DATASETS.
 

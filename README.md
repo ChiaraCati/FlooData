@@ -25,10 +25,10 @@ Finally, information on damages has been crossed with information on different k
 Emilia-Romagna is the sixth widest region in Italy in terms of surface area.and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). The increasemnt of temperatures is now affecting stability of natural water sources as well as the wellbeing of water surfaces and rivers on mainland and the preservation of coast areas. 
 
 2. Qualcosa sul dissesto idrogeologico 
-As the Italian Institute for Environmental Protection and Research, [ISPRA](oip) (Istituto Superiore per la Protezione e la Ricerca Ambientale), ([ISPRA]()) stated ER's morphology is extremely frigile due to intense weather events and  proneness to landslides of the territory.
+As the Italian Institute for Environmental Protection and Research (Istituto Superiore per la Protezione e la Ricerca Ambientale), [ISPRA](https://www.isprambiente.gov.it/it), stated ER's morphology is extremely frigile due to intense weather events and  proneness to landslides of the territory.
 
-3. Perché è mportante ed utile questo lavrintense methereological or dato il contesto di cui sopra?
-
+3. Perché è importante ed utile questo lavrintense methereological or dato il contesto di cui sopra?
+Through this project our aim is to give a clear view over risky areas triangulated with quantitative data on chatastrophic events and data on related activities(formulare un po' meglio).
 
 
 
@@ -36,6 +36,20 @@ As the Italian Institute for Environmental Protection and Research, [ISPRA](oip)
  incrociati con i lavori di prevenzine e ricostruzione.
 
 ## DATASETS:
+
+While kooking fo data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra] following W3S guidelines on Linked Open Data.
+
+**The datasets are the following ones:**
+* *ReNDiS:* Il Repertorio Nazionale degli interventi per la Difesa del Suolo
+* *CdS:* Il consumo di suolo in Italia
+* *RMN:* La Rete Mareografica Nazionale
+* *RON:* Rete Ondametrica Nazionale
+* *Luoghi:* Dai sistemi cartografici dell’ISPRA i dati delle regioni, delle province e dei comuni d’Italia (Elaborazioni su fonte Istat).
+Il dataset dei luoghi è di primaria importanza per l’integrazione delle differenti fonti di origine.
+
+Here the institution makes available 5 different OA datasets, queriable trough an endpoint API made available using Virtuoso. 
+
+Original datasets were retrieved from MinERva's catalogue of Open Access 
 Almeno 2
 
 - uno sulla situazione idrica, quindi: calamità idriche come alluvioni, mareggiate, trremoti 

@@ -97,10 +97,13 @@ Here we found tot datasets useful for retrieving information on Hydrogeolodical 
 
 ### OpenCoesione
 
-Open Coesione has been another useful resolurce, as it makes available data dumps on projects divided for each italian region. We downloaded the dataset concerning prjects undertaken in Emilia romangna at this url https://opencoesione.gov.it/it/opendata/#!progetti_regione_section
-
+[OpenCoesione](https://opencoesione.gov.it/it/) by the Italian Government has been another useful resolurce, as it makes available data dumps on projects grupoed by Region. 
+We downloaded the dataset containing information on projects undertaken in Emilia-Romangna at this url https://opencoesione.gov.it/it/opendata/#!progetti_regione_section.
+   
+* Dataset: progetti_esteso_EMR_2007-2013_20220228.csv
 * Dataset: progetti_esteso_EMR_2014-2020_20220228.csv
 
+X Giulia: Tutti i dati di OpenCoesione sono rilasciati con licenza CC BY 4.0 
 
 
 ## SOFTWARES:
@@ -174,6 +177,7 @@ Report interesting foundings over data
 
 - uno sulla situazione idrica, quindi: calamità idriche come alluvioni, mareggiate, trremoti 
 - uno sulle iniziative: preventivo e riparativo (distinguwre tipo iniziative: pub/priv, naz/regio/internaz)
+
 
 <hr>
 

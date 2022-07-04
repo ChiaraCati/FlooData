@@ -223,7 +223,7 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-| Legal issues   | D1 | D2 | D3 | D4 | D5 |
+| Legal issues | D1 | D2 | D3 | D4 | D5 |
 | :---         |     :---     |     :---     |     :---     |         :--- |
 | 1. Privacy        |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 	1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?        |     :---     |     :---     |     :---     |         :--- |         :--- |
@@ -245,14 +245,12 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | 			Do you have a cloud computing platform?      |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 		Have you checked the privacy regulation of the country where the dataset is physically stored? (territoriality)       |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 			1.11 Do you have non-personal data?       |     :---     |     :---     |     :---     |         :--- |         :--- |
-
 | 		2. IPR of the dataset       |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 		2.1 Have you created and generated the dataset ?       |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 		2.2 Are you the owner of the dataset? Who is the owner?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 		2.3 Are you sure to not use third party data without the proper authorization and license ?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 		Are the dataset free from third party licenses or patents?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 		2.4 Have you checked if there are some limitations in your national legal system for releasing some kind of datasets with open license?     |     :---     |     :---     |     :---     |         :--- |         :--- |
-
 | 			3. Licenses     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 			3.1 Do you release the dataset with an open data license ?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 		In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?     |     :---     |     :---     |     :---     |         :--- |         :--- |
@@ -260,7 +258,6 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | 		3.3 Do you release the API (in case you have) with an open source license ?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 			3.4 Do you check that the open data/API platform license regime is compliance with your IPR policy?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 				Do you have all the licences related to the open data platform/API software?     |     :---     |     :---     |     :---     |         :--- |         :--- |
-
 | 				4. Limitations on public access     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 				4.1 Do you check that the dataset concerns your institutional competences, scope and finality?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 					Do you check if the dataset concerns other public administration competences?     |     :---     |     :---     |     :---     |         :--- |         :--- |
@@ -269,7 +266,6 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | 				4.4 Do you check if there are some limitations concerning the public interest ?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 				4.5 Do you check the international law limitations ?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 				4.6 Do you check the INSPIRE law limitations for the spatial data?     |     :---     |     :---     |     :---     |         :--- |         :--- |
-
 | 				5. Economical Conditions     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 				5.1 Do you check that the dataset could be released for free ?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 				5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ?     |     :---     |     :---     |     :---     |         :--- |         :--- |
@@ -279,7 +275,6 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | 				Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance?    |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 					There is a national law that justify your public administration to apply the “reasonable return of investment”?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 						5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?     |     :---     |     :---     |     :---     |         :--- |         :--- |
-
 | 			6. Temporary aspects     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 					6.1 Do you have a temporary policy for updating the dataset?     |     :---     |     :---     |     :---     |         :--- |         :--- |
 | 					6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?     |     :---     |     :---     |     :---     |         :--- |         :--- |

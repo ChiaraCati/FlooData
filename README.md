@@ -81,10 +81,8 @@ Here we found tot datasets useful for retrieving information on Hydrogeolodical 
     La cartografia rappresenta gli elementi a rischio con geometria PUNTUALE che possono subire potenziali conseguenze negative derivanti dalle alluvioni relativamente all'ambito dell'Unit of Management (UoM) bacini regionali romagnoli (ITR081), combinando la probabilità di allagamento con la vulnerabilità ai fenomeni alluvionali e con il valore degli elementi esposti, classifica il territorio in 4 classi di rischio, R1 (moderato), R2 (medio), R3 (elevato), R4 (molto elevato), ai sensi del D.P.C.M. 29 settembre 1998.
 
     * Dataset on coast points: RUOM_Aree_Costiere_Marine_ITR081FRMRERPOINT_2019.csv 
-    * More info in licence: 
-    https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733/resource/fe415132-b4ea-4f76-a76b-748b9ab22afe?inner_span=True
-    * Dataset on mainland points:
-    RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv
+    * More info in licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733/resource/fe415132-b4ea-4f76-a76b-748b9ab22afe?inner_span=True
+    * Dataset on mainland points: RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv
     * More info in licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733/resource/4e9a9ce2-065b-41c9-9bc9-406f59c19f8e?inner_span=True
 
 * **Related human activities** (both preventive measures and reparatory acts)**

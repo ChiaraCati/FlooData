@@ -318,12 +318,6 @@ A summary table of the produced mashup dataset:
 | ID | Domain | XML/SDMX-ML | JSON | CSV |
 | :---         |     :---     |     :---     |     :---     |         :--- |
 
-Abbiamo deciso di investigare questi quesiti che potete trovare nelle visualizazioni:
-* uno
-* uno
-* uno
-* uno
-
 In doing so, we adhered to the FAIR principles outlined in the FAIR Data Management Guidelines in Horizon 2020. To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 
 **Findable:**
@@ -343,8 +337,7 @@ In doing so, we adhered to the FAIR principles outlined in the FAIR Data Managem
 * (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON, CSV, and XML, and the metadata was described and organised using RDF using the Turtle syntax.
 * (Meta)data use vocabularies that follow FAIR principles: 
 
-**
-**
+**Reiusable**
 
 * Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
 
@@ -382,7 +375,11 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 | RDF         |     :---     |     :---     |  
 
 ## Visualizations
-To allow users to make full use of the data, n visualizations have been provided
+To allow users to make full use of the data, n visualizations have been provided. Abbiamo deciso di investigare questi quesiti che potete trovare nelle sezione data inspection:
+* uno
+* uno
+* uno
+* uno
 ## RDF assertation of data
 Their metadata are supplied in accordance with the DCAT AP version 2.0.0 guidelines in order to achieve the goal of providing the user with more reusable and interoperable data. The final dataset's entirety as well as each individual dataset's metadata are supplied.
 

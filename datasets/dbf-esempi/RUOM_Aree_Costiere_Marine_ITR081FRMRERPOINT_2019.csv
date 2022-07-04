@@ -1,0 +1,39 @@
+,CATUE,ATTECONOM,CATIT,CATDIST,DANNO,CODCOM,AMBITOTER1,CODSCEN1,AMBITOTER2,CODSCEN2,AMBITOTER3,CODSCEN3,AMBITOTER4,CODSCEN4,CODAREA1,CODAREA2,CODAREA3,CODAREA4,RIS1,RIS2,RIS3,RIS4,RISMAX
+0,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,RP,M,,,ACM,L,RSP,M,ITR081_9999_P2_RP_800,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,R3,,R2,R2,R3
+1,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,M,RSP,M,,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,,,R3,R2,R3
+2,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,M,RSP,M,,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,,,R3,R2,R3
+3,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+4,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,RP,M,,,ACM,M,RSP,H,ITR081_9999_P2_RP_820,,ITR081__P2_ACM_5,ITR081_ _P3_RSP_136,R3,,R3,R3,R3
+5,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,H,RSP,M,,,ITR081__P3_ACM_13,ITR081_ _P2_RSP_37,,,R4,R2,R4
+6,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+7,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+8,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,M,RSP,H,,,ITR081__P2_ACM_5,ITR081_ _P3_RSP_121,,,R3,R3,R3
+9,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,RP,M,,,ACM,M,RSP,M,ITR081_9999_P2_RP_820,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,R3,,R3,R2,R3
+10,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+11,AMBIENTE,B46,insediamenti produttivi o impianti tecnologici potenzialemente pericolosi dal punto di vista ambientale,impianti potenzialmente pericolosi ai fini di protezione civile,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+12,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+13,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,M,RSP,H,,,ITR081__P2_ACM_5,ITR081_ _P3_RSP_121,,,R3,R3,R3
+14,attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,scuole,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+15,Attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,insediamenti ospedalieri,D4,,RP,M,,,ACM,L,RSP,M,ITR081_9999_P2_RP_800,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,R3,,R2,R2,R3
+16,Attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,insediamenti ospedalieri,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+17,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,M,RSP,M,,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,,,R3,R2,R3
+18,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+19,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,M,RSP,M,,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,,,R3,R2,R3
+20,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+21,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,M,RSP,M,,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,,,R3,R2,R3
+22,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+23,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+24,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+25,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+26,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,M,RSP,M,,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,,,R3,R2,R3
+27,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+28,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+29,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,RP,M,,,ACM,H,RSP,M,ITR081_9999_P2_RP_809,,ITR081__P3_ACM_13,ITR081_ _P2_RSP_37,R3,,R4,R2,R4
+30,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,H,RSP,M,,,ITR081__P3_ACM_13,ITR081_ _P2_RSP_37,,,R4,R2,R4
+31,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,H,RSP,M,,,ITR081__P3_ACM_13,ITR081_ _P2_RSP_37,,,R4,R2,R4
+32,Attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,insediamenti ospedalieri,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+33,Attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,insediamenti ospedalieri,D4,,,,,,ACM,M,RSP,M,,,ITR081__P2_ACM_5,ITR081_ _P2_RSP_37,,,R3,R2,R3
+34,Attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,insediamenti ospedalieri,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+35,Attivita economiche e sociali,B42,strutture strategiche e sedi di attivita collettive,insediamenti ospedalieri,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2
+36,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,H,RSP,M,,,ITR081__P3_ACM_11,ITR081_ _P2_RSP_37,,,R4,R2,R4
+37,beni paesaggistici e culturali,B46,"beni ambientali, storici e culturali di rilevante interesse",beni culturali,D4,,,,,,ACM,L,RSP,M,,,ITR081__P1_ACM_2,ITR081_ _P2_RSP_37,,,R2,R2,R2

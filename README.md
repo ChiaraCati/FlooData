@@ -22,26 +22,72 @@ Finally, information on damages has been crossed with information on different k
 ## Scenario
 
 
-Emilia Romagna is the sixth widest region in Italy in terms of surface area, and it has a variegated hydrogeological conformation, offering a moltitude of ecoystems, that are actually undergoing a drastic transformation due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna), 
-
-2. Qualcosa sul dissesto idrogeologico 
-
-3. Perché è mportante ed utile questo lavror dato il contesto di cui sopra?
+Emilia-Romagna is the sixth widest region in Italy in terms of surface area.and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). The increasemnt of temperatures is now affecting stability of natural water sources as well as the wellbeing of water surfaces and rivers on mainland and the preservation of coast areas. 
 
 
+As the Italian Institute for Environmental Protection and Research (Istituto Superiore per la Protezione e la Ricerca Ambientale), [ISPRA](https://www.isprambiente.gov.it/it), stated ER's morphology is extremely frigile due to intense weather events and  proneness to landslides of the territory.
+
+3. Perché è importante ed utile questo lavrintense methereological or dato il contesto di cui sopra?
+
+Through this project our aim is to give a clear view over risky areas triangulated with quantitative data on chatastrophic events and data on related activities(formulare un po' meglio).s
+
+### ISPRA
+
+While kooking fo data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra] following W3S guidelines on Linked Open Data.
+
+Here the institution makes available 5 different OA datasets, queriable trough an endpoint API made available using Virtuoso. 
+**The datasets are the following ones:**(da tradurre)
+* *ReNDiS:* Il Repertorio Nazionale degli interventi per la Difesa del Suolo
+* *CdS:* Il consumo di suolo in Italia
+* *RMN:* La Rete Mareografica Nazionale
+* *RON:* Rete Ondametrica Nazionale
+* *Luoghi:* Dai sistemi cartografici dell’ISPRA i dati delle regioni, delle province e dei comuni d’Italia (Elaborazioni su fonte Istat).
+Il dataset dei luoghi è di primaria importanza per l’integrazione delle differenti fonti di origine.
+
+[ReNDIs](http://dati.isprambiente.it/dataset/il-rendis/) is the most valuable dataset for us as it contains: (da capire se i dati dell'endpoint sono aggionrati ad oggi  al 2016 )
+* Information on interventions
+* Information on associated lots
+* Georeferencing of interventions
+* Projects' financial budgets 
+* Disruptions' typologies, lithologies  e realized works
+* Classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
 
 
- Dati sulle alluvioni e sulle calamità costiere in emilia romagna,
- incrociati con i lavori di prevenzine e ricostruzione.
 
-## DATASETS:
-Almeno 2
+### MinERva
+
+Other information on hydrogeological disasters has been retrieved from [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset)'s catalogue filtering only those datasets sets that made available Open Data formats.
+
+Here we found tot datasets useful for retrieving information on Hydrogeolodical disasters, as well as data on floodings and on the management of coasts and related calamities. 
+
+**Hydrogeological data:**
+
+* *[Segnalazioni fenomeni geologici particolari:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)* 
+Containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquakes. Data afre recordered from 2012, and still keept uptodate.
+
+More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808/resource/8072010d-870a-426f-a5dd-67dd44f6dc98
+
+* *[Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali - 10k:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444)* containing information on disruptions happening in Emilia-ROmagna since 1982 untill 2018. In this datasets we also found geospatial data – including the name of the location, and descriptive data of diruptions' state, nature, etc. 
+    
+dataset: Coperture_quaternarie_10K.csv
+
+
+
+* *[Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733)*
+La cartografia rappresenta gli elementi a rischio con geometria PUNTUALE che possono subire potenziali conseguenze negative derivanti dalle alluvioni relativamente all'ambito dell'Unit of Management (UoM) bacini regionali romagnoli (ITR081), combinando la probabilità di allagamento con la vulnerabilità ai fenomeni alluvionali e con il valore degli elementi esposti, classifica il territorio in 4 classi di rischio, R1 (moderato), R2 (medio), R3 (elevato), R4 (molto elevato), ai sensi del D.P.C.M. 29 settembre 1998.
+
+
+    **Here we downloaded only 2 out of 3 Open Datasets:**
+
+    * Dataset on coast points
+    * Dataset on mainland points
 
 - uno sulla situazione idrica, quindi: calamità idriche come alluvioni, mareggiate, trremoti 
 - uno sulle iniziative: preventivo e riparativo (distinguwre tipo iniziative: pub/priv, naz/regio/internaz)
 ## SOFTWARES:
 
 **dbfconv.py** converts .dbf files into .csv files for analysis puprposes
+**geoconv.py** converts places' names into latitude and longitude coordinates, in rder to locate them on maps.
 
 ## CONVERTED AND USEFUL DATASETS.
 

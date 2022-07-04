@@ -183,7 +183,7 @@ Report interesting foundings over data
 
 ---------------------SCHEMA PALMIRANI--------------------------
 
-## General analysis 
+## Original dataset and mushup dataset(s) 
 In order to carry out our analysis, we chose to use those dataset among the above mentioned.
 
 | ID | Title | Link | Time span | Licence |
@@ -195,8 +195,13 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 | D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 
-## Quality analysis of datasets
+Abbiamo combinato i dati in questo modo (spiegare metodo) e abbiamo ottenuto questo dataset:
 
+| ID | Title | Link | Time span | Licence |
+| :---         |     :---     |     :---     |     :---     |         :--- |
+
+
+## Quality analysis of the datasets
 
 ## Legal analysis 
 
@@ -204,7 +209,6 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 
 ## Technical analysis 
 
-## Mash-up and output dataset(s)
 
 ## Sustainability
 

@@ -357,6 +357,7 @@ For the Libraries we used in Javascript, Python and HTML, the licenses are:
 
 | Library | License |
 | :---         |     :---     | 
+| Bulma | [MIT](https://opensource.org/licenses/mit-license.php)
 
 Mashed-up datasets is licensed under a [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it) License. More about our license:
 

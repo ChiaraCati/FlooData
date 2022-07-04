@@ -202,7 +202,7 @@ Abbiamo combinato i dati in questo modo (spiegare metodo) e abbiamo ottenuto que
 
 
 ## Quality analysis of the datasets
-The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the (Context of Data Quality)[https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati]:
+The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
 
 * Accurancy:
 * Completness:

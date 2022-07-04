@@ -223,15 +223,15 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-| **Privacy** | D1 | D2 |  D3 | D4 | D.5 | 
-| ----------- | --------| ------|--------|-------|---------|
-| |  Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?| | | | | 
-| | Is the dataset free of any indirect personal data that could be used for identifying the natural person?|sì |sì|no  |sì | 
-| | If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |sì |no|no |sì | 
-| | Is the dataset free of any particular personal data (art. 9 GDPR)? |sì |no|no |sì 
+| **Privacy** | Issues | D1 | D2 |  D3 | D4 | D.5 | 
+| ----------- | --------| ------|--------|-------|---------|---------|
+| |  Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?| | | | | |
+| | Is the dataset free of any indirect personal data that could be used for identifying the natural person?|sì |sì|no  |sì | |
+| | If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |sì |no|no |sì | |
+| | Is the dataset free of any particular personal data (art. 9 GDPR)? |sì |no|no |sì | |
 | | If so is there a law that authorize the PA to release them? |sì |sì| no| sì| sì|
-| | hai usato un tool per calcolare il rischio di de-anonimizzazione del tuo dataset prima di pubblicarlo? |? |?|?|?|
-| | esponi dei servizi di ricerca tali da poter filtrare i dati in modo da ottenere un solo record geolocalizzato? | no|no|sì|no|
+| | hai usato un tool per calcolare il rischio di de-anonimizzazione del tuo dataset prima di pubblicarlo? |? |?|?|?| |
+| | esponi dei servizi di ricerca tali da poter filtrare i dati in modo da ottenere un solo record geolocalizzato? | no|no|sì|no| |
 | **Proprietà intellettuale della sorgente** | | |
 | | avete creato voi i dati? | sì| sì| sì |sì|sì|
 | | siete i proprietari dei dati anche se non li avete creati voi? |/ |/|/|/|/|

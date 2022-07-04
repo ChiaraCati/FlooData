@@ -230,8 +230,21 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |sì |no|no |sì | |
 | | Is the dataset free of any particular personal data (art. 9 GDPR)? |sì |no|no |sì | |
 | | If so is there a law that authorize the PA to release them? |sì |sì| no| sì| sì|
-| | hai usato un tool per calcolare il rischio di de-anonimizzazione del tuo dataset prima di pubblicarlo? |? |?|?|?| |
-| | esponi dei servizi di ricerca tali da poter filtrare i dati in modo da ottenere un solo record geolocalizzato? | no|no|sì|no| |
+| | Is the dataset free of any information that combined with common data available in the web, could identify the person? |? |?|?|?| |
+| | If so, is there a law that authorize the PA to release them? | no|no|sì|no| |
+| | Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? | no|no|sì|no| |
+| | Do you use a tool for calculating the range of the risk of de-anonymization? | no|no|sì|no| |
+| | Do you anonymize the dataset? With which technique? | no|no|sì|no| |
+| | Did you check the three mandatory parameters: singling out, linking out, inference out? | no|no|sì|no| |
+| | Are you using geolocalization capabilities ? | no|no|sì|no| |
+| | Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|sì|no| |
+| | Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | no|no|sì|no| |
+| | Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? | no|no|sì|no| |
+| | Where are the datasets physically stored (country and jurisdiction)? | no|no|sì|no| |
+| | Do you have a cloud computing platform? | no|no|sì|no| |
+| | Have you checked the privacy regulation of the country where the dataset is physically stored? (territoriality) | no|no|sì|no| |
+| | Do you have non-personal data? | no|no|sì|no| |
+| | Are you sure that are not “mixed data”? | no|no|sì|no| |
 | **Proprietà intellettuale della sorgente** | | |
 | | avete creato voi i dati? | sì| sì| sì |sì|sì|
 | | siete i proprietari dei dati anche se non li avete creati voi? |/ |/|/|/|/|

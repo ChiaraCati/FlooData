@@ -258,57 +258,57 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 **D1**
 
-**Format:**
+*Format:*
 
-**Metadata:**
+*Metadata:*
 
-**URI:**
+*URI:*
 
-**Provenance:**
+*Provenance:*
 
 
 **D2**
 
-**Format:**
+*Format:*
 
-**Metadata:**
+*Metadata:*
 
-**URI:**
+*URI:*
 
-**Provenance:**
+*Provenance:*
 
 
 **D3**
 
-**Format:**
+*Format:*
 
-**Metadata:**
+*Metadata:*
 
-**URI:**
+*URI:*
 
-**Provenance:**
+*Provenance:*
 
 
 **D4**
 
-**Format:**
+*Format:*
 
-**Metadata:**
+*Metadata:*
 
-**URI:**
+*URI:*
 
-**Provenance:**
+*Provenance:*
 
 
 **D5**
 
-**Format:**
+*Format:*
 
-**Metadata:**
+*Metadata:*
 
-**URI:**
+*URI:*
 
-**Provenance:**
+*Provenance:*
 
 ## Mashup and output datasets
 Abbiamo combinato i dati in questo modo (spiegare metodo).

@@ -330,7 +330,7 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 **Accessible:**
 
 * (Meta)data are retrievable by their identifier using a standardised communications protocol: all the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS.
-* The protocol is open, free, and universally implementable:HTTP and HTTPS are compliant with these characteristics.
+* The protocol is open, free, and universally implementable: HTTP and HTTPS are compliant with these characteristics.
 * Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.
 
 **Interoperable:**
@@ -342,7 +342,7 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 
 * Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
 
-* (Meta)data are released with a clear and accessible data usage license: The FlooData datasets are made available under the terms of the Creative Commons License CC BY-NC-SA-IGO 3.0, which are specific to the dataset and associated metadata we provided.
+* (Meta)data are released with a clear and accessible data usage license: The FlooData datasets are made available under the terms of the [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it) Licence, which are specific to the dataset and associated metadata we provided.
 
 * (Meta)data are associated with detailed provenance: in the metadata encoding of our project, data provenance information is provided in a machine-readable way.
 

@@ -272,24 +272,24 @@ Abbiamo deciso di investigare questi quesiti che potete trovare nelle visualizaz
 
 In doing so, we adhered to the FAIR principles outlined in the FAIR Data Management Guidelines in Horizon 2020. To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 
-*Findable:*
+**Findable:**
 
 * (Meta)data are assigned a unique identifier: both the data we retrieved from the source datasets, the mashed up data, and the metadata we developed in accordance with the DCAT-AP are compatible with this point, providing URI.
 * Data are described with rich metadata: we linked a substantial amount of DCAT-AP specification-compliant metadata to our data, including not only all required classes and their corresponding necessary characteristics but also certain suggested and optional features that were helpful for our data.
 * Metadata clearly and explicitly include the identifier of the data they describe: we used the DCAT-AP optional attribute for datasets dct:identifier to attach a unique identifier of the data described with the metadata for each dataset that is a part of a catalogue as well as for our own dataset.
 
-*Accessible:*
+**Accessible:**
 
 * (Meta)data are retrievable by their identifier using a standardised communications protocol: all the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS.
 * The protocol is open, free, and universally implementable:HTTP and HTTPS are compliant with these characteristics.
 * Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.
 
-*Interoperable:*
+**Interoperable:**
 
 * (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON, CSV, and XML, and the metadata was described and organised using RDF using the Turtle syntax.
 * (Meta)data use vocabularies that follow FAIR principles: 
 
-*Reusable:*
+**Reusable:**
 
 * Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
 

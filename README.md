@@ -253,6 +253,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 
 ## Ethical analysis 
+For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.
 
 ## Technical analysis 
 

@@ -204,10 +204,10 @@ Abbiamo combinato i dati in questo modo (spiegare metodo) e abbiamo ottenuto que
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
 
-* Accurancy:
-* Completness:
-* Coherence:
-* Promptness: 
+* Accurancy: the data's properties accurately reflect the true worth of the concept or event being referenced;
+* Completness: the data is comprehensive with regard to all of its expected values and the relevant entities (sources) that contribute to the definition of the procedure;
+* Coherence: in terms of how the administration's owner uses the data, neither the data nor its attributes can be related to other data;
+* Promptness: the data, and its attributes, is updated with respect to the procedure to which it refers.
 
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |         :--- |

@@ -33,7 +33,7 @@ Through this project our aim is to give a clear view over risky areas triangulat
 
 ### ISPRA
 
-While looking for data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra] following W3S guidelines on Linked Open Data.
+While kooking fo data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra] following W3S guidelines on Linked Open Data.
 
 Here the institution makes available 5 different OA datasets, queriable trough an endpoint API made available using Virtuoso. 
 **The datasets are the following ones:**(da tradurre)
@@ -63,38 +63,45 @@ Here we found tot datasets useful for retrieving information on Hydrogeolodical 
 **Disasters data:**
 
 * *[Segnalazioni fenomeni geologici particolari:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)* 
-Containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquake. Data are recordered from 2012, and are still kept updated.
+    containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquake. Data are recordered from 2012, and are still kept updated.
 
-More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808/resource/8072010d-870a-426f-a5dd-67dd44f6dc98
-
-* *[Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali - 10k:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444)* containing information on disruptions happening in Emilia-ROmagna since 1982 untill 2018. In this datasets we also found geospatial data – including the name of the location, and descriptive data of diruptions' state, nature, etc. 
+    * Dataset: Segnalazioni_fenomeni_geologici.csv
+    * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808/resource/8072010d-870a-426f-a5dd-67dd44f6dc98
     
-dataset: Coperture_quaternarie_10K.csv
 
+* *[Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali - 10k:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444)* 
+    containing information on disruptions happening in Emilia-ROmagna since 1982 untill 2018. In this datasets we also found geospatial data – including the name of the location, and descriptive data of diruptions' state, nature, etc. 
+    
+    * Dataset: Coperture_quaternarie_10K.csv
+    * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444/resource/45092acf-cca2-42c5-805c-fda27bc97135?inner_span=True
+    
 
 
 * *[Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733)*
     La cartografia rappresenta gli elementi a rischio con geometria PUNTUALE che possono subire potenziali conseguenze negative derivanti dalle alluvioni relativamente all'ambito dell'Unit of Management (UoM) bacini regionali romagnoli (ITR081), combinando la probabilità di allagamento con la vulnerabilità ai fenomeni alluvionali e con il valore degli elementi esposti, classifica il territorio in 4 classi di rischio, R1 (moderato), R2 (medio), R3 (elevato), R4 (molto elevato), ai sensi del D.P.C.M. 29 settembre 1998.
-    
+
     * Dataset on coast points: RUOM_Aree_Costiere_Marine_ITR081FRMRERPOINT_2019.csv 
+    * More info in licence: 
+    https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733/resource/fe415132-b4ea-4f76-a76b-748b9ab22afe?inner_span=True
+    * Dataset on mainland points:
+    RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv
+    * More info in licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733/resource/4e9a9ce2-065b-41c9-9bc9-406f59c19f8e?inner_span=True
 
-    * Dataset on mainland points: RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv
-
+* **Related human activities** (both preventive measures and reparatory acts)**
 
 * *[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)*
 
-Il 'Catalogo delle opere di difesa' contiene le informazioni relative alle protezioni costiere presenti sia a mare che nell'entroterra del litorale emiliano-romagnolo. Tali opere sono state erette nel tempo da parte di enti diversi, allo scopo di difendere le spiagge dal fenomeno dell'erosione e l'entroterra dagli allagamenti in occorrenza degli eventi di alta marea eccezionale.
+    Il 'Catalogo delle opere di difesa' contiene le informazioni relative alle protezioni costiere presenti sia a mare che nell'entroterra del litorale emiliano-romagnolo. Tali opere sono state erette nel tempo da parte di enti diversi, allo scopo di difendere le spiagge dal fenomeno dell'erosione e l'entroterra dagli allagamenti in occorrenza degli eventi di alta marea eccezionale.
 
-Più info sulla licenza: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636/resource/f68b9850-9e24-4bd2-bd89-3ee04b7a4817
-
-
-*[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)*
+    * Dataset: Opere_Difesa_2020.csv
+    * Più info sulla licenza: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636/resource/f68b9850-9e24-4bd2-bd89-3ee04b7a4817
 
 
-Le cartografie riassumono la distribuzione dei diversi tipi di danno registrati lungo la costa regionale nel periodo 1946-2020, in occasione di eventi di mareggiata. Le mappe illustrano infatti le località che sono state colpite con maggiore ricorrenza dalle mareggiate e la tipologia di danno subito. Le località riportate sono quelle che ricorrono con maggior frequenza nelle segnalazioni (generalmente con più di 5 segnalazioni) mentre i vari generi di impatto sono state sintetizzate in cinque categorie: E: erosione della spiaggia e della duna. I: sommersione per ingressione marina. T: tracimazione dei canali e dei porto-canali. D: danni alle opere marittime e di difesa. B: danni agli stabilimenti balneari e alle infrastrutture. I dati combinano le informazioni contenute nel lavoro 'Le mareggiate e gli impatti sulla costa in Emilia-Romagna 1946-2010' (pubblicato al indirizzo https://ambiente.regione.emilia-romagna.it/it/geologia/pubblicazioni/libri/mareggiate-impatti-costa-Emilia-Romagna) con i dati archiviati nella banca dati regionale denominata in_Storm dal 2011 al 2020 (pubblicato al indirizzo https://ambiente.regione.emilia-romagna.it/it/geologia/geologia/costa/pdf/mareggiate-e-impatti_al-2020_indicatori-e-tendenze_contributo-sgss-alla-smacc_macro3-4.pdf/view)
+### OpenCoesione
 
-Suscettibilita_costa_combinata
+Open Coesione has been another useful resolurce, as it makes available data dumps on projects divided for each italian region. We downloaded the dataset concerning prjects undertaken in Emilia romangna at this url https://opencoesione.gov.it/it/opendata/#!progetti_regione_section
 
+* Dataset: progetti_esteso_EMR_2014-2020_20220228.csv
 
 
 

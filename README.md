@@ -256,6 +256,36 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 ## Technical analysis 
 
+**D1**
+**Format:**
+**Metadata:**
+**URI:**
+**Provenance:**
+
+**D2**
+**Format:**
+**Metadata:**
+**URI:**
+**Provenance:**
+
+**D3**
+**Format:**
+**Metadata:**
+**URI:**
+**Provenance:**
+
+**D4**
+**Format:**
+**Metadata:**
+**URI:**
+**Provenance:**
+
+**D5**
+**Format:**
+**Metadata:**
+**URI:**
+**Provenance:**
+
 ## Mashup and output datasets
 Abbiamo combinato i dati in questo modo (spiegare metodo).
 
@@ -289,7 +319,8 @@ In doing so, we adhered to the FAIR principles outlined in the FAIR Data Managem
 * (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON, CSV, and XML, and the metadata was described and organised using RDF using the Turtle syntax.
 * (Meta)data use vocabularies that follow FAIR principles: 
 
-**Reusable:**
+**
+**
 
 * Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
 

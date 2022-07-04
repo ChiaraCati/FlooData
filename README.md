@@ -257,15 +257,23 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 ## Technical analysis 
 
 **D1**
+
 **Format:**
+
 **Metadata:**
+
 **URI:**
+
 **Provenance:**
 
 **D2**
+
 **Format:**
+
 **Metadata:**
+
 **URI:**
+
 **Provenance:**
 
 **D3**

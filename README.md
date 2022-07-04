@@ -183,7 +183,7 @@ Report interesting foundings over data
 
 ---------------------SCHEMA PALMIRANI--------------------------
 
-## Original dataset and mushup dataset(s) 
+## Original dataset
 In order to carry out our analysis, we chose to use those dataset among the above mentioned.
 
 | ID | Title | Link | Time span | Licence |
@@ -194,12 +194,6 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 | D4 | Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733) | 2013 - 2019 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-
-Abbiamo combinato i dati in questo modo (spiegare metodo) e abbiamo ottenuto questo dataset:
-
-| ID | Title | Link | Time span | Licence |
-| :---         |     :---     |     :---     |     :---     |         :--- |
-
 
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
@@ -262,6 +256,48 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 ## Technical analysis 
 
+## Mashup and output datasets
+Abbiamo combinato i dati in questo modo (spiegare metodo).
+
+A summary table of the produced mashup dataset:
+
+| ID | Domain | XML/SDMX-ML | JSON | CSV |
+| :---         |     :---     |     :---     |     :---     |         :--- |
+
+Abbiamo deciso di investigare questi quesiti che potete trovare nelle visualizazioni:
+* uno
+* uno
+* uno
+* uno
+
+In doing so, we adhered to the FAIR principles outlined in the FAIR Data Management Guidelines in Horizon 2020. To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
+
+*Findable:*
+
+* (Meta)data are assigned a unique identifier: both the data we retrieved from the source datasets, the mashed up data, and the metadata we developed in accordance with the DCAT-AP are compatible with this point, providing URI.
+* Data are described with rich metadata: we linked a substantial amount of DCAT-AP specification-compliant metadata to our data, including not only all required classes and their corresponding necessary characteristics but also certain suggested and optional features that were helpful for our data.
+* Metadata clearly and explicitly include the identifier of the data they describe: we used the DCAT-AP optional attribute for datasets dct:identifier to attach a unique identifier of the data described with the metadata for each dataset that is a part of a catalogue as well as for our own dataset.
+
+*Accessible:*
+
+* (Meta)data are retrievable by their identifier using a standardised communications protocol: all the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS.
+* The protocol is open, free, and universally implementable:HTTP and HTTPS are compliant with these characteristics.
+* Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.
+
+*Interoperable:*
+
+* (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON, CSV, and XML, and the metadata was described and organised using RDF using the Turtle syntax.
+* (Meta)data use vocabularies that follow FAIR principles: 
+
+*Reusable:*
+
+* Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
+
+* (Meta)data are released with a clear and accessible data usage license: The Floodata datasets are made available under the terms of the Creative Commons License CC BY-NC-SA-IGO 3.0, which are specific to the dataset and associated metadata we provided.
+
+* (Meta)data are associated with detailed provenance: in the metadata encoding of our project, data provenance information is provided in a machine-readable way.
+
+* (Meta)data meet domain-relevant community standards: 
 
 ## Sustainability
 The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The dataset is not actively maintained.

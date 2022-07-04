@@ -44,7 +44,9 @@ html {
     padding-top: 4em;
 }
 
-
+.clear{
+  clear: both;
+}
 
 #Chart-container {
     height: 400px;

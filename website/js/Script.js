@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
     
             chart: {
                 map: topology,
-                borderWidth: 1
             },
     
             title: {
@@ -147,3 +146,5 @@ document.addEventListener('DOMContentLoaded', function () {
     })();
 
 });
+
+

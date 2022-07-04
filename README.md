@@ -327,8 +327,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 | RDF         |     :---     |     :---     |  
 
 ## Visualizations
-
+To allow users to make full use of the data, n visualizations have been provided
 ## RDF assertation of data
+Their metadata are supplied in accordance with the DCAT AP version 2.0.0 guidelines in order to achieve the goal of providing the user with more reusable and interoperable data. The final dataset's entirety as well as each individual dataset's metadata are supplied.
 
 ## Final remarks
 

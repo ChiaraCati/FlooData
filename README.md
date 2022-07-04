@@ -388,7 +388,7 @@ To allow users to make full use of the data, n visualizations have been provided
 * uno
 * uno
 ## RDF assertation of data
-Their metadata are supplied in accordance with the DCAT AP version 2.0.0 guidelines in order to achieve the goal of providing the user with more reusable and interoperable data. The final dataset's entirety as well as each individual dataset's metadata are supplied.
+Their metadata are supplied in accordance with the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) in order to achieve the goal of providing the user with more reusable and interoperable data. The final dataset's entirety as well as each individual dataset's metadata are supplied.
 
 ## Final remarks
 

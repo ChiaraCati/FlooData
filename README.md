@@ -223,15 +223,15 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-| **Privacy** | Domande | D.Elezioni |  D.Redditi | D.Segnalazioni | D.Aree Statistiche & D.Zone | D.Censimento |
-| ----------- | --------| ------|--------|-------|---------|---------|
-| | sono i dati liberi da ogni informazione                    personale che possa identificare in modo                       diretto l’individuo?|sì |sì| sì | sì| sì|
-| | sono i dati liberi da ogni informazione indiretta che      possa identificare l’individuo? In caso negativo, queste       informazioni sono autorizzate per legge?|sì |sì|no  |sì | no|
-| | sono i dati liberi da ogni informazione sensibile che può essere ricondotta all’individuo? In caso negativo, queste informazioni sono autorizzate per legge? |sì |no|no |sì | no|
-| | sono i dati liberi da ogni informazione relativa al soggetto che incrociata con dati comunemente reperibili nel web possa identificare l’individuo? In caso negativo, queste informazioni sono autorizzate per legge? |sì |no|no |sì |no |
-| | sono i dati liberi da ogni record relativo a profughi, protetti di giustizia, vittime di violenze o in ogni caso categorie protette? |sì |sì| no| sì| sì||
-| | hai usato un tool per calcolare il rischio di de-anonimizzazione del tuo dataset prima di pubblicarlo? |? |?|?|?|?|
-| | esponi dei servizi di ricerca tali da poter filtrare i dati in modo da ottenere un solo record geolocalizzato? | no|no|sì|no|no|
+| **Privacy** | D1 | D2 |  D3 | D4 | D.5 | 
+| ----------- | --------| ------|--------|-------|---------|
+| |  Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?| | | | | 
+| | Is the dataset free of any indirect personal data that could be used for identifying the natural person?|sì |sì|no  |sì | 
+| | If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |sì |no|no |sì | 
+| | Is the dataset free of any particular personal data (art. 9 GDPR)? |sì |no|no |sì 
+| | If so is there a law that authorize the PA to release them? |sì |sì| no| sì| sì|
+| | hai usato un tool per calcolare il rischio di de-anonimizzazione del tuo dataset prima di pubblicarlo? |? |?|?|?|
+| | esponi dei servizi di ricerca tali da poter filtrare i dati in modo da ottenere un solo record geolocalizzato? | no|no|sì|no|
 | **Proprietà intellettuale della sorgente** | | |
 | | avete creato voi i dati? | sì| sì| sì |sì|sì|
 | | siete i proprietari dei dati anche se non li avete creati voi? |/ |/|/|/|/|

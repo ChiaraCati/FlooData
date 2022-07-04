@@ -266,6 +266,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 **Provenance:**
 
+
 **D2**
 
 **Format:**
@@ -276,22 +277,37 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 **Provenance:**
 
+
 **D3**
+
 **Format:**
+
 **Metadata:**
+
 **URI:**
+
 **Provenance:**
+
 
 **D4**
+
 **Format:**
+
 **Metadata:**
+
 **URI:**
+
 **Provenance:**
 
+
 **D5**
+
 **Format:**
+
 **Metadata:**
+
 **URI:**
+
 **Provenance:**
 
 ## Mashup and output datasets

@@ -351,7 +351,13 @@ In doing so, we adhered to the FAIR principles outlined in the FAIR Data Managem
 The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The dataset is not actively maintained.
 
 ## License
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License. More about our license:
+For the metadata, the documentation and the website we decided to use the same license: the Creative Commons Attribution-ShareAlike, CC BY-SA 4.0. The license for the code is GNU-GPL.
+For the Libraries we used in Javascript, Python and HTML, the licenses are:
+
+| Library | License |
+| :---         |     :---     | 
+
+Mashed-up datasets is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License. More about our license:
 
 | | D1 | D2 |
 | :---         |     :---     |     :---     |  

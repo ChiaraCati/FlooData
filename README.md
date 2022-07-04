@@ -179,7 +179,7 @@ Report interesting foundings over data
 
 ---------------------SCHEMA PALMIRANI--------------------------
 
-## General Analysis 
+## General analysis 
 In order to carry out our analysis, we chose to use those dataset among the above mentioned.
 
 | ID | Title | Link | Time span | Licence |
@@ -190,7 +190,28 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 | D4 | Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733) | 2013 - 2019 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-##
+
+## Quality analysis of datasets
+
+
+## Legal analysis 
+
+## Ethical analysis 
+
+## Technical analysis 
+
+## Mash-up and output dataset(s)
+
+## Sustainability
+
+## License
+
+## Visualizations
+
+## RDF assertation of data
+
+## Final remarks
+
 ## Footnotes
 
 

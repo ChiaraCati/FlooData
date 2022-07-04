@@ -225,51 +225,37 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 | **Privacy** | Issues | D1 | D2 |  D3 | D4 | D.5 | 
 | ----------- | --------| ------|--------|-------|---------|---------|
-| |  Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?| | | | | |
-| | Is the dataset free of any indirect personal data that could be used for identifying the natural person?|sì |sì|no  |sì | |
-| | If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |sì |no|no |sì | |
-| | Is the dataset free of any particular personal data (art. 9 GDPR)? |sì |no|no |sì | |
-| | If so is there a law that authorize the PA to release them? |sì |sì| no| sì| sì|
-| | Is the dataset free of any information that combined with common data available in the web, could identify the person? |? |?|?|?| |
-| | If so, is there a law that authorize the PA to release them? | no|no|sì|no| |
-| | Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? | no|no|sì|no| |
-| | Do you use a tool for calculating the range of the risk of de-anonymization? | no|no|sì|no| |
-| | Do you anonymize the dataset? With which technique? | no|no|sì|no| |
-| | Did you check the three mandatory parameters: singling out, linking out, inference out? | no|no|sì|no| |
-| | Are you using geolocalization capabilities ? | no|no|sì|no| |
-| | Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|sì|no| |
-| | Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | no|no|sì|no| |
-| | Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? | no|no|sì|no| |
-| | Where are the datasets physically stored (country and jurisdiction)? | no|no|sì|no| |
-| | Do you have a cloud computing platform? | no|no|sì|no| |
-| | Have you checked the privacy regulation of the country where the dataset is physically stored? (territoriality) | no|no|sì|no| |
-| | Do you have non-personal data? | no|no|sì|no| |
-| | Are you sure that are not “mixed data”? | no|no|sì|no| |
-| **Proprietà intellettuale della sorgente** | | |
-| | avete creato voi i dati? | sì| sì| sì |sì|sì|
-| | siete i proprietari dei dati anche se non li avete creati voi? |/ |/|/|/|/|
-| | siete sicuri di non usare dati per i quali vi è una licenza o un brevetto di terzi? | sì |sì| sì| sì|sì|
-| | se i dati non sono vostri avete un accordo o una licenza che vi autorizzi a pubblicarli? |/ |/|/|/|/|
-| **Licenza di rilascio** | | |
-| | rilasciate i dati di cui possedete la proprietà accompagnati da una licenza? | sì|sì|sì| sì|sì|
-| | avete incluso anche la clausola di salvaguardia “In ogni caso, i dati non possono essere utilizzati al fine di identificare nuovamente gli interessati”? | no|no|no|no|no|
-| **Limite alla pubblicazione** | | |
-| | hai verificato che non ci siano impedimenti di legge o contrattuali che impediscano la pubblicazione dei dati? |?/non sono presenti | ? / sono presenti |?/ sono presenti | ?/ non sono presenti|? /sono presenti|
-| **Segretezza** | | |
-| | hai verificato se non ci sono motivi di ordine pubblico o di sicurezza nazionale che ti impediscono la pubblicazione dei dati? |?/ non sono presenti |?/ sono presenti | ?/ sono presenti | ?/non sono presenti |?/sono presenti|
-| | hai verificato se non ci sono motivi legati al segreto d’ufficio che impediscono la pubblicazione dei dati? | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti| ?/non sono presenti| 
-| | hai verificato se non ci sono motivi legati al segreto di stato che impediscono la pubblicazione dei dati? |?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti |?/non sono presenti|
-| **Condizioni economiche** | | |
-| | hai verificato di poter rilasciare in modo gratuito i dati senza infrangere qualche norma di finanza pubblica? |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta | ?/ non viene infranta | 
-| | se hai imposto condizioni economiche per l’utilizzo dei dati, sei sicuro di avere imposto un prezzo per coprire i soli costi marginali? |/  |/ |/ |/ |/|
-| **Temporalizzazione** | | |
-| | i dati sono soggetti per legge a restrizioni temporali di pubblicazione? | no|no|no|no|no|
-| | i dati sono aggiornati frequentemente in modo da sanare eventuali informazioni lesive di persone o organizzazioni? |? | ? | ?| ?|?|
-| | i dati hanno dei divieti di legge o giurisprudenziali che impediscono la loro indicizzazione da parte di motori di ricerca? |no |no|no|no|no|
-| **Trasparenza**| | | 
-| | i dati rientrano nella lista dell’allegato A del d.lgs. 33/2013? | no|no|no|no|no|
-| | se sì, come sono stati trattati dal responsabile della trasparenza nel sito “Amministrazione trasparente”? | /|/|/|/|/|
-| | in che forma si possono creare sinergie tra il portale “Amministrazione trasparente” e il portal open data per minimizzare le inconsistenze e favorire la trasparenza del dato aperto? |/ |/|/|/| /|
+| | Are the data free from any personal information that can directly identify the individual?| | | | | |
+| | Are the data free from any indirect information that can identify the individual? If not, is this information authorized by law?|sì |sì|no  |sì | |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? |sì |no|no |sì | |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? |sì |no|no |sì | |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? |sì |sì| no| sì| sì|
+| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |? |?|?|?| |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no|no|sì|no| |
+| **Intellectual Property Rights of the Source** | | |
+| | Did you create the data? | sì| sì| sì |sì|sì|
+| | Are you the owner of the data even if you did not create it yourself? |/ |/|/|/|/|
+| | Are you sure you are not using data for which there is a third party license or patent? | sì |sì| sì| sì|sì|
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? |/ |/|/|/|/|
+| **Release license** | | |
+| | Do you release the data you own with a license? | sì|sì|sì| sì|sì|
+| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no|no|no|no|no|
+| **Limitations on public access** | | |
+| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? |?/non sono presenti | ? / sono presenti |?/ sono presenti | ?/ non sono presenti|? /sono presenti|
+| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? |?/ non sono presenti |?/ sono presenti | ?/ sono presenti | ?/non sono presenti |?/sono presenti|
+| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti| ?/non sono presenti| 
+| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? |?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti |?/non sono presenti|
+| **Economical Conditions** | | |
+| | Have you verified that you can release the data for free without breaking any public finance rules? |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta | ?/ non viene infranta | 
+| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? |/  |/ |/ |/ |/|
+| **Temporary aspects** | | |
+| | Are the data subject to publication time limits by law? | no|no|no|no|no|
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? |? | ? | ?| ?|?|
+| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? |no |no|no|no|no|
+| **Trasparency**| | | 
+| | Are the data included in the list in Annex A of Legislative Decree 33/2013? | no|no|no|no|no|
+| | If so, how were they treated by the transparency manager on the “Transparent Administration” site? | /|/|/|/|/|
+| | In what form can synergies be created between the “Transparent Administration” portal and the open data portal to minimize inconsistencies and promote the transparency of open data? |/ |/|/|/| /|
 
 
 ## Ethical analysis 

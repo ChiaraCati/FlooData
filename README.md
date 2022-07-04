@@ -52,8 +52,18 @@ Il dataset dei luoghi è di primaria importanza per l’integrazione delle diffe
 * Disruptions' typologies, lithologies  e realized works
 * Classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
 
-Other data has been retrieved from [MinERva]() riginal datasets were retrieved from MinERva's catalogue of Open Access 
-Almeno 2
+Other information on hydrogeological disasters has been retrieved from [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset)'s catalogue filtering only those datasets sets that were tagged as Open Data Open.
+
+Here we found tot datasets useful for retrieving information on Hydrogeolodical disasters, as well as data on floodings and on the management of coasts and related calamities. 
+
+**Hydrogeological data:**
+
+* *[Segnalazioni fenomeni geologici particolari:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)* 
+Containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquakes. Data afre recordered from 2012, and still keept uptodate.
+
+More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808/resource/8072010d-870a-426f-a5dd-67dd44f6dc98
+
+
 
 - uno sulla situazione idrica, quindi: calamità idriche come alluvioni, mareggiate, trremoti 
 - uno sulle iniziative: preventivo e riparativo (distinguwre tipo iniziative: pub/priv, naz/regio/internaz)

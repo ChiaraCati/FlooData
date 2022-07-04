@@ -33,7 +33,7 @@ Through this project our aim is to give a clear view over risky areas triangulat
 
 ### ISPRA
 
-While kooking fo data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra] following W3S guidelines on Linked Open Data.
+While looking for data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra] following W3S guidelines on Linked Open Data.
 
 Here the institution makes available 5 different OA datasets, queriable trough an endpoint API made available using Virtuoso. 
 **The datasets are the following ones:**(da tradurre)
@@ -171,6 +171,16 @@ Report interesting foundings over data
 - uno sulle iniziative: preventivo e riparativo (distinguwre tipo iniziative: pub/priv, naz/regio/internaz)
 
 <hr>
+
+---------------------SCHEMA PALMIRANI--------------------------
+
+## General Analysis 
+In order to carry out our analysis, we chose to use those dataset among the above mentioned.
+
+| ID | Title | Link | Time span | Licence |
+| :---         |     :---     |     :---     |     :---     |         :--- |
+
+##
 ## Footnotes
 
 

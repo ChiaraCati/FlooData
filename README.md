@@ -204,10 +204,10 @@ Abbiamo combinato i dati in questo modo (spiegare metodo) e abbiamo ottenuto que
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
 
-* Accurancy: the data's properties accurately reflect the true worth of the concept or event being referenced;
-* Completness: the data is comprehensive with regard to all of its expected values and the relevant entities (sources) that contribute to the definition of the procedure;
-* Coherence: in terms of how the administration's owner uses the data, neither the data nor its attributes can be related to other data;
-* Promptness: the data, and its attributes, is updated with respect to the procedure to which it refers.
+* *Accurancy*: the data's properties accurately reflect the true worth of the concept or event being referenced;
+* *Completness*: the data is comprehensive with regard to all of its expected values and the relevant entities (sources) that contribute to the definition of the procedure;
+* *Coherence*: in terms of how the administration's owner uses the data, neither the data nor its attributes can be related to other data;
+* *Promptness*: the data, and its attributes, is updated with respect to the procedure to which it refers.
 
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |         :--- |
@@ -219,6 +219,11 @@ The following criteria must be met in order to manage the level of information q
 | D6         |     :---     |     :---     |     :---     |         :--- |
 
 ## Legal analysis 
+Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, as well as to produce a balanced service that is in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, right determination, and licence conditions.
+
+In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
+
+| Dataset | Accurancy | Completness | Coherence | Promptness |
 
 ## Ethical analysis 
 
@@ -226,6 +231,7 @@ The following criteria must be met in order to manage the level of information q
 
 
 ## Sustainability
+The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The dataset is not actively maintained.
 
 ## License
 

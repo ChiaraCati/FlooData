@@ -60,7 +60,7 @@ Other information on hydrogeological disasters has been retrieved from [MinERva]
 
 Here we found tot datasets useful for retrieving information on Hydrogeolodical disasters, as well as data on floodings and on the management of coasts and related calamities. 
 
-**Hydrogeological data:**
+**Disasters data:**
 
 * *[Segnalazioni fenomeni geologici particolari:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)* 
 Containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquake. Data are recordered from 2012, and are still kept updated.
@@ -74,22 +74,20 @@ dataset: Coperture_quaternarie_10K.csv
 
 
 * *[Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733)*
-La cartografia rappresenta gli elementi a rischio con geometria PUNTUALE che possono subire potenziali conseguenze negative derivanti dalle alluvioni relativamente all'ambito dell'Unit of Management (UoM) bacini regionali romagnoli (ITR081), combinando la probabilità di allagamento con la vulnerabilità ai fenomeni alluvionali e con il valore degli elementi esposti, classifica il territorio in 4 classi di rischio, R1 (moderato), R2 (medio), R3 (elevato), R4 (molto elevato), ai sensi del D.P.C.M. 29 settembre 1998.
+    La cartografia rappresenta gli elementi a rischio con geometria PUNTUALE che possono subire potenziali conseguenze negative derivanti dalle alluvioni relativamente all'ambito dell'Unit of Management (UoM) bacini regionali romagnoli (ITR081), combinando la probabilità di allagamento con la vulnerabilità ai fenomeni alluvionali e con il valore degli elementi esposti, classifica il territorio in 4 classi di rischio, R1 (moderato), R2 (medio), R3 (elevato), R4 (molto elevato), ai sensi del D.P.C.M. 29 settembre 1998.
+    
+    * Dataset on coast points: RUOM_Aree_Costiere_Marine_ITR081FRMRERPOINT_2019.csv 
 
-**Here we downloaded only 2 out of 3 Open Datasets:**
-
-* Dataset on coast points: RUOM_Aree_Costiere_Marine_ITR081FRMRERPOINT_2019.csv 
-* Dataset on mainland points: RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv
+    * Dataset on mainland points: RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv
 
 
-* *[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636))*
+* *[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)*
 
 Il 'Catalogo delle opere di difesa' contiene le informazioni relative alle protezioni costiere presenti sia a mare che nell'entroterra del litorale emiliano-romagnolo. Tali opere sono state erette nel tempo da parte di enti diversi, allo scopo di difendere le spiagge dal fenomeno dell'erosione e l'entroterra dagli allagamenti in occorrenza degli eventi di alta marea eccezionale.
 
 Più info sulla licenza: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636/resource/f68b9850-9e24-4bd2-bd89-3ee04b7a4817
 
 
-### Dataset:
 *[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)*
 
 
@@ -99,12 +97,11 @@ Suscettibilita_costa_combinata
 
 
 
-- uno sulla situazione idrica, quindi: calamità idriche come alluvioni, mareggiate, trremoti 
-- uno sulle iniziative: preventivo e riparativo (distinguwre tipo iniziative: pub/priv, naz/regio/internaz)
 
 ## SOFTWARES:
 
 **dbfconv.py** converts .dbf files into .csv files for analysis puprposes
+
 **geoconv.py** converts places' names into latitude and longitude coordinates, in rder to locate them on maps.
 
 ## CONVERTED AND USEFUL DATASETS.
@@ -158,6 +155,22 @@ Idem sopra
 https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/finanziamenti-regionali-bonifiche-1523630733353-1846/resource/efd3b9b6-7ec9-4cde-972e-72ffe695836e
 
 
+## Data Inspection 
+(testo utile dal sito)
+Here insert visualization plus a brif data Analysis. Discourse proposal:
+
+What is the water disaster? How many disasters a year? What is the typology of the water disaster? What is their distribution on the territory?
+How potentially harmful are these disasters? (4 types?) Which areas are most affected?
+How do humans react to the water disaster? Who finances the initiatives? Are there more preventive or interventional initiatives?
+Report interesting foundings over data
+
+## Appunti 
+
+
+- uno sulla situazione idrica, quindi: calamità idriche come alluvioni, mareggiate, trremoti 
+- uno sulle iniziative: preventivo e riparativo (distinguwre tipo iniziative: pub/priv, naz/regio/internaz)
+
+<hr>
 ## Footnotes
 
 

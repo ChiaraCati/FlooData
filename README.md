@@ -195,14 +195,10 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Have you verified that you can release the data for free without breaking any public finance rules? |yes |yes |  yes |yes | yes | 
 | | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? |/  |/ |/ |/ |/|
 | **Temporary aspects** | | |
-| | Are the data subject to publication time limits by law? | no|no|no|no|no|
+| | Do you have a temporary policy for updating the dataset? | no|no|no|no|no|
+| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | no|no|no|no|no|
 | | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | not specified | not specified | not specified | not specified | not specified |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? |no |no|no|no|no|
-| **Trasparency**| | | 
-| | Are the data included in the list in Annex A of Legislative Decree 33/2013? | no|no|no|no|no|
-| | If so, how were they treated by the transparency manager on the “Transparent Administration” site? | /|/|/|/|/|
-| | In what form can synergies be created between the “Transparent Administration” portal and the open data portal to minimize inconsistencies and promote the transparency of open data? |/ |/|/|/| /|
-
 
 ## Ethical analysis 
 For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.

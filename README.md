@@ -192,8 +192,8 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 | D2 | Segnalazioni fenomeni geologici particolari | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D3 | Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali - 10k: | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444) | 1982 - 2018 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D4 | Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733) | 2013 - 2019 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| D5 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| D6 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
@@ -206,10 +206,11 @@ The following criteria must be met in order to manage the level of information q
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |         :--- |
 | D1        |     :---     |     :---     |     :---     |         :--- |
-| D2         |     Not satisfied: authors use not standard typology, geopoint?    |     Not satisfied: %    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
-| D3         |     :---     |     :---     |     :---     |         :--- |
-| D4         |     :---     |     :---     |     :---     |         :--- |
-| D5         |     :---     |     :---     |     :---     |         :--- |
+| D2         |     Not satisfied: I dati potrebbero essere più accurati comprendendo ad esempio GeoPoint    |     Not satisfied: %    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
+| D3         |     Satisfied. (Oppure no?... cos'è CP_LEGE)    |     Not satisfied: %     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
+| D4         |     Not satisfied: There is no clear meaning of the column names     |     Not satisfied: %     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 01/12/2016 |
+| D5         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: %     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are
+filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | D6         |     :---     |     :---     |     :---     |         :--- |
 
 
@@ -219,7 +220,7 @@ D2 Segnalazioni fenomeni geologici particolari
 
 Base dati georeferenziata di tipo vettoriale, contenente una simbologia puntuale inerente alle segnalazioni di fenomeni geologici particolari. Le segnalazioni sono state raggruppate in sei categorie: fuoriuscita di gas da pozzi per acqua e/o dal terreno; pozzi per acqua con presenza di acqua calda; moria di pesci; presenza di fratture e/o sprofondamenti del terreno; comparsa di vulcanetti di fango e/o sabbia; pozzi per acqua prosciugati. Le segnalazioni sono state inoltrate dalla cittadinanza al Servizio Geologico Regionale, a partire da maggio 2012 fino ad ora; provengono principalmente dalle aree colpite dal sisma del maggio 2012. A ciascuna segnalazione è associata una scheda monografica che descrive in modo sintetico le caratteristiche principali del fenomeno: ubicazione; breve descrizione della tipologia; eventuali interventi; inquadramento geologico e sismotettonico; materiale fotografico ed eventuali link a pubblicazioni (articoli di giornale e/o altro) inerenti al fenomeno.
 
-GSID -> Non si capisce a cosa si riferisce
+GISID -> Non si capisce a cosa si riferisce
 Tipo -> sei categorie: fuoriuscita di gas da pozzi per acqua e/o dal terreno; pozzi per acqua con presenza di acqua calda; moria di pesci; presenza di fratture e/o sprofondamenti del terreno; comparsa di vulcanetti di fango e/o sabbia; pozzi per acqua prosciugati. (mancanti)
 Comune -> Nome Comune
 Data -> Mese Anno
@@ -229,7 +230,6 @@ Monitoraggio -> dovrebbe essere file xml ma il link porta ad un errore 404. (man
 D3 Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali
 
 Base dati georeferenziata di tipo vettoriale, contenente le coperture quaternarie, costituite da depositi di frana, di versante e alluvionali in forma poligonale del territorio regionale, rilevate a partire dalla scala di acquisizione 1:10.000. L'area geografica coperta comprende le sezioni in scala 1:10.000 in cui ricade il territorio dell'Appennino emiliano-romagnolo. Per il territorio della pianura l'acquisizione deriva dal Progetto CARG, alla scala 1:25.000, con raccordo nella fascia pedecollinare.
-
 
 
 
@@ -381,7 +381,7 @@ For the Libraries we used in Javascript, Python and HTML, the licenses are:
 
 | Library | License |
 | :---         |     :---     | 
-| Bulma | [MIT](https://opensource.org/licenses/mit-license.php)
+| Bulma | [MIT](https://opensource.org/licenses/mit-license.php)|
 
 Mashed-up datasets is licensed under a [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it) License. More about our license:
 

@@ -177,7 +177,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | yes |yes | yes | yes | yes |
 | | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes |yes | yes | yes | yes |
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |/ |/|/|/|/|
-| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | yes | no | no | no | no |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no | no | no | no | no |
 | **Intellectual Property Rights of the Source** | | |
 | | Did you create the data? | no | no | no | no | no |
 | | Are you the owner of the data even if you did not create it yourself? | no | no | no | no | no |
@@ -187,7 +187,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Do you release the data you own with a license? | yes | yes | yes | yes | yes |
 | | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no|no|no|no|no|
 | **Limitations on public access** | | |
-| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? |?/non sono presenti | ? / sono presenti |?/ sono presenti | ?/ non sono presenti|? /sono presenti|
+| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | yes | yes | yes | yes | yes |
 | | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? |?/ non sono presenti |?/ sono presenti | ?/ sono presenti | ?/non sono presenti |?/sono presenti|
 | | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti| ?/non sono presenti| 
 | | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? |?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti |?/non sono presenti|

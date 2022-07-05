@@ -146,7 +146,7 @@ The following criteria must be met in order to manage the level of information q
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |         :--- |
 | D1        |     :---     |     :---     |     :---     |         :--- |
-| D2         |     Not satisfied: I dati potrebbero essere più accurati comprendendo ad esempio GeoPoint    |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
+| D2         |     Not satisfied: There is no clear meaning of GISID column.     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | D3         |     Satisfied. (Oppure no?... cos'è CP_LEGE)    |     Not satisfied: 71.72%     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
 | D4         |     Not satisfied: There is no clear meaning of the column names     |     Not satisfied: 58.3%     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 01/12/2016 |
 | D5         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |

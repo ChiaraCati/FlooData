@@ -206,11 +206,35 @@ The following criteria must be met in order to manage the level of information q
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |         :--- |
 | D1        |     :---     |     :---     |     :---     |         :--- |
-| D2         |     :---     |     :---     |     :---     |         :--- |
+| D2         |     Not satisfied: authors use not standard typology, geopoint?    |     Not satisfied: %    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | D3         |     :---     |     :---     |     :---     |         :--- |
 | D4         |     :---     |     :---     |     :---     |         :--- |
 | D5         |     :---     |     :---     |     :---     |         :--- |
 | D6         |     :---     |     :---     |     :---     |         :--- |
+
+
+Note:
+
+D2 Segnalazioni fenomeni geologici particolari 
+
+Base dati georeferenziata di tipo vettoriale, contenente una simbologia puntuale inerente alle segnalazioni di fenomeni geologici particolari. Le segnalazioni sono state raggruppate in sei categorie: fuoriuscita di gas da pozzi per acqua e/o dal terreno; pozzi per acqua con presenza di acqua calda; moria di pesci; presenza di fratture e/o sprofondamenti del terreno; comparsa di vulcanetti di fango e/o sabbia; pozzi per acqua prosciugati. Le segnalazioni sono state inoltrate dalla cittadinanza al Servizio Geologico Regionale, a partire da maggio 2012 fino ad ora; provengono principalmente dalle aree colpite dal sisma del maggio 2012. A ciascuna segnalazione è associata una scheda monografica che descrive in modo sintetico le caratteristiche principali del fenomeno: ubicazione; breve descrizione della tipologia; eventuali interventi; inquadramento geologico e sismotettonico; materiale fotografico ed eventuali link a pubblicazioni (articoli di giornale e/o altro) inerenti al fenomeno.
+
+GSID -> Non si capisce a cosa si riferisce
+Tipo -> sei categorie: fuoriuscita di gas da pozzi per acqua e/o dal terreno; pozzi per acqua con presenza di acqua calda; moria di pesci; presenza di fratture e/o sprofondamenti del terreno; comparsa di vulcanetti di fango e/o sabbia; pozzi per acqua prosciugati. (mancanti)
+Comune -> Nome Comune
+Data -> Mese Anno
+Scheda -> pdf pagine di giornale (mancanti)
+Monitoraggio -> dovrebbe essere file xml ma il link porta ad un errore 404. (mancanti++) solo 2
+
+D3 Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali
+
+Base dati georeferenziata di tipo vettoriale, contenente le coperture quaternarie, costituite da depositi di frana, di versante e alluvionali in forma poligonale del territorio regionale, rilevate a partire dalla scala di acquisizione 1:10.000. L'area geografica coperta comprende le sezioni in scala 1:10.000 in cui ricade il territorio dell'Appennino emiliano-romagnolo. Per il territorio della pianura l'acquisizione deriva dal Progetto CARG, alla scala 1:25.000, con raccordo nella fascia pedecollinare.
+
+
+
+
+
+
 
 ## Legal analysis 
 Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, as well as to produce a balanced service that is in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, right determination, and licence conditions.

@@ -146,9 +146,9 @@ The following criteria must be met in order to manage the level of information q
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |         :--- |
 | D1        |     :---     |     :---     |     :---     |         :--- |
-| D2         |     Not satisfied: There is no clear meaning of GISID column.     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
-| D3         |     Satisfied. (Oppure no?... cos'è CP_LEGE)    |     Not satisfied: 71.72%     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
-| D4         |     Not satisfied: There is no clear meaning of the column names     |     Not satisfied: 58.3%     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 01/12/2016 |
+| D2         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
+| D3         |     Not satisfied: There is no clear meaning of CP_LEGE column.)    |     Not satisfied: 71.72%     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
+| D4         |     Not satisfied: There is no clear meaning of the column names     |     Not satisfied: 58.3%     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 17/02/2022 |
 | D5         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | D6         |     Satisfied.     |     Satisfied.    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 
@@ -172,13 +172,12 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 | **Privacy** | Issues | D1 | D2 |  D3 | D4 | D.5 | 
 | ----------- | --------| ------|--------|-------|---------|---------|
-| | Are the data free from any personal information that can directly identify the individual?| | | | | |
-| | Are the data free from any indirect information that can identify the individual? If not, is this information authorized by law?|sì |sì|no  |sì | |
-| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? |sì |no|no |sì | |
-| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? |sì |no|no |sì | |
-| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? |sì |sì| no| sì| sì|
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| | yes | | | |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | | yes | | | |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | |yes | | | |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | |yes| | | |
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |? |?|?|?| |
-| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no|no|sì|no| |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | | no | | | |
 | **Intellectual Property Rights of the Source** | | |
 | | Did you create the data? | sì| sì| sì |sì|sì|
 | | Are you the owner of the data even if you did not create it yourself? |/ |/|/|/|/|

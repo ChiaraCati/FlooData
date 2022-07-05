@@ -22,4 +22,5 @@ def compl(source_data):
     print('Valori nulli:', conteggio)
     return
 
-compl("datasets/dbf-esempi/Opere_Difesa_2020.csv")
+compl('datasets/dbf-esempi/RUOM_Aree_Costiere_Marine_ITR081FRMRERPOINT_2019.csv')
+compl('datasets/dbf-esempi/RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv')

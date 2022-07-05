@@ -208,9 +208,9 @@ The following criteria must be met in order to manage the level of information q
 | D1        |     :---     |     :---     |     :---     |         :--- |
 | D2         |     Not satisfied: I dati potrebbero essere più accurati comprendendo ad esempio GeoPoint    |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | D3         |     Satisfied. (Oppure no?... cos'è CP_LEGE)    |     Not satisfied: 71.72%     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
-| D4         |     Not satisfied: There is no clear meaning of the column names     |     Not satisfied: %     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 01/12/2016 |
+| D4         |     Not satisfied: There is no clear meaning of the column names     |     Not satisfied: 58.3%     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 01/12/2016 |
 | D5         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
-| D6         |     Satisfied.     |     Not satisfied: %     |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
+| D6         |     Satisfied.     |     Satisfied.    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 
 Below result retriven by our software [completness.py](software/completness.py):
 
@@ -219,9 +219,9 @@ Below result retriven by our software [completness.py](software/completness.py):
 | D1         |     :---     |     :---     |    :---     |  
 | D2         |     763     |     138     |    81.91%     |  
 | D3         |     587860     |     166254     |    71.72%     |  
-| D4         |     :---     |     :---     |    :---     |  
+| D4         |     9624     |     4021     |    58.3%     |  
 | D5         |     38164     |     7232     |    81.05%     | 
-| D6         |     :---     |     :---     |    :---     |  
+| D6         |     48150     |     0     |    100%     |  
 
 
 

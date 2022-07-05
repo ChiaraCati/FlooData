@@ -179,7 +179,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |? |?|?|?| |
 | | Do you display any search services that can filter the data in order to obtain a single geolocated record? | | no | | | |
 | **Intellectual Property Rights of the Source** | | |
-| | Did you create the data? | no | no | sì | no | no |
+| | Did you create the data? | no | no | no | no | no |
 | | Are you the owner of the data even if you did not create it yourself? | no | no | no | no | no |
 | | Are you sure you are not using data for which there is a third party license or patent? | yes |yes| yes | yes|yes|
 | | If the data is not yours, do you have an agreement or license authorizing you to publish it? | yes | yes | yes | yes | yes |

@@ -176,7 +176,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | | yes | yes | yes | yes |
 | | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | |yes | yes | yes | yes |
 | | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | |yes | yes | yes | yes |
-| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |? |?|?|?| |
+| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | |/|/|/|/|
 | | Do you display any search services that can filter the data in order to obtain a single geolocated record? | yes | no | no | no | no |
 | **Intellectual Property Rights of the Source** | | |
 | | Did you create the data? | no | no | no | no | no |

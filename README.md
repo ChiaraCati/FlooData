@@ -188,7 +188,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no|no|no|no|no|
 | **Limitations on public access** | | |
 | | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | yes | yes | yes | yes | yes |
-| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? |?/ non sono presenti |?/ sono presenti | ?/ sono presenti | ?/non sono presenti |?/sono presenti|
+| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? |yes |yes | yes | yes |yes|
 | | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | yes | yes | yes | yes | yes | 
 | | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | yes | yes | yes | yes | yes |
 | **Economical Conditions** | | |

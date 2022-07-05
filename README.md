@@ -196,7 +196,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? |/  |/ |/ |/ |/|
 | **Temporary aspects** | | |
 | | Do you have a temporary policy for updating the dataset? | no|no|no|no|no|
-| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | no|no|no|no|no|
+| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | yes|yes|yes|yes|yes|
 | | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | not specified | not specified | not specified | not specified | not specified |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? |no |no|no|no|no|
 

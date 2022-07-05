@@ -203,6 +203,10 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 ## Ethical analysis 
 For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.
 
+Datasets regarding environmental damage and relative interventions are free of sensitive data since they rely on geographical and amministrative informationn data that are, for their own nature transparent and equal. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
+
+However, we take in account that there are chances of people acting on te collected information to look for more secure and mantained area within the region Emila Romagna, but that does not look like an ethical issue as much as a normal inferencial process granted to common citizens and perfectly sustainable.
+
 ## Technical analysis 
 
 **D1**
@@ -275,7 +279,8 @@ Abbiamo combinato i dati in questo modo (spiegare metodo).
 A summary table of the produced mashup dataset:
 
 | ID | Domain | XML/SDMX-ML | JSON | CSV |
-| :---         |     :---     |     :---     |     :---     |         :--- |
+| MD1         |     :---     |     :---     |     :---     |         :--- |
+| MD2         |     :---     |     :---     |     :---     |         :--- |
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 
@@ -316,10 +321,11 @@ For the Libraries we used in Javascript, Python and HTML, the licenses are:
 | Library | License |
 | :---         |     :---     | 
 | Bulma | [MIT](https://opensource.org/licenses/mit-license.php)|
+| :---         |     :---     | 
 
 Mashed-up datasets is licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License. More about our license:
 
-| | D1 | D2 |
+| | MD1 | MD2 |
 | :---         |     :---     |     :---     |  
 | Identifier         |     :---     |     :---     |   
 | Title         |     :---     |     :---     |  
@@ -346,6 +352,7 @@ To allow users to make full use of the data, n visualizations have been provided
 * uno
 * uno
 * uno
+
 ## RDF assertation of data
 Their metadata are supplied in accordance with the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) in order to achieve the goal of providing the user with more reusable and interoperable data. The final dataset's entirety as well as each individual dataset's metadata are supplied.
 

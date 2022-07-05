@@ -210,7 +210,7 @@ The following criteria must be met in order to manage the level of information q
 | D3         |     Satisfied. (Oppure no?... cos'è CP_LEGE)    |     Not satisfied: %     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
 | D4         |     Not satisfied: There is no clear meaning of the column names     |     Not satisfied: %     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 01/12/2016 |
 | D5         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: %     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
-| D6         |     :---     |     :---     |     :---     |         :--- |
+| D6         |     Satisfied.     |     Not satisfied: %     |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 
 
 Note:

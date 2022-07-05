@@ -279,6 +279,7 @@ Abbiamo combinato i dati in questo modo (spiegare metodo).
 A summary table of the produced mashup dataset:
 
 | ID | Domain | XML/SDMX-ML | JSON | CSV |
+|  :---     |      :---     |     :---     |     :---     |    :---     |
 | MD1         |     :---     |     :---     |     :---     |    :---     |
 | MD2         |     :---     |     :---     |     :---     |     :---     |
 

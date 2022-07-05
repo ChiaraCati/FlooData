@@ -189,8 +189,8 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | **Limitations on public access** | | |
 | | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | yes | yes | yes | yes | yes |
 | | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? |?/ non sono presenti |?/ sono presenti | ?/ sono presenti | ?/non sono presenti |?/sono presenti|
-| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti| ?/non sono presenti| 
-| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? |?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti |?/non sono presenti|
+| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | yes | yes | yes | yes | yes | 
+| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | yes | yes | yes | yes | yes |
 | **Economical Conditions** | | |
 | | Have you verified that you can release the data for free without breaking any public finance rules? |yes |yes |?/ yes |yes | yes | 
 | | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? |/  |/ |/ |/ |/|
@@ -304,14 +304,14 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The dataset is not actively maintained.
 
 ## License
-For the metadata, the documentation and the website we decided to use the same license: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). The license for the code is [GNU-GPL](https://www.gnu.org/licenses/gpl-3.0.html).
+For the metadata, the documentation and the website we decided to use the same license: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). The license for the code is [GNU-GPL](https://www.gnu.org/licenses/gpl-3.0.html).
 For the Libraries we used in Javascript, Python and HTML, the licenses are:
 
 | Library | License |
 | :---         |     :---     | 
 | Bulma | [MIT](https://opensource.org/licenses/mit-license.php)|
 
-Mashed-up datasets is licensed under a [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it) License. More about our license:
+Mashed-up datasets is licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License. More about our license:
 
 | | D1 | D2 |
 | :---         |     :---     |     :---     |  

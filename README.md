@@ -179,12 +179,12 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |? |?|?|?| |
 | | Do you display any search services that can filter the data in order to obtain a single geolocated record? | | no | | | |
 | **Intellectual Property Rights of the Source** | | |
-| | Did you create the data? | sì| sì| sì |sì|sì|
-| | Are you the owner of the data even if you did not create it yourself? |/ |/|/|/|/|
-| | Are you sure you are not using data for which there is a third party license or patent? | sì |sì| sì| sì|sì|
-| | If the data is not yours, do you have an agreement or license authorizing you to publish it? |/ |/|/|/|/|
+| | Did you create the data? | no | no | sì | no | no |
+| | Are you the owner of the data even if you did not create it yourself? | no | no | no | no | no |
+| | Are you sure you are not using data for which there is a third party license or patent? | yes |yes| yes | yes|yes|
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | yes | yes | yes | yes | yes |
 | **Release license** | | |
-| | Do you release the data you own with a license? | sì|sì|sì| sì|sì|
+| | Do you release the data you own with a license? | yes | yes | yes | yes | yes |
 | | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no|no|no|no|no|
 | **Limitations on public access** | | |
 | | Have you checked that there are no legal or contractual impediments preventing the publication of the data? |?/non sono presenti | ? / sono presenti |?/ sono presenti | ?/ non sono presenti|? /sono presenti|

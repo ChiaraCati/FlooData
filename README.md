@@ -279,8 +279,8 @@ Abbiamo combinato i dati in questo modo (spiegare metodo).
 A summary table of the produced mashup dataset:
 
 | ID | Domain | XML/SDMX-ML | JSON | CSV |
-| MD1         |     :---     |     :---     |     :---     |
-| MD2         |     :---     |     :---     |     :---     | 
+| MD1         |     :---     |     :---     |     :---     |    :---     |
+| MD2         |     :---     |     :---     |     :---     |     :---     |
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 

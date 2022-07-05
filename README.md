@@ -170,35 +170,35 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-| **Privacy** | Issues | D1 | D2 |  D3 | D4 | D5 | 
+| **Privacy** | Issues | D1 | D2 |  D3 | D4 | D5 | D6 |
 | ----------- | --------| ------|--------|-------|---------|---------|
-| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | yes | yes | yes | yes |
-| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | yes | yes | yes | yes | yes |
-| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | yes |yes | yes | yes | yes |
-| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes |yes | yes | yes | yes |
-| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |/ |/|/|/|/|
-| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no | no | no | no | no |
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | yes | yes | yes | yes | yes |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | yes | yes | yes | yes | yes | yes |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | yes |yes | yes | yes | yes | yes |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes |yes | yes | yes | yes | yes |
+| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |/ |/|/|/|/| / |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no | no | no | no | no | no |
 | **Intellectual Property Rights of the Source** | | |
-| | Did you create the data? | no | no | no | no | no |
-| | Are you the owner of the data even if you did not create it yourself? | no | no | no | no | no |
-| | Are you sure you are not using data for which there is a third party license or patent? | yes |yes| yes | yes|yes|
-| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | yes | yes | yes | yes | yes |
+| | Did you create the data? | no | no | no | no | no | no |
+| | Are you the owner of the data even if you did not create it yourself? | no | no | no | no | no | no |
+| | Are you sure you are not using data for which there is a third party license or patent? | yes |yes| yes | yes|yes| yes |
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | yes | yes | yes | yes | yes | yes |
 | **Release license** | | |
-| | Do you release the data you own with a license? | yes | yes | yes | yes | yes |
-| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no|no|no|no|no|
+| | Do you release the data you own with a license? | yes | yes | yes | yes | yes | yes |
+| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no|no|no|no|no| no |
 | **Limitations on public access** | | |
-| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | yes | yes | yes | yes | yes |
-| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? |yes |yes | yes | yes |yes|
-| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | yes | yes | yes | yes | yes | 
-| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | yes | yes | yes | yes | yes |
+| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | yes | yes | yes | yes | yes | yes |
+| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? |yes |yes | yes | yes |yes| yes |
+| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | yes | yes | yes | yes | yes | yes |
+| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | yes | yes | yes | yes | yes | yes |
 | **Economical Conditions** | | |
-| | Have you verified that you can release the data for free without breaking any public finance rules? |yes |yes |  yes |yes | yes | 
-| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? |/  |/ |/ |/ |/|
+| | Have you verified that you can release the data for free without breaking any public finance rules? |yes |yes |  yes |yes | yes | yes |
+| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? |/  |/ |/ |/ |/| / |
 | **Temporary aspects** | | |
-| | Do you have a temporary policy for updating the dataset? | no|no|no|no|no|
-| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | yes|yes|yes|yes|yes|
-| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | not specified | not specified | not specified | not specified | not specified |
-| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? |no |no|no|no|no|
+| | Do you have a temporary policy for updating the dataset? | no|no|no|no|no| no |
+| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | yes|yes|yes|yes|yes| yes |
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | not specified | not specified | not specified | not specified | not specified | not specified |
+| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? |no |no|no|no|no|no|
 
 ## Ethical analysis 
 For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.
@@ -231,33 +231,43 @@ For our ethical analysis, we took in consideration the main aspects and principl
 
 *Format:*
 
-*Metadata:*
+*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
-*URI:*
+*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444)
 
-*Provenance:*
+*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
 
 **D4**
 
 *Format:*
 
-*Metadata:*
+*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
-*URI:*
+*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733)
 
-*Provenance:*
+*Provenance:* [Regione Emilia-Romagna - Sede di Parma](http://www.adbpo.gov.it/)
 
 
 **D5**
 
 *Format:*
 
-*Metadata:*
+*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
-*URI:*
+*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)
 
-*Provenance:*
+*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
+
+**D6**
+
+*Format:*
+
+*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
+
+*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)
+
+*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
 ## Mashup and output datasets
 Abbiamo combinato i dati in questo modo (spiegare metodo).

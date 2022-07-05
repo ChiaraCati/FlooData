@@ -170,14 +170,14 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-| **Privacy** | Issues | D1 | D2 |  D3 | D4 | D.5 | 
+| **Privacy** | Issues | D1 | D2 |  D3 | D4 | D5 | 
 | ----------- | --------| ------|--------|-------|---------|---------|
-| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| | yes | | | |
-| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | | yes | | | |
-| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | |yes | | | |
-| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | |yes| | | |
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| | yes | yes | yes | yes |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | | yes | yes | yes | yes |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | |yes | yes | yes | yes |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | |yes | yes | yes | yes |
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? |? |?|?|?| |
-| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | | no | | | |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | yes | no | no | no | no |
 | **Intellectual Property Rights of the Source** | | |
 | | Did you create the data? | no | no | no | no | no |
 | | Are you the owner of the data even if you did not create it yourself? | no | no | no | no | no |
@@ -192,7 +192,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti| ?/non sono presenti| 
 | | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? |?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti | ?/ non sono presenti |?/non sono presenti|
 | **Economical Conditions** | | |
-| | Have you verified that you can release the data for free without breaking any public finance rules? |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta | ?/ non viene infranta | 
+| | Have you verified that you can release the data for free without breaking any public finance rules? |yes |yes |?/ yes |yes | yes | 
 | | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? |/  |/ |/ |/ |/|
 | **Temporary aspects** | | |
 | | Are the data subject to publication time limits by law? | no|no|no|no|no|

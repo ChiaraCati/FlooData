@@ -207,9 +207,9 @@ For our ethical analysis, we took in consideration the main aspects and principl
 
 **D1**
 
-*Format:*
+*Format:* 
 
-*Metadata:*
+*Metadata:* 
 
 *URI:*
 
@@ -220,11 +220,11 @@ For our ethical analysis, we took in consideration the main aspects and principl
 
 *Format:*
 
-*Metadata:*
+*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
-*URI:*
+*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)
 
-*Provenance:*
+*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
 
 **D3**

@@ -144,8 +144,8 @@ The following criteria must be met in order to manage the level of information q
 * *Promptness*: the data, and its attributes, is updated with respect to the procedure to which it refers.
 
 | Dataset | Accurancy | Completness | Coherence | Promptness |
-| :---         |     :---     |     :---     |     :---     |        Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022|
-| D1        |     :---     |     :---     |     :---     |         :--- |
+| :---         |     :---     |     :---     |     :---     |     :---   |
+| D1        |     :---     |     :---     |     :---     |     Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022 |
 | D2         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | D3         |     Not satisfied: There is no clear meaning of CP_LEGE column.    |     Not satisfied: 71.72%     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
 | D4         |     Not satisfied: There is no clear meaning of the column names, no explanation of needs for between CODAREA, CODSCEN and AMBTER colums  |     Not satisfied: 58.3%     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 17/02/2022 |

@@ -114,6 +114,10 @@ We downloaded the dataset containing information on projects undertaken in Emili
 
 X Giulia: Tutti i dati di OpenCoesione sono rilasciati con licenza CC BY 4.0 
 
+### geo_italy 
+
+Is a json file stored in this repository, could not find a licence ut it was useful to link municipalities to their coordinates, without the need of a third party API being involved in this task. 
+
 
 ## SOFTWARES:
 
@@ -121,9 +125,10 @@ X Giulia: Tutti i dati di OpenCoesione sono rilasciati con licenza CC BY 4.0
 
 **geoconv.py** converts places' names into latitude and longitude coordinates, in rder to locate them on maps.
 
+**rdf_parser.py** converts rdf data from ispra into dataframes
+
 ## CONVERTED AND USEFUL DATASETS.
 
-geo_italy 
 
 
 

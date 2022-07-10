@@ -36,13 +36,8 @@ Through this project our aim is to give a clear view over risky areas triangulat
 While kooking fo data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra] following W3S guidelines on Linked Open Data.
 
 Here the institution makes available 5 different OA datasets, queriable trough an endpoint API made available using Virtuoso. 
+
 **The datasets are the following ones:**(da tradurre)
-* *ReNDiS:* Il Repertorio Nazionale degli interventi per la Difesa del Suolo
-* *CdS:* Il consumo di suolo in Italia
-* *RMN:* La Rete Mareografica Nazionale
-* *RON:* Rete Ondametrica Nazionale
-* *Luoghi:* Dai sistemi cartografici dell’ISPRA i dati delle regioni, delle province e dei comuni d’Italia (Elaborazioni su fonte Istat).
-Il dataset dei luoghi è di primaria importanza per l’integrazione delle differenti fonti di origine.
 
 [ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/) is the most valuable dataset for us as it contains:
 * Information on interventions
@@ -53,18 +48,18 @@ Il dataset dei luoghi è di primaria importanza per l’integrazione delle diffe
 * Classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
 
 [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) was used as suport to gather geographical fata about *interventions*, *repair* and *instabilities*
-* official name
-* latitude and longitude of the centroids
-* polygons (shape)
-* administrative hierarchy
-* istat code
-* link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
+* Official name
+* Latitude and longitude of the centroids
+* Polygons (shape)
+* Administrative hierarchy
+* Istat code
+* Link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
 
-Ispra was also useful as we found another resource they created, i.e., [IdroGEO](https://idrogeo.isprambiente.it/app/page/open-data), from which we downloaded the following files:
+[IdroGEO](https://idrogeo.isprambiente.it/app/page/open-data), finally is another from which we downloaded the following files:
 * comuni_pir.csv
 * province_pir.csv
 
-THe two files contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
+The two files contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
 
 
 
@@ -160,6 +155,10 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 | D3 | Segnalazioni fenomeni geologici particolari | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| D6 | IdroGEO - Comuni pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D7 | IdroGEO - Province pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2014-2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):

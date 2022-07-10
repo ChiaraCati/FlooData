@@ -60,6 +60,13 @@ Il dataset dei luoghi è di primaria importanza per l’integrazione delle diffe
 * istat code
 * link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
 
+Ispra was also useful as we found another resource they created, i.e., [IdroGEO](https://idrogeo.isprambiente.it/app/page/open-data), from which we downloaded the following files:
+* comuni_pir.csv
+* province_pir.csv
+
+THe two files contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
+
+
 
 ### MinERva
 
@@ -70,6 +77,7 @@ Here we found tot datasets useful for retrieving information on Hydrogeolodical 
 **Disasters data:**
 
 * *[Segnalazioni fenomeni geologici particolari:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)* 
+
     containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquake. Data are recordered from 2012, and are still kept updated.
 
     * Dataset: Segnalazioni_fenomeni_geologici.csv
@@ -78,7 +86,8 @@ Here we found tot datasets useful for retrieving information on Hydrogeolodical 
 
 
 * *[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)* 
-    containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquake. Data are recordered from 2012, and are still kept updated.
+
+    containing information on the most endangered coast areas in terms of erosion.
 
     * Dataset: Segnalazioni_fenomeni_geologici.csv
     * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331/resource/90f18d54-991c-4999-bc91-cb6bbff5335c
@@ -114,6 +123,7 @@ X Giulia: Tutti i dati di OpenCoesione sono rilasciati con licenza CC BY 4.0
 
 ## CONVERTED AND USEFUL DATASETS.
 
+geo_italy 
 
 
 
@@ -128,7 +138,7 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 
 | ID | Title | Link | Time span | Licence |
 | :---         |     :---     |     :---     |     :---     |         :--- |
-| D1 | ReNDIs | [url](http://dati.isprambiente.it/dataset/il-rendis/) | 2016 - 2022 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
+| D1 | ReNDIs | [url](http://dati.isprambiente.it/dataset/il-rendis/) | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
 | D2 | Segnalazioni fenomeni geologici particolari | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D3 | Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali - 10k: | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444) | 1982 - 2018 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D4 | Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733) | 2013 - 2019 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|

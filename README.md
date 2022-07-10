@@ -44,7 +44,7 @@ Here the institution makes available 5 different OA datasets, queriable trough a
 * *Luoghi:* Dai sistemi cartografici dell’ISPRA i dati delle regioni, delle province e dei comuni d’Italia (Elaborazioni su fonte Istat).
 Il dataset dei luoghi è di primaria importanza per l’integrazione delle differenti fonti di origine.
 
-[ReNDIs](http://dati.isprambiente.it/dataset/il-rendis/) is the most valuable dataset for us as it contains: (da capire se i dati dell'endpoint sono aggionrati ad oggi  al 2016 )
+[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/) is the most valuable dataset for us as it contains:
 * Information on interventions
 * Information on associated lots
 * Georeferencing of interventions
@@ -52,6 +52,13 @@ Il dataset dei luoghi è di primaria importanza per l’integrazione delle diffe
 * Disruptions' typologies, lithologies  e realized works
 * Classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
 
+[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) was used as suport to gather geographical fata about *interventions*, *repair* and *instabilities*
+* official name
+* latitude and longitude of the centroids
+* polygons (shape)
+* administrative hierarchy
+* istat code
+* link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
 
 
 ### MinERva
@@ -69,21 +76,14 @@ Here we found tot datasets useful for retrieving information on Hydrogeolodical 
     * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808/resource/8072010d-870a-426f-a5dd-67dd44f6dc98
     
 
-* *[Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali - 10k:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444)* 
-    containing information on disruptions happening in Emilia-ROmagna since 1982 untill 2018. In this datasets we also found geospatial data – including the name of the location, and descriptive data of diruptions' state, nature, etc. 
+
+* *[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)* 
+    containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquake. Data are recordered from 2012, and are still kept updated.
+
+    * Dataset: Segnalazioni_fenomeni_geologici.csv
+    * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331/resource/90f18d54-991c-4999-bc91-cb6bbff5335c
     
-    * Dataset: Coperture_quaternarie_10K.csv
-    * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444/resource/45092acf-cca2-42c5-805c-fda27bc97135?inner_span=True
-    
 
-
-* *[Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733)*
-    La cartografia rappresenta gli elementi a rischio con geometria PUNTUALE che possono subire potenziali conseguenze negative derivanti dalle alluvioni relativamente all'ambito dell'Unit of Management (UoM) bacini regionali romagnoli (ITR081), combinando la probabilità di allagamento con la vulnerabilità ai fenomeni alluvionali e con il valore degli elementi esposti, classifica il territorio in 4 classi di rischio, R1 (moderato), R2 (medio), R3 (elevato), R4 (molto elevato), ai sensi del D.P.C.M. 29 settembre 1998.
-
-    * Dataset on coast points: RUOM_Aree_Costiere_Marine_ITR081FRMRERPOINT_2019.csv 
-    * More info in licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733/resource/fe415132-b4ea-4f76-a76b-748b9ab22afe?inner_span=True
-    * Dataset on mainland points: RUOM_Reticolo_Principale_ITR081FRMRERPOINT_2019.csv
-    * More info in licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733/resource/4e9a9ce2-065b-41c9-9bc9-406f59c19f8e?inner_span=True
 
 * **Related human activities** (both preventive measures and reparatory acts)**
 

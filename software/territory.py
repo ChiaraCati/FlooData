@@ -53,7 +53,7 @@ def territory(source_path, out_data):
         latitudine = []
         longitudine = []
         for x in df["municipality"]:
-            geo = pd.read_json('data/italy_geo.json')
+            geo = pd.read_json('datasets/original_dataset/italy_geo.json')
             value = x
             if value == 'Montescudo-Monte Colombo':
                 value = 'Montescudo - Monte Colombo'

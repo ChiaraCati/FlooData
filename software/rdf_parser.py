@@ -14,13 +14,13 @@ cod_prov = {'Piacenza':'PC', 'Ferrara':'FE', 'Ravenna':'RA', 'Parma':'PR', 'Bolo
 type_data = URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type') 
 label = URIRef('http://www.w3.org/2000/01/rdf-schema#label')
 # create an empty Graph for the rendis dataset and parse a local RDF file by specifying the format into the graph
-path1 = '/Users/chiara/Documents/GitHub/Owater/datasets/originals/dissesto_07_06_2022.nt'
+path1 = '/Users/chiara/Documents/GitHub/Owater/datasets/originals/AA_20191211_SHP/dissesto_07_06_2022.nt'
 rendis_data = rdflib.Graph()
 rendis = rendis_data.parse(path1, format='nt')
 
 # create an empty Graph for places dataset and parse a local RDF file by specifying the format into the graph
 places_data = rdflib.Graph()
-result_places = places_data.parse("../datasets/originals/luoghi.nt", format='nt')
+result_places = places_data.parse("../datasets/originals/AA_20191211_SHP/luoghi.nt", format='nt')
 
 
 #urls for types of records we are looking for 

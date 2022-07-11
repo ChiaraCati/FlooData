@@ -224,7 +224,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
-| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, indviduals with responsibilities on recorded data can be recognized | Yes  | Yes | Yes | Yes | No  | No  | No  | No  |
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No | Yes  | Yes | Yes | Yes | No  | No  | No  | No  |
 | | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  |
 | | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
 | | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  |
@@ -249,7 +249,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | **Temporary aspects** | | |
 | | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  |
 | | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No, the dataset itself represents a specific year | Not specified | Not specified  | Not specified  | 
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No, | Not specified | Not Verifiable |  Not Verifiable  | 
 Inglese
 I dataset vengono aggiornati ogni due mesi e pubblicati circa tre mesi dopo la data di riferimento. Alcuni progetti possono fornire informazioni meno recenti
 The datasets are updated every two months and published approximately three months after the reference date. Some projects may provide older information | 
@@ -257,7 +257,10 @@ Inglese
 I dataset vengono aggiornati ogni due mesi e pubblicati circa tre mesi dopo la data di riferimento. Alcuni progetti possono fornire informazioni meno recenti
 The datasets are updated every two months and published approximately three months after the reference date. Some projects may provide older information  |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  |
+
+
 ## Ethical analysis 
+
 For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.
 
 Datasets regarding environmental damage and relative interventions are free of sensitive data since they rely on geographical and amministrative informationn data that are, for their own nature transparent and equal. As averages the data gives information about the region as a whole and do not pose individual privacy risk.

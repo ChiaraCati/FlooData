@@ -157,8 +157,8 @@ In order to carry out our analysis, we chose to use those dataset among the abov
 | D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D6 | IdroGEO - Comuni pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | D7 | IdroGEO - Province pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2014-2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2014-2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
@@ -265,23 +265,23 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | **Intellectual Property Rights of the Source** | | |
 | | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  |
 | | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  |
-| | Are you sure you are not using data for which there is a third party license or patent? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Are you sure you are not using data for which there is a third party license or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
 | **Release license** | | |
-| | Do you release the data you own with a license? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| | Do you release the data you own with a license? | Yes | Yes  | Yes | Yes | Yes | Ye  | Yes  | Yes  | Yes  |
+| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | No | No  | No | No | No | No  | No  | No  | No  |
 | **Limitations on public access** | | |
-| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
 | **Economical Conditions** | | |
-| | Have you verified that you can release the data for free without breaking any public finance rules? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Have you verified that you can release the data for free without breaking any public finance rules? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
 | | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? | / | / | / | / | / | / | / | / | / |
 | **Temporary aspects** | | |
-| | Do you have a temporary policy for updating the dataset? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
-| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | not specified | :---  | not specified | not specified | not specified | :---  | :---  | :---  | :---  |
+| | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  |
+| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No, the dataset itself represents a specific year | Not specified | Not specified  | Not specified  | :---  | :---  |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
 ## Ethical analysis 
 For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.

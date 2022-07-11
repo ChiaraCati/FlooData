@@ -257,14 +257,14 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
 | | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, indviduals with responsibilities on recorded data can be recognized | Yes  | Yes | Yes | Yes | :---  | :---  | :---  | :---  |
-| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | Yes |Yes | Yes | Yes | Yes | :---  | :---  | :---  | :---  |
-| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | yes | yes | yes  | :---  | :---  | :---  | :---  |
-| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | :---  | yes | yes | yes | :---  | :---  | :---  |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | :---  | :---  | :---  | :---  |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | Yes | Yes | Yes  | :---  | :---  | :---  | :---  |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | Yes | Yes | Yes | Yes | :---  | :---  | :---  |
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / |
-| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | No | No | No | No | No | No  | No  | No  | No  |
 | **Intellectual Property Rights of the Source** | | |
-| | Did you create the data? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
-| | Are you the owner of the data even if you did not create it yourself? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  |
+| | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  |
 | | Are you sure you are not using data for which there is a third party license or patent? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
 | | If the data is not yours, do you have an agreement or license authorizing you to publish it? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
 | **Release license** | | |

@@ -181,7 +181,7 @@ The following criteria must be met in order to manage the level of information q
 ### New table
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |     :---   |
-| D1        |     :---     |     :---     |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters    |     Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022 |
+| D1        |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     99.16 %    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters    |     Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022 |
 | D2       |     :---     |     :---     |     :---     |     Not satisfied: last update on 22/03/2016 |
 | D3         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | D4         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
@@ -254,7 +254,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? |no |no|no|no|no|no|
 
 ### New Table
-**Privacy** | Issues | D1 | D2 nuovo |  D3 ex2| D4 ex5 | D5 ex6 | D6 nuovo | D7 nuovo | D8 nuovo | D9 nuovo |
+**Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
 | | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
 | | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |

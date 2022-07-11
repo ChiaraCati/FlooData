@@ -255,7 +255,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 ### New Table
 **Privacy** | Issues | D1 | D2 nuovo |  D3 ex2| D4 ex5 | D5 ex6 | D6 nuovo | D7 nuovo | D8 nuovo | D9 nuovo |
-| ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
+| ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
 | | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
 | | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
 | | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | yes | :---  | yes | yes 4| yes 5 | :---  | :---  | :---  | :---  |

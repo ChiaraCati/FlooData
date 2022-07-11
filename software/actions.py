@@ -98,7 +98,7 @@ def coordinate(data):
     longitudine = []
 
     for x in data:
-        geo = pd.read_json('data/italy_geo.json')
+        geo = pd.read_json('datasets/original_dataset/italy_geo.json')
         value = x
         query = geo.query("comune == @value")
 

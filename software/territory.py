@@ -1,4 +1,4 @@
-def territory(source_path, out_data):
+def actions(source_path, out_data):
     import pandas as pd
     data = pd.read_csv(source_path)
     data = data.query("cod_reg == 8")

@@ -184,8 +184,12 @@ The following criteria must be met in order to manage the level of information q
 | D1        |     :---     |     :---     |     :---     |     Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022 |
 | D2       |     :---     |     :---     |     :---     |     Not satisfied: last update on 22/03/2016 |
 | D3         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
-| D5         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
-| D6         |     Satisfied.     |     Satisfied.    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
+| D4         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
+| D5         |     Satisfied.     |     Satisfied.    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last upd5te was on 01/01/2020 |
+| D6         |     :---        |      :---       |      :---         |         :---     |
+| D7         |     :---        |      :---       |      :---         |         :---     |
+| D8         |     :---        |      :---       |      :---         |         :---     |
+| D9         |     :---        |      :---       |      :---         |         :---     |
 
 Below result retriven by our software [completness.py](software/completness.py):
 
@@ -199,6 +203,18 @@ Below result retriven by our software [completness.py](software/completness.py):
 | D5         |     38164     |     7232     |    81.05%     | 
 | D6         |     48150     |     0     |    100%     |  
 
+### New table
+| Dataset | Total values | Null values | Completness |
+| :---         |     :---     |     :---     |    :---     |  
+| D1         |     :---     |     :---     |    :---     | 
+| D2         |     :---     |     :---     |    :---     |  
+| D3         |     763     |     138     |    81.91%     |  
+| D4         |     38164     |     7232     |    81.05%     | 
+| D5         |     48150     |     0     |    100%     |  
+| D6         |     :---     |     :---     |    :---     |  
+| D7         |     :---     |     :---     |    :---     |  
+| D8         |     :---     |     :---     |    :---     |  
+| D9         |     :---     |     :---     |    :---     |  
 
 
 ## Legal analysis 
@@ -206,6 +222,7 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
+### Old Table
 | **Privacy** | Issues | D1 | D2 |  D3 | D4 | D5 | D6 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------|
 | | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | yes | yes | yes | yes | yes |
@@ -236,6 +253,36 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | not specified | not specified | not specified | not specified | not specified | not specified |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? |no |no|no|no|no|no|
 
+### New Table
+**Privacy** | Issues | D1 | D2 nuovo |  D3 ex2| D4 ex5 | D5 ex6 | D6 nuovo | D7 nuovo | D8 nuovo | D9 nuovo |
+| ----------- | --------| ------|--------|-------|---------|---------|---------|
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | yes | :---  | yes | yes 4| yes 5 | :---  | :---  | :---  | :---  |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | :---  | yes | yes | yes | :---  | :---  | :---  |
+| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| **Intellectual Property Rights of the Source** | | |
+| | Did you create the data? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| | Are you the owner of the data even if you did not create it yourself? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| | Are you sure you are not using data for which there is a third party license or patent? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| **Release license** | | |
+| | Do you release the data you own with a license? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| **Limitations on public access** | | |
+| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| **Economical Conditions** | | |
+| | Have you verified that you can release the data for free without breaking any public finance rules? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? | / | / | / | / | / | / | / | / | / |
+| **Temporary aspects** | | |
+| | Do you have a temporary policy for updating the dataset? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
+| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | not specified | :---  | not specified | not specified | not specified | :---  | :---  | :---  | :---  |
+| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |
 ## Ethical analysis 
 For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.
 
@@ -247,7 +294,17 @@ However, we take in account that there are chances of people acting on te collec
 
 **D1**
 
-*Format:* 
+*Format:* .nt
+
+*Metadata:* 
+
+*URI:*
+
+*Provenance:*
+
+**D2**
+
+*Format:* .nt
 
 *Metadata:* 
 
@@ -256,7 +313,7 @@ However, we take in account that there are chances of people acting on te collec
 *Provenance:*
 
 
-**D2**
+**D3**
 
 *Format:*
 
@@ -267,29 +324,8 @@ However, we take in account that there are chances of people acting on te collec
 *Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
 
-**D3**
-
-*Format:*
-
-*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
-
-*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444)
-
-*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
-
 
 **D4**
-
-*Format:*
-
-*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
-
-*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733)
-
-*Provenance:* [Regione Emilia-Romagna - Sede di Parma](http://www.adbpo.gov.it/)
-
-
-**D5**
 
 *Format:*
 
@@ -299,7 +335,7 @@ However, we take in account that there are chances of people acting on te collec
 
 *Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
-**D6**
+**D5**
 
 *Format:*
 
@@ -308,6 +344,46 @@ However, we take in account that there are chances of people acting on te collec
 *URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)
 
 *Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
+
+**D6**
+
+*Format:* .nt
+
+*Metadata:* 
+
+*URI:*
+
+*Provenance:*
+
+**D7**
+
+*Format:* .nt
+
+*Metadata:* 
+
+*URI:*
+
+*Provenance:*
+
+**D8**
+
+*Format:* .nt
+
+*Metadata:* 
+
+*URI:*
+
+*Provenance:*
+
+**D9**
+
+*Format:* .nt
+
+*Metadata:* 
+
+*URI:*
+
+*Provenance:*
 
 ## Mashup and output datasets
 Abbiamo combinato i dati in questo modo (spiegare metodo).

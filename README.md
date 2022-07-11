@@ -222,7 +222,6 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-### New Table
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
 | | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, indviduals with responsibilities on recorded data can be recognized | Yes  | Yes | Yes | Yes | No  | No  | No  | No  |

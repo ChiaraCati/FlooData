@@ -184,7 +184,7 @@ The following criteria must be met in order to manage the level of information q
 | **D1 and D2\***       |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     99.16 %    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels    |  <li>D1: Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022<<li>D2: Not satisfied: last update on 22/03/2016|
 | **D3**         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | **D4**         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 80.4%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
-| **D5**         |     Satisfied.     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
+| **D5**         |     Satisfied     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 | **D6**         |     Satisfied        |      :---       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
 | **D7**        |     Satisfied        |      :---       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
 | **D8**         |     :---        |      :---       |      :---         |         :---     |
@@ -207,15 +207,14 @@ Below result retriven by our software [completness.py](software/completness.py):
 ### New table
 | Dataset | Total values | Null values | Completness |
 | :---         |     :---     |     :---     |    :---     |  
-| D1         |     :---     |     :---     |    :---     | 
-| D2         |     :---     |     :---     |    :---     |  
-| D3         |     763     |     138     |    81.91%     |  
-| D4         |     38164     |     7232     |    81.05%     | 
-| D5         |     48150     |     0     |    100%     |  
-| D6         |     :---     |     :---     |    :---     |  
-| D7         |     :---     |     :---     |    :---     |  
-| D8         |     :---     |     :---     |    :---     |  
-| D9         |     :---     |     :---     |    :---     |  
+| **D1 a D2\***      |     :---     |     :---     |    :---     | 
+| **D3**         |     763     |     138     |    81.91%     |  
+| **D4**         |     38164     |     7232     |    81.05%     | 
+| **D5**         |     48150     |     0     |    100%     |  
+| **D6**         |     :---     |     :---     |    :---     |  
+| **D7**         |     :---     |     :---     |    :---     |  
+| **D8**         |     :---     |     :---     |    :---     |  
+| **D9**         |     :---     |     :---     |    :---     |  
 
 
 ## Legal analysis 
@@ -226,7 +225,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 ### Old Table
 | **Privacy** | Issues | D1 | D2 |  D3 | D4 | D5 | D6 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------|
-| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | yes | yes | yes | yes | yes |
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| Yes  | Yes | Yes | Yes | Yes | Yes |
 | | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | yes | yes | yes | yes | yes | yes |
 | | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | yes |yes | yes | yes | yes | yes |
 | | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes |yes | yes | yes | yes | yes |
@@ -257,9 +256,9 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 ### New Table
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
-| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | yes | :---  | yes | yes | yes | :---  | :---  | :---  | :---  |
-| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | yes | :---  | yes | yes 4| yes 5 | :---  | :---  | :---  | :---  |
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, indviduals with responsibilities on recorded data can be recognized | Yes  | Yes | Yes | Yes | :---  | :---  | :---  | :---  |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | Yes |Yes | Yes | Yes | Yes | :---  | :---  | :---  | :---  |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | yes | yes | yes  | :---  | :---  | :---  | :---  |
 | | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | :---  | yes | yes | yes | :---  | :---  | :---  |
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / |
 | | Do you display any search services that can filter the data in order to obtain a single geolocated record? | no | :---  | no | no | no | :---  | :---  | :---  | :---  |

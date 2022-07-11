@@ -185,8 +185,9 @@ The following criteria must be met in order to manage the level of information q
 | **D3**         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | **D4**         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 80.4%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | **D5**         |     Satisfied.     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
-| D6         |     :---        |      :---       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new codes  |
-| D7         |     :---        |      :---       |      :---         |         :---     |
+| D6         |     Satisfied        |      :---       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
+| D6         |     Satisfied        |      :---       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
+| D7         |      Satisfied      |         :---         |         Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)     |   Satisfied: last update 2021 with new ISTAT codes     |
 | D8         |     :---        |      :---       |      :---         |         :---     |
 | D9         |     :---        |      :---       |      :---         |         :---     |
 

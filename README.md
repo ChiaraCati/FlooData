@@ -249,13 +249,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | **Temporary aspects** | | |
 | | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  |
 | | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No, | Not specified | Not Verifiable |  Not Verifiable  | 
-Inglese
-I dataset vengono aggiornati ogni due mesi e pubblicati circa tre mesi dopo la data di riferimento. Alcuni progetti possono fornire informazioni meno recenti
-The datasets are updated every two months and published approximately three months after the reference date. Some projects may provide older information | 
-Inglese
-I dataset vengono aggiornati ogni due mesi e pubblicati circa tre mesi dopo la data di riferimento. Alcuni progetti possono fornire informazioni meno recenti
-The datasets are updated every two months and published approximately three months after the reference date. Some projects may provide older information  |
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  |
 
 

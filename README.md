@@ -181,8 +181,7 @@ The following criteria must be met in order to manage the level of information q
 ### New table
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |     :---   |
-| D1        |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     99.16 %    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters    |     Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022 |
-| D2       |     :---     |     :---     |     :---     |     Not satisfied: last update on 22/03/2016 |
+| **D1 and D2\***       |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     99.16 %    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters    |  <ul><li>D1: Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022</li>Not satisfied: last update on 22/03/2016<li></ul> |
 | D3         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | D4         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | D5         |     Satisfied.     |     Satisfied.    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last upd5te was on 01/01/2020 |
@@ -190,6 +189,8 @@ The following criteria must be met in order to manage the level of information q
 | D7         |     :---        |      :---       |      :---         |         :---     |
 | D8         |     :---        |      :---       |      :---         |         :---     |
 | D9         |     :---        |      :---       |      :---         |         :---     |
+
+\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The merged dataframe was sampled down for analysis, as it contained more than a million entries.
 
 Below result retriven by our software [completness.py](software/completness.py):
 

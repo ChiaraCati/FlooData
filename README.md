@@ -255,11 +255,26 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 ## Ethical analysis 
 
-For our ethical analysis, we took in consideration the main aspects and principles of data ethics: the importance of the human being, transparency, accountability, equality. In addition, we analyzed also if our dataset were free from cognitive bias.
+Under an *ethical* pointo of view, we considered the importance of the human being, transparency, accountability, and equality. 
+Along with this ethical aspects, we also considered other criteria such as sustainable reuse of dthe ata gathered, and presence of information of public interest when choosing **FlooData**'s source data, as we wanted to account for the management of financings (Open Coesione), the presence risk of hydrogeological disasters in the whole area of Emilia-Romagna, the amount preventive interventions and aftereffect reparatios. 
 
-Datasets regarding environmental damage and relative interventions are free of sensitive data since they rely on geographical and amministrative informationn data that are, for their own nature transparent and equal. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
+The data gathered is managed by producers in a transparent way, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use.
 
+
+The original datasets mainly represent, envirnmental– and  geodata. This kind of data naturally avoids discriminations, stereotyping, crystallization, distortion of the history, misrepresentation of reality, and manipulation of the cultural identity of a country/community.
+As averages the data gives information about the region as a whole and do not pose individual privacy risk.
+
+
+Data relating to communities of people living in endangered area comes from the two sets coming from ISPRAS's project ***IdroGeo***. 
+*D6* and *D7* contain, ideed, information on families living in areas with high, medium and low flooding risk **(?)**. Even though this information is linked to natural persons, it is made available for public interest purposes, anonimized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally thisk kind of data when public might be a call to action to sensibilize people on climate change and hydrogeological issues.
+Finally, we noticed ReNDis makes accessible the names of whom is responsible for recordered interventions. We consider the presence of this identity data in this datast as legitimate names of public officers are by nature of public domain. 
 However, we take in account that there are chances of people acting on te collected information to look for more secure and mantained area within the region Emila Romagna, but that does not look like an ethical issue as much as a normal inferencial process granted to common citizens and perfectly sustainable.
+
+For ethical requirements we also rely on accenture data ethics decision making framework:
+All data gatered and presented on Floodata has been downloaded directly from sources website's or other institutional aggregators such as MinERva. 
+The datasets used have all been made available for re-use by producers. The reuse of this data on FlooData, is consistent wth the specific intent of cretors of displaying the hydrogeological situation of the studied area.
+
+
 
 ## Technical analysis 
 

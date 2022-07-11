@@ -187,8 +187,8 @@ The following criteria must be met in order to manage the level of information q
 | **D5**         |     Satisfied     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 | **D6**         |     Satisfied        |      :---       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
 | **D7**        |     Satisfied        |      :---       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
-| **D8**         |     :---        |      :---       |      :---         |         :---     |
-| **D9**         |     :---        |      :---       |      :---         |         :---     |
+| **D8**         |     :---        |      :---       |      :---         |         Satisfired: last update may 2022      |
+| **D9**         |     :---        |      :---       |      :---         |         Satisfied: last update may 2022     |
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The merged dataframe was sampled down for analysis, as it contained more than a million entries.
 
@@ -269,7 +269,7 @@ Data relating to communities of people living in endangered area comes from the 
 *D6* and *D7* contain information on families living in areas with high, medium and low flooding risk **(?)**. Even though this information is linked to natural persons, it is made available for public interest purposes, anonimized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
 Finally, we noticed **ReNDis** makes accessible the names of whom is responsible for recordered interventions. We consider the presence of identity data in this set as legitimate, sice names of public officers are by nature of public domain. 
 
-For ethical requirements we also rely on [Accenture](https://www.accenture.com/us-en/about/inclusion-diversity/ethnic-diversity)'s Data Ethics Decision Making Guidelines, in particular considering these aspectsl data gathered and presented on Floodata has been downloaded directly from sources website's or other institutional aggregators such as **MinERva** and **OpenCoesione**. 
+For ethical requirements we also rely on [Accenture](https://www.accenture.com/us-en)'s Data Ethics Decision Making Guidelines, in particular considering these aspectsl data gathered and presented on Floodata has been downloaded directly from sources website's or other institutional aggregators such as **MinERva** and **OpenCoesione**. 
 The datasets used have all been made available for re-use by producers. The reuse of this data on FlooData, is consistent with creators's specific intent of displaying the hydrogeological situation of the studied area.
 
 We take into account that there are chances of people acting on the collected information to look for more secure and mantained area within the region Emila Romagna, but that does not look like an ethical issue as much as a normal inferencial process granted to common citizens.
@@ -282,30 +282,31 @@ We take into account that there are chances of people acting on the collected in
 
 *Format:* .nt
 
-*Metadata:* 
+*[Metadata](http://dati.isprambiente.it/id/catalogue//html):* last modification, label, title, issued, type, theme taxonomi, dataset, homepage, creator, language, license, rights, and contributor.
 
-*URI:*
+*URI:* http://dati.isprambiente.it/id/dissesto
 
-*Provenance:*
+*Provenance:* [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 **D2**
 
 *Format:* .nt
 
-*Metadata:* 
+*[Metadata](http://dati.isprambiente.it/id/catalogue//html):* last modification, label, title, issued, type, theme taxonomi, dataset, homepage, creator, language, license, rights, and contributor.
 
-*URI:*
 
-*Provenance:*
+*URI:* http://dati.isprambiente.it/id/place
+
+*Provenance:* [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 
 **D3**
 
-*Format:*
+*Format:* .csv
 
 *Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
-*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)
+*URI:* https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808
 
 *Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
@@ -317,7 +318,7 @@ We take into account that there are chances of people acting on the collected in
 
 *Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
-*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)
+*URI:* https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636
 
 *Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
@@ -327,49 +328,49 @@ We take into account that there are chances of people acting on the collected in
 
 *Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
-*URI:* [https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)
+*URI:* https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331
 
 *Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
 **D6**
 
-*Format:* .nt
+*Format:* .csv
 
-*Metadata:* 
+*Metadata:* content description, notes for the user, license, format, metadata about label
 
-*URI:*
+*URI:* https://idrogeo.isprambiente.it/app/page/open-data
 
-*Provenance:*
+*Provenance:* [ISPRA dataset](https://idrogeo.isprambiente.it/app/page/open-data))
 
 **D7**
 
-*Format:* .nt
+*Format:* .csv
 
-*Metadata:* 
+*Metadata:* content description, notes for the user, license, format, metadata about label
 
-*URI:*
+*URI:* https://idrogeo.isprambiente.it/app/page/open-data
 
-*Provenance:*
+*Provenance:* [ISPRA dataset](https://idrogeo.isprambiente.it/app/page/open-data)
 
 **D8**
 
-*Format:* .nt
+*Format:* .csv
 
-*Metadata:* 
+*Metadata:* last update, 
 
-*URI:*
+*URI:* https://opencoesione.gov.it/it/opendata/#!progetti_regione_section **(?)**
 
-*Provenance:*
+*Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
 
 **D9**
 
-*Format:* .nt
+*Format:* .csv
 
-*Metadata:* 
+*Metadata:* last update
 
-*URI:*
+*URI:* https://opencoesione.gov.it/it/opendata/#!progetti_regione_section **(?)**
 
-*Provenance:*
+*Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
 
 ## Mashup and output datasets
 Abbiamo combinato i dati in questo modo (spiegare metodo).

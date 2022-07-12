@@ -153,7 +153,7 @@ The following criteria must be met in order to manage the level of information q
 | **D7** | Satisfied | Not satisfied: 99.7% | Satisfied, data and%variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
 | **D8**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfired: last update may 2022      |
 | **D9**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
-| **D10**         |     :------        |      :------       |      :------         |         :------     |
+| **D10**         |     Satisfied        |      Satisfied       |      Satisfied         |         Satisfied     | Not Satisfied: last update 2017 |
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. 
 
@@ -353,7 +353,7 @@ We found some inconsistencies in minerva's metadata
 
 *Metadata:* last update
 
-*URI:* https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip**
+*URI:* https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip
 
 *Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
 
@@ -375,17 +375,36 @@ The original data has been mashed up to create the FlooDatas's 4 datasets contai
 ### MD1
 Contains data oh reparative and preventive activities in Emilia-Romagna, gathered from *D1*, *D2*, *D4*, *D8*, *D9*, and *D10*.
 
+D1 selected columns: 
+D2 selected columns: 
+D4 selected columns: 
+D8 selected columns: 
+D9 selected columns: 
+D10 selected columns: 
+
 
 ### MD2
 Contains data oh hydrogeologgical disruptions in Emilia-Romagna, gathered from *D1*, *D2*, *D3*, *D5* and *D10*.
 
+
+D1 selected columns: 
+D2 selected columns: 
+D3 selected columns: 
+D5 selected columns: 
+D10 selected columns: 
+
+
 ### MD3
 Contains data gathered from *D6* and *D10*.
+
+D6 selected columns: 
+D10 selected columns: 
 
 ### MD1
 Contains data gathered from *D7* and *D10*.
 
-
+D7 selected columns: 
+D10 selected columns: 
 
 
 ### SOFTWARES:

@@ -24,7 +24,9 @@
     dcat:contactPoint	vcard:Group;
     dct:source      <http://dati.isprambiente.it/id/dissesto> ; 
     dct:source      <http://dati.isprambiente.it/id/place> ;
+    dct:source      <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808> ;
     dct:source      <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331/resource/90f18d54-991c-4999-bc91-cb6bbff5335c> ;
+    dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD2_TTL>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD2_CSV>;

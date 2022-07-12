@@ -157,14 +157,14 @@ The following criteria must be met in order to manage the level of information q
 
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |     :---   |
-| **D1 and D2\***       |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     Not satisfied: 99.16 %    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels    |  <li>D1: Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022<<li>D2: Not satisfied: last update on 22/03/2016|
-| **D3**         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
+| **D1 and D2\***       |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     Not satisfied: 93.9%    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels    |  <li>D1: Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022<<li>D2: Not satisfied: last update on 22/03/2016|
+| **D3**         |     Satisfied     |     Not satisfied: 81.9%%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | **D4**         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 80.4%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | **D5**         |     Satisfied     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 | **D6**         |     Satisfied        |       Not satisfied: 99.6%       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
 | **D7** | Satisfied | Not satisfied: 99.7% | Satisfied, data and%variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
-| **D8**         |     :---        |      :---       |      :---         |         Satisfired: last update may 2022      |
-| **D9**         |     :---        |      :---       |      :---         |         Satisfied: last update may 2022     |
+| **D8**         |     :---        |      Not satisfied: 75.8%       |      :---         |         Satisfired: last update may 2022      |
+| **D9**         |     :---        |      Not satisfied: 71.1%        |      :---         |         Satisfied: last update may 2022     |
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The merged dataframe was sampled down for analysis, as it contained more than a million entries.
 
@@ -173,14 +173,14 @@ Below result retriven by our software [completness.py](software/completness.py):
 
 | Dataset | Total values | Null values | Completness |
 | :---         |     :---     |     :---     |    :---     |  
-| **D1 a D2\***      |     :---     |     :---     |    :---     | 
-| **D3**         |     763     |     138     |    81.91%     |  
-| **D4**         |     38164     |     7232     |    81.05%     | 
-| **D5**         |     48150     |     0     |    100%     |  
+| **D1 a D2\***      |     395728     |     35307     |    93.9     |  
+| **D3**         |     763     |     138     |    81.9%     |  
+| **D4**         |     38164     |     7232     |     80.4%     | 
+| **D5**         |     380     |     0     |    100%     |  no
 | **D6**         |     979972     |     3500     |    99.6%      |  
 | **D7**         |     13161     |     34     |    99.7%     |  
-| **D8**         |     :---     |     :---     |    :---     |  
-| **D9**         |     :---     |     :---     |    :---     |  
+| **D8**         |     3449466    |     835602     |    75.8%     |  
+| **D9**         |     6131986     |     1773353     |    71.1%     |  
 
 
 ## Legal analysis 

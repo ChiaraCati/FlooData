@@ -18,3 +18,5 @@ dcat:datasets
 dcat:datasets
 dcat:datasets
 dcat:datasets 
+dct:publisher    foaf:name 
+dct:publisher    foaf:name 

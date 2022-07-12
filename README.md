@@ -1,4 +1,4 @@
-# 💧FlooData
+# 🌊FlooData
  Project for Open Access and Digital ethics.
 
 ## Introduction 

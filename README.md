@@ -142,10 +142,10 @@ Is a json file stored in [this GitHubrepository](https://github.com/MatteoHenryC
 | D3 | Segnalazioni fenomeni geologici particolari | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D6 | IdroGEO - Comuni pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D7 | IdroGEO - Province pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 1946 - 2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2014-2020 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D6 | IdroGEO - Comuni pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D7 | IdroGEO - Province pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
@@ -154,16 +154,6 @@ The following criteria must be met in order to manage the level of information q
 * *Completness*: the data is comprehensive with regard to all of its expected values and the relevant entities (sources) that contribute to the definition of the procedure;
 * *Coherence*: in terms of how the administration's owner uses the data, neither the data nor its attributes can be related to other data;
 * *Promptness*: the data, and its attributes, is updated with respect to the procedure to which it refers.
-
-### Old table
-| Dataset | Accurancy | Completness | Coherence | Promptness |
-| :---         |     :---     |     :---     |     :---     |     :---   |
-| D1        |     :---     |     :---     |     :---     |     Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022 |
-| D2         |     Satisfied     |     Not satisfied: 81.91%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
-| D3         |     Not satisfied: There is no clear meaning of CP_LEGE column.    |     Not satisfied: 71.72%     |     Satisfied.     |         Not satisfied: Last update was on 	05/07/2018 |
-| D4         |     Not satisfied: There is no clear meaning of the column names, no explanation of needs for between CODAREA, CODSCEN and AMBTER colums  |     Not satisfied: 58.3%     |     Not satisfied: Arbitrary use of uppercase and lowercase     |         Not satisfied: Last update was on 17/02/2022 |
-| D5         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 81.05%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
-| D6         |     Satisfied.     |     Satisfied.    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 
 ### New table
 | Dataset | Accurancy | Completness | Coherence | Promptness |
@@ -278,16 +268,16 @@ Dataset containing the tracks of the projects implemented in Emilia Romagna betw
 Dataset containing the tracks of the projects implemented in Emilia Romagna between 2014 and 2020 |
 | Issued | 2016 | 2016 | 2014 | 2021 | 2020 | Not available | Not available | 2013 | 2014 |
 | Modified | Daily updated | 2016 | 2020 | 2021 | 2020 | Not available | Not available | 2022 | 2022 |
-| Theme | Government and public sector, Environment | Environment | Regions and cities, Science and technology | Regioni marine | Environment | Landslide and flood risk | Landslide and flood ris | cohesion policies | cohesion policies |
-| Rights Holder	 | ISPRA | ISPRA |--------|-------|---------|---------|---------| ---------|---------------|
-| Accrual Periodicity | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Subject | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Publisher | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|---------------|
-| Language | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Keywords | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Source | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Temporal Coverage | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Spatial Coverage | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
+| Theme | Government and public sector, Environment | Environment | Regions and cities, Science and technology | Regioni marine | Environment | Landslide and flood risk | Landslide and flood ris | Cohesion policies | Cohesion policies |
+| Rights Holder	 | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ISPRA | ISPRA | IGRUE | IGRUE |
+| Accrual Periodicity | Daily| Annual | Not available | Continuous | Not available | Not available | Not available | every two months | every two months |
+| Subject | Envirnonmental disasters | Italian geographical data | Geological phenomena | Coast defense barriers | Endangered coast areas | Risk indicators  | Risk indicators | Cohesion projects | Cohesion projects |
+| Publisher | ISPRA | ISPRA | Regione Emilia-Romagna | Regione Emilia-Romagna | Regione Emilia-Romagna | ISPRA | ISPRA | OpenCoesione | OpenCoesione |
+| Language | Italian | Italian | Italian | Italian | Italian | Italian | Italian | Italian Italian |
+| Keywords | Hydrogeological instability  | Places | EU, regionale, opendata | EU, regionale, difesa costiera | EU, regionale, acque marine, rischi | Not available | Not available | Not available Not available |
+| Source | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | 	Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ea Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna ISPRA | ISPRA | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) |
+| Temporal Coverage | 1999-2021 | None | 2012-2021 | 1946-2020 | 2020 | 2017 | 2017 | --------- |---------------|
+| Spatial Coverage | Italy | Italy |  --- | -------|---------|---------|---------| ---------|---------------|
 | Temporal Coverage | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
 | Data format	 | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
 | URL | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|

@@ -5,25 +5,38 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
 
 <https://github.com/ChiaraCati/Owater/FloodCat/>
 
     a       dcatap:Catalogue , dcat:Catalog;
 
-    dct:title   "FloodCat"@en;
-    dct:description     "Catalogue containing FlooData mashed-up datasets"
-    dct:issued     "2022-07-12"@xsd:date;
-    dcat:datasets
-    dcat:datasets
-    dcat:datasets
-    dcat:datasets
-    dct:publisher   <https://github.com/ChiaraCati/Owater>
+    dct:title       "FloodCat"@en;
+    dct:description     "Catalogue containing FlooData mashed-up datasets";
+    dct:issued      "2022-07-12@"^^xsd:date;
+    dct:modified    "2022-07-12@"^^xsd:date;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/FloodCat/actions.csv>;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/FloodCat/disruptions.csv>;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/FloodCat/municipality.csv>;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/FloodCat/province.csv>;
+    dct:publisher   <https://github.com/ChiaraCati/Owater/>;
+    dct:creator     <https://github.com/ChiaraCati/Owater/#ChiaraCatizone>;
+    dct:creator     <https://github.com/ChiaraCati/Owater/#GiuliaVenditti>;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>; 
-    dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
-    dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
-x
+    dct:license	    <https://creativecommons.org/licenses/by-sa/4.0/>;
+    dct:rights      "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.";
+    foaf:homepage <https://github.com/ChiaraCati/Owater>.
 
 
-<https://github.com/ChiaraCati/Owater> 
+<https://github.com/ChiaraCati/Owater/> 
 a foaf:agent;
-    foaf:name "FlooData"@en;
+    foaf:name "FlooData"@en.
+
+<https://github.com/ChiaraCati/Owater/#ChiaraCatizone> 
+    a   foaf:Person;
+    foaf:name "Chiara Catizone"@it.
+
+<https://github.com/ChiaraCati/Owater/#GiuliaVenditti> 
+    a   foaf:Person;
+    foaf:name "Giulia Venditti"@it.

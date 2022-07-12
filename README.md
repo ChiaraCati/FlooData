@@ -1,4 +1,4 @@
-# FlooData
+# 💧FlooData
  Project for Open Access and Digital ethics.
 
 ## Introduction 
@@ -197,7 +197,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  | Yes  |
 | | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  | Yes  |
 | | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | Yes | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
 | | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / | / |
 | | Do you display any search services that can filter the data in order to obtain a single geolocated record? | No | No | No | No | No | No  | No  | No  | No  | No  |
 | **Intellectual Property Rights of the Source** | | |
@@ -263,9 +263,9 @@ The following table is a resume of the original datasets technical analysis
 | Accrual Periodicity | Daily| Annual | Not available | Continuous | Not available | Not available | Not available | every two months | every two months | :------ |
 | Subject | Envirnonmental disasters | Italian geographical data | Geological phenomena | Coast defense barriers | Endangered coast areas | Risk indicators  | Risk indicators | Cohesion projects | Cohesion projects | :------ |
 | Publisher | ISPRA | ISPRA | Regione Emilia-Romagna | Regione Emilia-Romagna | Regione Emilia-Romagna | ISPRA | ISPRA | OpenCoesione | OpenCoesione | :------ |
-| Language | Italian | Italian | Italian | Italian | Italian | Italian | Italian | Italian Italian | :------ |
-| Keywords | Hydrogeological instability  | Places | EU, regionale, opendata | EU, regionale, difesa costiera | EU, regionale, acque marine, rischi | Not available | Not available | Not available Not available | :------ |
-| Source | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | 	Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ea Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna ISPRA | ISPRA | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | :------ |
+| Language | Italian | Italian | Italian | Italian | Italian | Italian | Italian | Italian | Italian | :------ |
+| Keywords | Hydrogeological instability  | Places | EU, regionale, opendata | EU, regionale, difesa costiera | EU, regionale, acque marine, rischi | Not available | Not available | Not available | Not available | :------ |
+| Source | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ISPRA | ISPRA | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | :------ |
 | Temporal Coverage | 1999-2021 | None | 2012-2021 | 1946-2020 | 2020 | 2017 | 2017 | 2007-2013 | 2014-2020 | :------ |
 | Spatial Coverage | Italy | Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | Italy | Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | :------ |
 | Data format	 | .nt | .nt | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .csv, .json | .csv, .json  | .csv | .csv | .json |

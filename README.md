@@ -369,8 +369,11 @@ We found some inconsistencies in minerva's metadata
 
 ## Mashup and output datasets
 
+The original datasets have been mashed up in order to create the 4 datasets contained in our catalog.
 
-## SOFTWARES:
+The first dataset contains information on disruptions 
+
+### SOFTWARES:
 
 **dbfconv.py** converts .dbf files into .csv files for analysis puprposes
 
@@ -408,7 +411,7 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 * (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON, CSV, and XML, and the metadata was described and organised using RDF using the Turtle syntax.
 * (Meta)data use vocabularies that follow FAIR principles: 
 
-**Reiusable**
+**Reusable**
 
 * Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
 

@@ -33,4 +33,11 @@ pprint.pprint(df)
 df.to_csv('../datasets/dbf-esempi/'+name+'.csv', encoding='utf-8')
 
 
+import pandas as pd
+import os 
 
+for item in os.listdir('../datasets/final_dataset/'):
+    df = pd.read_csv('../datasets/final_dataset/'+item)
+    print(item[:-4])
+
+    df.to_json('../datasets/final_dataset/'+item[:-4]+'.json')

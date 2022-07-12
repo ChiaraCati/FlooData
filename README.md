@@ -135,19 +135,6 @@ Is a json file stored in [this GitHubrepository](https://github.com/MatteoHenryC
 
 ## Original dataset
 
-### Old table
-In order to carry out our analysis, we chose to use those dataset among the above mentioned.
-| ID | Title | Link | Time span | Licence |
-| :---         |     :---     |     :---     |     :---     |         :--- |
-| D1 | ReNDIs | [url](http://dati.isprambiente.it/dataset/il-rendis/) | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
-| D2 | Segnalazioni fenomeni geologici particolari | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D3 | Banca dati geologica, 1:10.000 - Frane, depositi di versante e depositi alluvionali - 10k: | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-14t131444) | 1982 - 2018 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D4 | Direttiva Alluvioni 2019 II Ciclo - Ambito Regione Emilia-Romagna - Bacini regionali romagnoli, rischio, geometria puntuale | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2020-05-31t195733) | 2013 - 2019 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D5 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D6 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-
-
-### New table
 | ID | Title | Link | Time span | Licence |
 | :---         |     :---     |     :---     |     :---     |         :--- |
 | D1 | ReNDIs | [url](http://dati.isprambiente.it/dataset/il-rendis/) | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
@@ -283,12 +270,16 @@ The following table is a resume of the original datasets technical analysis
 | Datasets | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ----- | -------- | ------- | --------- | --------- | --------- | --------- | --------------- |
 | Title | ReNDIs | Luoghi | Segnalazioni fenomeni geologici particolari | Opere di difesa costiera - 2020 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | Comuni | Province | Progetti esteso EMR 2007-2013 | Progetti esteso EMR 2014-2020 |
-| Identifier | il-rendis | i-luoghi | Segnalazioni_fenomeni_geologici | Opere_Difesa_2020 | Localita_colpite_Erosione_1946_2020 | province_pir | comuni_pir | progetti_esteso_EMR_2007-2013_20220228 | progetti_esteso_EMR_2014-2020_20220228 |
-| Description | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Issued | --------| ------|--------|-------|---------|---------|---------| ---------|
-| Modified | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Theme | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
-| Rights Holder	 | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
+| Identifier | ispra_rm:ITA_Redis_interventiDifesaSuolo | i-ispra_rm:DT_place01 | r_emiro_2017-06-13t115808 | r_emiro_2022-01-04t15163 | r_emiro_2021-03-12t110331 | province | comuni | progetti_esteso_EMR_2007-2013_20220228 | progetti_esteso_EMR_2014-2020_20220228 |
+| Description | Dataset of Mitigation measures for national soil protection | Dataset of places 
+Georeferenced vector data base, containing a precise symbology inherent to the reports of particular geological phenomena. The reports were grouped into six categories: gas leaks from water wells and / or from the ground; wells for water with the presence of hot water; fish deaths; presence of fractures and / or subsidence of the ground; appearance of volcanic mud and / or sand; water wells dried up. The reports were forwarded by the citizens to the Regional Geological Service, starting from May 2012 until now; they come mainly from the areas hit by the earthquake of May 2012. Each report is associated with a monographic file that briefly describes the main characteristics of the phenomenon: location; brief description of the typology; any interventions; geological and seismotectonic framework; photographic material and any links to publications (newspaper articles and / or other) relating to the phenomenon 
+Catalog of the Defense Works of the Emilia-Romagna Region Coast. SGSS activity report. Reference projects and / or activities: Mare Costa Information System | Dataset containing the coast areas mostly affected by erosion | Landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage Landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage | 
+Dataset containing the tracks of the projects implemented in Emilia Romagna between 2007 and 2013 
+Dataset containing the tracks of the projects implemented in Emilia Romagna between 2014 and 2020 |
+| Issued | 2016 | 2016 | 2014 | 2021 | 2020 | Not available | Not available | 2013 | 2014 |
+| Modified | Daily updated | 2016 | 2020 | 2021 | 2020 | Not available | Not available | 2022 | 2022 |
+| Theme | Government and public sector, Environment | Environment | Regions and cities, Science and technology | Regioni marine | Environment | Landslide and flood risk | Landslide and flood ris | cohesion policies | cohesion policies |
+| Rights Holder	 | ISPRA | ISPRA |--------|-------|---------|---------|---------| ---------|---------------|
 | Accrual Periodicity | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
 | Subject | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
 | Publisher | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|---------------|
@@ -303,14 +294,14 @@ The following table is a resume of the original datasets technical analysis
 | License | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
 | Download | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|
 
-	
+We found some inconsistencies in minerva's metadata
 
 
 **D1**
 
 *Format:* .nt
 
-*[Metadata](http://dati.isprambiente.it/id/catalogue//html):* last modification, label, title, issued, type, theme taxonomi, dataset, homepage, creator, language, license, rights, and contributor.
+*[Metadata](http://dati.isprambiente.it/id/dissesto/html):* last modification, label, title, issued, type, theme taxonomi, dataset, homepage, creator, language, license, rights, and contributor.
 
 *URI:* http://dati.isprambiente.it/id/dissesto
 

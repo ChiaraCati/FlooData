@@ -23,7 +23,12 @@
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone>; 
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>;
     dcat:contactPoint	vcard:Group;
-    dct:source      <#> ;
+    dct:source      <http://dati.isprambiente.it/id/dissesto> ; 
+    dct:source      <http://dati.isprambiente.it/id/place> ;
+    dct:source      <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636> ;
+    dct:source      <https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2007-2013.zip> ;
+    dct:source      <https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip> ;
+    dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD1_TTL>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD1_CSV>;

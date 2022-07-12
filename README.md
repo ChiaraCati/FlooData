@@ -128,12 +128,12 @@ Is a json file stored in [this GitHubrepository](https://github.com/MatteoHenryC
 | D2 | Luoghi | [url](http://dati.isprambiente.it/dataset/i-luoghi/) | 2016 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
 | D3 | Segnalazioni fenomeni geologici particolari | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| D5 | Località colpite dAa erosione, 1946-2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | D6 | IdroGEO - Comuni pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | D7 | IdroGEO - Province pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D10 | Geo_italy | :------ | :------ | :------ |
+| D10 | Italy geo | https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json | 2017 | Not specified |
 
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
@@ -299,7 +299,7 @@ We found some inconsistencies in minerva's metadata
 
 **D4**
 
-*Format:*
+*Format:* .csv
 
 *Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
@@ -309,7 +309,7 @@ We found some inconsistencies in minerva's metadata
 
 **D5**
 
-*Format:*
+*Format:* .csv 
 
 *Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
 
@@ -343,7 +343,7 @@ We found some inconsistencies in minerva's metadata
 
 *Metadata:* last update, 
 
-*URI:* https://opencoesione.gov.it/it/opendata/#!progetti_regione_section **(?)**
+*URI:* https://opencoesione.gov.it/it/opendata/regioni progetti_esteso_EMR_2007-2013.zip 
 
 *Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
 
@@ -353,7 +353,7 @@ We found some inconsistencies in minerva's metadata
 
 *Metadata:* last update
 
-*URI:* https://opencoesione.gov.it/it/opendata/#!progetti_regione_section **(?)**
+*URI:* https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip**
 
 *Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
 
@@ -367,11 +367,26 @@ We found some inconsistencies in minerva's metadata
 
 *Provenance:* 
 
+
 ## Mashup and output datasets
 
-The original datasets have been mashed up in order to create the 4 datasets contained in our catalog.
+The original data has been mashed up to create the FlooDatas's 4 datasets contained in our catalog.
 
-The first dataset contains information on disruptions 
+### MD1
+Contains data oh reparative and preventive activities in Emilia-Romagna, gathered from *D1*, *D2*, *D4*, *D8*, *D9*, and *D10*.
+
+
+### MD2
+Contains data oh hydrogeologgical disruptions in Emilia-Romagna, gathered from *D1*, *D2*, *D3*, *D5* and *D10*.
+
+### MD3
+Contains data gathered from *D6* and *D10*.
+
+### MD1
+Contains data gathered from *D7* and *D10*.
+
+
+
 
 ### SOFTWARES:
 

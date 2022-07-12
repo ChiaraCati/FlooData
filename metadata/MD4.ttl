@@ -23,6 +23,7 @@
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>;
     dcat:contactPoint	vcard:Group;
     dct:source      <#> ;
+    dct:source      <#> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD4_TTL>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD4_CSV>;

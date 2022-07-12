@@ -281,6 +281,7 @@ We take into account that there are chances of people acting on the collected in
 The following table is a resume of the original datasets technical analysis
 
 | **Dataset** | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
+|   |   |   |   |   |   |   |   |   |   |
 | **Title** | ReNDIs | Luoghi | Segnalazioni fenomeni geologici particolari | Opere di difesa costiera - 2020 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | Comuni | Province | Progetti esteso EMR 2007-2013 | Progetti esteso EMR 2014-2020 |
 | **Identifier** | il-rendis | i-luoghi | Segnalazioni_fenomeni_geologici | Opere_Difesa_2020 | Localita_colpite_Erosione_1946_2020 | province_pir | comuni_pir | progetti_esteso_EMR_2007-2013_20220228 | progetti_esteso_EMR_2014-2020_20220228 |
 | Description | --------| ------|--------|-------|---------|---------|---------| ---------|---------------|

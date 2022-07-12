@@ -114,19 +114,6 @@ X Giulia: Tutti i dati di OpenCoesione sono rilasciati con licenza CC BY 4.0
 Is a json file stored in [this GitHubrepository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski), could not find a licence ut it was useful to link municipalities to their coordinates, without the need of a third party API being involved in this task. 
 
 
-## SOFTWARES:
-
-**dbfconv.py** converts .dbf files into .csv files for analysis puprposes
-
-**geoconv.py** converts places' names into latitude and longitude coordinates, in rder to locate them on maps.
-
-**rdf_parser.py** converts rdf data from ispra into dataframes
-
-## CONVERTED AND USEFUL DATASETS.
-
-
-
-
 
 
 <hr>
@@ -381,6 +368,18 @@ We found some inconsistencies in minerva's metadata
 *Provenance:* 
 
 ## Mashup and output datasets
+
+
+## SOFTWARES:
+
+**dbfconv.py** converts .dbf files into .csv files for analysis puprposes
+
+**geoconv.py** converts places' names into latitude and longitude coordinates, in rder to locate them on maps.
+
+**rdf_parser.py** converts rdf data from ispra into dataframes
+
+
+
 Abbiamo combinato i dati in questo modo (spiegare metodo).
 
 A summary table of the produced mashup dataset:

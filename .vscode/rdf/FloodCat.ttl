@@ -9,14 +9,14 @@
 
 <FloodCat/>
 
-a       dcatap:Catalogue , dcat:Catalog;
+    a       dcatap:Catalogue , dcat:Catalog;
 
-dct:title   "FloodCat"@en;
-dct:description     "Catalogue containing FlooData mashed-up datasets"
-dct:issued     "2022-07-12"@xsd:date
-dcat:datasets
-dcat:datasets
-dcat:datasets
-dcat:datasets 
-dct:publisher    foaf:name 
-dct:publisher    foaf:name 
+    dct:title   "FloodCat"@en;
+    dct:description     "Catalogue containing FlooData mashed-up datasets"
+    dct:issued     "2022-07-12"@xsd:date;
+    dcat:datasets
+    dcat:datasets
+    dcat:datasets
+    dcat:datasets 
+    dct:publisher "Chiara Catizone"@it;
+    dct:publisher "Giulia Venditti"@it;

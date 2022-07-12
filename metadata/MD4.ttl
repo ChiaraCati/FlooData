@@ -12,7 +12,7 @@
     a       dcatap:Dataset , dcat:Dataset;
 
     dct:title       "Provinces dataset"@en;
-    adms:identifier  "MD3";
+    adms:identifier  "MD4";
     dct:description     "Table containing all names of Emilia-Romagnas provinces."@en;
     dcat:keyword    "provinces", "emilia-romagna", "geographical data", "open data";
     dct:issued      "2022-07-12@"^^xsd:date;
@@ -22,8 +22,8 @@
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone>; 
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>;
     dcat:contactPoint	vcard:Group;
-    dct:source      <#> ;
-    dct:source      <#> ;
+    dct:source      <https://idrogeo.isprambiente.it/app/page/open-data> ;
+    dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD4_TTL>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD4_CSV>;
@@ -50,7 +50,7 @@
 <https://github.com/ChiaraCati/Owater/metadata/MD4_TTL>
     a       dcatap:Distribution , dcat:Distribution; 
 
-    dct:title  "Turtle distribution of Emilia-Romagnas' provinces."@eng;
+    dct:title  "Turtle distribution of Emilia-Romagna's provinces."@eng;
     dct:description  "This is the Turtle distribution of the  datasets containing  Emilia-Romagnas' provinces of Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
@@ -61,7 +61,7 @@
 <https://github.com/ChiaraCati/Owater/data/MD4_CSV>
     a       dcatap:Distribution , dcat:Distribution; 
 
-    dct:title  "Turtle distribution of  Emilia-Romagnas' provinces."@eng;
+    dct:title  "Turtle distribution of  Emilia-Romagna's provinces."@eng;
     dct:description  "This is the tabular distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;

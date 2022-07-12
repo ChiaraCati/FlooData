@@ -22,8 +22,8 @@
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone>; 
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>;
     dcat:contactPoint	vcard:Group;
-    dct:source      <#> ;
-    dct:source      <#> ;
+    dct:source      <https://idrogeo.isprambiente.it/app/page/open-data> ;
+    dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD3_TTL>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD3_CSV>;
@@ -50,7 +50,7 @@
 <https://github.com/ChiaraCati/Owater/metadata/MD3_TTL>
     a       dcatap:Distribution , dcat:Distribution; 
 
-    dct:title  "Turtle distribution of FlooData's Disasters"@eng;
+    dct:title  "Turtle distribution of Emilia-Romagna's municipalites."@eng;
     dct:description  "This is the Turtle distribution of the  datasets containing municipalities of Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
@@ -61,7 +61,7 @@
 <https://github.com/ChiaraCati/Owater/data/MD3_CSV>
     a       dcatap:Distribution , dcat:Distribution; 
 
-    dct:title  "Turtle distribution of FlooData's Disasters"@eng;
+    dct:title  "Tabular distribution of Emilia-Romagna's municipalites.s"@eng;
     dct:description  "This is the tabular distribution of datasets containing municipalities of Emilia Romagna, Italy, ."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;

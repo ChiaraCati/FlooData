@@ -146,6 +146,7 @@ Is a json file stored in [this GitHubrepository](https://github.com/MatteoHenryC
 | D7 | IdroGEO - Province pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D10 | Geo_italy | :------ | :------ | :------ |
 
 ## Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
@@ -163,12 +164,13 @@ The following criteria must be met in order to manage the level of information q
 | **D5**         |     Satisfied     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
 | **D6**         |     Satisfied        |       Not satisfied: 99.6%       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
 | **D7** | Satisfied | Not satisfied: 99.7% | Satisfied, data and%variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
-| **D8**         |     :---        |      Not satisfied: 75.8%       |      :---         |         Satisfired: last update may 2022      |
-| **D9**         |     :---        |      Not satisfied: 71.1%        |      :---         |         Satisfied: last update may 2022     |
+| **D8**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfired: last update may 2022      |
+| **D9**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
+| **D10**         |     :------        |      :------       |      :------         |         :------     |
 
-\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The merged dataframe was sampled down for analysis, as it contained more than a million entries.
+\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. 
 
-Below result retriven by our software [completness.py](software/completness.py):
+Below we present the quantitative data retriven during our Quality analysis, fully available at [quality.ipynb](software/quality.ipynb):
  
 
 | Dataset | Total values | Null values | Completness |
@@ -181,43 +183,46 @@ Below result retriven by our software [completness.py](software/completness.py):
 | **D7**         |     13161     |     34     |    99.7%     |  
 | **D8**         |     3449466    |     835602     |    75.8%     |  
 | **D9**         |     6131986     |     1773353     |    71.1%     |  
+| **D10**         |     :------     |     :------     |    :------%     |  
 
+\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. Values here represent the sum and mean of the merged datasets 
 
 ## Legal analysis 
 Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, as well as to produce a balanced service that is in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, right determination, and licence conditions.
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-**Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
-| ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
-| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No | Yes  | Yes | Yes | Yes | No  | No  | No  | No  |
-| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  |
-| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
-| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  |
-| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / |
-| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | No | No | No | No | No | No  | No  | No  | No  |
+**Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 |
+| ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|---------|
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  | Yes  |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  | Yes  |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | yes | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / | / |
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | No | No | No | No | No | No  | No  | No  | No  | No  |
 | **Intellectual Property Rights of the Source** | | |
-| | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  |
-| | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  |
-| | Are you sure you are not using data for which there is a third party license or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  | No  |
+| | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  | No  |
+| | Are you sure you are not using data for which there is a third party license or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | No* |
 | **Release license** | | |
-| | Do you release the data you own with a license? | Yes | Yes  | Yes | Yes | Yes | Ye  | Yes  | Yes  | Yes  |
-| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | No | No  | No | No | No | No  | No  | No  | No  |
+| | Do you release the data you own with a license? | Yes | Yes  | Yes | Yes | Yes | Ye  | Yes  | Yes  | Yes  | Yes |
+| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | No | No  | No | No | No | No  | No  | No  | No  | No |
 | **Limitations on public access** | | |
-| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
+| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
+| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
+| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
 | **Economical Conditions** | | |
-| | Have you verified that you can release the data for free without breaking any public finance rules? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? | / | / | / | / | / | / | / | / | / |
+| | Have you verified that you can release the data for free without breaking any public finance rules? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
+| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? | / | / | / | / | / | / | / | / | / | / |
 | **Temporary aspects** | | |
-| | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  |
-| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes |
-| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  |
+| | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  | No |
+| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes | No |
+| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | No |
 
+\* 
 
 ## Ethical analysis 
 
@@ -246,27 +251,27 @@ We take into account that there are chances of people acting on the collected in
 
 The following table is a resume of the original datasets technical analysis
 
-| Datasets | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
-| ----------- | --------| ----- | -------- | ------- | --------- | --------- | --------- | --------- | --------------- |
-| Title | ReNDIs | Luoghi | Segnalazioni fenomeni geologici particolari | Opere di difesa costiera - 2020 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | Comuni | Province | Progetti esteso EMR 2007-2013 | Progetti esteso EMR 2014-2020 |
-| Identifier | ispra_rm:ITA_Redis_interventiDifesaSuolo | i-ispra_rm:DT_place01 | r_emiro_2017-06-13t115808 | r_emiro_2022-01-04t15163 | r_emiro_2021-03-12t110331 | province | comuni | progetti_esteso_EMR_2007-2013_20220228 | progetti_esteso_EMR_2014-2020_20220228 |
-| Description | Dataset of Mitigation measures for national soil protection | Dataset of places |Georeferenced vector data base, containing a precise symbology inherent to the reports of particular geological phenomena | The 'Catalog of defense works' contains information on the coastal protections present both at sea and in the hinterland of the Emilia-Romagna coast. These works have been erected over time by different bodies, in order to defend the beaches from the phenomenon of erosion and the hinterland from flooding in the event of exceptional high tide events| Dataset containing the coast areas mostly affected by erosion | Landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage | Landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage | Dataset containing the tracks of the projects implemented in Emilia Romagna between 2007 and 2013 | Dataset containing the tracks of the projects implemented in Emilia Romagna between 2014 and 2020 |
-| Issued | 2016 | 2016 | 2014 | 2021 | 2020 | Not available | Not available | 2013 | 2014 |
-| Modified | Daily updated | 2016 | 2020 | 2021 | 2020 | Not available | Not available | 2022 | 2022 |
-| Theme | Government and public sector, Environment | Environment | Regions and cities, Science and technology | Regioni marine | Environment | Landslide and flood risk | Landslide and flood ris | Cohesion policies | Cohesion policies |
-| Rights Holder	 | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ISPRA | ISPRA | IGRUE | IGRUE |
-| Accrual Periodicity | Daily| Annual | Not available | Continuous | Not available | Not available | Not available | every two months | every two months |
-| Subject | Envirnonmental disasters | Italian geographical data | Geological phenomena | Coast defense barriers | Endangered coast areas | Risk indicators  | Risk indicators | Cohesion projects | Cohesion projects |
-| Publisher | ISPRA | ISPRA | Regione Emilia-Romagna | Regione Emilia-Romagna | Regione Emilia-Romagna | ISPRA | ISPRA | OpenCoesione | OpenCoesione |
-| Language | Italian | Italian | Italian | Italian | Italian | Italian | Italian | Italian Italian |
-| Keywords | Hydrogeological instability  | Places | EU, regionale, opendata | EU, regionale, difesa costiera | EU, regionale, acque marine, rischi | Not available | Not available | Not available Not available |
-| Source | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | 	Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ea Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna ISPRA | ISPRA | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) |
-| Temporal Coverage | 1999-2021 | None | 2012-2021 | 1946-2020 | 2020 | 2017 | 2017 | 2007-2013 | 2014-2020
-| Spatial Coverage | Italy | Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | Italy | Italy | Emilia Romagna, Italy | Emilia Romagna, Italy |
-| Data format	 | .nt | .nt | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .csv, .json | .csv, .json  | .csv | .csv |
-| URL | http://dati.isprambiente.it/dataset/il-rendis/ | http://dati.isprambiente.it/dataset/i-luoghi/ | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808 | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636 | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331 | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331 | https://idrogeo.isprambiente.it/app/page/open-data | https://opencoesione.gov.it/it/opendata/#!progetti_section | https://opencoesione.gov.it/it/opendata/#!progetti_section |
-| License | CC BY 4.0 | CC BY 4.0 | CC BY 3.0 | CC BY 3.0 | CC BY 3.0 | CC BY SA 4.0 | CC BY SA 4.0 | CC BY SA 4.0 | CC BY SA 4.0 | 
-| Download | http://dati.isprambiente.it/downloads/dissesto.nt.gz | http://dati.isprambiente.it/downloads/luoghi.nt.gz | https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip |  https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip | XLS: https://idrogeo.isprambiente.it/api/pir/comuni/export?outputFormat=excel, CSV:https://idrogeo.isprambiente.it/api/pir/comuni/export?outputFormat=csv, JSON:https://idrogeo.isprambiente.it/api/pir/comuni/export | XLS:https://idrogeo.isprambiente.it/api/pir/province/export?outputFormat=excel , CSV:https://idrogeo.isprambiente.it/api/pir/province/export?outputFormat=csv, JSON:https://idrogeo.isprambiente.it/api/pir/province/export  | https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2007-2013.zip | https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip |
+| Datasets | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 |
+| ----------- | --------| ----- | -------- | ------- | --------- | --------- | --------- | --------- | --------------- | --------------- |
+| Title | ReNDIs | Luoghi | Segnalazioni fenomeni geologici particolari | Opere di difesa costiera - 2020 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020 | Comuni | Province | Progetti esteso EMR 2007-2013 | Progetti esteso EMR 2014-2020 | :------ |
+| Identifier | ispra_rm:ITA_Redis_interventiDifesaSuolo | i-ispra_rm:DT_place01 | r_emiro_2017-06-13t115808 | r_emiro_2022-01-04t15163 | r_emiro_2021-03-12t110331 | province | comuni | progetti_esteso_EMR_2007-2013_20220228 | progetti_esteso_EMR_2014-2020_20220228 | :------ |
+| Description | Dataset of Mitigation measures for national soil protection | Dataset of places |Georeferenced vector data base, containing a precise symbology inherent to the reports of particular geological phenomena | The 'Catalog of defense works' contains information on the coastal protections present both at sea and in the hinterland of the Emilia-Romagna coast. These works have been erected over time by different bodies, in order to defend the beaches from the phenomenon of erosion and the hinterland from flooding in the event of exceptional high tide events| Dataset containing the coast areas mostly affected by erosion | Landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage | Landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage | Dataset containing the tracks of the projects implemented in Emilia Romagna between 2007 and 2013 | Dataset containing the tracks of the projects implemented in Emilia Romagna between 2014 and 2020 | :------ |
+| Issued | 2016 | 2016 | 2014 | 2021 | 2020 | Not available | Not available | 2013 | 2014 | :------ |
+| Modified | Daily updated | 2016 | 2020 | 2021 | 2020 | Not available | Not available | 2022 | 2022 | :------ |
+| Theme | Government and public sector, Environment | Environment | Regions and cities, Science and technology | Regioni marine | Environment | Landslide and flood risk | Landslide and flood ris | Cohesion policies | Cohesion policies | :------ |
+| Rights Holder	 | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ISPRA | ISPRA | IGRUE | IGRUE | :------ |
+| Accrual Periodicity | Daily| Annual | Not available | Continuous | Not available | Not available | Not available | every two months | every two months | :------ |
+| Subject | Envirnonmental disasters | Italian geographical data | Geological phenomena | Coast defense barriers | Endangered coast areas | Risk indicators  | Risk indicators | Cohesion projects | Cohesion projects | :------ |
+| Publisher | ISPRA | ISPRA | Regione Emilia-Romagna | Regione Emilia-Romagna | Regione Emilia-Romagna | ISPRA | ISPRA | OpenCoesione | OpenCoesione | :------ |
+| Language | Italian | Italian | Italian | Italian | Italian | Italian | Italian | Italian Italian | :------ |
+| Keywords | Hydrogeological instability  | Places | EU, regionale, opendata | EU, regionale, difesa costiera | EU, regionale, acque marine, rischi | Not available | Not available | Not available Not available | :------ |
+| Source | ISPRA | ISPRA | Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | 	Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna | ea Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna ISPRA | ISPRA | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | Ragioneria Generale dello Stato (Ministero dell’Economia e delle Finanze) | :------ |
+| Temporal Coverage | 1999-2021 | None | 2012-2021 | 1946-2020 | 2020 | 2017 | 2017 | 2007-2013 | 2014-2020 | :------ |
+| Spatial Coverage | Italy | Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | Italy | Italy | Emilia Romagna, Italy | Emilia Romagna, Italy | :------ |
+| Data format	 | .nt | .nt | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .cpg, .dbf, .prj, .sbn, .sbx, .shp, .shp.xml, .shx | .csv, .json | .csv, .json  | .csv | .csv | .json |
+| URL | http://dati.isprambiente.it/dataset/il-rendis/ | http://dati.isprambiente.it/dataset/i-luoghi/ | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808 | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636 | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331 | https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331 | https://idrogeo.isprambiente.it/app/page/open-data | https://opencoesione.gov.it/it/opendata/#!progetti_section | https://opencoesione.gov.it/it/opendata/#!progetti_section | :------ |
+| License | CC BY 4.0 | CC BY 4.0 | CC BY 3.0 | CC BY 3.0 | CC BY 3.0 | CC BY SA 4.0 | CC BY SA 4.0 | CC BY SA 4.0 | CC BY SA 4.0 | None |
+| Download | http://dati.isprambiente.it/downloads/dissesto.nt.gz | http://dati.isprambiente.it/downloads/luoghi.nt.gz | https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip |  https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip | XLS: https://idrogeo.isprambiente.it/api/pir/comuni/export?outputFormat=excel, CSV:https://idrogeo.isprambiente.it/api/pir/comuni/export?outputFormat=csv, JSON:https://idrogeo.isprambiente.it/api/pir/comuni/export | XLS:https://idrogeo.isprambiente.it/api/pir/province/export?outputFormat=excel , CSV:https://idrogeo.isprambiente.it/api/pir/province/export?outputFormat=csv, JSON:https://idrogeo.isprambiente.it/api/pir/province/export  | https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2007-2013.zip | https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip | :------ |
 
 We found some inconsistencies in minerva's metadata
 
@@ -364,6 +369,16 @@ We found some inconsistencies in minerva's metadata
 *URI:* https://opencoesione.gov.it/it/opendata/#!progetti_regione_section **(?)**
 
 *Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
+
+**10**
+
+*Format:* .json
+
+*Metadata:* 
+
+*URI:* 
+
+*Provenance:* 
 
 ## Mashup and output datasets
 Abbiamo combinato i dati in questo modo (spiegare metodo).

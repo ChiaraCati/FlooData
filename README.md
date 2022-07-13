@@ -89,8 +89,6 @@ The below table is a resume of datasets selected for our project, and that have 
 | **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
 </br>
 
-[Link to the table of the general analysis of original datasets](Originals_table.md)
-
 ### Mashed-up datasets descriptions
 
 **[Activities](datasets/final_dataset/actions.csv)** is the mashed-up dataset containing data about reparatoriy and preventive interventions on hydrogeological disasters involving Emilia Romagna.
@@ -111,7 +109,7 @@ The below table is a resume of datasets created by FlooData, containing  informa
 | **MD4** | [Province](datasets/final_dataset/province.csv | **D7**,**D10** | 2020 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)|
 
 
-## Quality analysis of the datasets
+## 💎 Quality analysis of the datasets
 The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
 
 * *Accurancy*: the data's properties accurately reflect the true worth of the concept or event being referenced;
@@ -146,7 +144,7 @@ Below we present the quantitative data retriven during our Quality analysis, ful
 | **D7**         |     13161     |     34     |    99.7%     |  
 | **D8**         |     3449466    |     835602     |    75.8%     |  
 | **D9**         |     6131986     |     1773353     |    71.1%     |  
-| **D10**         |     :------     |     :------     |    :------%     |  
+| **D10**         |     31920     |     3     |    99.9%     |  
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. Values here represent the sum and mean of the merged datasets 
 
@@ -185,8 +183,6 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes | No |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | No |
 
-\* 
-
 ## Ethical analysis 
 
 Under an *ethical* point of view, we considered the importance of the human being, transparency, accountability, and equality. 
@@ -212,9 +208,16 @@ We take into account that there are chances of people acting on the collected in
 
 ## Technical analysis 
 
-The following table is a resume of the original datasets technical analysis
+### Original datasets
 
-**D1**
+**ReNDiS** data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available from download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
+
+| Metadata | dct:description | dct:modified | rdfs:label | dcat:keyword | dct:title | dct:identifier | rdf:type | dct:publisher | dcat:distribution | dcat:landingPage | dcat:theme | dct:creator | dct:accrualPeriodicity |  dct:language | dct:rightsHolder |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[D1]** | Dataset of Mitigation measures for national soil protection | 2017-07-07+02:00 | Dataset of Mitigation measures for national soil protection | hydrogeological instability | Dataset of Mitigation measures for national soil protection | ispra_rm:ITA_Redis_interventiDifesaSuolo | Dataset ! <http://dati.isprambiente.it/id/organization/ispra> ! <http://dati.isprambiente.it/id/rendis/distribution-nt> | <http://dati.isprambiente.it/id/website/dissesto> | <http://publications.europa.eu/resource/authority/data-theme/GOVE>,<http://publications.europa.eu/resource/authority/data-theme/ENVI> | <http://dati.isprambiente.it/id/organization/ispra> | <http://publications.europa.eu/resource/authority/frequency/DAILY> | <http://publications.europa.eu/resource/authority/language/ITA> | <http://dati.isprambiente.it/id/organization/ispra> |
+
+| **D2** | dct:description | dct:modified | rdfs:label | dcat:keyword | dct:title | dct:identifier | rdf:type | dct:publisher | dcat:distribution | dcat:landingPage | dcat:theme | dct:creator | dct:accrualPeriodicity |  dct:language | dct:rightsHolder |
+
 
 *Format:* .nt
 

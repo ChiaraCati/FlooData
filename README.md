@@ -210,16 +210,26 @@ We take into account that there are chances of people acting on the collected in
 
 ### Original datasets
 
-**ReNDiS** data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available from download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
-Format of downloaded data is .nt.
-Provenance: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
+**[LinkedIspra** data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available form download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
+*Format* of downloaded data is .nt
+*Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 | Metadata | URI | dct:description | dct:modified | rdfs:label | dcat:keyword | dct:title | dct:identifier | rdf:type | dct:publisher | dcat:distribution | dcat:landingPage | dcat:theme | dct:creator | dct:accrualPeriodicity |  dct:language | dct:rightsHolder |
 | :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[D1](http://dati.isprambiente.it/id/dissesto/html)** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **[D2](http://dati.isprambiente.it/id/place/html)** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🚫 | ✅ | ✅ | ✅ | ✅| ✅|
+| **[D1](http://dati.isprambiente.it/id/dissesto/html)** | http://dati.isprambiente.it/id/dissesto/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **[D2](http://dati.isprambiente.it/id/place/html)** | http://dati.isprambiente.it/id/place/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🚫 | ✅ | ✅ | ✅ | ✅| ✅|
 
 
+**Minerva**'s datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 
+*Format* of downloaded data is .csv
+*Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
+
+
+| Metadata | URI | Dataset ID | Other ID | Themes | Sub-themes | Geographic coverage | Geonames URI | Language | Accural Frequency | Version | Creator | Scale | Conformity | GEMET Category |  Environmental thematic | Spatial |
+| :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[D3](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808))** | https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip | ✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **[D4](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip | ✅ | 🚫 | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅| ✅|
+| **[D5](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip |✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫| 🚫 | ✅ | ✅ | ✅ | ✅| 
 
 **D3**
 

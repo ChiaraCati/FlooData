@@ -30,7 +30,8 @@ Through this project our aim is to give a clear view over risky areas triangulat
 
 ## Scenario
 
-ISPRA is also the institution that created some Open Data repositories we relied on for gathering the original data. [LinkedIspra](http://dati.isprambiente.it/) is their pilot project oh production of Linked Open Data following W3S guidelines. It is represented by a Catalog (issued in 2016) of 5 datasets:  
+ISPRA is also the institution that created some Open Data repositories we relied on, when gathering the original data for building FlooData. 
+[LinkedIspra](http://dati.isprambiente.it/) is their pilot project oh production of Linked Open Data following W3S guidelines. It is represented by a Catalog (issued in 2016) of 5 datasets:  
 * [ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/), the National Directory of Soil Defense Interventions
 * [CDS](http://dati.isprambiente.it/dataset/cds/), theLand Consumption in Italy
 * [RMN](http://dati.isprambiente.it/dataset/rmn-la-rete-mareografica-nazionale/), the  National Mareographic Network
@@ -38,6 +39,7 @@ ISPRA is also the institution that created some Open Data repositories we relied
 National Wave Network
 * [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/), 
 the data of the regions from the cartographic systems of ISPRA
+<hr>
 
 The second project made available by ISPRA we used for creating FlooData is [IdroGEO](https://idrogeo.isprambiente.it/app/), a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
 

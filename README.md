@@ -311,7 +311,7 @@ The resulting datasets are composed as listed:
 
 **Columns:** 
 
-| - | -  | - | - |
+
 | prov_nameprov_code | municipality| latitude | longitude |
 |date | action_type | action_description|tot_action_financing|
 

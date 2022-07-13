@@ -217,7 +217,7 @@ We take into account that there are chances of people acting on the collected in
 | Metadata | URI | Description | Modification date | Label | Keywords | Title | Identifier | Type | Publisher | Distribution | Landing Page | Theme | Creator | Accrual Periodicity |  Language | Rights Holder |
 | :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[D1](http://dati.isprambiente.it/id/dissesto/html)** | http://dati.isprambiente.it/id/dissesto/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **[D2](http://dati.isprambiente.it/id/place/html)** | http://dati.isprambiente.it/id/place/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🚫 | ✅ | ✅ | ✅ | ✅| ✅|
+| **[D2](http://dati.isprambiente.it/id/place/html)** | http://dati.isprambiente.it/id/place/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅|  🚫 | ✅ | ✅ | ✅ | ✅| ✅| 
 
 
 **Minerva**'s datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 

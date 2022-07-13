@@ -52,7 +52,7 @@ MinERva is the point of reference and information sharing held by the Directorat
 The final data source employed in the constuction of FlooData datasets  is a [GitHub repository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski). The author does not provide a licence or waiver for the data they created. However it is possible to collaborate and freely download data, withouth specifying any legal restricion. The data contained in this resource is of topologycal and topohographical nature as it contains places names, cxoordinates, istat codes, dimensions and  statistics (out of date) of different Italian areas, spanning from single municipalities to the entire natainal territory. 
 
 
-## Original dataset
+## Original and mashed-up datasets
 
 The fbelow table is a resume of datasets selected for our project, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
 
@@ -65,25 +65,25 @@ The fbelow table is a resume of datasets selected for our project, containing  i
 | **D5** | [Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | **D6** | [IdroGEO - Comuni](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | D7 | [IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D8** | OpenCoesione - Progetti esteso EMR 2007-2013 | [OpenCoesione](https://opencoesione.gov.it/it/) | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D9** | OpenCoesione - Progetti esteso EMR 2014-2020 | [OpenCoesione](https://opencoesione.gov.it/it/) | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D10** | Italy geo | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json | 2014-2018 | Not specified |
+| **D8** | [OpenCoesione - Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D9** | [OpenCoesione - Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
 
+### Descriptions
 
+**[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions; associated lots,; georeferencing,; projects' financial budgets; disruptions' typologies, lithologies  and realized works; classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
 
-[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/) contains  information on interventions; associated lots,; georeferencing,; projects' financial budgets; disruptions' typologies, lithologies  and realized works; classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
+**[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/)** was used as suport to gather geographical fata about *interventions*, *repair* and *instabilities*. It contains places's fficial names; latitude and longitude of the centroids; polygons (shape); administrative hierarchy; Istat codes, link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
 
-[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) was used as suport to gather geographical fata about *interventions*, *repair* and *instabilities*
-* Official name
-* Latitude and longitude of the centroids
-* Polygons (shape)
-* Administrative hierarchy
-* Istat code
-* Link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
+**[Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)**, gruops reports  on particular hydrogeological phenomena made by citizens to the Regional Geological Service since may 2012, in localities hit by that year's hearthquake disaster. The reports were grouped into six categories: gas leaks from water wells and / or from the ground; wells for water with the presence of hot water; fish deaths; presence of fractures and / or subsidence of the ground; appearance of volcanoes of mud and / or sand; water wells dried up.
+
+[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)
 
 [IdroGEO](https://idrogeo.isprambiente.it/app/page/open-data), finally is another from which we downloaded the following files:
 * comuni_pir.csv
 * province_pir.csv
+
+
 
 The two files contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
 

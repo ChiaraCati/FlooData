@@ -229,8 +229,8 @@ Along with datasets' metadata, MinERva provides information about responsible bo
 
 | Metadata | URI | Dataset ID | Other ID | Themes | Sub-themes | Geographic coverage | Geonames URI | Language | Accural Frequency | Version | Creator | Scale  | Conformity GEMET Category |  Environmental thematic | Spatial |
 | :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[D3](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip | ✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ |
-| **[D4](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip | ✅ | 🚫 | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | ✅ | 🚫 |  ✅ | ✅| ✅|
+| **[D3](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip | ✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | ✅ |
+| **[D4](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip | ✅ | 🚫 | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | ✅ |  ✅ | ✅| ✅|
 | **[D5](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip |✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | ✅| 
 
 

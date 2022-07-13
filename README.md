@@ -275,8 +275,17 @@ For creating the new datasets we disposed of two different kinds of file formats
 * CSV
 * JSON
 
-N-Triples files needed to be preprocessed and parsed into datafames. 
-To accomplish this we developed a script [dbfconv.py](software/dbfconv.py) to merge the ReNDi and Luoghi data in and create three dataframes, containing of data on hydrogeological dsruptions, reparations and their financing. 
+**N-Triples** files needed to be preprocessed and parsed into datafames. 
+To accomplish this we developed a script [rdf_parse.py](software/rdf_parser.py) to merge the ReNDi and Luoghi data in and create three dataframes, containing of data on hydrogeological disruptions, reparations and their financing. 
+The script uses the ldflib to parse thr .nt files and through the class Thypology it gathers the main subjects we want to retrieve: instabilities, interventions(financings), and repairs.
+Then for each subject we extracted predicates related to them and use them as labels for creating the dataframes' columns. 
+
+For each colun to be created we iterated triples formed as <*Typology*><*Columnlabel*><*object*> and selected the corresponding subject.
+For insertng geographical datawe started from ReNDiS lots locations and queried the Luoghi dataset loooking for their labels, province, latitude and longitude. 
+
+The resulting dataframes have been temoporarly saved in .csv format for later merging with other datasets. 
+
+**DBF** files have been converted automatically into csv files using the software dbf.py developed for this purpose. The software cnverts the files keeping their originl names through the use of 
 
 
 

@@ -223,7 +223,7 @@ We take into account that there are chances of people acting on the collected in
 **Minerva**'s datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 
 Along with datasets' metadata, MinERva provides information about responsible body, reference structure, referent, author
  and dates about catalog cards and physical data.
-*Format* of downloaded data is .csv
+*Format* of downloaded data is .zip from which we extracted a .dbf file
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 
@@ -238,7 +238,7 @@ Along with datasets' metadata, MinERva provides information about responsible bo
 *Format* of downloaded data is .csv
 *Provenance*: https://idrogeo.isprambiente.it/app/page/open-data
 
-Basic metadata is provided for *D6* and *D7*  such as:
+IRI is not specified and Basic metadata is provided for *D6* and *D7*  such as:
 - Title 
 - Description with Version and Year
 - Licence 
@@ -252,23 +252,37 @@ Basic metadata is provided for *D6* and *D7*  such as:
 *Provenance*: https://opencoesione.gov.it/it/
 
 
+IRI is not specified and Basic metadata is provided for *D8* and *D9*  such as:
+- Title 
+- Description
+- Licence 
+- Format
+
+
 [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) datasets can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. 
 *Format* of downloaded data is .json
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 
-**10**
-
-*Format:* .json
-
-*Metadata:* 
-
-*URI:* 
-
-*Provenance:* 
-
 
 ## Mashup and output datasets
 
+All data processing tasks undertaken for creating the mashed-up datasets were carried out using Python versions 3.9 and 3.10 and built-in/open-source methods.
+
+For creating the new datasets we disposed of two different kinds of file formats:
+
+* NT
+* DBF
+* CSV
+* JSON
+
+N-Triples files needed to be preprocessed and parsed into datafames. 
+To accomplish this we developed a script [dbfconv.py](software/dbfconv.py) to merge the ReNDi and Luoghi data in and create three dataframes, containing of data on hydrogeological dsruptions, reparations and their financing. 
+
+
+
+
+
+CSV files were manipulated as pandas dataframes 
 The original data has been mashed up to create the FlooDatas's 4 datasets contained in our catalog.
 
 ### MD1
@@ -304,15 +318,6 @@ Contains data gathered from *D7* and *D10*.
 
 D7 selected columns: 
 D10 selected columns: 
-
-
-### SOFTWARES:
-
-**dbfconv.py** converts .dbf files into .csv files for analysis puprposes
-
-**geoconv.py** converts places' names into latitude and longitude coordinates, in rder to locate them on maps.
-
-**rdf_parser.py** converts rdf data from ispra into dataframes
 
 
 

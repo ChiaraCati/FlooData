@@ -39,7 +39,7 @@ ISPRA is also the institution that created some Open Data repositories we relied
 National Wave Network
 * [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/), 
 the data of the regions from the cartographic systems of ISPRA
-<hr>
+<br>
 
 The second project made available by ISPRA we used for creating FlooData is [IdroGEO](https://idrogeo.isprambiente.it/app/), a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
 

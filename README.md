@@ -123,8 +123,8 @@ The following criteria must be met in order to manage the level of information q
 | **D3**         |     Satisfied     |     Not satisfied: 81.9%%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | **D4**         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 80.4%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | **D5**         |     Satisfied     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
-| **D6**         |     Satisfied        |       Not satisfied: 99.6%       |      Satisfied, data and variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
-| **D7** | Satisfied | Not satisfied: 99.7% | Satisfied, data and%variables are coherent and exhaustly explained in dataset's metadata available [here](https://idrogeo.isprambiente.it/app/page/open-data)  |       Satisfied: last update 2021 with new ISTAT codes  |
+| **D6**         |     Satisfied        |       Not satisfied: 99.6%       |      Satisfied |       Satisfied: last update 2021 with new ISTAT codes  |
+| **D7** | Satisfied | Not satisfied: 99.7% | Satisfied |      Satisfied: last update 2021 with new ISTAT codes  |
 | **D8**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfired: last update may 2022      |
 | **D9**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
 | **D10**         |     Satisfied        |      Satisfied       |      Satisfied         |         Satisfied     | Not Satisfied: last update 2017 |
@@ -214,13 +214,15 @@ We take into account that there are chances of people acting on the collected in
 *Format* of downloaded data is .nt
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
-| Metadata | URI | dct:description | dct:modified | rdfs:label | dcat:keyword | dct:title | dct:identifier | rdf:type | dct:publisher | dcat:distribution | dcat:landingPage | dcat:theme | dct:creator | dct:accrualPeriodicity |  dct:language | dct:rightsHolder |
+| Metadata | URI | Description | Modification date | Label | Keywords | Title | Identifier | Type | Publisher | Distribution | Landing Page | Theme | Creator | Accrual Periodicity |  Language | Rights Holder |
 | :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[D1](http://dati.isprambiente.it/id/dissesto/html)** | http://dati.isprambiente.it/id/dissesto/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **[D2](http://dati.isprambiente.it/id/place/html)** | http://dati.isprambiente.it/id/place/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🚫 | ✅ | ✅ | ✅ | ✅| ✅|
 
 
 **Minerva**'s datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 
+Along with datasets' metadata, MinERva provides information about responsible body, reference structure, referent, author
+ and dates about catalog cards and physical data.
 *Format* of downloaded data is .csv
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
@@ -231,77 +233,28 @@ We take into account that there are chances of people acting on the collected in
 | **[D4](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip | ✅ | 🚫 | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅| ✅|
 | **[D5](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip |✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫| 🚫 | ✅ | ✅ | ✅ | ✅| 
 
-**D3**
 
-*Format:* .csv
+[IdroGEO](https://idrogeo.isprambiente.it/app/) data is available for download in different formats: XLS, CSV and JSON. The platform also allows downlloading the .csv file congaining descriptions and source of the columns in the datasets. 
+*Format* of downloaded data is .csv
+*Provenance*: https://idrogeo.isprambiente.it/app/page/open-data
 
-*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
+Basic metadata is provided for *D6* and *D7*  such as:
+- Title 
+- Description with Version and Year
+- Licence 
+- Format
+- Table columns' Metadata
 
-*URI:* https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808
-
-*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
 
 
+[OpenCoesione](https://opencoesione.gov.it/it/) allows download of open access datasets representing partial renstitutions of the projects they keep track to. It is possible for everyone to download them in .csv and .xls format
+*Format* of downloaded data is .csv
+*Provenance*: https://opencoesione.gov.it/it/
 
-**D4**
 
-*Format:* .csv
-
-*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
-
-*URI:* https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636
-
-*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
-
-**D5**
-
-*Format:* .csv 
-
-*Metadata:* Information and metadata are provided about owner, contacts, author, date of the catalogue shema, date of dataset, additional information.
-
-*URI:* https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331
-
-*Provenance:* [Area Geologia, Suoli e Sismica - Settore Difesa del Territorio - Regione Emilia-Romagna](https://ambiente.regione.emilia-romagna.it/it/geologia)
-
-**D6**
-
-*Format:* .csv
-
-*Metadata:* content description, notes for the user, license, format, metadata about label
-
-*URI:* https://idrogeo.isprambiente.it/app/page/open-data
-
-*Provenance:* [ISPRA dataset](https://idrogeo.isprambiente.it/app/page/open-data))
-
-**D7**
-
-*Format:* .csv
-
-*Metadata:* content description, notes for the user, license, format, metadata about label
-
-*URI:* https://idrogeo.isprambiente.it/app/page/open-data
-
-*Provenance:* [ISPRA dataset](https://idrogeo.isprambiente.it/app/page/open-data)
-
-**D8**
-
-*Format:* .csv
-
-*Metadata:* last update, 
-
-*URI:* https://opencoesione.gov.it/it/opendata/regioni progetti_esteso_EMR_2007-2013.zip 
-
-*Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
-
-**D9**
-
-*Format:* .csv
-
-*Metadata:* last update
-
-*URI:* https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip
-
-*Provenance:* [OpenCoesione](https://opencoesione.gov.it/it/)
+[Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) datasets can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. 
+*Format* of downloaded data is .json
+*Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 
 **10**
 

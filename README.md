@@ -106,7 +106,7 @@ The below table is a resume of datasets created by FlooData, containing  informa
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D8**,**D9**,**D10** | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
 | **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D10**| 2016 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
 | **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | **D6**, **D10**| 2012 - 2022 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)|
-| **MD4** | [Province](datasets/final_dataset/province.csv | **D7**,**D10** | 2020 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)|
+| **MD4** | [Province](datasets/final_dataset/province.csv) | **D7**,**D10** | 2020 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)|
 
 
 ## 💎 Quality analysis of the datasets
@@ -211,32 +211,14 @@ We take into account that there are chances of people acting on the collected in
 ### Original datasets
 
 **ReNDiS** data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available from download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
+Format of downloaded data is .nt.
+Provenance: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
-| Metadata | dct:description | dct:modified | rdfs:label | dcat:keyword | dct:title | dct:identifier | rdf:type | dct:publisher | dcat:distribution | dcat:landingPage | dcat:theme | dct:creator | dct:accrualPeriodicity |  dct:language | dct:rightsHolder |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[D1]** | Dataset of Mitigation measures for national soil protection | 2017-07-07+02:00 | Dataset of Mitigation measures for national soil protection | hydrogeological instability | Dataset of Mitigation measures for national soil protection | ispra_rm:ITA_Redis_interventiDifesaSuolo | Dataset ! <http://dati.isprambiente.it/id/organization/ispra> ! <http://dati.isprambiente.it/id/rendis/distribution-nt> | <http://dati.isprambiente.it/id/website/dissesto> | <http://publications.europa.eu/resource/authority/data-theme/GOVE>,<http://publications.europa.eu/resource/authority/data-theme/ENVI> | <http://dati.isprambiente.it/id/organization/ispra> | <http://publications.europa.eu/resource/authority/frequency/DAILY> | <http://publications.europa.eu/resource/authority/language/ITA> | <http://dati.isprambiente.it/id/organization/ispra> |
+| Metadata | URI | dct:description | dct:modified | rdfs:label | dcat:keyword | dct:title | dct:identifier | rdf:type | dct:publisher | dcat:distribution | dcat:landingPage | dcat:theme | dct:creator | dct:accrualPeriodicity |  dct:language | dct:rightsHolder |
+| :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[D1](http://dati.isprambiente.it/id/dissesto/html)** | <http://dati.isprambiente.it/id/dissesto> | Dataset of Mitigation measures for national soil protection | 2017-07-07+02:00 | Dataset of Mitigation measures for national soil protection | hydrogeological instability | Dataset of Mitigation measures for national soil protection | ispra_rm:ITA_Redis_interventiDifesaSuolo | Dataset ! <http://dati.isprambiente.it/id/organization/ispra> ! <http://dati.isprambiente.it/id/rendis/distribution-nt> | <http://dati.isprambiente.it/id/website/dissesto> | <http://publications.europa.eu/resource/authority/data-theme/GOVE>,<http://publications.europa.eu/resource/authority/data-theme/ENVI> | <http://dati.isprambiente.it/id/organization/ispra> | <http://publications.europa.eu/resource/authority/frequency/DAILY> | <http://publications.europa.eu/resource/authority/language/ITA> | <http://dati.isprambiente.it/id/organization/ispra> |
+| **[D2](http://dati.isprambiente.it/id/place/html)** | Dataset of places | 2017-07-07+02:00 | Dataset of places | places | Dataset of places | ispra_rm:DT_place01 | Dataset | <http://dati.isprambiente.it/id/organization/ispra> | <http://dati.isprambiente.it/id/place/distribution-nt> | :--- | <http://publications.europa.eu/resource/authority/data-theme/ENVI>, <http://publications.europa.eu/resource/authority/data-theme/REGI> | <http://dati.isprambiente.it/id/organization/ispra> | <http://publications.europa.eu/resource/authority/frequency/ANNUAL> |  <http://publications.europa.eu/resource/authority/language/ITA> | <http://dati.isprambiente.it/id/organization/ispra> |
 
-| **D2** | dct:description | dct:modified | rdfs:label | dcat:keyword | dct:title | dct:identifier | rdf:type | dct:publisher | dcat:distribution | dcat:landingPage | dcat:theme | dct:creator | dct:accrualPeriodicity |  dct:language | dct:rightsHolder |
-
-
-*Format:* .nt
-
-*[Metadata](http://dati.isprambiente.it/id/dissesto/html):* last modification, label, title, issued, type, theme taxonomi, dataset, homepage, creator, language, license, rights, and contributor.
-
-*URI:* http://dati.isprambiente.it/id/dissesto
-
-*Provenance:* [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
-
-**D2**
-
-*Format:* .nt
-
-*[Metadata](http://dati.isprambiente.it/id/catalogue//html):* last modification, label, title, issued, type, theme taxonomi, dataset, homepage, creator, language, license, rights, and contributor.
-
-
-*URI:* http://dati.isprambiente.it/id/place
-
-*Provenance:* [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 
 **D3**

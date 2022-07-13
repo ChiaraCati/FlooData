@@ -275,69 +275,50 @@ For creating the new datasets we disposed of two different kinds of file formats
 * CSV
 * JSON
 
+### Pre processing
+
 **N-Triples** files needed to be preprocessed and parsed into datafames. 
 To accomplish this we developed a script [rdf_parse.py](software/rdf_parser.py) to merge the ReNDi and Luoghi data in and create three dataframes, containing of data on hydrogeological disruptions, reparations and their financing. 
 The script uses the ldflib to parse thr .nt files and through the class Thypology it gathers the main subjects we want to retrieve: instabilities, interventions(financings), and repairs.
 Then for each subject we extracted predicates related to them and use them as labels for creating the dataframes' columns. 
 
-For each colun to be created we iterated triples formed as <*Typology*><*Columnlabel*><*object*> and selected the corresponding subject.
+For each column to be created we iterated triples formed as <*Object*><*Columnlabel*><*object*> and selected the corresponding object as that cell values.
 For insertng geographical datawe started from ReNDiS lots locations and queried the Luoghi dataset loooking for their labels, province, latitude and longitude. 
 
 The resulting dataframes have been temoporarly saved in .csv format for later merging with other datasets. 
 
-**DBF** files have been converted automatically into csv files using the software dbf.py developed for this purpose. The software cnverts the files keeping their originl names through the use of 
+**DBF** files have been converted automatically into csv files using the software dbf.py developed for this purpose. The software cnverts the files keeping their original names through the use of dbf_read librry's DBF method to open this kind of file, which is then saved in .csv format.
 
+### Merging 
 
+The second step consists in the merging of the JSON and CSV files.
 
+The original data has been mashed-up to create the FlooDatas's 4 datasets contained in our catalog.
 
+Using our softwares actions.py and territory .py we created respectively MDF1, and MDF3/MDF4. 
 
-CSV files were manipulated as pandas dataframes 
-The original data has been mashed up to create the FlooDatas's 4 datasets contained in our catalog.
+* **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source dataframes. 
+Resulting df is then saved into .json and .csv format for future visualization and consultation purposes. 
 
-### MD1
-Contains data oh reparative and preventive activities in Emilia-Romagna, gathered from *D1*, *D2*, *D4*, *D8*, *D9*, and *D10*.
+* **territory.py** is feeded with *DF6* and *DF7* and their data is then, specifically o create MD3 we cossed with latitue and longitude data coming from *DF10* which containes the labels of municipalities. Here we select interesting classes from the IdroGeo's datasets such as percentages ol  risk and atention percentages of families, enterprises and cultural heritage. 
 
-D1 selected columns: 
-D2 selected columns: 
-D4 selected columns: 
-D8 selected columns: 
-D9 selected columns: 
-D10 selected columns: 
+Finally MD2 hase been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest. 
 
 
 ### MD2
 Contains data oh hydrogeologgical disruptions in Emilia-Romagna, gathered from *D1*, *D2*, *D3*, *D5* and *D10*.
 
 
-D1 selected columns: 
-D2 selected columns: 
-D3 selected columns: 
-D5 selected columns: 
-D10 selected columns: 
 
-
-### MD3
-Contains data gathered from *D6* and *D10*.
-
-D6 selected columns: 
-D10 selected columns: 
-
-### MD1
-Contains data gathered from *D7* and *D10*.
-
-D7 selected columns: 
-D10 selected columns: 
-
-
-
-Abbiamo combinato i dati in questo modo (spiegare metodo).
 
 A summary table of the produced mashup dataset:
 
-| ID | Domain | XML/SDMX-ML | JSON | CSV |
+| ID | Theme | Formats | Licence | IRI |
 |  :---     |      :---     |     :---     |     :---     |    :---     |
 | MD1         |     :---     |     :---     |     :---     |    :---     |
 | MD2         |     :---     |     :---     |     :---     |     :---     |
+| MD3         |     :---     |     :---     |     :---     |    :---     |
+| MD4         |     :---     |     :---     |     :---     |     :---     |
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 

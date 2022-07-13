@@ -52,7 +52,7 @@ MinERva is the point of reference and information sharing held by the Directorat
 The final data source employed in the constuction of FlooData datasets  is a [GitHub repository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski). The author does not provide a licence or waiver for the data they created. However it is possible to collaborate and freely download data, withouth specifying any legal restricion. The data contained in this resource is of topologycal and topohographical nature as it contains places names, cxoordinates, istat codes, dimensions and  statistics (out of date) of different Italian areas, spanning from single municipalities to the entire natainal territory. 
 
 
-## Original and mashed-up datasets
+## 📂 Original and mashed-up datasets
 
 The below table is a resume of datasets selected for our project, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
 

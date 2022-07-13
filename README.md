@@ -89,7 +89,7 @@ The below table is a resume of datasets selected for our project, and that have 
 | **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
 </br>
 
-[Link to the table of the general analysis of original datasets]
+[Link to the table of the general analysis of original datasets](Originals_table.md)
 
 ### Mashed-up datasets descriptions
 

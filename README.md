@@ -36,14 +36,18 @@ Through this project our aim is to give a clear view over risky areas triangulat
 National Wave Network
 * [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/), 
 the data of the regions from the cartographic systems of ISPRA
-<br>
+</br>
+</br>
+
 The second project made available by ISPRA we used for creating FlooData is [IdroGEO](https://idrogeo.isprambiente.it/app/), a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
-<br>
-<br>
+</br>
+</br>
+
 The fourth platform we used is [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset).
 MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the [Region of Emilia Romagna](https://www.regione.emilia-romagna.it/). It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and of the UN 2030 Agenda in [Sustainable Developement Goals](https://www.un.org/en/sustainable-development-goals) che è un sistema open source e basato sul web per la raccolta, la catalogazione e la distribuzione di dati.
-<br>
-<br>
+</br>
+</br>
+
 [OpenCoesione](https://opencoesione.gov.it/it/) – the open government initiative on cohesion policies in Italy –
 
 

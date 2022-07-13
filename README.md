@@ -3,7 +3,7 @@
 FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Monica Palmirani at the Master Course of Digital Humanities and Digital Knowldge (Univesity of Bologna) during the A.Y. 2021/2022.
 
 
-## Introduction 
+## 🎙Introduction 
 
 Emilia-Romagna is the sixth widest region in Italy in terms of surface area.and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). The increasemnt of temperatures is now affecting stability of natural water sources as well as the wellbeing of water surfaces and rivers on mainland and the preservation of coast areas. 
 
@@ -25,7 +25,7 @@ Finally, information on damages has been crossed with information on different k
 Through this project our aim is to give a clear view over risky areas triangulated with quantitative data on chatastrophic events and data on related activities(formulare un po' meglio).
 
 
-## Scenario
+## 🏞Scenario
 
 **ISPRA** is also the institution that created some Open Data repositories we relied on, when gathering the original data for building FlooData. 
 [LinkedIspra](http://dati.isprambiente.it/) is their pilot project oh production of Linked Open Data following W3S guidelines. It is represented by a Catalog (issued in 2016) of 5 datasets:  
@@ -63,10 +63,10 @@ The below table is a resume of datasets selected for our project, containing  in
 | **D3** | [Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | **D4** | [Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | **D5** | [Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| **D6** | [IdroGEO - Comuni](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D7 | [IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D8** | [OpenCoesione - Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D9** | [OpenCoesione - Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D6** | [Comuni](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D7 | [Province](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D8** | [Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D9** | [Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
 
 ### Descriptions
@@ -79,44 +79,10 @@ The below table is a resume of datasets selected for our project, containing  in
 
 **[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** contains information on the coastal protections present both at sea and in the hinterland of the Emilia-Romagna coast. 
 
-**[IdroGEO - Comuni](https://idrogeo.isprambiente.it/app/page/open-data)** and [IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data) contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
+**[IdroGEO - Comuni](https://idrogeo.isprambiente.it/app/page/open-data)** and **[IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data)** contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
 
 
 
-### MinERva
-
-Other information on hydrogeological disasters has been retrieved from [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset)'s catalogue filtering only those datasets sets that made available Open Data formats.
-
-Here we found tot datasets useful for retrieving information on Hydrogeolodical disasters, as well as data on floodings and on the management of coasts and related calamities. 
-
-**Disasters data:**
-
-* *[Segnalazioni fenomeni geologici particolari:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)* 
-
-    containing information on hydrogeological penomena happening in areas that have been striked by 2012 earthquake. Data are recordered from 2012, and are still kept updated.
-
-    * Dataset: Segnalazioni_fenomeni_geologici.csv
-    * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808/resource/8072010d-870a-426f-a5dd-67dd44f6dc98
-    
-
-
-* *[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020:](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)* 
-
-    containing information on the most endangered coast areas in terms of erosion.
-
-    * Dataset: Segnalazioni_fenomeni_geologici.csv
-    * More info on licence: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331/resource/90f18d54-991c-4999-bc91-cb6bbff5335c
-    
-
-
-* **Related human activities** (both preventive measures and reparatory acts)**
-
-* *[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)*
-
-    Il 'Catalogo delle opere di difesa' contiene le informazioni relative alle protezioni costiere presenti sia a mare che nell'entroterra del litorale emiliano-romagnolo. Tali opere sono state erette nel tempo da parte di enti diversi, allo scopo di difendere le spiagge dal fenomeno dell'erosione e l'entroterra dagli allagamenti in occorrenza degli eventi di alta marea eccezionale.
-
-    * Dataset: Opere_Difesa_2020.csv
-    * Più info sulla licenza: https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636/resource/f68b9850-9e24-4bd2-bd89-3ee04b7a4817
 
 
 ### OpenCoesione

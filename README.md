@@ -316,16 +316,31 @@ The resulting datasets are composed as listed:
 
 * MD2:
 
-**Columns:** 
-
-id/type/municipality/prov_code/latitudE/longitude/date
+| Columns |  :--- | :---  | :---  |
+| - | -  | - | - |
+| id | type | municipality | prov_code |
+| latitude | longitude | date | |
 
 
 * MD3:
 
-**Columns:** 
-
-prov_name/prov_code/municipality/latitude/longitude/area (kmq)/high_hydraulic_risk_area_p3 (%)/medium_hydraulic_risk_area_p2 (%)/low_hydraulic_risk_area_p1 (%)/very_high_landslide_risk_area_p4 (%)/high_landslide_risk_area_p3 (%)/medium_landslide_risk_area_p2 (%)/low_landslide_risk_area_p1 (%)/attention_area (%)/resident_population (n)/high_hydraulic_risk_population_p3 (%)/medium_hydraulic_risk_population_p2 (%)/low_hydraulic_risk_population_p1 (%)/very_high_landslide_risk_population_p4 (%)/high_landslide_risk_population_p3 (%)/medium_landslide_risk_population_p2 (%)/low_landslide_risk_population_p1 (%)/attention_population (%)/resident_family (n)/high_hydraulic_risk_family_p3 (%)/medium_hydraulic_risk_family_p2 (%)/low_hydraulic_risk_family_p1 (%)/very_high_landslide_risk_family_p4 (%)/high_landslide_risk_family_p3 (%)/medium_landslide_risk_family_p2 (%)/low_landslide_risk_family_p1 (%)/attention_family (%)/building (n)/high_hydraulic_risk_building_p3 (%)/medium_hydraulic_risk_building_p2 (%)/low_hydraulic_risk_building_p1 (%)/very_high_landslide_risk_building_p4 (%)/high_landslide_risk_building_p3 (%)/medium_landslide_risk_building_p2 (%)/low_landslide_risk_building_p1 (%)/attention_building (%)/enterprise (n)/high_hydraulic_risk_enterprise_p3 (%)/medium_hydraulic_risk_enterprise_p2 (%)/low_hydraulic_risk_enterprise_p1 (%)/very_high_landslide_risk_enterprise_p4 (%)/high_landslide_risk_enterprise_p3 (%)/medium_landslide_risk_enterprise_p2 (%)/low_landslide_risk_enterprise_p1 (%)/attention_enterprise (%)/cultural_heritage (n)/high_hydraulic_risk_cultural_heritage_p3 (%)/medium_hydraulic_risk_cultural_heritage_p2 (%)/low_hydraulic_risk_cultural_heritage_p1 (%)/very_high_landslide_risk_cultural_heritage_p4 (%)/high_landslide_risk_cultural_heritage_p3 (%)/medium_landslide_risk_cultural_heritage_p2 (%)/low_landslide_risk_cultural_heritage_p1 (%)/attention_cultural_heritage (%)
+| Columns |  :--- | :---  | :---  |
+| - | -  | - | - |
+|prov_name|prov_code|municipality|latitude|longitude|
+|area (kmq)|high_hydraulic_risk_area_p3 (%)|medium_hydraulic_risk_area_p2 (%)|low_hydraulic_risk_area_p1 (%)|
+|very_high_landslide_risk_area_p4 (%) | high_landslide_risk_area_p3 (%)|medium_landslide_risk_area_p2 (%)|low_landslide_risk_area_p1 (%)|
+|attention_area (%)|resident_population (n)|high_hydraulic_risk_population_p3 (%)|
+medium_hydraulic_risk_population_p2 (%)|
+|low_hydraulic_risk_population_p1 (%)|very_high_landslide_risk_population_p4 (%)|high_landslide_risk_population_p3 (%)|medium_landslide_risk_population_p2 (%)|low_landslide_risk_population_p1 (%)|
+|attention_population (%)|resident_family (n)|high_hydraulic_risk_family_p3 (%)|medium_hydraulic_risk_family_p2 (%)|
+|low_hydraulic_risk_family_p1 (%)|very_high_landslide_risk_family_p4 (%)|high_landslide_risk_family_p3 (%)|medium_landslide_risk_family_p2 (%)|
+|low_landslide_risk_family_p1 (%)|attention_family (%)|building (n)|high_hydraulic_risk_building_p3 (%)|medium_hydraulic_risk_building_p2 (%)|
+|low_hydraulic_risk_building_p1 (%)|very_high_landslide_risk_building_p4 (%)|high_landslide_risk_building_p3 (%)|medium_landslide_risk_building_p2 (%)|
+|low_landslide_risk_building_p1 (%)|attention_building (%)|enterprise (n)|high_hydraulic_risk_enterprise_p3 (%)|medium_hydraulic_risk_enterprise_p2 (%)|
+|low_hydraulic_risk_enterprise_p1 (%)|very_high_landslide_risk_enterprise_p4 (%)|high_landslide_risk_enterprise_p3 (%)|medium_landslide_risk_enterprise_p2 (%)|
+|low_landslide_risk_enterprise_p1 (%)|attention_enterprise (%)|cultural_heritage (n)|high_hydraulic_risk_cultural_heritage_p3 (%)|
+|medium_hydraulic_risk_cultural_heritage_p2 (%)|low_hydraulic_risk_cultural_heritage_p1 (%)|very_high_landslide_risk_cultural_heritage_p4 (%)|high_landslide_risk_cultural_heritage_p3 (%)|
+|medium_landslide_risk_cultural_heritage_p2 (%)|low_landslide_risk_cultural_heritage_p1 (%)|attention_cultural_heritage (%)||
 
 
 * MD4:

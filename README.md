@@ -302,12 +302,35 @@ Resulting df is then saved into .json and .csv format for future visualization a
 
 * **territory.py** is feeded with *DF6* and *DF7* and their data is then, specifically o create MD3 we cossed with latitue and longitude data coming from *DF10* which containes the labels of municipalities. Here we select interesting classes from the IdroGeo's datasets such as percentages ol  risk and atention percentages of families, enterprises and cultural heritage. 
 
-Finally MD2 hase been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest. 
+Finally MD2 hase been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest.
+The production workflow in visible in notebook  [Disruptions.ipynb](software/Disruptions.ipynb)
+
+The resulting datasets are composed as listed:
+
+* MD1:
+
+|**Columns:** | | ||
+| | | ||
+| prov_nameprov_code | municipality| latitude | longitude |
+|date | action_type | action_description|tot_action_financing|
+
+* MD2:
+
+**Columns:** 
+
+id/type/municipality/prov_code/latitudE/longitude/date
 
 
-### MD2
-Contains data oh hydrogeologgical disruptions in Emilia-Romagna, gathered from *D1*, *D2*, *D3*, *D5* and *D10*.
+* MD3:
 
+**Columns:** 
+
+prov_name/prov_code/municipality/latitude/longitude/area (kmq)/high_hydraulic_risk_area_p3 (%)/medium_hydraulic_risk_area_p2 (%)/low_hydraulic_risk_area_p1 (%)/very_high_landslide_risk_area_p4 (%)/high_landslide_risk_area_p3 (%)/medium_landslide_risk_area_p2 (%)/low_landslide_risk_area_p1 (%)/attention_area (%)/resident_population (n)/high_hydraulic_risk_population_p3 (%)/medium_hydraulic_risk_population_p2 (%)/low_hydraulic_risk_population_p1 (%)/very_high_landslide_risk_population_p4 (%)/high_landslide_risk_population_p3 (%)/medium_landslide_risk_population_p2 (%)/low_landslide_risk_population_p1 (%)/attention_population (%)/resident_family (n)/high_hydraulic_risk_family_p3 (%)/medium_hydraulic_risk_family_p2 (%)/low_hydraulic_risk_family_p1 (%)/very_high_landslide_risk_family_p4 (%)/high_landslide_risk_family_p3 (%)/medium_landslide_risk_family_p2 (%)/low_landslide_risk_family_p1 (%)/attention_family (%)/building (n)/high_hydraulic_risk_building_p3 (%)/medium_hydraulic_risk_building_p2 (%)/low_hydraulic_risk_building_p1 (%)/very_high_landslide_risk_building_p4 (%)/high_landslide_risk_building_p3 (%)/medium_landslide_risk_building_p2 (%)/low_landslide_risk_building_p1 (%)/attention_building (%)/enterprise (n)/high_hydraulic_risk_enterprise_p3 (%)/medium_hydraulic_risk_enterprise_p2 (%)/low_hydraulic_risk_enterprise_p1 (%)/very_high_landslide_risk_enterprise_p4 (%)/high_landslide_risk_enterprise_p3 (%)/medium_landslide_risk_enterprise_p2 (%)/low_landslide_risk_enterprise_p1 (%)/attention_enterprise (%)/cultural_heritage (n)/high_hydraulic_risk_cultural_heritage_p3 (%)/medium_hydraulic_risk_cultural_heritage_p2 (%)/low_hydraulic_risk_cultural_heritage_p1 (%)/very_high_landslide_risk_cultural_heritage_p4 (%)/high_landslide_risk_cultural_heritage_p3 (%)/medium_landslide_risk_cultural_heritage_p2 (%)/low_landslide_risk_cultural_heritage_p1 (%)/attention_cultural_heritage (%)
+
+
+* MD4:
+
+**Columns:** 
 
 
 

@@ -1,12 +1,9 @@
 # 🌊FlooData
- Project for Open Access and Digital ethics.
-
-## Introduction 
 
 FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Monica Palmirani at the Master Course of Digital Humanities and Digital Knowldge (Univesity of Bologna) during the A.Y. 2021/2022.
 
-The project's aim is to make a valuable reuse of idrogeological Open Data concerning the Italian Region of Emilia-Romagna.
 
+## Introduction 
 
 Emilia-Romagna is the sixth widest region in Italy in terms of surface area.and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). The increasemnt of temperatures is now affecting stability of natural water sources as well as the wellbeing of water surfaces and rivers on mainland and the preservation of coast areas. 
 
@@ -23,14 +20,14 @@ Damages were, then, divided into two categories:
 This distinction was introduced as we elaborated our second objective: whether there is a distinction in terms of risk perception towards these two different areas[^1].
 
 Finally, information on damages has been crossed with information on different kind of activities, mainly distinguishing between preventive measures and reparatory interventions. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
-.
+
 
 Through this project our aim is to give a clear view over risky areas triangulated with quantitative data on chatastrophic events and data on related activities(formulare un po' meglio).
 
 
 ## Scenario
 
-ISPRA is also the institution that created some Open Data repositories we relied on, when gathering the original data for building FlooData. 
+**ISPRA** is also the institution that created some Open Data repositories we relied on, when gathering the original data for building FlooData. 
 [LinkedIspra](http://dati.isprambiente.it/) is their pilot project oh production of Linked Open Data following W3S guidelines. It is represented by a Catalog (issued in 2016) of 5 datasets:  
 * [ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/), the National Directory of Soil Defense Interventions
 * [CDS](http://dati.isprambiente.it/dataset/cds/), theLand Consumption in Italy
@@ -40,15 +37,15 @@ National Wave Network
 * [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/), 
 the data of the regions from the cartographic systems of ISPRA
 <br>
-
 The second project made available by ISPRA we used for creating FlooData is [IdroGEO](https://idrogeo.isprambiente.it/app/), a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
+<br>
+<br>
+The fourth platform we used is [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset).
+MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the [Region of Emilia Romagna](https://www.regione.emilia-romagna.it/). It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and of the UN 2030 Agenda in [Sustainable Developement Goals](https://www.un.org/en/sustainable-development-goals) che è un sistema open source e basato sul web per la raccolta, la catalogazione e la distribuzione di dati.
+<br>
+<br>
+[OpenCoesione](https://opencoesione.gov.it/it/) – the open government initiative on cohesion policies in Italy –
 
-
-
-
-### ISPRA
-
-While kooking fo data and other helpful information on hydrogeological damages in Emilia-Romagna we found out ISPRA itself has made available a project on Open Data:[LinkedIspra](http://dati.isprambiente.it/) following W3S guidelines on Linked Open Data.
 
 Here the institution makes available 5 different OA datasets, queriable trough an endpoint API made available using Virtuoso. 
 

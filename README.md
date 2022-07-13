@@ -51,17 +51,27 @@ MinERva is the point of reference and information sharing held by the Directorat
 
 The final data source employed in the constuction of FlooData datasets  is a [GitHub repository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski). The author does not provide a licence or waiver for the data they created. However it is possible to collaborate and freely download data, withouth specifying any legal restricion. The data contained in this resource is of topologycal and topohographical nature as it contains places names, cxoordinates, istat codes, dimensions and  statistics (out of date) of different Italian areas, spanning from single municipalities to the entire natainal territory. 
 
-Here the institution makes available 5 different OA datasets, queriable trough an endpoint API made available using Virtuoso. 
 
-**The datasets are the following ones:**(da tradurre)
+## Original dataset
 
-[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/) is the most valuable dataset for us as it contains:
-* Information on interventions
-* Information on associated lots
-* Georeferencing of interventions
-* Projects' financial budgets 
-* Disruptions' typologies, lithologies  e realized works
-* Classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
+The fbelow table is a resume of datasets selected for our project, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
+
+| ID | Dataset | Source | Time span | Licence |
+| :---         |     :---     |     :---     |     :---     |    :--- |   
+| **D1** | [ReNDIs](http://dati.isprambiente.it/dataset/il-rendis/) |  | [LinkedIspra](http://dati.isprambiente.it/) | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
+| **D2** | [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) | [LinkedIspra](http://dati.isprambiente.it/) | 2016 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
+| **D3** | [Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| **D4** | [Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | [url] | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| **D5** | [Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| **D6** | [IdroGEO - Comuni](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D7 | [IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D8** | OpenCoesione - Progetti esteso EMR 2007-2013 | [OpenCoesione](https://opencoesione.gov.it/it/) | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D9** | OpenCoesione - Progetti esteso EMR 2014-2020 | [OpenCoesione](https://opencoesione.gov.it/it/) | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D10** | Italy geo | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json | 2014-2018 | Not specified |
+
+
+
+[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/) contains  information on interventions; associated lots,; georeferencing,; projects' financial budgets; disruptions' typologies, lithologies  and realized works; classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
 
 [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) was used as suport to gather geographical fata about *interventions*, *repair* and *instabilities*
 * Official name
@@ -129,20 +139,6 @@ X Giulia: Tutti i dati di OpenCoesione sono rilasciati con licenza CC BY 4.0
 
 Is a json file stored in [this GitHubrepository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski), could not find a licence ut it was useful to link municipalities to their coordinates, without the need of a third party API being involved in this task. 
 
-## Original dataset
-
-| ID | Title | Link | Time span | Licence |
-| :---         |     :---     |     :---     |     :---     |         :--- |
-| D1 | ReNDIs | [url](http://dati.isprambiente.it/dataset/il-rendis/) | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
-| D2 | Luoghi | [url](http://dati.isprambiente.it/dataset/i-luoghi/) | 2016 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
-| D3 | Segnalazioni fenomeni geologici particolari | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D4 | Opere di difesa costiera - 2020 | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D5 | Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020  | [url](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| D6 | IdroGEO - Comuni pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D7 | IdroGEO - Province pir | [url](https://idrogeo.isprambiente.it/app/page/open-data)| 2017 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D8 | OpenCoesione - Progetti esteso EMR 2007-2013 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D9 | OpenCoesione - Progetti esteso EMR 2014-2020 | [url](https://opencoesione.gov.it/it/opendata/#!progetti_section)| 2007-2013 | [ CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D10 | Italy geo | https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json | 2017 | Not specified |
 
 ## General analysis
 

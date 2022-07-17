@@ -300,9 +300,11 @@ Using our softwares actions.py and territory .py we created respectively MDF1, a
 * **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source dataframes. 
 Resulting df is then saved into .json and .csv format for future visualization and consultation purposes. 
 
-* **territory.py** is feeded with *DF6* and *DF7* and their data is then, specifically o create MD3 we cossed with latitue and longitude data coming from *DF10* which containes the labels of municipalities. Here we select interesting classes from the IdroGeo's datasets such as percentages ol  risk and atention percentages of families, enterprises and cultural heritage. 
+* **territory.py** is feeded with *DF6* and *DF7*. Here we select interesting classes from the IdroGeo's datasets such as percentages of risk and atention percentages of families, enterprises and cultural heritage. 
+To create MD3 we crossed place names contained in D6 with data in *D10* to find with municipalities latitue and longitude coordinates.
 
-Finally MD2 hase been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest.
+
+Finally MD2 has been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest.
 The production workflow in visible in notebook  [Disruptions.ipynb](software/Disruptions.ipynb)
 
 The resulting datasets are composed as listed:
@@ -345,18 +347,33 @@ medium_hydraulic_risk_population_p2 (%)|
 
 * MD4:
 
-**Columns:** 
 
+| Columns |  :--- | :---  | :---  |
+| - | -  | - | - |
+|prov_name|prov_code|area (kmq)|high_hydraulic_risk_area_p3 (%)|medium_hydraulic_risk_area_p2 (%)|
+|low_hydraulic_risk_area_p1 (%)|very_high_landslide_risk_area_p4 (%)|high_landslide_risk_area_p3 (%)|medium_landslide_risk_area_p2 (%)|
+|low_landslide_risk_area_p1 (%)|attention_area (%)|resident_population (n)|high_hydraulic_risk_population_p3 (%)|medium_hydraulic_risk_population_p2 (%)|
+|low_hydraulic_risk_population_p1 (%)|very_high_landslide_risk_population_p4 (%)|high_landslide_risk_population_p3 (%)|
+|medium_landslide_risk_population_p2 (%)|low_landslide_risk_population_p1 (%)|attention_population (%)|resident_family (n)|
+|high_hydraulic_risk_family_p3 (%)|medium_hydraulic_risk_family_p2 (%)|low_hydraulic_risk_family_p1 (%)|very_high_landslide_risk_family_p4 (%)|
+|high_landslide_risk_family_p3 (%)|medium_landslide_risk_family_p2 (%)|low_landslide_risk_family_p1 (%)|attention_family (%)|building (n)|
+|high_hydraulic_risk_building_p3 (%)|medium_hydraulic_risk_building_p2 (%)|low_hydraulic_risk_building_p1 (%)|very_high_landslide_risk_building_p4 (%)|
+|high_landslide_risk_building_p3 (%)|medium_landslide_risk_building_p2 (%)|low_landslide_risk_building_p1 (%)|attention_building (%)|
+|enterprise (n)|high_hydraulic_risk_enterprise_p3 (%)|medium_hydraulic_risk_enterprise_p2 (%)|low_hydraulic_risk_enterprise_p1 (%)|
+|very_high_landslide_risk_enterprise_p4 (%)|high_landslide_risk_enterprise_p3 (%)|medium_landslide_risk_enterprise_p2 (%)|low_landslide_risk_enterprise_p1 (%)|
+|attention_enterprise (%)|cultural_heritage (n)|high_hydraulic_risk_cultural_heritage_p3 (%)|medium_hydraulic_risk_cultural_heritage_p2 (%)|
+|low_hydraulic_risk_cultural_heritage_p1 (%)|very_high_landslide_risk_cultural_heritage_p4 (%)|high_landslide_risk_cultural_heritage_p3 (%)|medium_landslide_risk_cultural_heritage_p2 (%)|
+|low_landslide_risk_cultural_heritage_p1 (%)|attention_cultural_heritage (%)|||
 
 
 A summary table of the produced mashup dataset:
 
 | ID | Theme | Formats | Licence | IRI |
-|  :---     |      :---     |     :---     |     :---     |    :---     |
-| MD1         |     :---     |     :---     |     :---     |    :---     |
-| MD2         |     :---     |     :---     |     :---     |     :---     |
-| MD3         |     :---     |     :---     |     :---     |    :---     |
-| MD4         |     :---     |     :---     |     :---     |     :---     |
+|  :---     |           |     :---     |     :---     |    :---     |
+| MD1         |     Actions     |     CSV/JSON     |     CC-BY-SA 4.0     |    :---     |
+| MD2         |     Disruptions     |     CSV/JSON     |     CC-BY-SA 4.0     |     :---     |
+| MD3         |     hydrogeological risk in municipalities     |     CSV/JSON     |     CC-BY-SA 4.0     |    :---     |
+| MD4         |     hydrogeological risk in provinces     |     CSV/JSON     |     CC-BY-SA 4.0     |     :---     |
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 

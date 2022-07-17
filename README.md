@@ -127,7 +127,7 @@ The following criteria must be met in order to manage the level of information q
 | **D7** | Satisfied | Not satisfied: 99.7% | Satisfied |      Satisfied: last update 2021 with new ISTAT codes  |
 | **D8**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfired: last update may 2022      |
 | **D9**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
-| **D10**         |     Satisfied        |      Satisfied       |      Satisfied         |         Satisfied     | Not Satisfied: last update 2017 |
+| **D10**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2017 |
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. 
 
@@ -263,6 +263,7 @@ IRI is not specified and Basic metadata is provided for *D8* and *D9*  such as:
 *Format* of downloaded data is .json
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 
+[Resume table of source datasets' technical analysis](Originals_table.md)
 
 ## Mashup and output datasets
 
@@ -295,7 +296,7 @@ The second step consists in the merging of the JSON and CSV files.
 
 The original data has been mashed-up to create the FlooDatas's 4 datasets contained in our catalog.
 
-Using our softwares actions.py and territory .py we created respectively MDF1, and MDF3/MDF4. 
+Using our softwares actions.py and territory .py we created respectively MD1, and MD3/MD4. 
 
 * **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source dataframes. 
 Resulting df is then saved into .json and .csv format for future visualization and consultation purposes. 
@@ -369,11 +370,11 @@ medium_hydraulic_risk_population_p2 (%)|
 A summary table of the produced mashup dataset:
 
 | ID | Theme | Formats | Licence | IRI |
-|  :---     |           |     :---     |     :---     |    :---     |
-| MD1         |     Actions     |     CSV/JSON     |     CC-BY-SA 4.0     |    :---     |
-| MD2         |     Disruptions     |     CSV/JSON     |     CC-BY-SA 4.0     |     :---     |
-| MD3         |     hydrogeological risk in municipalities     |     CSV/JSON     |     CC-BY-SA 4.0     |    :---     |
-| MD4         |     hydrogeological risk in provinces     |     CSV/JSON     |     CC-BY-SA 4.0     |     :---     |
+|  :---     |     :---      |     :---     |     :---     |    :---     |
+| MD1         |     Actions     |     CSV/JSON     |     CC-BY SA 4.0     |    :---     |
+| MD2         |     Disruptions     |     CSV/JSON     |     CC-BY SA 4.0     |     :---     |
+| MD3         |     hydrogeological risk in municipalities     |     CSV/JSON     |     CC-BY SA 4.0     |    :---     |
+| MD4         |     hydrogeological risk in provinces     |     CSV/JSON     |     CC-BY SA 4.0     |     :---     |
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 
@@ -448,6 +449,8 @@ To allow users to make full use of the data, n visualizations have been provided
 
 ## RDF assertation of data
 Their metadata are supplied in accordance with the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) in order to achieve the goal of providing the user with more reusable and interoperable data. The final dataset's entirety as well as each individual dataset's metadata are supplied.
+
+**RDFs **
 
 ttl files validated with http://ttl.summerofcode.be/
 graphs created using https://www.ldf.fi/service/rdf-grapher

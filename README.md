@@ -5,12 +5,9 @@ FlooData is a project developed by Chiara Catizone and Giulia Venditti for the f
 
 ## 🎙 Introduction 
 
-Emilia-Romagna is the sixth widest region in Italy in terms of surface area.and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia-Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). The increasemnt of temperatures is now affecting stability of natural water sources as well as the wellbeing of water surfaces and rivers on mainland and the preservation of coast areas. 
+Emilia Romagna is the sixth widest region in Italy in terms of surface area and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). Also, the Italian Institute for Environmental Protection and Research (Istituto Superiore per la Protezione e la Ricerca Ambientale), [ISPRA](https://www.isprambiente.gov.it/it), stated Emilia Romagna's morphology is extremely frigile due to intense weather events and  proneness to landslides of the territory.
 
-
-As the Italian Institute for Environmental Protection and Research (Istituto Superiore per la Protezione e la Ricerca Ambientale), [ISPRA](https://www.isprambiente.gov.it/it), stated ER's morphology is extremely frigile due to intense weather events and  proneness to landslides of the territory
-
-Our first objective is to analyze if there is a relationship between idrogeological damages and the measures undertaken by different actors consdering them at local, national and (maybe) international level.  
+Our first objective is, thus, the analyis of the relationship between idrogeological damages and the measures undertaken by different actors consdering them at local, national and (maybe) international level.  
 
 Damages were, then, divided into two categories:
 
@@ -38,7 +35,7 @@ National Wave Network
 the data of the regions from the cartographic systems of ISPRA
 </br>
 
-The second project made available by ISIIPRA we used for creating FlooData is [IdroGEO](https://idrogeo.isprambiente.it/app/), a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
+The second project made available by ISPRA we used for creating FlooData is [IdroGEO](https://idrogeo.isprambiente.it/app/), a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
 </br>
 </br>
 

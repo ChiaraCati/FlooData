@@ -61,7 +61,7 @@
 <https://github.com/ChiaraCati/Owater/data/MD4_CSV>
     a       dcatap:Distribution , dcat:Distribution; 
 
-    dct:title  "Turtle distribution of  Emilia-Romagna's provinces."@eng;
+    dct:title  "Tabular distribution of  Emilia-Romagna's provinces."@eng;
     dct:description  "This is the tabular distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;

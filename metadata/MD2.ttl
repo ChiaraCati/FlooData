@@ -55,7 +55,7 @@
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Turtle distribution of FlooData's Disasters"@eng;
-    dct:description  "This is the Turtle distribution of FlooData's dataaset containing  data on hydrogeological disruptions happening in Emilia Romagna, Italy."@eng;
+    dct:description  "This is the Turtle distribution of FlooData's dataset containing  data on hydrogeological disruptions happening in Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <#>;
@@ -65,8 +65,8 @@
 <https://github.com/ChiaraCati/Owater/data/MD2_CSV>
     a       dcatap:Distribution , dcat:Distribution; 
 
-    dct:title  "Turtle distribution of FlooData's Disasters"@eng;
-    dct:description  "This is the tabular distribution of FlooData's dataaset containing  data on hydrogeological disruptions happening in Emilia Romagna, Italy."@eng;
+    dct:title  "Tabular distribution of FlooData's Disasters"@eng;
+    dct:description  "This is the tabular distribution of FlooData's dataset containing  data on hydrogeological disruptions happening in Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <#>;

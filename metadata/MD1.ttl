@@ -66,8 +66,8 @@
 <https://github.com/ChiaraCati/Owater/data/MD1_CSV>
     a       dcatap:Distribution , dcat:Distribution; 
 
-    dct:title  "Turtle distribution of FlooData's Actions data"@eng;
-    dct:description  "This is the tabular distribution of FlooData's dataaset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
+    dct:title  "Tabular distribution of FlooData's Actions data"@eng;
+    dct:description  "This is the tabular distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <#>;

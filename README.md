@@ -194,7 +194,7 @@ In  the following table we listed all original datasets licences and found them 
 | **MD4** | [Province](datasets/final_dataset/province.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 
 
-## Ethical analysis 
+## 🫂 Ethical analysis 
 
 Under an *ethical* point of view, we considered the importance of the human being, transparency, accountability, and equality. 
 Along with this ethical aspects, we also considered other criteria such as sustainable re-use of the data gathered, and presence of information of public interest when choosing **FlooData**'s source data, as we wanted to account for the management of financings (Open Coesione), the presence risk of hydrogeological disasters in the whole area of Emilia-Romagna, the amount of preventive interventions and following reparations. 
@@ -217,7 +217,7 @@ We take into account that there are chances of people acting on the collected in
 
 
 
-## Technical analysis 
+## ⚙️ Technical analysis 
 
 ### Original datasets
 

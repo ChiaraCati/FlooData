@@ -17,6 +17,7 @@
     dcat:keyword    "Activities";
     dct:issued      "2022-07-12@"^^xsd:date;
     dct:modified    "2022-07-12@"^^xsd:date;
+    dct:modified    "2022-08-11@"^^xsd:date;
     dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/ECON>;
     dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
     dct:publisher   <https://github.com/ChiaraCati/Owater>;

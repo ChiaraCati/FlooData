@@ -60,8 +60,7 @@
     dct:description  "This is the Turtle distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest involving Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
-    dcat:accessURL    <#>;
-    dcat:downloadURL    <#>;
+    dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/metadata/MD1.ttl>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
 <https://github.com/ChiaraCati/Owater/data/MD1_CSV>
@@ -72,7 +71,16 @@
     dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <#>;
-    dcat:downloadURL    <#>;
+    dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
+
+<https://github.com/ChiaraCati/Owater/data/MD1_JSON>
+    a       dcatap:Distribution , dcat:Distribution; 
+
+    dct:title  "Json distribution of FlooData's Actions data"@eng;
+    dct:description  "This is the Json distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
+    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
+    dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
+    dcat:accessURL    <#>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
 

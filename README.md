@@ -396,6 +396,4 @@ Below we listed metadata used for the catalogue and data sets
 
 ## Final remarks
 
-## Footnotes
-
-[^1] cfr. Unesco's definition of Water-Disasters at https://en.unesco.org/themes/water-security/hydrology/water-related-disasters
+[Add conclusions]

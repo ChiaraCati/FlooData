@@ -280,7 +280,7 @@ IRI is not specified and Basic metadata is provided for *D8* and *D9*  such as:
 
 [Resume table of source datasets' technical analysis](Originals_table.md)
 
-## Mashup and output datasets
+### Mashup and output datasets
 
 All data processing tasks undertaken for creating the mashed-up datasets were carried out using Python versions 3.9 and 3.10 and built-in/open-source methods.
 
@@ -291,7 +291,7 @@ For creating the new datasets we disposed of two different kinds of file formats
 * CSV
 * JSON
 
-### Pre processing
+#### Pre processing
 
 **N-Triples** files needed to be preprocessed and parsed into datafames. 
 To accomplish this we developed a script [rdf_parse.py](software/rdf_parser.py) to merge the ReNDi and Luoghi data in and create three dataframes, containing of data on hydrogeological disruptions, reparations and their financing. 
@@ -305,7 +305,7 @@ The resulting dataframes have been temoporarly saved in .csv format for later me
 
 **DBF** files have been converted automatically into csv files using the software dbf.py developed for this purpose. The software cnverts the files keeping their original names through the use of dbf_read librry's DBF method to open this kind of file, which is then saved in .csv format.
 
-### Merging 
+#### Merging 
 
 The second step consists in the merging of the JSON and CSV files.
 

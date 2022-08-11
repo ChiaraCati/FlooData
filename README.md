@@ -362,19 +362,19 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 
 * (Meta)data meet domain-relevant community standards: 
 
-## Sustainability
-The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The data sets are not actively maintained.
+## 🌱 Sustainability
+The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The data sets produced for this project are not actively maintained.
 
 
-## Visualizations
+## 🎢 Visualizations
 To allow users to make full use of the data, n visualizations have been provided. Abbiamo deciso di investigare questi quesiti che potete trovare nelle sezione data inspection:
 * uno
 * uno
 * uno
 * uno
 
-## RDF assertation of data
-Their metadata are supplied in accordance with the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) in order to achieve the goal of providing the user with more reusable and interoperable data. The catalogue's as well as each individual dataset's metadata are supplied [here](https://github.com/ChiaraCati/Owater/tree/main/metadata), each .ttl file has been validated using http://ttl.summerofcode.be/. 
+## 📢 RDF assertion of data
+Our metadata is supplied in accordance with the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) in order to achieve the goal of providing the user with more reusable and interoperable data. The catalogue's as well as each individual dataset's metadata are supplied [here](https://github.com/ChiaraCati/Owater/tree/main/metadata), each .ttl file has been validated through http://ttl.summerofcode.be/. 
 
 Below we listed metadata used for the catalogue and data sets
 
@@ -399,6 +399,6 @@ Below we listed metadata used for the catalogue and data sets
 |   dct:rightsHolder|   🚫          |    ✅          |
 |   foaf:homepage  |    ✅          |    ✅          |
 
-## Final remarks
+## 🌈 Final remarks
 
 [Add conclusions]

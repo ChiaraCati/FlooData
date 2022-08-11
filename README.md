@@ -375,10 +375,10 @@ A summary table of the produced mashup dataset:
 
 | ID | Theme | Formats | Licence | IRI |
 |  :---     |     :---      |     :---     |     :---     |    :---     |
-| MD1         |     Actions     |     CSV/JSON     |     CC-BY SA 4.0     |    :---     |
-| MD2         |     Disruptions     |     CSV/JSON     |     CC-BY SA 4.0     |     :---     |
-| MD3         |     hydrogeological risk in municipalities     |     CSV/JSON     |     CC-BY SA 4.0     |    :---     |
-| MD4         |     hydrogeological risk in provinces     |     CSV/JSON     |     CC-BY SA 4.0     |     :---     |
+| MD1         |     Actions     |     CSV/JSON     |     CC-BY SA 4.0     |    https://github.com/ChiaraCati/Owater/resource/dataset/MD1     |
+| MD2         |     Disruptions     |     CSV/JSON     |     CC-BY SA 4.0     |     https://github.com/ChiaraCati/Owater/resource/dataset/MD2     |
+| MD3         |     hydrogeological risk in municipalities     |     CSV/JSON     |     CC-BY SA 4.0     |    https://github.com/ChiaraCati/Owater/resource/dataset/MD3     |
+| MD4         |     hydrogeological risk in provinces     |     CSV/JSON     |     CC-BY SA 4.0     |     https://github.com/ChiaraCati/Owater/resource/dataset/MD4     |
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 

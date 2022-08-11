@@ -31,7 +31,7 @@
     dct:source      <https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip> ;
     dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
-    dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD1_TTL>;
+    dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD1_JSON>;
     dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD1_CSV>;
     dct:rightsHolder    <https://github.com/ChiaraCati/Owater>;
     dct:rights      "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.";
@@ -53,15 +53,6 @@
 
     foaf:name   "Giulia Venditti"@it.
 
-<https://github.com/ChiaraCati/Owater/metadata/MD1_TTL>
-    a       dcatap:Distribution , dcat:Distribution; 
-
-    dct:title  "Turtle distribution of FlooData's Actions data"@eng;
-    dct:description  "This is the Turtle distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest involving Emilia Romagna, Italy."@eng;
-    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
-    dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
-    dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/metadata/MD1.ttl>;
-    dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
 <https://github.com/ChiaraCati/Owater/data/MD1_CSV>
     a       dcatap:Distribution , dcat:Distribution; 
@@ -78,7 +69,7 @@
 
     dct:title  "Json distribution of FlooData's Actions data"@eng;
     dct:description  "This is the Json distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
-    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
+    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_JSON>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD1.json>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".

@@ -16,10 +16,11 @@
     dct:description     "Catalogue containing FlooData mashed-up datasets";
     dct:issued      "2022-07-12@"^^xsd:date;
     dct:modified    "2022-07-12@"^^xsd:date;
-    dcat:datasets   <https://github.com/ChiaraCati/Owater/resources/Dataset/FlooD1>;
-    dcat:datasets   <https://github.com/ChiaraCati/Owater/resources/Dataset/FlooD2>;
-    dcat:datasets   <https://github.com/ChiaraCati/Owater/resources/Dataset/FlooD3>;
-    dcat:datasets   <https://github.com/ChiaraCati/Owater/resources/Dataset/FlooD4>;
+    dct:modified    "2022-08-11@"^^xsd:date;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/resource/dataset/MD1>;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/resource/dataset/MD2>;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/resource/dataset/MD3>;
+    dcat:datasets   <https://github.com/ChiaraCati/Owater/resource/dataset/MD4>;
     dct:publisher   <https://github.com/ChiaraCati/Owater>;
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone>;
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>;
@@ -33,10 +34,10 @@
 a foaf:agent;
     foaf:name "FlooData"@en.
 
-<https://github.com/ChiaraCati/Owater/#ChiaraCatizone> 
+<https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone> 
     a   foaf:Person;
     foaf:name "Chiara Catizone"@it.
 
-<https://github.com/ChiaraCati/Owater/#GiuliaVenditti> 
+<https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>
     a   foaf:Person;
     foaf:name "Giulia Venditti"@it.

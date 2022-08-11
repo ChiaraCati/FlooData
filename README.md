@@ -325,24 +325,17 @@ The production workflow in visible in notebook  [Disruptions.ipynb](software/Dis
 
 The resulting datasets are composed as listed:
 
-* MD1:
-
-| Columns |  |  |  |
+| MD1 Columns |  |  |  |
 | - | -  | - | - |
 | prov_nameprov_code | municipality| latitude | longitude |
 |date | action_type | action_description|tot_action_financing|
 
-* MD2:
-
-| Columns |   |  |  |
+| MD2 Columns |   |  |  |
 | - | -  | - | - |
 | id | type | municipality | prov_code |
 | latitude | longitude | date | |
 
-
-* MD3:
-
-| Columns |   | | |
+| MD3 Columns |   | | |
 | - | -  | - | - |
 |prov_name|prov_code|municipality|latitude|longitude|
 |area (kmq)|high_hydraulic_risk_area_p3 (%)|medium_hydraulic_risk_area_p2 (%)|low_hydraulic_risk_area_p1 (%)|
@@ -360,11 +353,7 @@ medium_hydraulic_risk_population_p2 (%)|
 |medium_hydraulic_risk_cultural_heritage_p2 (%)|low_hydraulic_risk_cultural_heritage_p1 (%)|very_high_landslide_risk_cultural_heritage_p4 (%)|high_landslide_risk_cultural_heritage_p3 (%)|
 |medium_landslide_risk_cultural_heritage_p2 (%)|low_landslide_risk_cultural_heritage_p1 (%)|attention_cultural_heritage (%)||
 
-
-* MD4:
-
-
-| Columns |  :--- | :---  | :---  |
+| MD4 Columns |  |  |  |
 | - | -  | - | - |
 |prov_name|prov_code|area (kmq)|high_hydraulic_risk_area_p3 (%)|medium_hydraulic_risk_area_p2 (%)|
 |low_hydraulic_risk_area_p1 (%)|very_high_landslide_risk_area_p4 (%)|high_landslide_risk_area_p3 (%)|medium_landslide_risk_area_p2 (%)|

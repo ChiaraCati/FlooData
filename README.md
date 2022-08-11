@@ -186,8 +186,8 @@ Final licences for the mashed-up datasets have been chosen according to licencs 
 
 In  the following table we listed all original datasets licences and found them to bel all commercial, 3 of them national, all the remaining ones international, as a result of this analysis we decided to licence all mashed-up datasets under a CC-BY-SA 4.0 licence to allow theyr mash up and keep it international.
 
-| ID | Dataset | Originals' licences | Final licence |
-| :---         |     :---     |     :---     |     :---     |    :--- | :--- |   
+| ID      | Dataset | Originals' licences | Final licence |
+| :---    | :---    | :---                |     :---     |  
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) |  CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 | **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY 3.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 | **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |

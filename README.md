@@ -334,7 +334,7 @@ The resulting datasets are composed as listed:
 
 * MD2:
 
-| Columns |  :--- | :---  | :---  |
+| Columns |   |  |  |
 | - | -  | - | - |
 | id | type | municipality | prov_code |
 | latitude | longitude | date | |
@@ -342,7 +342,7 @@ The resulting datasets are composed as listed:
 
 * MD3:
 
-| Columns |  :--- | :---  | :---  |
+| Columns |   | | |
 | - | -  | - | - |
 |prov_name|prov_code|municipality|latitude|longitude|
 |area (kmq)|high_hydraulic_risk_area_p3 (%)|medium_hydraulic_risk_area_p2 (%)|low_hydraulic_risk_area_p1 (%)|

@@ -148,6 +148,7 @@ Below we present the quantitative data retriven during our Quality analysis, ful
 ## Legal analysis 
 Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, as well as to produce a balanced service that is in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, right determination, and licence conditions.
 
+### Original Datasets
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 |
@@ -179,6 +180,23 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
 | | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes | No |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | No |
+
+**Licences**
+
+
+| ID | Dataset | Licence |
+| :---         |     :---     |   :--- |   
+| **D1** | [ReNDIs](http://dati.isprambiente.it/dataset/il-rendis/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
+| **D2** | [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
+| **D3** | [Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| **D4** | [Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| **D5** | [Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
+| **D6** | [Comuni](https://idrogeo.isprambiente.it/app/page/open-data) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| D7 | [Province](https://idrogeo.isprambiente.it/app/page/open-data) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D8** | [Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D9** | [Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | Not specified |
+
 
 ## Ethical analysis 
 

@@ -184,7 +184,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 Final licences for the mashed-up datasets have been chosen according to licencs compatibility.
 
-In  the following table we listed all original datasets licences and found them to bel all commercial, 3 of them national, all the remaining ones international, as a result of this analysis we decided to licence all mashed-up datasets under a CC-BY-SA 4.0 licence to allow theyr mash up and keep it international.
+In  the following table we listed all original datasets licences and found them to bel all commercial, 3 of them national, all the remaining ones international, as a result of this analysis we decided to licence all mashed-up datasets under a CC-BY-SA 4.0 licence to allow their mash up and make them international.
 
 | ID      | Dataset | Originals' licences | Final licence |
 | :---    | :---    | :---                |     :---     |  
@@ -221,7 +221,8 @@ We take into account that there are chances of people acting on the collected in
 
 ### Original datasets
 
-**LinkedIspra** data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available form download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
+#### LinkedIspra 
+Data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available form download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
 *Format* of downloaded data is .nt
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
@@ -231,7 +232,8 @@ We take into account that there are chances of people acting on the collected in
 | **[D2](http://dati.isprambiente.it/id/place/html)** | http://dati.isprambiente.it/id/place/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅|  🚫 | ✅ | ✅ | ✅ | ✅| ✅| 
 
 
-**Minerva**'s datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 
+#### Minerva
+Datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 
 Along with datasets' metadata, MinERva provides information about responsible body, reference structure, referent, author
  and dates about catalog cards and physical data.
 *Format* of downloaded data is .zip from which we extracted a .dbf file
@@ -245,7 +247,8 @@ Along with datasets' metadata, MinERva provides information about responsible bo
 | **[D5](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip |✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | ✅| 
 
 
-[IdroGEO](https://idrogeo.isprambiente.it/app/) data is available for download in different formats: XLS, CSV and JSON. The platform also allows downlloading the .csv file congaining descriptions and source of the columns in the datasets. 
+#### [IdroGEO](https://idrogeo.isprambiente.it/app/) 
+Data is available for download in different formats: XLS, CSV and JSON. The platform also allows downlloading the .csv file congaining descriptions and source of the columns in the datasets. 
 *Format* of downloaded data is .csv
 *Provenance*: https://idrogeo.isprambiente.it/app/page/open-data
 
@@ -258,7 +261,8 @@ IRI is not specified and Basic metadata is provided for *D6* and *D7*  such as:
 
 
 
-[OpenCoesione](https://opencoesione.gov.it/it/) allows download of open access datasets representing partial renstitutions of the projects they keep track to. It is possible for everyone to download them in .csv and .xls format
+#### [OpenCoesione](https://opencoesione.gov.it/it/)
+ They allow download of open access datasets representing partial renstitutions of the projects they keep track to. It is possible for everyone to download them in .csv and .xls format
 *Format* of downloaded data is .csv
 *Provenance*: https://opencoesione.gov.it/it/
 
@@ -270,7 +274,8 @@ IRI is not specified and Basic metadata is provided for *D8* and *D9*  such as:
 - Format
 
 
-[Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) datasets can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. 
+#### [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) 
+Datasets can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. 
 *Format* of downloaded data is .json
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 

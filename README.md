@@ -321,7 +321,7 @@ The production workflow in visible in notebook  [Disruptions.ipynb](software/Dis
 
 A summary table of the produced mashup dataset:
 
-|   ID      |   Theme   |   Formats     |   Licence |   IRI     |
+|   ID      |   Theme   |   Distribution Formats     |   Licence |   IRI     |
 |   :---    |   :---    |   :---        |   :---    |   :---    |
 |   MD1     |   Actions |   CSV/JSON    |   CC-BY SA 4.0    |    https://github.com/ChiaraCati/Owater/resource/dataset/MD1     |
 |   MD2     |   Disruptions | CSV/JSON  |   CC-BY SA 4.0    |    https://github.com/ChiaraCati/Owater/resource/dataset/MD2     |

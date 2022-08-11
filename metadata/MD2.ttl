@@ -17,6 +17,7 @@
     dcat:keyword    "disruptions", "dydrogeological dissest", "instabilities", "emilia romagna", "open data", "environment";
     dct:issued      "2022-07-12@"^^xsd:date;
     dct:modified    "2022-07-12@"^^xsd:date;
+    dct:modified    "2022-08-11@"^^xsd:date;
     dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
     dct:publisher   <https://github.com/ChiaraCati/Owater>;
     dct:creator     <https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone>; 

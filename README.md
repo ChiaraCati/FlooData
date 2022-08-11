@@ -221,7 +221,7 @@ We take into account that there are chances of people acting on the collected in
 
 ### Original datasets
 
-#### LinkedIspra 
+#### [LinkedIspra](http://dati.isprambiente.it/) 
 Data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available form download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
 *Format* of downloaded data is .nt
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
@@ -232,7 +232,7 @@ Data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf
 | **[D2](http://dati.isprambiente.it/id/place/html)** | http://dati.isprambiente.it/id/place/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅|  🚫 | ✅ | ✅ | ✅ | ✅| ✅| 
 
 
-#### Minerva
+#### [Minerva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/)
 Datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 
 Along with datasets' metadata, MinERva provides information about responsible body, reference structure, referent, author
  and dates about catalog cards and physical data.

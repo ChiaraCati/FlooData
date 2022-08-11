@@ -98,12 +98,12 @@ The below table is a resume of datasets selected for our project, and that have 
 
 The below table is a resume of datasets created by FlooData, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
 
-| ID | Dataset | Original dataset | Time span | Licence |
+| ID | Dataset | Original dataset | Time span | 
 | :---         |     :---     |     :---     |     :---     |    :--- |   
-| **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D8**,**D9**,**D10** | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
-| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D10**| 2016 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
-| **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | **D6**, **D10**| 2012 - 2022 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)|
-| **MD4** | [Province](datasets/final_dataset/province.csv) | **D7**,**D10** | 2020 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)|
+| **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D8**,**D9**,**D10** | 2016 - 2021 |
+| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D10**| 2016 | 
+| **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | **D6**, **D10**| 2012 - 2022 |
+| **MD4** | [Province](datasets/final_dataset/province.csv) | **D7**,**D10** | 2020 - 2021 |
 
 
 ## 💎 Quality analysis of the datasets
@@ -145,10 +145,9 @@ Below we present the quantitative data retriven during our Quality analysis, ful
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. Values here represent the sum and mean of the merged datasets 
 
-## Legal analysis 
+## ⚖️ Legal analysis 
 Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, as well as to produce a balanced service that is in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, right determination, and licence conditions.
 
-### Original Datasets
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 |
@@ -181,21 +180,18 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes | No |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | No |
 
-**Licences**
+### Licences mash-up
 
+Final licences for the mashed-up datasets have been chosen according to licencs compatibility.
 
-| ID | Dataset | Licence |
-| :---         |     :---     |   :--- |   
-| **D1** | [ReNDIs](http://dati.isprambiente.it/dataset/il-rendis/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
-| **D2** | [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
-| **D3** | [Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| **D4** | [Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| **D5** | [Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| **D6** | [Comuni](https://idrogeo.isprambiente.it/app/page/open-data) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D7 | [Province](https://idrogeo.isprambiente.it/app/page/open-data) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D8** | [Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D9** | [Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | Not specified |
+In  the following table we listed all original datasets licences and found them to bel all commercial, 3 of them national, all the remaining ones international, as a result of this analysis we decided to licence all mashed-up datasets under a CC-BY-SA 4.0 licence to allow theyr mash up and keep it international.
+
+| ID | Dataset | Originals' licences | Final licence |
+| :---         |     :---     |     :---     |     :---     |    :--- | :--- |   
+| **MD1** | [Activities](datasets/final_dataset/actions.csv) |  CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
+| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY 3.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
+| **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
+| **MD4** | [Province](datasets/final_dataset/province.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 
 
 ## Ethical analysis 
@@ -284,7 +280,7 @@ IRI is not specified and Basic metadata is provided for *D8* and *D9*  such as:
 
 All data processing tasks undertaken for creating the mashed-up datasets were carried out using Python versions 3.9 and 3.10 and built-in/open-source methods.
 
-For creating the new datasets we disposed of two different kinds of file formats:
+For creating the new datasets we disposed of four different kinds of file formats:
 
 * NT
 * DBF
@@ -322,54 +318,6 @@ To create MD3 we crossed place names contained in D6 with data in *D10* to find 
 
 Finally MD2 has been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest.
 The production workflow in visible in notebook  [Disruptions.ipynb](software/Disruptions.ipynb)
-
-The resulting datasets are composed as listed:
-
-| MD1 Columns |  |  |  |
-| - | -  | - | - |
-| prov_nameprov_code | municipality| latitude | longitude |
-|date | action_type | action_description|tot_action_financing|
-
-| MD2 Columns |   |  |  |
-| - | -  | - | - |
-| id | type | municipality | prov_code |
-| latitude | longitude | date | |
-
-| MD3 Columns |   | | |
-| - | -  | - | - |
-|prov_name|prov_code|municipality|latitude|longitude|
-|area (kmq)|high_hydraulic_risk_area_p3 (%)|medium_hydraulic_risk_area_p2 (%)|low_hydraulic_risk_area_p1 (%)|
-|very_high_landslide_risk_area_p4 (%) | high_landslide_risk_area_p3 (%)|medium_landslide_risk_area_p2 (%)|low_landslide_risk_area_p1 (%)|
-|attention_area (%)|resident_population (n)|high_hydraulic_risk_population_p3 (%)|
-medium_hydraulic_risk_population_p2 (%)|
-|low_hydraulic_risk_population_p1 (%)|very_high_landslide_risk_population_p4 (%)|high_landslide_risk_population_p3 (%)|medium_landslide_risk_population_p2 (%)|low_landslide_risk_population_p1 (%)|
-|attention_population (%)|resident_family (n)|high_hydraulic_risk_family_p3 (%)|medium_hydraulic_risk_family_p2 (%)|
-|low_hydraulic_risk_family_p1 (%)|very_high_landslide_risk_family_p4 (%)|high_landslide_risk_family_p3 (%)|medium_landslide_risk_family_p2 (%)|
-|low_landslide_risk_family_p1 (%)|attention_family (%)|building (n)|high_hydraulic_risk_building_p3 (%)|medium_hydraulic_risk_building_p2 (%)|
-|low_hydraulic_risk_building_p1 (%)|very_high_landslide_risk_building_p4 (%)|high_landslide_risk_building_p3 (%)|medium_landslide_risk_building_p2 (%)|
-|low_landslide_risk_building_p1 (%)|attention_building (%)|enterprise (n)|high_hydraulic_risk_enterprise_p3 (%)|medium_hydraulic_risk_enterprise_p2 (%)|
-|low_hydraulic_risk_enterprise_p1 (%)|very_high_landslide_risk_enterprise_p4 (%)|high_landslide_risk_enterprise_p3 (%)|medium_landslide_risk_enterprise_p2 (%)|
-|low_landslide_risk_enterprise_p1 (%)|attention_enterprise (%)|cultural_heritage (n)|high_hydraulic_risk_cultural_heritage_p3 (%)|
-|medium_hydraulic_risk_cultural_heritage_p2 (%)|low_hydraulic_risk_cultural_heritage_p1 (%)|very_high_landslide_risk_cultural_heritage_p4 (%)|high_landslide_risk_cultural_heritage_p3 (%)|
-|medium_landslide_risk_cultural_heritage_p2 (%)|low_landslide_risk_cultural_heritage_p1 (%)|attention_cultural_heritage (%)||
-
-| MD4 Columns |  |  |  |
-| - | -  | - | - |
-|prov_name|prov_code|area (kmq)|high_hydraulic_risk_area_p3 (%)|medium_hydraulic_risk_area_p2 (%)|
-|low_hydraulic_risk_area_p1 (%)|very_high_landslide_risk_area_p4 (%)|high_landslide_risk_area_p3 (%)|medium_landslide_risk_area_p2 (%)|
-|low_landslide_risk_area_p1 (%)|attention_area (%)|resident_population (n)|high_hydraulic_risk_population_p3 (%)|medium_hydraulic_risk_population_p2 (%)|
-|low_hydraulic_risk_population_p1 (%)|very_high_landslide_risk_population_p4 (%)|high_landslide_risk_population_p3 (%)|
-|medium_landslide_risk_population_p2 (%)|low_landslide_risk_population_p1 (%)|attention_population (%)|resident_family (n)|
-|high_hydraulic_risk_family_p3 (%)|medium_hydraulic_risk_family_p2 (%)|low_hydraulic_risk_family_p1 (%)|very_high_landslide_risk_family_p4 (%)|
-|high_landslide_risk_family_p3 (%)|medium_landslide_risk_family_p2 (%)|low_landslide_risk_family_p1 (%)|attention_family (%)|building (n)|
-|high_hydraulic_risk_building_p3 (%)|medium_hydraulic_risk_building_p2 (%)|low_hydraulic_risk_building_p1 (%)|very_high_landslide_risk_building_p4 (%)|
-|high_landslide_risk_building_p3 (%)|medium_landslide_risk_building_p2 (%)|low_landslide_risk_building_p1 (%)|attention_building (%)|
-|enterprise (n)|high_hydraulic_risk_enterprise_p3 (%)|medium_hydraulic_risk_enterprise_p2 (%)|low_hydraulic_risk_enterprise_p1 (%)|
-|very_high_landslide_risk_enterprise_p4 (%)|high_landslide_risk_enterprise_p3 (%)|medium_landslide_risk_enterprise_p2 (%)|low_landslide_risk_enterprise_p1 (%)|
-|attention_enterprise (%)|cultural_heritage (n)|high_hydraulic_risk_cultural_heritage_p3 (%)|medium_hydraulic_risk_cultural_heritage_p2 (%)|
-|low_hydraulic_risk_cultural_heritage_p1 (%)|very_high_landslide_risk_cultural_heritage_p4 (%)|high_landslide_risk_cultural_heritage_p3 (%)|medium_landslide_risk_cultural_heritage_p2 (%)|
-|low_landslide_risk_cultural_heritage_p1 (%)|attention_cultural_heritage (%)|||
-
 
 A summary table of the produced mashup dataset:
 
@@ -412,37 +360,6 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 ## Sustainability
 The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The dataset is not actively maintained.
 
-## License
-For the metadata, the documentation and the website we decided to use the same license: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). The license for the code is [GNU-GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-For the Libraries we used in Javascript, Python and HTML, the licenses are:
-
-| Library | License |
-| :---         |     :---     | 
-| Bulma | [MIT](https://opensource.org/licenses/mit-license.php)|
-| :---         |     :---     | 
-
-Mashed-up datasets is licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License. More about our license:
-
-| | MD1 | MD2 |
-| :---         |     :---     |     :---     |  
-| Identifier         |     :---     |     :---     |   
-| Title         |     :---     |     :---     |  
-| Description         |     :---     |     :---     |    
-| Modified         |     :---     |     :---     |  
-| Theme         |     :---     |     :---     |    
-| Rights Holder         |     :---     |     :---     |  
-| Subject         |     :---     |     :---     |   
-| Publisher         |     :---     |     :---     |  
-| Issued         |     :---     |     :---     |    
-| Keywords         |     :---     |     :---     |    
-| Source         |     :---     |     :---     |    
-| Temporal Coverage         |     :---     |     :---     |    
-| Spatial Coverage         |     :---     |     :---     |   
-| Data Format         |     :---     |     :---     |    
-| URL         |     :---     |     :---     |    
-| License         |     :---     |     :---     |    
-| Download         |     :---     |     :---     |   
-| RDF         |     :---     |     :---     |  
 
 ## Visualizations
 To allow users to make full use of the data, n visualizations have been provided. Abbiamo deciso di investigare questi quesiti che potete trovare nelle sezione data inspection:

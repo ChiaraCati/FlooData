@@ -202,7 +202,7 @@ Along with this ethical aspects, we also considered other criteria such as susta
 The data gathered is managed by producers in a transparent way, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use.
 
 
-The original datasets mainly represent, envirnmental– and  geodata. This kind of data naturally avoids discriminations, stereotyping, crystallization, distortion of the history, misrepresentation of reality, and manipulation of the cultural identity of a country/community.
+The original datasets mainly represent, environmental– and geodata. This kind of data naturally avoids discriminations, stereotyping, crystallization, distortion of the history, misrepresentation of reality, and manipulation of the cultural identity of a country/community.
 As averages the data gives information about the region as a whole and do not pose individual privacy risk.
 
 
@@ -312,7 +312,7 @@ The second step consists in the merging of the JSON and CSV files.
 
 The original data has been mashed-up to create the FlooDatas's 4 datasets contained in our catalog.
 
-Using our softwares actions.py and territory .py we created respectively MD1, and MD3/MD4. 
+Using our softwares actions.py and territory .py we created respectively **MD1**, and **MD3**/**MD4**. 
 
 * **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source dataframes. 
 Resulting df is then saved into .json and .csv format for future visualization and consultation purposes. 
@@ -321,8 +321,8 @@ Resulting df is then saved into .json and .csv format for future visualization a
 To create MD3 we crossed place names contained in D6 with data in *D10* to find with municipalities latitue and longitude coordinates.
 
 
-Finally MD2 has been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest.
-The production workflow in visible in notebook  [Disruptions.ipynb](software/Disruptions.ipynb)
+Finally **MD2** has been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest.
+The production workflow in visible in notebook  [disruptions.ipynb](software/Disruptions.ipynb), latter touch ups such as the translation of data from italians to english can be found in [datasets_touchups.ipynb](software/datasets_touchups.ipynb)
 
 A summary table of the produced mashup dataset:
 
@@ -368,7 +368,7 @@ The data sets used to create Floodata, which examines the dangers by flooding ca
 
 ## 🎢 Visualizations
 To allow users to make full use of the data, n visualizations have been provided. Abbiamo deciso di investigare questi quesiti che potete trovare nelle sezione data inspection:
-* uno
+1. Choropleth 
 * uno
 * uno
 * uno

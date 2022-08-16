@@ -69,14 +69,9 @@ document.addEventListener('DOMContentLoaded', function () {
         'website/data/emilia.json'
     ).then(response => response.json());
 
-    const data = [];
     
-   Highcharts.getJSON('website/data/pop.json', function (data) {
+   Highcharts.getJSON('website/data/MD4.json', function (data) {
     
-        // Make codes uppercase to match the map data
-        data.forEach(function (p) {
-            p.code = p.code.toUpperCase();
-        });
     
         // Instantiate the map
         Highcharts.mapChart('container2', {
@@ -88,21 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
             title: {
                 text: 'Emilia Romagna population density (/km²)'
             },
-    
-            exporting: {
-                sourceWidth: 600,
-                sourceHeight: 500
-            },
-    
-            legend: {
-                layout: 'horizontal',
-                borderWidth: 0,
-                backgroundColor: 'rgba(255,255,255,0.85)',
-                floating: true,
-                verticalAlign: 'top',
-                y: 25
-            },
-    
+           
             mapNavigation: {
                 enabled: true
             },
@@ -120,31 +101,24 @@ document.addEventListener('DOMContentLoaded', function () {
             },
     
             series: [{
-                accessibility: {
-                    point: {
-                        valueDescriptionFormat: '{xDescription}, {point.value} people per square kilometer.'
-                    }
-                },
-                animation: {
-                    duration: 1000
-                },
                 data: data,
-                joinBy: ['postal-code', 'code'],
-                dataLabels: {
-                    enabled: true,
-                    color: '#FFFFFF',
-                    format: '{point.code}'
-                },
+                joinBy: ['postal-code', 'prov_code'],
                 name: 'Population density',
+                states: {
+                  hover: {
+                    color: '#a4edba'
+                  }
+                },
                 tooltip: {
-                    pointFormat: '{point.code}: {point.value}/km²'
+                  valueSuffix: '/km²'
                 }
-            }]
+              }]
+            
         });
     });
     
     })();
-
+   
 });
 
 

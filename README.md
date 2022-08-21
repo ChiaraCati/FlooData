@@ -73,7 +73,7 @@ The final data source employed in the constuction of FlooData datasets  is a [Gi
 The below table is a resume of datasets selected for our project, and that have been mashed up to create FlooData final datasets.
 
 | ID | Dataset | Source | Time span | Licence |
-| :---         |     :---     |     :---     |     :---     |    :--- |   
+| :--- | :--- | :--- | :--- | :--- |   
 | **D1** | [ReNDIs](http://dati.isprambiente.it/dataset/il-rendis/) | [LinkedIspra](http://dati.isprambiente.it/) | 2016 - 2021 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
 | **D2** | [Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/) | [LinkedIspra](http://dati.isprambiente.it/) | 2016 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) |
 | **D3** | [Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
@@ -84,6 +84,7 @@ The below table is a resume of datasets selected for our project, and that have 
 | **D8** | [Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | **D9** | [Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
+
 
 </br>
 

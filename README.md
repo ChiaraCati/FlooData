@@ -63,7 +63,7 @@ The final data source employed in the constuction of FlooData datasets  is a [Gi
 
 **[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** the name of the moslty eroded areas by calmities that have striken in the time-span 1946-2020
 
-**[IdroGEO - Comuni](https://idrogeo.isprambiente.it/app/page/open-data)** and **[IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data)** contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
+**[IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data)** contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
 
 **[Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section)** and **[Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section)** contain track recors of cohesion projects in Emilia Romagna, trasversally describing their management
 
@@ -79,11 +79,10 @@ The below table is a resume of datasets selected for our project, and that have 
 | **D3** | [Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808) | [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 2012 - 2022 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | **D4** | [Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636) | [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 2020 - 2021 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
 | **D5** | [Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)| [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset) | 1946 - 2020 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it)|
-| **D6** | [Comuni](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| D7 | [Province](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D8** | [Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D9** | [Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
-| **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
+| **D6** | [Province](https://idrogeo.isprambiente.it/app/page/open-data) |  [IdroGEO](https://idrogeo.isprambiente.it/app/) | 2017 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D7** | [Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D8** | [Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
+| **D9** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
 
 
 </br>

@@ -269,8 +269,8 @@ Along with datasets' metadata, MinERva provides information about responsible bo
 
 
 #### [IdroGEO](https://idrogeo.isprambiente.it/app/) 
-Data is available for download in different formats: XLS, CSV and JSON. The platform also allows downlloading the .csv file congaining descriptions and source of the columns in the datasets. 
-*Format* of downloaded data is .csv
+Data is available for download in different formats: XLS, CSV and JSON. The platform also allows downlloading the .csv file congaining descriptions and source of the columns in the datasets. <br>
+*Format* of downloaded data is .csv<br>
 *Provenance*: https://idrogeo.isprambiente.it/app/page/open-data
 
 IRI is not specified and Basic metadata is provided for *D6* such as:
@@ -283,8 +283,8 @@ IRI is not specified and Basic metadata is provided for *D6* such as:
 
 
 #### [OpenCoesione](https://opencoesione.gov.it/it/)
- They allow download of open access datasets representing partial renstitutions of the projects they keep track to. It is possible for everyone to download them in .csv and .xls format
-*Format* of downloaded data is .csv
+ They allow download of open access datasets representing partial renstitutions of the projects they keep track to. It is possible for everyone to download them in .csv and .xls format.<br>
+*Format* of downloaded data is .csv<br>
 *Provenance*: https://opencoesione.gov.it/it/
 
 
@@ -296,8 +296,8 @@ IRI is not specified and Basic metadata is provided for *D7* and *D8*  such as:
 
 
 #### [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) 
-Datasets *D9* can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. 
-*Format* of downloaded data is .json
+Datasets *D9* can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. <br>
+*Format* of downloaded data is .json <br>
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 
 [Resume table of source datasets' technical analysis](technical_table.md)

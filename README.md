@@ -35,13 +35,12 @@ National Wave Network
 the data of the regions from the cartographic systems of ISPRA
 </br>
 
-The second project made available by ISPRA we used for creating FlooData is [IdroGEO](https://idrogeo.isprambiente.it/app/), a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
+The second project made available by ISPRA we used for creating FlooData is **[IdroGEO](https://idrogeo.isprambiente.it/app/)**, a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
 </br>
 </br>
 
-The fourth platform we used is [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset).
-MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the **[Region of Emilia Romagna](https://www.regione.emilia-romagna.it/)**. It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and of the UN 2030 Agenda in [Sustainable Developement Goals](https://www.un.org/en/sustainable-development-goals) che è un sistema open source e basato sul web per la raccolta, la catalogazione e la distribuzione di dati.
-</br>
+Another platform we used is [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset).
+MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the **[Region of Emilia Romagna](https://www.regione.emilia-romagna.it/)**. It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and of the UN 2030 Agenda in [Sustainable Developement Goals](https://www.un.org/en/sustainable-development-goals), an open-source and web-baed system, for data gathering, cataloguing and dissemination.
 </br>
 
 [OpenCoesione](https://opencoesione.gov.it/it/) – the [Italian government](https://www.governo.it/)'s open gov initiative on cohesion policies in Italy – makes available datasets offering a partial return of the monitoring system managed by the [State General Accounting](http://www.rgs.mef.gov.it/); in a form suitable to respond to the cognitive interests of citizens. In the [Open Data section](https://opencoesione.gov.it/it/opendata/#!progetti_section) datsets on projects are available for download and re-use.
@@ -146,35 +145,35 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-**Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 |
-| ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|---------|
-| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  | Yes  |
-| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | Yes  | Yes  | Yes | Yes  | Yes  |
-| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | Yes | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
-| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / | / |
-| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | No | No | No | No | No | No  | No  | No  | No  | No  |
+**Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D7 | D8 | D9 | D10 |
+| ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
+| | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, yes |Yes | Yes | Yes | Yes | Yes  | Yes | Yes  | Yes  |
+| | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | Yes  | Yes | Yes  | Yes  |
+| | Are the data free from any information relating to the subject that, when crossed with data commonly found on the web, can identify the individual? If not, is this information authorized by law? | No, yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
+| | Are the data free from any record relating to refugees, protected by justice, victims of violence or in any case protected categories? | Yes | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | Did you use a tool to calculate the risk of de-anonymization of your dataset before publishing it? | / | / | / | / | / | / | / | / | / | 
+| | Do you display any search services that can filter the data in order to obtain a single geolocated record? | No | No | No | No | No | No  | No  | No  | No  | 
 | **Intellectual Property Rights of the Source** | | |
-| | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  | No  |
-| | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  | No  |
-| | Are you sure you are not using data for which there is a third party license or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
-| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | No* |
+| | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  | 
+| | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  | 
+| | Are you sure you are not using data for which there is a third party license or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | No* |
 | **Release license** | | |
-| | Do you release the data you own with a license? | Yes | Yes  | Yes | Yes | Yes | Ye  | Yes  | Yes  | Yes  | Yes |
-| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | No | No  | No | No | No | No  | No  | No  | No  | No |
+| | Do you release the data you own with a license? | Yes | Yes  | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | 
+| | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | No | No  | No | No | No | No  | No  | No  | No  | 
 | **Limitations on public access** | | |
-| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
-| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
-| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
-| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
+| | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | 
+| | Have you checked if there are no security reasons of public order or nationality that prevent you from publishing the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes |
+| | Have you checked if there are no reasons related to professional secrecy that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | 
+| | Have you checked if there are no reasons related to the state secret that prevent the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | 
 | **Economical Conditions** | | |
-| | Have you verified that you can release the data for free without breaking any public finance rules? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes |
-| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? | / | / | / | / | / | / | / | / | / | / |
+| | Have you verified that you can release the data for free without breaking any public finance rules? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | 
+| | If you have imposed economic conditions for using the data, are you sure you have imposed a price to cover only the marginal costs? | / | / | / | / | / | / | / | / | / |
 | **Temporary aspects** | | |
-| | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  | No |
-| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | Yes  |
-| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes | No |
-| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | No |
+| | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  | 
+| | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | 
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable |  No  | No | No |
+| | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | 
 
 ### Licences mashed-up datasets
 

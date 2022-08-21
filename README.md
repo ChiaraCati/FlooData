@@ -250,7 +250,7 @@ Along with datasets' metadata, MinERva provides information about responsible bo
 
 | Metadata | **[D3](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)** | **[D4](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** | **[D5](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)** | 
 | :---  | :--- | :--- | :--- |
-| URI | [Segnalazioni_fenomeni_geologici](https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip) | [Opere_Difesa_2020](https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip) | [Localita_colpite_Erosione_1946_2020](https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip |)
+| URI | [Segnalazioni_fenomeni_geologici](https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip) | [Opere_Difesa_2020](https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip) | [Localita_colpite_Erosione_1946_2020](https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip) |
 | Dataset ID | ✅ |  ✅ |  ✅ | 
 | Other ID | 🚫 |  🚫 | 🚫 |
 | Themes | ✅ |  🚫 | ✅ | 

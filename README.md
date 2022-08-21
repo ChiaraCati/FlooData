@@ -367,11 +367,9 @@ The data sets used to create Floodata, which examines the dangers by flooding ca
 
 
 ## 🎢 Visualizations
-To allow users to make full use of the data, n visualizations have been provided. Abbiamo deciso di investigare questi quesiti che potete trovare nelle sezione data inspection:
+We started this phase of our project, writing down a list questions that are helpful to describe hydrogeological disruptions in Emilia Romagna, also considering the data we have colllected. We analised our mashed-up data to answer these questions and used [Hicharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
 
-We started by writing down some questions helpful to describe hydrogeological disruptions in Emilia ROmagna. We analised our mashed-up data to aswer them and used Hicharts JS to plot them in graphs for end users. 
-
-### Questions used for describing the phenomena::
+### Questions
 
 
 1. What is the water disaster?  What is their distribution on the territory? What is the typology of the water disaster? 
@@ -387,11 +385,6 @@ We started by writing down some questions helpful to describe hydrogeological di
 - Line chart: y-> tot finanziamenti divisi per tipo, x -> anni   (Chiara)
 - Sunburst : per provincia divisa per tipo di finanziamento (Chiara)
 
-
-1. Choropleth 
-* uno
-* uno
-* uno
 
 ### Licences
 

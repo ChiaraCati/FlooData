@@ -300,7 +300,7 @@ Datasets *D9* can be freely downloaded from github using -curl request or just  
 *Format* of downloaded data is .json
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 
-[Resume table of source datasets' technical analysis](Originals_table.md)
+[Resume table of source datasets' technical analysis](technical_table.md)
 
 ### Mashup and output datasets
 

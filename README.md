@@ -367,14 +367,17 @@ The data sets used to create Floodata, which examines the dangers by flooding ca
 
 
 ## 🎢 Visualizations
-We started this phase of our project, writing down a list questions that are helpful to describe hydrogeological disruptions in Emilia Romagna, also considering the data we have colllected. We analised our mashed-up data to answer these questions and used [Hicharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
+We started this phase of our project, writing down a list questions that came helpful to describe hydrogeological disruptions in Emilia Romagna, also considering the data we have collected. Then, e analised our mashed-up data to answer these questions and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
 
 ### Questions
 
+2. What is an hydrogeological disruption What is their distribution on the territory? 
+    - Map of Emilia Romagn, divided into provinces, with bubbles pointing to disruptions' locations, also their type and aount per tyoe infoormation has been specified in tool tips.
 
-1. What is the water disaster?  What is their distribution on the territory? What is the typology of the water disaster? 
-- Mappa n disastri province  https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ (Giulia)
-- Sunburst : per provincia divisa per tipo di disastro (Chiara)
+    [Code example](https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ )
+
+3. What is the typology of the water disaster? 
+    - Sunburst : per provincia divisa per tipo di disastro (Chiara)
 
 2. How potentially harmful are these disasters? (4 types?) Which areas are most affected?
 
@@ -388,7 +391,7 @@ We started this phase of our project, writing down a list questions that are hel
 
 ### Licences
 
-- **Visualizations:** Highcharts JS which is open-source for non-commercial projects 
+- **Visualizations:** Highcharts JS which is open-source for non-commercial projects, [Standard Licence Agreement](https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2022/05/02081809/Highsoft-Standard-License-Agreement-14.1-2.pdf) 
 - **Website:** HTML5 template **"Bulma"** by [Jeremy Thomas](https://jgthms.com/)
     * source license: [MIT](https://opensource.org/licenses/mit-license.php), 
     * website license: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

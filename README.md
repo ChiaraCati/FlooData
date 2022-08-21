@@ -220,10 +220,24 @@ Data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf
 *Format* of downloaded data is .nt
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
-| Metadata | URI | Description | Modification date | Label | Keywords | Title | Identifier | Type | Publisher | Distribution | Landing Page | Theme | Creator | Accrual Periodicity |  Language | Rights Holder |
-| :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[D1](http://dati.isprambiente.it/id/dissesto/html)** | http://dati.isprambiente.it/id/dissesto/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **[D2](http://dati.isprambiente.it/id/place/html)** | http://dati.isprambiente.it/id/place/html | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅|  🚫 | ✅ | ✅ | ✅ | ✅| ✅| 
+| Metadata | **[D1](http://dati.isprambiente.it/id/dissesto/html)** | **[D2](http://dati.isprambiente.it/id/place/html)** |
+| :---  | :--- | :--- | 
+| URI | http://dati.isprambiente.it/id/dissesto/html | http://dati.isprambiente.it/id/place/html | 
+| Description |  ✅ |  ✅ | 
+| Modification date |  ✅ |  ✅ | 
+| Label |  ✅ |  ✅ | 
+| Keywords |  ✅ |  ✅ | 
+| Title |  ✅ |  ✅ | 
+| Identifier |  ✅ |  ✅ | 
+| Type |  ✅ |  ✅ | 
+| Publisher | ✅ |  ✅ | 
+| Distribution | ✅ |  ✅ | 
+| Landing Page | ✅ |  🚫 |
+| Theme | ✅ |  ✅ | 
+| Creator |  ✅ |  ✅ | 
+| Accrual Periodicity | ✅ |  ✅ | 
+| Language | ✅ |  ✅ | 
+| Rights Holder | ✅ |  ✅ | 
 
 
 #### [Minerva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/)
@@ -234,11 +248,24 @@ Along with datasets' metadata, MinERva provides information about responsible bo
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 
-| Metadata | URI | Dataset ID | Other ID | Themes | Sub-themes | Geographic coverage | Geonames URI | Language | Accural Frequency | Version | Creator | Scale  | Conformity | GEMET Category |  Environmental thematic | Spatial |
-| :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[D3](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip | ✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | ✅ |
-| **[D4](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip | ✅ | 🚫 | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | ✅ |  ✅ | ✅| ✅|
-| **[D5](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)** | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip |✅ | 🚫 | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ | 🚫 | ✅ | ✅ | ✅| 
+| Metadata | **[D3](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)** | **[D4](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** | **[D5](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331)** | 
+| :---  | :--- | :--- | :--- |
+| URI | https://mappegis.regione.emilia-romagna.it/moka/ckan/conoscenza_sottosuolo/Segnalazioni_fenomeni_geologici.zip | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Opere_Difesa_2020.zip | https://mappegis.regione.emilia-romagna.it/moka/ckan/costa/Localita_colpite_Erosione_1946_2020.zip |
+| Dataset ID | ✅ |  ✅ |  ✅ | 
+| Other ID | 🚫 |  🚫 | 🚫 |
+| Themes | ✅ |  🚫 | ✅ | 
+| Sub-themes | 🚫 |  🚫 | 🚫 |
+| Geographic coverage | ✅ |  ✅ |  ✅ | 
+| Geonames URI | 🚫 |  🚫 | 🚫 |
+| Language | ✅ |  ✅ |  ✅ | 
+| Accural Frequency | ✅ |  ✅ | ✅ | 
+| Version | 🚫 |  🚫 | 🚫 |
+| Creator | 🚫 |  🚫 | 🚫 |
+| Scale  | ✅ |  ✅ |  ✅ | 
+| Conformity | 🚫 |  ✅ | 🚫 |
+| GEMET Category | ✅ |  ✅ |  ✅ | 
+| Environmental thematic | ✅ |  ✅ |  ✅ | 
+| Spatial | ✅ |  ✅ |  ✅ | 
 
 
 #### [IdroGEO](https://idrogeo.isprambiente.it/app/) 
@@ -246,7 +273,7 @@ Data is available for download in different formats: XLS, CSV and JSON. The plat
 *Format* of downloaded data is .csv
 *Provenance*: https://idrogeo.isprambiente.it/app/page/open-data
 
-IRI is not specified and Basic metadata is provided for *D6* and *D7*  such as:
+IRI is not specified and Basic metadata is provided for *D6* such as:
 - Title 
 - Description with Version and Year
 - Licence 
@@ -261,7 +288,7 @@ IRI is not specified and Basic metadata is provided for *D6* and *D7*  such as:
 *Provenance*: https://opencoesione.gov.it/it/
 
 
-IRI is not specified and Basic metadata is provided for *D8* and *D9*  such as:
+IRI is not specified and Basic metadata is provided for *D7* and *D8*  such as:
 - Title 
 - Description
 - Licence 
@@ -269,7 +296,7 @@ IRI is not specified and Basic metadata is provided for *D8* and *D9*  such as:
 
 
 #### [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) 
-Datasets can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. 
+Datasets *D9* can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. 
 *Format* of downloaded data is .json
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 

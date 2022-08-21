@@ -333,12 +333,12 @@ The second step consists in the merging of the JSON and CSV files.
 
 The original data has been mashed-up to create the FlooDatas's 4 datasets contained in our catalog.
 
-Using our softwares actions.py and territory .py we created respectively **MD1**, and **MD3**/**MD4**. 
+Using our softwares actions.py and territory .py we created respectively **MD1**, and **MD3**. 
 
 * **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source dataframes. 
 Resulting df is then saved into .json and .csv format for future visualization and consultation purposes. 
 
-* **territory.py** is feeded with *DF6* and *DF7*. Here we select interesting classes from the IdroGeo's datasets such as percentages of risk and atention percentages of families, enterprises and cultural heritage. 
+* **territory.py** is feeded with *DF6*. Here we select interesting classes from the IdroGeo's datasets such as percentages of risk and atention percentages of families, enterprises and cultural heritage. 
 To create MD3 we crossed place names contained in D6 with data in *D10* to find with municipalities latitue and longitude coordinates.
 
 
@@ -351,8 +351,7 @@ A summary table of the produced mashup dataset:
 |   :---    |   :---    |   :---        |   :---    |   :---    |
 |   MD1     |   Actions |   CSV/JSON    |   CC-BY SA 4.0    |    https://github.com/ChiaraCati/Owater/resource/dataset/MD1     |
 |   MD2     |   Disruptions | CSV/JSON  |   CC-BY SA 4.0    |    https://github.com/ChiaraCati/Owater/resource/dataset/MD2     |
-|   MD3     |   Hydrogeological risk in municipalities      | CSV/JSON | CC-BY SA 4.0 | https://github.com/ChiaraCati/Owater/resource/dataset/MD3 |
-|   MD4     |   Hydrogeological risk in provinces  |  CSV/JSON  |   CC-BY SA 4.0  |   https://github.com/ChiaraCati/Owater/resource/dataset/MD4 |
+|   MD3     |   Hydrogeological risk in provinces  |  CSV/JSON  |   CC-BY SA 4.0  |   https://github.com/ChiaraCati/Owater/resource/dataset/MD3 |
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 
@@ -377,23 +376,23 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 
 * Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
 
-* (Meta)data are released with a clear and accessible data usage license: The FlooData datasets are made available under the terms of the [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode.it) Licence, which are specific to the dataset and associated metadata we provided.
+* (Meta)data are released with a clear and accessible data usage license: The FlooData datasets are made available under the terms of the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.it) Licence, which are specific to the dataset and associated metadata we provided.
 
 * (Meta)data are associated with detailed provenance: in the metadata encoding of our project, data provenance information is provided in a machine-readable way.
 
-* (Meta)data meet domain-relevant community standards: 
+* (Meta)data meet domain-relevant community standards.
 
 ## 🌱 Sustainability
 The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The data sets produced for this project are not actively maintained.
 
 
 ## 🎢 Visualizations
-We started this phase of our project, writing down a list questions that came helpful to describe hydrogeological disasters in Emilia Romagna, also considering the data we have collected. Then, we analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
+We started this phase of our project, writing down a list of questions that came helpful to describe hydrogeological disasters in Emilia Romagna, also considering the data we have collected. Then, we analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
 
 ### Questions
 
 1. What kinds of hydrogeological disaster do we find in Emilia Romagna, and what is their distribution on this territory? 
-    - Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations, also their type and aount per tyoe infoormation has been specified in tool tips.<br>
+    - Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations (latitude, longitude and municipality), also their type and amount per tyoe infoormation has been specified in tool tips.<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ )
     - Sunburst of total amount of disasters divided by province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
@@ -411,9 +410,8 @@ We started this phase of our project, writing down a list questions that came he
 ### Licences
 
 - **Visualizations:** Highcharts JS which is open-source for non-commercial projects, [Standard Licence Agreement](https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2022/05/02081809/Highsoft-Standard-License-Agreement-14.1-2.pdf rist) 
-- **Website:** HTML5 template **"Bulma"** by [Jeremy Thomas](https://jgthms.com/)
-    * source license: [MIT](https://opensource.org/licenses/mit-license.php), 
-    * website license: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- **Website:** HTML5 template **"Bulma"** by [Jeremy Thomas](https://jgthms.com/), [MIT](https://opensource.org/licenses/mit-license.php), 
+  
 
 
 ## 📢 RDF assertion of data

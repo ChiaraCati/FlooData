@@ -372,7 +372,7 @@ We started this phase of our project, writing down a list questions that came he
 ### Questions
 
 2. What is an hydrogeological disruption What is their distribution on the territory? 
-    - Map of Emilia Romagn, divided into provinces, with bubbles pointing to disruptions' locations, also their type and aount per tyoe infoormation has been specified in tool tips.\
+    - Map of Emilia Romagn, divided into provinces, with bubbles pointing to disruptions' locations, also their type and aount per tyoe infoormation has been specified in tool tips.<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ )
 
 3. What is the typology of the water disaster? 

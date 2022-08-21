@@ -93,18 +93,15 @@ The below table is a resume of datasets selected for our project, and that have 
 
 **[Disruptions](datasets/final_dataset/disruptions.csv)** is the mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna.
 
-**[Municipality](datasets/final_dataset/municipality.csv)** is the mashed-up dataset containing data on floading risk, area anf geographical information of Emilia Romagna's municipalities.
-
 **[Province](datasets/final_dataset/province.csv)** is the mashed-up dataset containing data on floading risk, area anf geographical information of Emilia Romagna's provinces.
 
 The below table is a resume of datasets created by FlooData, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
 
 | ID | Dataset | Original dataset | Time span | 
 | :---         |     :---     |     :---     |     :---     |  
-| **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D8**,**D9**,**D10** | 2016 - 2021 |
-| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D10**| 2016 | 
-| **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | **D6**, **D10**| 2012 - 2022 |
-| **MD4** | [Province](datasets/final_dataset/province.csv) | **D7**,**D10** | 2020 - 2021 |
+| **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D7**,**D8**,**D9** | 2016 - 2021 |
+| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| 2016 | 
+| **MD3** | [Province](datasets/final_dataset/province.csv) | **D6**,**D9** | 2020 - 2021 |
 
 
 ## 💎 Quality analysis of the datasets
@@ -121,11 +118,10 @@ The following criteria must be met in order to manage the level of information q
 | **D3**         |     Satisfied     |     Not satisfied: 81.9%%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
 | **D4**         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 80.4%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | **D5**         |     Satisfied     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
-| **D6**         |     Satisfied        |       Not satisfied: 99.6%       |      Satisfied |       Satisfied: last update 2021 with new ISTAT codes  |
-| **D7** | Satisfied | Not satisfied: 99.7% | Satisfied |      Satisfied: last update 2021 with new ISTAT codes  |
-| **D8**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfired: last update may 2022      |
-| **D9**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
-| **D10**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2017 |
+| **D6** | Satisfied | Not satisfied: 99.7% | Satisfied |      Satisfied: last update 2021 with new ISTAT codes  |
+| **D7**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfired: last update may 2022      |
+| **D8**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
+| **D9**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2017 |
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. 
 
@@ -138,11 +134,10 @@ Below we present the quantitative data retriven during our Quality analysis, ful
 | **D3**         |     763     |     138     |    81.9%     |  
 | **D4**         |     38164     |     7232     |     80.4%     | 
 | **D5**         |     380     |     0     |    100%     |  no
-| **D6**         |     979972     |     3500     |    99.6%      |  
-| **D7**         |     13161     |     34     |    99.7%     |  
-| **D8**         |     3449466    |     835602     |    75.8%     |  
-| **D9**         |     6131986     |     1773353     |    71.1%     |  
-| **D10**         |     31920     |     3     |    99.9%     |  
+| **D6**         |     13161     |     34     |    99.7%     |  
+| **D7**         |     3449466    |     835602     |    75.8%     |  
+| **D8**         |     6131986     |     1773353     |    71.1%     |  
+| **D9**         |     31920     |     3     |    99.9%     |  
 
 \* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. Values here represent the sum and mean of the merged datasets 
 

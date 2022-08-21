@@ -367,30 +367,29 @@ The data sets used to create Floodata, which examines the dangers by flooding ca
 
 
 ## 🎢 Visualizations
-We started this phase of our project, writing down a list questions that came helpful to describe hydrogeological disruptions in Emilia Romagna, also considering the data we have collected. Then, e analised our mashed-up data to answer these questions and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
+We started this phase of our project, writing down a list questions that came helpful to describe hydrogeological disasters in Emilia Romagna, also considering the data we have collected. Then, we analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
 
 ### Questions
 
-2. What is an hydrogeological disruption What is their distribution on the territory? 
-    - Map of Emilia Romagn, divided into provinces, with bubbles pointing to disruptions' locations, also their type and aount per tyoe infoormation has been specified in tool tips.<br>
+1. What kinds of hydrogeological disaster do we find in Emilia Romagna, and what is their distribution on this territory? 
+    - Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations, also their type and aount per tyoe infoormation has been specified in tool tips.<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ )
+    - Sunburst of total amount of disasters divided by province and then divided by typology<br>
+    [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
-3. What is the typology of the water disaster? 
-    - Sunburst : per provincia divisa per tipo di disastro (Chiara)
+3. How potentially harmful are these disasters? Which areas are most affected?
+    - Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts showing idraulic risk, disruption, risk for families, population, enterprises, buildings and cultural heritage.<br>
+    [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
-2. How potentially harmful are these disasters? (4 types?) Which areas are most affected?
-
-- Mappa distribuzione aree rischio + pie chart su provincia per rischio idraulico, rischio frane , famiglie rischio, popolazione rischio, imprese rischio, edifici rischio, beni culturali rischio. https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/ (Giulia)
-
-3. How do humans react to the water disaster? Who finances the initiatives? Are there more preventive or interventional initiatives? How many finances a year?
-- Mappa n disastri province + line chart not finanziamenti  https://www.highcharts.com/demo/maps/rich-info (Giulia)
-- Line chart: y-> tot finanziamenti divisi per tipo, x -> anni   (Chiara)
-- Sunburst : per provincia divisa per tipo di finanziamento (Chiara)
-
+4. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or interventional initiatives? What kind of interventins are carried in each province and what is the amount of financings made available for each one of them?
+    -Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments mades by each province <br>
+    [Code example](https://www.highcharts.com/demo/maps/rich-info )
+    -  Sunburst of total amount of financings divided by province and then divided by typology<br>
+    [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
 ### Licences
 
-- **Visualizations:** Highcharts JS which is open-source for non-commercial projects, [Standard Licence Agreement](https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2022/05/02081809/Highsoft-Standard-License-Agreement-14.1-2.pdf) 
+- **Visualizations:** Highcharts JS which is open-source for non-commercial projects, [Standard Licence Agreement](https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2022/05/02081809/Highsoft-Standard-License-Agreement-14.1-2.pdf rist) 
 - **Website:** HTML5 template **"Bulma"** by [Jeremy Thomas](https://jgthms.com/)
     * source license: [MIT](https://opensource.org/licenses/mit-license.php), 
     * website license: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

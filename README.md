@@ -145,7 +145,7 @@ Legal analysis is required to ensure the long-term viability of the data generat
 
 In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
 
-**Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D7 | D8 | D9 | D10 |
+**Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
 | | Are the data free from any personal information that can directly identify the individual?  If not, is this information authorized by law?| No, yes |Yes | Yes | Yes | Yes | Yes  | Yes | Yes  | Yes  |
 | | Are the data free from any sensitive information that can be traced back to the individual? If not, is this information authorized by law? | No, yes |Yes | Yes | Yes | Yes | Yes  | Yes | Yes  | Yes  |
@@ -185,8 +185,7 @@ In  the following table we listed all original datasets licences and found them 
 | :---    | :---    | :---                |     :---     |  
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) |  CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 | **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY 3.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
-| **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
-| **MD4** | [Province](datasets/final_dataset/province.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
+| **MD3** | [Province](datasets/final_dataset/province.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 
 
 ## 🫂 Ethical analysis 

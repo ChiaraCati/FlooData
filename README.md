@@ -101,7 +101,7 @@ The below table is a resume of datasets selected for our project, and that have 
 The below table is a resume of datasets created by FlooData, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
 
 | ID | Dataset | Original dataset | Time span | 
-| :---         |     :---     |     :---     |     :---     |    :--- |   
+| :---         |     :---     |     :---     |     :---     |  
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D8**,**D9**,**D10** | 2016 - 2021 |
 | **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D10**| 2016 | 
 | **MD3** | [Municipality](datasets/final_dataset/municipality.csv) | **D6**, **D10**| 2012 - 2022 |

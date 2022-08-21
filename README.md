@@ -382,7 +382,7 @@ We started this phase of our project, writing down a list questions that came he
     [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
 4. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or interventional initiatives? What kind of interventins are carried in each province and what is the amount of financings made available for each one of them?
-    -Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments mades by each province <br>
+    - Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments mades by each province <br>
     [Code example](https://www.highcharts.com/demo/maps/rich-info )
     -  Sunburst of total amount of financings divided by province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)

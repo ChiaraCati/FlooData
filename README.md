@@ -180,7 +180,7 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 | | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | Not Verifiable | No|  Not Verifiable  | Yes | Yes | No |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | No |
 
-### Licences mash-up
+### Licences mashed-up datasets
 
 Final licences for the mashed-up datasets have been chosen according to licencs compatibility.
 
@@ -368,10 +368,38 @@ The data sets used to create Floodata, which examines the dangers by flooding ca
 
 ## 🎢 Visualizations
 To allow users to make full use of the data, n visualizations have been provided. Abbiamo deciso di investigare questi quesiti che potete trovare nelle sezione data inspection:
+
+We started by writing down some questions helpful to describe hydrogeological disruptions in Emilia ROmagna. We analised our mashed-up data to aswer them and used Hicharts JS to plot them in graphs for end users. 
+
+### Questions used for describing the phenomena::
+
+
+1. What is the water disaster?  What is their distribution on the territory? What is the typology of the water disaster? 
+- Mappa n disastri province  https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ (Giulia)
+- Sunburst : per provincia divisa per tipo di disastro (Chiara)
+
+2. How potentially harmful are these disasters? (4 types?) Which areas are most affected?
+
+- Mappa distribuzione aree rischio + pie chart su provincia per rischio idraulico, rischio frane , famiglie rischio, popolazione rischio, imprese rischio, edifici rischio, beni culturali rischio. https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/ (Giulia)
+
+3. How do humans react to the water disaster? Who finances the initiatives? Are there more preventive or interventional initiatives? How many finances a year?
+- Mappa n disastri province + line chart not finanziamenti  https://www.highcharts.com/demo/maps/rich-info (Giulia)
+- Line chart: y-> tot finanziamenti divisi per tipo, x -> anni   (Chiara)
+- Sunburst : per provincia divisa per tipo di finanziamento (Chiara)
+
+
 1. Choropleth 
 * uno
 * uno
 * uno
+
+### Licences
+
+- **Visualizations:** Highcharts JS which is open-source for non-commercial projects 
+- **Website:** HTML5 template **"Bulma"** by [Jeremy Thomas](https://jgthms.com/)
+    * source license: [MIT](https://opensource.org/licenses/mit-license.php), 
+    * website license: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 
 ## 📢 RDF assertion of data
 Our metadata is supplied in accordance with the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) in order to achieve the goal of providing the user with more reusable and interoperable data. The catalogue's as well as each individual dataset's metadata are supplied [here](https://github.com/ChiaraCati/Owater/tree/main/metadata), each .ttl file has been validated through http://ttl.summerofcode.be/. 

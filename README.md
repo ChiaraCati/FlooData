@@ -84,6 +84,7 @@ The below table is a resume of datasets selected for our project, and that have 
 | **D8** | [Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | **D9** | [Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section) | [OpenCoesione](https://opencoesione.gov.it/it/) | 2007-2013 | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it)|
 | **D10** | [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) | [Comuni-Italiani-2018 GitHub](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) | 2014-2018 | Not specified |
+
 </br>
 
 ### Mashed-up datasets descriptions
@@ -381,7 +382,7 @@ We started this phase of our project, writing down a list questions that came he
     - Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts showing idraulic risk, disruption, risk for families, population, enterprises, buildings and cultural heritage.<br>
     [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
-4. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or interventional initiatives? What kind of interventins are carried in each province and what is the amount of financings made available for each one of them?
+4. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or interventional initiatives? What kind of interventions have been made in each province, and what is the amount of financings made available for each one of them?
     - Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments mades by each province <br>
     [Code example](https://www.highcharts.com/demo/maps/rich-info )
     -  Sunburst of total amount of financings divided by province and then divided by typology<br>

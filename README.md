@@ -9,12 +9,12 @@ Emilia Romagna is the sixth widest region in Italy in terms of surface area and 
 
 Our objective is, thus, the analyis of the relationship between idrogeological damages and the measures undertaken by local communities and their decision-makers.  Aditionally, we aim to analyse information on different kind of activities, mainly distinguishing between **preventive measures** and **reparatory interventions**. This further distinction was made with the aim to make explicit the involvement of local communities in the preservation of their territory.
 
-Through this project our aim is to give a clear overview of areas prone to hydrogeological dissest in Emilia Romagnia,  triangucorredated lated with quantitative data on chatastrophic events and data on related activities, to inform end users and make them aware of the hydrogeological risk characterizing Emiglia Romagna's provinces.
+Through this project, our aim is to give a clear overview of areas prone to hydrogeological dissest in Emilia Romagnia, enriched with quantitative data on chatastrophic events and related activities, to inform end users and make them aware of the hydrogeological risk characterizing Emilia Romagna's provinces.
 
 
 ## 🏞 Scenario
 
-**ISPRA** is also the institution that created some Open Data repositories we relied on, when gathering the original data for building FlooData. 
+**ISPRA** is the owner institution of some of the Open data sets we relied on while gathering source data or building FlooData's Catalogue. 
 [LinkedIspra](http://dati.isprambiente.it/) is their pilot project oh production of Linked Open Data following W3S guidelines. It is represented by a Catalog (issued in 2016) of 5 datasets:  
 * [ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/), the National Directory of Soil Defense Interventions
 * [CDS](http://dati.isprambiente.it/dataset/cds/), theLand Consumption in Italy
@@ -35,7 +35,7 @@ MinERva is the point of reference and information sharing held by the Directorat
 
 [OpenCoesione](https://opencoesione.gov.it/it/) – the [Italian government](https://www.governo.it/)'s open gov initiative on cohesion policies in Italy – makes available datasets offering a partial return of the monitoring system managed by the [State General Accounting](http://www.rgs.mef.gov.it/); in a form suitable to respond to the cognitive interests of citizens. In the [Open Data section](https://opencoesione.gov.it/it/opendata/#!progetti_section) datsets on projects are available for download and re-use.
 
-The final data source employed in the constuction of FlooData datasets  is a [GitHub repository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski). The author does not provide a licence or waiver for the data they created. However it is possible to collaborate and freely download data, withouth specifying any legal restricion. The data contained in this resource is of topologycal and topohographical nature as it contains places names, cxoordinates, istat codes, dimensions and  statistics (out of date) of different Italian areas, spanning from single municipalities to the entire natainal territory. 
+The final data source employed in the constuction of FlooData datasets  is a [GitHub repository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski). The author does not provide a licence or waiver for the data they created. However it is possible to collaborate and freely download data, withouth specifying any legal restricion. The data contained in this resource is of topologycal and topohographical nature as it contains places names, cxoordinates, istat codes, dimensions and  statistics (out of date) of different Italian areas, spanning from single municipalities to the entire national territory. 
 
 
 ## 📂 Original and mashed-up datasets

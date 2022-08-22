@@ -21,10 +21,10 @@ Damages were, then, divided into 9 categories:
 * **Wells with hot water**,
 * **Unknown**
 
-Finally,we analysed information on different kind of activities, mainly distinguishing between **preventive measures** and **reparatory interventions**. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
+Finally,we analysed information on different kind of activities, mainly distinguishing between **preventive measures** and **reparatory interventions**. This further distinction was made with the aim to make explicit the involvement of local communities in the preservation of their territory.
 
 
-Through this project our aim is to give a clear view over risky areas triangulated with quantitative data on chatastrophic events and data on related activities(formulare un po' meglio).
+Through this project our aim is to give a clear overview of areas prone to hydrogeological dissest in Emilia Romagnia,  triangucorredated lated with quantitative data on chatastrophic events and data on related activities, to inform end users and make them aware of the hydrogeological risk characterizing Emiglia Romagna's provinces.
 
 
 ## 🏞 Scenario

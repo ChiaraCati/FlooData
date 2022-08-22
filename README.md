@@ -377,7 +377,7 @@ The data sets used to create Floodata, which examines the dangers by flooding ca
 
 
 ## 🎢 Visualizations
-We started this phase of our project, writing down a list of questions that came helpful to describe hydrogeological disasters in Emilia Romagna, also considering the data we have collected. Then, we analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
+We started this phase of our project, writing down a list of questions to describe hydrogeological disasters in Emilia Romagna, also considering the data we have collected. Then, we analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
 
 ### Questions
 

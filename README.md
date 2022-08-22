@@ -9,14 +9,19 @@ Emilia Romagna is the sixth widest region in Italy in terms of surface area and 
 
 Our first objective is, thus, the analyis of the relationship between idrogeological damages and the measures undertaken by different actors consdering them at local, national and (maybe) international level.  
 
-Damages were, then, divided into two categories:
+Damages were, then, divided into 9 categories:
 
-* **Damages on the coast** (mostly damages caused by sea events)
-* **Damages on the mainland** (damages cused by floods and earth-quakes)
+* **Coast erosion**,
+* **Coastal Disruption**,
+* **Gas leaks from wells for water and / or from the ground**,
+* **Idraulico**,
+* **Landslide**,
+* **Presence of fractures and / or sinking into the ground**,
+* **Volcanoes of mud and / or sand**,
+* **Wells with hot water**,
+* **Unknown**
 
-This distinction was introduced as we elaborated our second objective: whether there is a distinction in terms of risk perception towards these two different areas.
-
-Finally, information on damages has been crossed with information on different kind of activities, mainly distinguishing between preventive measures and reparatory interventions. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
+Finally,we analysed information on different kind of activities, mainly distinguishing between **preventive measures** and **reparatory interventions**. This further distinction was made with the aim to make explicit the amount of involvement of local and larger scale institutions (both from the private and public, if possible) in the preservation of this territory.
 
 
 Through this project our aim is to give a clear view over risky areas triangulated with quantitative data on chatastrophic events and data on related activities(formulare un po' meglio).

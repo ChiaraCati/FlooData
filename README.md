@@ -7,22 +7,7 @@ FlooData is a project developed by Chiara Catizone and Giulia Venditti for the f
 
 Emilia Romagna is the sixth widest region in Italy in terms of surface area and it has a variegated hydrogeological conformation. This variety offers a moltitude of ecoystems currently undergoing drastic transformations due to climate change as stated by the Emilia Romagna's *Regional Environmental Protection Agency* ( [ARPAE](https://www.arpae.it/it) ) in its report on [Climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). Also, the Italian Institute for Environmental Protection and Research (Istituto Superiore per la Protezione e la Ricerca Ambientale), [ISPRA](https://www.isprambiente.gov.it/it), stated that at national level the hydrogeological morphology is extremely frigile due to intense weather events and  proneness to landslides of the territory.
 
-Our first objective is, thus, the analyis of the relationship between idrogeological damages and the measures undertaken by different actors consdering them at local, national and (maybe) international level.  
-
-Damages were, then, divided into 9 categories:
-
-* **Coast erosion**,
-* **Coastal Disruption**,
-* **Gas leaks from wells for water and / or from the ground**,
-* **Idraulic**,
-* **Landslide**,
-* **Presence of fractures and / or sinking into the ground**,
-* **Volcanoes of mud and / or sand**,
-* **Wells with hot water**,
-* **Unknown**
-
-Finally,we analysed information on different kind of activities, mainly distinguishing between **preventive measures** and **reparatory interventions**. This further distinction was made with the aim to make explicit the involvement of local communities in the preservation of their territory.
-
+Our objective is, thus, the analyis of the relationship between idrogeological damages and the measures undertaken by local communities and their decision-makers.  Aditionally, we aim to analyse information on different kind of activities, mainly distinguishing between **preventive measures** and **reparatory interventions**. This further distinction was made with the aim to make explicit the involvement of local communities in the preservation of their territory.
 
 Through this project our aim is to give a clear overview of areas prone to hydrogeological dissest in Emilia Romagnia,  triangucorredated lated with quantitative data on chatastrophic events and data on related activities, to inform end users and make them aware of the hydrogeological risk characterizing Emiglia Romagna's provinces.
 

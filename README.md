@@ -382,16 +382,16 @@ We started this phase of our project, writing down a list of questions that came
 ### Questions
 
 1. What kinds of hydrogeological disaster do we find in Emilia Romagna, and what is their distribution on this territory? 
-    - Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations (latitude, longitude and municipality), also their type and amount per tyoe infoormation has been specified in tool tips.<br>
+    - Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations (latitude, longitude and municipality), also their type and amount per type information has been specified in tool tips.<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ )
     - Sunburst of total amount of disasters divided by province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
-3. How potentially harmful are these disasters? Which areas are most affected?
-    - Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts showing idraulic risk, disruption, risk for families, population, enterprises, buildings and cultural heritage.<br>
+2. How potentially harmful are these disasters? Which areas are most affected?
+    - Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts showing idraulic risk, disruption risk, probability of risk for the families, population, enterprises, buildings and cultural heritage.<br>
     [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
-4. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or interventional initiatives? What kind of interventions have been made in each province, and what is the amount of financings made available for each one of them?
+3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or interventional initiatives? What kind of interventions have been made in each province, and what is the amount of financings made available for each one of them?
     - Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments mades by each province <br>
     [Code example](https://www.highcharts.com/demo/maps/rich-info )
     -  Sunburst of total amount of financings divided by province and then divided by typology<br>

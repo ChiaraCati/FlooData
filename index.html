@@ -186,17 +186,34 @@
       <div class="content is-medium">
         <h1 class="title">Data Inspection</h1>
         <p>Here insert visualization plus a brif data Analysis. Discourse proposal:</p>
-        <ul>
-          <li>What is the water disaster? How many disasters a year? What is the typology of the water disaster? What is their distribution on the territory?</li>
-          <li> How potentially harmful are these disasters? (4 types?) Which areas are most affected?</li>
-          <li>How do humans react to the water disaster? Who finances the initiatives? Are there more preventive or interventional initiatives?</li>
-          <li>Report interesting foundings over data</li>
-        </ul>
+      
+          <h2>Which types of hydrogeological disaster do we find in Emilia Romagna, and what is their distribution on this territory?</h2>
+          <div>
+            <div id="container2" style="width:50%; height:500px;"></div>
+            <p> Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations.</p>
+          </div>
+          <div>
+            <div id="container" style="width:50%; height:400px;"></div>
+            <p>Sunburst chart of total amount of disasters divided by province and then divided by typology.</p>
+          </div>
+          <br>
+          <p>Here we notice the provinces of <b>Bologna</b> and <b>Modena</b> to be the ones with most dissests recorded, some – e.g., wells of hot water and gas leaks from the ground – are linked to the 2012 earthquake that stroke the region (cfr. <a href="https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808">Segnalazioni fenomeni geologici particolari</a>).<br>
+            Landslides and idraulic disasters are largely present in each province, also we can assess there is a clear difference in the typology of the disasters between provinces facing on the Adriatic sea. <b>Ferrara</b> is a case worth of mention, as it is one of the provinces registering less disasters, but at the same time having an etherogeneous distribution of disaster typologies.
+          </p>
+
+          <h2>How potentially harmful are these disasters? Which areas are most affected? </h2>
+          <div>
+            <div id="container3" style="width:50%; height:400px;"></div>
+            <p>Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts displaying the percentages of risk for poulation and the environment.</p>
+          </div>
+          <h2> What is the yearly rate of financings devolved to hydrogeological dissest? COnsidering each single Province, are there more preventive or interventional initiatives, what kind of interventions have been made in  and what is the amount of financings made available for each one of them?</h2>
+          <div id="container4" style="width:50%; height:400px;"></div>
+          <div id="container5" style="width:50%; height:400px;"></div>
+          <div class="clear"></div>
+
 
         <!-- put a chart -->
-        <div id="container" style="width:50%; height:400px;"></div>
-        <div id="container2" style="width:50%; height:400px;"></div>
-        <div class="clear"></div>
+        
       </div>
       
     </section>

@@ -42,7 +42,7 @@ The final data source employed in the constuction of FlooData datasets  is a [Gi
 
 ### Original datasets descriptions
 
-**[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions; associated lots,; georeferencing,; projects' financial budgets; disruptions' typologies, lithologies  and realized works; classification of hydrogeological disruptions and of works made for protecting the soil (in SKOS format)
+**[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies  and realized works; classification of hydrogeological disruptions and of works made for protecting the soil.
 
 **[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/)** was used as suport to gather geographical fata about *interventions*, *repair* and *instabilities*. It contains places's fficial names; latitude and longitude of the centroids; polygons (shape); administrative hierarchy; Istat codes, link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
 
@@ -82,14 +82,14 @@ The below table is a resume of datasets selected for our project, and that have 
 
 **[Disruptions](datasets/final_dataset/disruptions.csv)** is the mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna.
 
-**[Province](datasets/final_dataset/province.csv)** is the mashed-up dataset containing data on floading risk, area anf geographical information of Emilia Romagna's provinces.
+**[Province](datasets/final_dataset/province.csv)** is the mashed-up dataset containing data on floading risk, area and geographical information of Emilia Romagna's provinces.
 
 The below table is a resume of datasets created by FlooData, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
 
 | ID | Dataset | Original dataset | Time span | 
 | :---         |     :---     |     :---     |     :---     |  
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D7**,**D8**,**D9** | 2016 - 2021 |
-| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| 2016 | 
+| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| 2016-2021| 
 | **MD3** | [Province](datasets/final_dataset/province.csv) | **D6**,**D9** | 2020 - 2021 |
 
 
@@ -391,9 +391,11 @@ We started this phase of our project, writing down a list of questions that came
     - Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts showing idraulic risk, disruption risk, probability of risk for the families, population, enterprises, buildings and cultural heritage.<br>
     [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
-3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or interventional initiatives? What kind of interventions have been made in each province, and what is the amount of financings made available for each one of them?
+3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or reparatory initiatives? What kind of interventions have been made in each province, and what is the amount of financings made available for each one of them?
     - Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments mades by each province <br>
     [Code example](https://www.highcharts.com/demo/maps/rich-info )
+    -  Bar chart of total amount of financings for preventive and reparatory interventions divided by province<br>
+    [Code example]https://www.highcharts.com/blog/chartchooser/bar-categorical-comparison/)
     -  Sunburst of total amount of financings divided by province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 

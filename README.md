@@ -113,7 +113,7 @@ The below criteria must be met, to manage the level of information quality as se
 | **D8**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
 | **D9**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2017 |
 
-\* <sup><sub>Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. </sub></sup>
+<sup><sub>\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. </sub></sup>
 
 Below we present the quantitative data retrieved during our Quality analysis, fully available at [quality.ipynb](software/quality.ipynb):
 
@@ -129,7 +129,8 @@ Below we present the quantitative data retrieved during our Quality analysis, fu
 | **D8**         |     6131986     |     1773353     |    71.1%     |  
 | **D9**         |     31920     |     3     |    99.9%     |  
 
-\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. Values here represent the sum and mean of the merged datasets 
+
+<sup><sub>\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. Values here represent the sum and mean of the merged datasets.</sub></sup> 
 
 ## ⚖️ Legal analysis 
 Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, as well as to produce a balanced service that is in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, right determination, and licence conditions.

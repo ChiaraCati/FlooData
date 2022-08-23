@@ -15,9 +15,9 @@ Our project's objectives are to return an overview of the relationship between h
 ## 🏞 Scenario
 
 **ISPRA** is the owner institution of some of the Open data sets we relied on while gathering source data or building FlooData's Catalogue. 
-[LinkedIspra](http://dati.isprambiente.it/) is their pilot project oh production of Linked Open Data following W3S guidelines. It is represented by a Catalog (issued in 2016) of 5 datasets:  
+[LinkedIspra](http://dati.isprambiente.it/) is their pilot project on Linked Open Data following W3S guidelines. It is by a Catalog (issued in 2016) composed of 5 datasets:  
 * [ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/), the National Directory of Soil Defense Interventions
-* [CDS](http://dati.isprambiente.it/dataset/cds/), theLand Consumption in Italy
+* [CDS](http://dati.isprambiente.it/dataset/cds/), the Land Consumption in Italy
 * [RMN](http://dati.isprambiente.it/dataset/rmn-la-rete-mareografica-nazionale/), the  National Mareographic Network
 * [RON](http://dati.isprambiente.it/dataset/ron-rete-ondametrica-nazionale/), the 
 National Wave Network
@@ -25,17 +25,17 @@ National Wave Network
 the data of the regions from the cartographic systems of ISPRA
 </br>
 
-The second project made available by ISPRA we used for creating FlooData is **[IdroGEO](https://idrogeo.isprambiente.it/app/)**, a platform allowing consultation of download and sharing of data, maps, reports, documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in open format and with [CreativeCommons](https://creativecommons.org/) licences. 
+The second project made available by ISPRA we used for creating FlooData is **[IdroGEO](https://idrogeo.isprambiente.it/app/)**, a platform allowing consultation of download and sharing of data, maps, reports, and documents of the Italian Landslide Inventory - IFFI. The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data) from which it is possible to download data concerning landslides, available in Open format and with [CreativeCommons](https://creativecommons.org/) licences. 
 </br>
 </br>
 
 Another platform we used is [MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset).
-MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the **[Region of Emilia Romagna](https://www.regione.emilia-romagna.it/)**. It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and of the UN 2030 Agenda in [Sustainable Developement Goals](https://www.un.org/en/sustainable-development-goals), an open-source and web-baed system, for data gathering, cataloguing and dissemination.
+MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the **[Region of Emilia Romagna](https://www.regione.emilia-romagna.it/)**. It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and of the UN 2030 Agenda in [Sustainable Development Goals](https://www.un.org/en/sustainable-development-goals), an open-source and web-based system, for data gathering, cataloguing and dissemination.
 </br>
 
-[OpenCoesione](https://opencoesione.gov.it/it/) – the [Italian government](https://www.governo.it/)'s open gov initiative on cohesion policies in Italy – makes available datasets offering a partial return of the monitoring system managed by the [State General Accounting](http://www.rgs.mef.gov.it/); in a form suitable to respond to the cognitive interests of citizens. In the [Open Data section](https://opencoesione.gov.it/it/opendata/#!progetti_section) datsets on projects are available for download and re-use.
+[OpenCoesione](https://opencoesione.gov.it/it/) – the [Italian government](https://www.governo.it/)'s open gov initiative on cohesion policies in Italy – make available datasets offering a partial return of the monitoring system managed by the [State General Accounting](http://www.rgs.mef.gov.it/); in a form suitable to respond to the cognitive interests of citizens. In the [Open Data section](https://opencoesione.gov.it/it/opendata/#!progetti_section) datasets on projects are available for download and re-use.
 
-The final data source employed in the constuction of FlooData datasets  is a [GitHub repository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski). The author does not provide a licence or waiver for the data they created. However it is possible to collaborate and freely download data, withouth specifying any legal restricion. The data contained in this resource is of topologycal and topohographical nature as it contains places names, cxoordinates, istat codes, dimensions and  statistics (out of date) of different Italian areas, spanning from single municipalities to the entire national territory. 
+The final data source employed in the construction of FlooData datasets is a [GitHub repository](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) by [Matteo Henry Chinaski](https://github.com/MatteoHenryChinaski). The author does not provide a licence or waiver for the data they created. However, it is possible to collaborate and freely download the dataset without specifying any legal restrictions. The data contained in this resource is of topological and topographical nature: place names, coordinates, ISTAT codes, dimensions and statistics (out of date) of different Italian areas, spanning from single municipalities to the entire national territory. 
 
 
 ## 📂 Original and mashed-up datasets

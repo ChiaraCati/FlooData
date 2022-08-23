@@ -95,12 +95,12 @@ The below table is a resume of datasets created by FlooData, containing informat
 
 
 ## 💎 Quality analysis of the datasets
-The following criteria must be met in order to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
+The below criteria must be met, to manage the level of information quality as set out by the National Guidelines for the Improvement of Public Information Assets in the [Context of Data Quality](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati):
 
-* *Accurancy*: the data's properties accurately reflect the true worth of the concept or event being referenced;
-* *Completness*: the data is comprehensive with regard to all of its expected values and the relevant entities (sources) that contribute to the definition of the procedure;
-* *Coherence*: in terms of how the administration's owner uses the data, neither the data nor its attributes can be related to other data;
-* *Promptness*: the data, and its attributes, is updated with respect to the procedure to which it refers.
+* *Accuracy*: the data's properties accurately reflect the true worth of the concept or referenced event ;
+* *Completeness*: the data is comprehensive concerning all of its expected values and the relevant entities (sources) that contribute to the definition of the procedure;
+* *Coherence*: in terms of how the administration's owner uses the data, neither the data nor its attributes can relate to other data;
+* *Promptness*: the data, and its attributes, are updated to the procedure to which it refers.
 
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |     :---   |
@@ -113,10 +113,10 @@ The following criteria must be met in order to manage the level of information q
 | **D8**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
 | **D9**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2017 |
 
-\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The resulting merged dataframes  we use as starting point for data mash up, were also used for analysis, as the original df it contained more than a million entries. 
+\* <small>Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. </small>
 
-Below we present the quantitative data retriven during our Quality analysis, fully available at [quality.ipynb](software/quality.ipynb):
- 
+Below we present the quantitative data retrieved during our Quality analysis, fully available at [quality.ipynb](software/quality.ipynb):
+
 
 | Dataset | Total values | Null values | Completness |
 | :---         |     :---     |     :---     |    :---     |  

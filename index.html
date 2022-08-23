@@ -12,6 +12,7 @@
     <script src="https://code.highcharts.com/maps/modules/data.js"></script>
     <script src="https://code.highcharts.com/modules/marker-clusters.js"></script>
     <script src="https://code.highcharts.com/modules/coloraxis.js"></script>
+    <script src="https://code.highcharts.com/modules/sunburst.js"></script>
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
     <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
@@ -190,11 +191,11 @@
       
           <h2>Which types of hydrogeological disaster do we find in Emilia Romagna, and what is their distribution on this territory?</h2>
           <div>
-            <div id="container2" style="width:50%; height:500px;"></div>
+            <div id="disaster_map" style="width:50%; height:500px;"></div>
             <p> Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations.</p>
           </div>
           <div>
-            <div id="container" style="width:50%; height:400px;"></div>
+            <div id="disaster_sunburst" style="width:50%; height:400px;"></div>
             <p>Sunburst chart of total amount of disasters divided by province and then divided by typology.</p>
           </div>
           <br>
@@ -204,7 +205,62 @@
 
           <h2>How potentially harmful are these disasters? Which areas are most affected? </h2>
           <div>
-            <div id="container3" style="width:50%; height:400px;"></div>
+            <div id="risk_distribution_map" style="width:50%; height:400px;"></div>
+            <form id="group">
+                <input type="radio" id="low_hydraulic_risk_area_p1" name="data" value="low_hydraulic_risk_area_p1"><label>low hydraulic risk area</label>
+                <input type="radio" id="medium_hydraulic_risk_area_p2" name="data" value="medium_hydraulic_risk_area_p2"><label>medium hydraulic risk area</label>
+                <input type="radio" id="high_hydraulic_risk_area_p3" name="data" value="high_hydraulic_risk_area_p3"><label>high hydraulic risk area</label>
+                <input type="radio" id="very_high_landslide_risk_area_p4" name="data" value="very_high_landslide_risk_area_p4"><label>very high landslide risk area</label>
+                <input type="radio" id="high_landslide_risk_area_p3" name="data" value="high_landslide_risk_area_p3"><label>high landslide risk area</label>
+                <input type="radio" id="medium_landslide_risk_area_p2" name="data" value="medium_landslide_risk_area_p2"><label>medium landslide risk area</label>
+                <input type="radio" id="high_hydraulic_risk_area_p3" name="data" value="low_landslide_risk_area_p1"><label>low landslide risk area</label>
+                <input type="radio" id="low_hydraulic_risk_population_p1" name="data" value="high_hydraulic_risk_population_p3"><label>high hydraulic risk population</label>
+
+                <input type="radio" id="medium_hydraulic_risk_population_p2" name="data" value="medium_hydraulic_risk_population_p2"><label>medium hydraulic risk population</label>
+                <input type="radio" id="low_hydraulic_risk_population_p1" name="data" value="low_hydraulic_risk_population_p1"><label>low hydraulic risk population</label>
+                <input type="radio" id="very_high_landslide_risk_population_p4" name="data" value="very_high_landslide_risk_population_p4"><label>very high landslide risk population</label>
+                <input type="radio" id="high_landslide_risk_population_p3" name="data" value="high_landslide_risk_population_p3"><label>high landslide risk population</label>
+                <input type="radio" id="medium_landslide_risk_population_p2" name="data" value="medium_landslide_risk_population_p2"><label>medium landslide risk population</label>
+                <input type="radio" id="low_landslide_risk_population_p1" name="data" value="low_landslide_risk_population_p1"><label>low landslide risk population</label>
+                <input type="radio" id="attention_population" name="data" value="attention_population"><label>attention population</label>
+                <input type="radio" id="high_hydraulic_risk_family_p3" name="data" value="high_hydraulic_risk_family_p3"><label>high hydraulic risk family</label>
+
+                <input type="radio" id="medium_hydraulic_risk_family_p2" name="data" value="medium_hydraulic_risk_family_p2"><label>medium_hydraulic_risk_family_p2</label>
+                <input type="radio" id="low_hydraulic_risk_family_p1" name="data" value="low_hydraulic_risk_family_p1"><label>low_hydraulic_risk_family_p1</label>
+                <input type="radio" id="very_high_landslide_risk_family_p4" name="data" value="very_high_landslide_risk_family_p4"><label>very_high_landslide_risk_family_p4</label>
+                <input type="radio" id="high_landslide_risk_family_p3" name="data" value="high_landslide_risk_family_p3"><label>high_landslide_risk_family_p3</label>
+                <input type="radio" id="medium_landslide_risk_family_p2" name="data" value="medium_landslide_risk_family_p2"><label>medium_landslide_risk_family_p2</label>
+                <input type="radio" id="low_landslide_risk_family_p1" name="data" value="low_landslide_risk_family_p1"><label>low_landslide_risk_family_p1</label>
+                <input type="radio" id="attention_family" name="data" value="attention_family"><label>attention_family</label>
+                <input type="radio" id="high_hydraulic_risk_building_p3" name="data" value="high_hydraulic_risk_building_p3"><label>high_hydraulic_risk_building_p3</label>
+
+                <input type="radio" id="medium_hydraulic_risk_building_p2" name="data" value="medium_hydraulic_risk_building_p2"><label>medium_hydraulic_risk_building_p2</label>
+                <input type="radio" id="low_hydraulic_risk_building_p1" name="data" value="low_hydraulic_risk_building_p1"><label>low_hydraulic_risk_building_p1</label>
+                <input type="radio" id="very_high_landslide_risk_building_p4" name="data" value="very_high_landslide_risk_building_p4"><label>very_high_landslide_risk_building_p4</label>
+                <input type="radio" id="high_landslide_risk_building_p3" name="data" value="high_landslide_risk_building_p3"><label>high_landslide_risk_building_p3</label>
+                <input type="radio" id="medium_landslide_risk_building_p2" name="data" value="medium_landslide_risk_building_p2"><label>medium_landslide_risk_building_p2</label>
+                <input type="radio" id="low_landslide_risk_building_p1" name="data" value="low_landslide_risk_building_p1"><label>low_landslide_risk_building_p1</label>
+                <input type="radio" id="attention_building" name="data" value="attention_building"><label>attention_building</label>
+                <input type="radio" id="high_hydraulic_risk_enterprise_p3" name="data" value="high_hydraulic_risk_enterprise_p3"><label>high_hydraulic_risk_enterprise_p3</label>
+
+                <input type="radio" id="medium_hydraulic_risk_enterprise_p2" name="data" value="medium_hydraulic_risk_enterprise_p2"><label>medium_hydraulic_risk_enterprise_p2</label>
+                <input type="radio" id="low_hydraulic_risk_enterprise_p1" name="data" value="low_hydraulic_risk_enterprise_p1"><label>low_hydraulic_risk_enterprise_p1</label>
+                <input type="radio" id="very_high_landslide_risk_enterprise_p4" name="data" value="very_high_landslide_risk_enterprise_p4"><label>very_high_landslide_risk_enterprise_p4</label>
+                <input type="radio" id="high_landslide_risk_enterprise_p3" name="data" value="high_landslide_risk_enterprise_p3"><label>high_landslide_risk_enterprise_p3</label>
+                <input type="radio" id="medium_landslide_risk_enterprise_p2" name="data" value="medium_landslide_risk_enterprise_p2"><label>medium_landslide_risk_enterprise_p2</label>
+                <input type="radio" id="low_landslide_risk_enterprise_p1" name="data" value="low_landslide_risk_enterprise_p1"><label>low_landslide_risk_enterprise_p1</label>
+                <input type="radio" id="attention_enterprise" name="data" value="attention_enterprise"><label>attention_enterprise</label>
+                <input type="radio" id="high_hydraulic_risk_cultural_heritage_p3" name="data" value="high_hydraulic_risk_cultural_heritage_p3"><label>high_hydraulic_risk_cultural_heritage_p3</label>
+
+                <input type="radio" id="medium_hydraulic_risk_cultural_heritage_p2" name="data" value="medium_hydraulic_risk_cultural_heritage_p2"><label>medium_hydraulic_risk_cultural_heritage_p2</label>
+                <input type="radio" id="low_hydraulic_risk_cultural_heritage_p1" name="data" value="low_hydraulic_risk_cultural_heritage_p1"><label>low_hydraulic_risk_cultural_heritage_p1</label>
+                <input type="radio" id="very_high_landslide_risk_cultural_heritage_p4" name="data" value="very_high_landslide_risk_cultural_heritage_p4"><label>very_high_landslide_risk_cultural_heritage_p4</label>
+                <input type="radio" id="high_landslide_risk_cultural_heritage_p3" name="data" value="high_landslide_risk_cultural_heritage_p3"><label>high_landslide_risk_cultural_heritage_p3</label>
+                <input type="radio" id="medium_landslide_risk_cultural_heritage_p2" name="data" value="medium_landslide_risk_cultural_heritage_p2"><label>medium_landslide_risk_cultural_heritage_p2</label>
+                <input type="radio" id="low_landslide_risk_cultural_heritage_p1" name="data" value="low_landslide_risk_cultural_heritage_p1"><label>low_landslide_risk_cultural_heritage_p1</label>
+                <input type="radio" id="attention_cultural_heritage" name="data" value="attention_cultural_heritage"><label>attention_cultural_heritage</label>
+            </form>
+            <br>
             <p>Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts displaying the percentages of risk for poulation and the environment.</p>
           </div>
           <br>
@@ -216,11 +272,11 @@
             <p>Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts</p>
           </div>
           <div>
-            <div id="container5" style="width:50%; height:400px;"></div>
+            <div id="finance_bar" style="width:50%; height:400px;"></div>
             <p>Bar chart of total amount of financings for preventive and reparatory interventions </p>
           </div>
           <div>
-            <div id="container6" style="width:50%; height:400px;"></div>
+            <div id="finance_sunburst" style="width:50%; height:400px;"></div>
             <p>Sunburst of total amount of financings divided by province and type</p>
           </div>
           <br>

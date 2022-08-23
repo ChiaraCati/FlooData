@@ -113,7 +113,7 @@ The below criteria must be met, to manage the level of information quality as se
 | **D8**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
 | **D9**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2017 |
 
-\* <small>Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. </small>
+\* <sup><sub>Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. </sub></sup>
 
 Below we present the quantitative data retrieved during our Quality analysis, fully available at [quality.ipynb](software/quality.ipynb):
 

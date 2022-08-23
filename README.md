@@ -42,24 +42,25 @@ The final data source employed in the construction of FlooData datasets is a **[
 
 ### Original datasets descriptions
 
-**[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies  and realized works; classification of hydrogeological disruptions and of works made for protecting the soil.
+**[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil.
 
-**[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/)** was used as suport to gather geographical fata about *interventions*, *repair* and *instabilities*. It contains places's fficial names; latitude and longitude of the centroids; polygons (shape); administrative hierarchy; Istat codes, link to Linked Data Cloud (ISTAT datiopen, geonames,  dbpedia, etc.)
+**[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/)** was used as support to gather geographical data about *interventions*, *repair* and *instabilities*. It contains places' official names; latitude and longitude of the centroids; polygons (shape); administrative hierarchy; Istat codes, and links to Linked Data Cloud (ISTAT datiopen, Geonames,  DBpedia, etc.)
 
-**[Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)**, groups reports on particular hydrogeological phenomena made by citizens to the Regional Geological Service since may 2012, in localities hit by that year's hearthquake disaster. The reports were grouped into six categories: gas leaks from water wells and / or from the ground; wells for water with the presence of hot water; fish deaths; presence of fractures and / or subsidence of the ground; appearance of volcanoes of mud and / or sand; water wells dried up.
+**[Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)**, groups reports on particular hydrogeological phenomena made by citizens to the Regional Geological Service since may 2012, in localities hit by that year's earthquake disaster. The reports are grouped into six categories: gas leaks from water wells and/or from the ground, wells for water with the presence of hot water, fish deaths; the presence of fractures and/or subsidence of the ground, the appearance of volcanoes of mud and/or sand and water wells dried up.
 
 **[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** contains information on the coastal protections present both at sea and in the hinterland of the Emilia-Romagna coast. 
 
 **[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** the name of the moslty eroded areas by calmities that have striken in the time-span 1946-2020
 
-**[IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data)** contain landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, cultural heritage.  
+**[IdroGEO - Province](https://idrogeo.isprambiente.it/app/page/open-data)** contains landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, and cultural heritage.  
 
-**[Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section)** and **[Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section)** contain track recors of cohesion projects in Emilia Romagna, trasversally describing their management
+**[Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section)** and **[Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section)** contain track records of cohesion projects in Emilia Romagna, transversally describing their management
 
 **[Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json)** is a dataset we used to link municipalities and provinces coming from previous datasets to their latitude and longitude coordinates
 
 
-The below table is a resume of datasets selected for our project, and that have been mashed up to create FlooData final datasets.
+The below table is a resume of datasets selected for our project, and that has been mashed up to create FlooData final datasets.
+
 
 | ID | Dataset | Source | Time span | Licence |
 | :--- | :--- | :--- | :--- | :--- |   
@@ -78,13 +79,13 @@ The below table is a resume of datasets selected for our project, and that have 
 
 ### Mashed-up datasets descriptions
 
-**[Activities](datasets/final_dataset/actions.csv)** is the mashed-up dataset containing data about reparatoriy and preventive interventions on hydrogeological disasters involving Emilia Romagna.
+**[Activities](datasets/final_dataset/actions.csv)** is the first mashed-up dataset. It covers Emilia Romagna's data on reparatory and preventive interventions against hydrogeological disasters.
 
-**[Disruptions](datasets/final_dataset/disruptions.csv)** is the mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna.
+**[Disruptions](datasets/final_dataset/disruptions.csv)** is the second mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna.
 
-**[Province](datasets/final_dataset/province.csv)** is the mashed-up dataset containing data on floading risk, area and geographical information of Emilia Romagna's provinces.
+**[Province](datasets/final_dataset/province.csv)** is the third mashed-up dataset containing data on flooding risk, area and geographical information of Emilia Romagna's provinces.
 
-The below table is a resume of datasets created by FlooData, containing  information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps anf other graphs.
+The below table is a resume of datasets created by FlooData, containing information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps and other graphs.
 
 | ID | Dataset | Original dataset | Time span | 
 | :---         |     :---     |     :---     |     :---     |  

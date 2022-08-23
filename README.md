@@ -133,9 +133,9 @@ Below we present the quantitative data retrieved during our Quality analysis, fu
 <sup><sub>\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. Values here represent the sum and mean of the merged datasets.</sub></sup> 
 
 ## ⚖️ Legal analysis 
-Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, as well as to produce a balanced service that is in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, right determination, and licence conditions.
+Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, produce a balanced service in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, rights determination, and licence conditions.
 
-In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that must be answered with a Yes, No, or Not Verifiable for each aspect.
+In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that answered with a Yes, No, or Not Verifiable for each aspect.
 
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
@@ -169,9 +169,9 @@ In order to put this into practise, we evaluated all legal facets of the dataset
 
 ### Licences mashed-up datasets
 
-Final licences for the mashed-up datasets have been chosen according to licencs compatibility.
+Final licences for the mashed-up datasets have been chosen according to licence compatibility.
 
-In  the following table we listed all original datasets licences and found them to bel all commercial, 3 of them national, all the remaining ones international, as a result of this analysis we decided to licence all mashed-up datasets under a CC-BY-SA 4.0 licence to allow their mash up and make them international.
+In the following table, we listed all original datasets licences and found them to be all commercial, 3 of them national, all the remaining ones international, as a result of this analysis we decided to give all mashed-up datasets a CC-BY-SA 4.0 licence to allow their mash-up and make them re-usable at international level.
 
 | ID      | Dataset | Originals' licences | Final licence |
 | :---    | :---    | :---                |     :---     |  
@@ -182,24 +182,24 @@ In  the following table we listed all original datasets licences and found them 
 
 ## 🫂 Ethical analysis 
 
-Under an *ethical* point of view, we considered the importance of the human being, transparency, accountability, and equality. 
-Along with this ethical aspects, we also considered other criteria such as sustainable re-use of the data gathered, and presence of information of public interest when choosing **FlooData**'s source data, as we wanted to account for the management of financings (Open Coesione), the presence risk of hydrogeological disasters in the whole area of Emilia-Romagna, the amount of preventive interventions and following reparations. 
+From an *ethical* point of view, we considered the importance of the human being, transparency, accountability, and equality. 
+Along with these ethical aspects, we also considered other criteria such as sustainable re-use of the data gathered, and presence of information of public interest when choosing **FlooData**'s source data, as we wanted to account for the management of financings (Open Coesione), the present risk of hydrogeological disasters in the whole area of Emilia-Romagna, the number of preventive interventions and following reparations. 
 
-The data gathered is managed by producers in a transparent way, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use.
-
-
-The original datasets mainly represent, environmental– and geodata. This kind of data naturally avoids discriminations, stereotyping, crystallization, distortion of the history, misrepresentation of reality, and manipulation of the cultural identity of a country/community.
-As averages the data gives information about the region as a whole and do not pose individual privacy risk.
+The data gathered is transparently managed by producers, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use.
 
 
-Data relating to communities of people living in endangered area comes from the two sets coming from ISPRAS's project ***IdroGeo***. 
-*D6* and *D7* contain information on families living in areas with high, medium and low flooding risk **(?)**. Even though this information is linked to natural persons, it is made available for public interest purposes, anonimized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
-Finally, we noticed **ReNDis** makes accessible the names of whom is responsible for recordered interventions. We consider the presence of identity data in this set as legitimate, sice names of public officers are by nature of public domain. 
+The original datasets mainly represent environmental– and geodata. This kind of data naturally avoids discrimination, stereotyping, crystallization, distortion of the history, misrepresentation of reality, and manipulation of the cultural identity of a country/community.
+On average, the data gives information about the region as a whole and do not pose an individual's privacy risk.
 
-For ethical requirements we also rely on [Accenture](https://www.accenture.com/us-en)'s Data Ethics Decision Making Guidelines, in particular considering these aspectsl data gathered and presented on Floodata has been downloaded directly from sources website's or other institutional aggregators such as **MinERva** and **OpenCoesione**. 
-The datasets used have all been made available for re-use by producers. The reuse of this data on FlooData, is consistent with creators's specific intent of displaying the hydrogeological situation of the studied area.
 
-We take into account that there are chances of people acting on the collected information to look for more secure and mantained area within the region Emila Romagna, but that does not look like an ethical issue as much as a normal inferencial process granted to common citizens.
+Data relating to communities of people living in the endangered area comes from the two sets coming from ISPRAS's project ***IdroGeo***. 
+*D6* and *D7* contain information on families living in areas with high, medium and low flooding risk **(?)**. Even though this information is linked to natural persons, it is made available for public interest purposes, anonymized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally, this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
+Finally, we noticed that **ReNDis** makes accessible the names of whom are responsible for recorded interventions. We consider the presence of identity data in this set legitimate since names of public officers are by nature in the public domain. 
+
+For ethical requirements, we also rely on [Accenture](https://www.accenture.com/us-en)'s Data Ethics Decision Making Guidelines. Thus, data gathered and presented on Floodata has been downloaded directly from sources' websites or other institutional aggregators such as **MinERva** and **OpenCoesione**. 
+The datasets used have all been made available for re-use by producers. The re-use of this data on FlooData is consistent with the creators' specific intent of displaying the hydrogeological situation of the studied area.
+
+Finally, we take into account that there are chances of people acting on the collected information to look for a more secure and maintained area within the region Emila Romagna, but that does not look like an ethical issue as much as a normal inferential process granted to citizens.
 
 
 
@@ -208,7 +208,7 @@ We take into account that there are chances of people acting on the collected in
 ### Original datasets
 
 #### [LinkedIspra](http://dati.isprambiente.it/) 
-Data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf triples of the data was available form download. We have chosen to directly download the ReNdmi and Luoghi RDF triples dumps as the SQL EndPoint  didn't ensure back-end stability and reliability during oour research period. 
+Data – *D1* and *D2* - are accessible through a Virtuoso SPARQL endpoint, and data dumps made of RDF triples of the data were available for download. We downloaded the N-Triples dumps as the SQL EndPoint didn't ensure back-end stability and reliability during our research period. 
 *Format* of downloaded data is .nt
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
@@ -233,9 +233,9 @@ Data – *D1* and *D2* - is accessible through a Virtuoso sparQL enpoint and rdf
 
 
 #### [Minerva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/)
-Datasets – *D3* *D4* and *D5* - are accessible through a Moka viever service available for download as OpenData. 
-Along with datasets' metadata, MinERva provides information about responsible body, reference structure, referent, author
- and dates about catalog cards and physical data.
+Datasets – *D3* *D4* and *D5* - are accessible through a Moka viewer service available for download as OpenData. 
+Along with datasets' metadata, MinERva provides information about the responsible body, reference structure, referent, author
+ and dates about catalogue cards and physical data.
 *Format* of downloaded data is .zip from which we extracted a .dbf file
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
@@ -261,7 +261,7 @@ Along with datasets' metadata, MinERva provides information about responsible bo
 
 
 #### [IdroGEO](https://idrogeo.isprambiente.it/app/) 
-Data is available for download in different formats: XLS, CSV and JSON. The platform also allows downlloading the .csv file congaining descriptions and source of the columns in the datasets. <br>
+*D6* data is available for download in different formats: XLS, CSV and JSON. The platform also allows downloading the .csv file containing descriptions and the source of the columns in the datasets. <br>
 *Format* of downloaded data is .csv<br>
 *Provenance*: https://idrogeo.isprambiente.it/app/page/open-data
 
@@ -275,7 +275,7 @@ IRI is not specified and Basic metadata is provided for *D6* such as:
 
 
 #### [OpenCoesione](https://opencoesione.gov.it/it/)
- They allow download of open access datasets representing partial renstitutions of the projects they keep track to. It is possible for everyone to download them in .csv and .xls format.<br>
+ *D7* and *D8* representing a part of the projects OpenCOesione is keep ing track of. Everyone can download them in .csv and .xls format.<br>
 *Format* of downloaded data is .csv<br>
 *Provenance*: https://opencoesione.gov.it/it/
 
@@ -288,7 +288,7 @@ IRI is not specified and Basic metadata is provided for *D7* and *D8*  such as:
 
 
 #### [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) 
-Datasets *D9* can be freely downloaded from github using -curl request or just  by downloading the file. No specific meatdata is provided for the sets, just labels ofthe content. <br>
+Datasets *D9* can be freely downloaded from GitHub using -curl request or download the file. No specific metadata is supplied, with exceptions made for content labels. <br>
 *Format* of downloaded data is .json <br>
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 
@@ -307,35 +307,36 @@ For creating the new datasets we disposed of four different kinds of file format
 
 #### Pre processing
 
-**N-Triples** files needed to be preprocessed and parsed into datafames. 
-To accomplish this we developed a script [rdf_parse.py](software/rdf_parser.py) to merge the ReNDi and Luoghi data in and create three dataframes, containing of data on hydrogeological disruptions, reparations and their financing. 
-The script uses the ldflib to parse thr .nt files and through the class Thypology it gathers the main subjects we want to retrieve: instabilities, interventions(financings), and repairs.
-Then for each subject we extracted predicates related to them and use them as labels for creating the dataframes' columns. 
 
-For each column to be created we iterated triples formed as <*Object*><*Columnlabel*><*object*> and selected the corresponding object as that cell values.
-For insertng geographical datawe started from ReNDiS lots locations and queried the Luoghi dataset loooking for their labels, province, latitude and longitude. 
 
-The resulting dataframes have been temoporarly saved in .csv format for later merging with other datasets. 
+**N-Triples** files needed to be pre-processed and parsed into data frames. 
+To accomplish this, we developed a script [rdf_parse.py](software/rdf_parser.py) to merge the ReNDi and Luoghi data and create three data frames containing data on hydrogeological disruptions, reparations and their financing. 
+The script uses the rdflib to parse the .nt files, and through class "typology", it gathers the main subjects we want to retrieve: instabilities, interventions(financings), and repairs.
+Then for each subject, we extracted the predicates co-occurring with it and used them as labels for creating the data frame's columns. 
 
-**DBF** files have been converted automatically into csv files using the software dbf.py developed for this purpose. The software cnverts the files keeping their original names through the use of dbf_read librry's DBF method to open this kind of file, which is then saved in .csv format.
+For each column to be created we iterated triples formed as <*<Sbject*><*Column label*><*object*> and select the corresponding object as that cell value.
+For inserting geographical data, we started from ReNDiS lots locations and queried the Luoghi dataset looking for their labels, province, latitude and longitude. 
 
+The resulting data frames were temporarily saved in .csv format for later merging with other datasets. 
+
+**DBF** files have been converted automatically into CSV files using the software dbf.py developed for this purpose. The software converts the files keeping their original names using the dbf_read library's DBF method to open this kind of file saved in .csv format.
 #### Merging 
 
-The second step consists in the merging of the JSON and CSV files.
+The second step consists of the merging of the JSON and CSV files.
 
-The original data has been mashed-up to create the FlooDatas's 4 datasets contained in our catalog.
+The original data has been mashed-up to create three datasets in FlooDatas's catalogue.
 
-Using our softwares actions.py and territory .py we created respectively **MD1**, and **MD3**. 
+Using our software actions.py and territory .py, we created respectively **MD1**and **MD3**. 
 
-* **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source dataframes. 
+* **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source data frames. 
 Resulting df is then saved into .json and .csv format for future visualization and consultation purposes. 
 
-* **territory.py** is feeded with *DF6*. Here we select interesting classes from the IdroGeo's datasets such as percentages of risk and atention percentages of families, enterprises and cultural heritage. 
-To create MD3 we crossed place names contained in D6 with data in *D10* to find with municipalities latitue and longitude coordinates.
+* **territory.py** is fed with *DF6*. Here we select interesting classes from IdroGeo's datasets such as percentages of risk and attention percentages of families, enterprises and cultural heritage. 
+To create MD3 we crossed place names contained in D6 with data in *D10* to find municipalities' latitude and longitude coordinates.
 
 
-Finally **MD2** has been produced by selecting and giving a standard name to the columns representing data necessary for our project we the useful columns  of datasets on hydrogeological dissest.
-The production workflow in visible in notebook  [disruptions.ipynb](software/Disruptions.ipynb), latter touch ups such as the translation of data from italians to english can be found in [datasets_touchups.ipynb](software/datasets_touchups.ipynb)
+Finally, we have  produced **MD2** by selecting and giving standard names to columns representing the data necessary for our project.
+The production workflow is visible in notebook [disruptions.ipynb](software/Disruptions.ipynb), latter touch ups – such as the translation of data from Italian to English – can be found in [datasets_update.ipynb](software/datasets_update.ipynb)
 
 A summary table of the produced mashup dataset:
 
@@ -345,19 +346,19 @@ A summary table of the produced mashup dataset:
 |   MD2     |   Disruptions | CSV/JSON  |   CC-BY SA 4.0    |    https://github.com/ChiaraCati/Owater/resource/dataset/MD2     |
 |   MD3     |   Hydrogeological risk in provinces  |  CSV/JSON  |   CC-BY SA 4.0  |   https://github.com/ChiaraCati/Owater/resource/dataset/MD3 |
 
-In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR).Those principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
+In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR). Those principles include three types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data is compliant with the FAIR principles.
 
 **Findable:**
 
-* (Meta)data are assigned a unique identifier: both the data we retrieved from the source datasets, the mashed up data, and the metadata we developed in accordance with the DCAT-AP are compatible with this point, providing URI.
+* (Meta)data are assigned a unique identifier: both the data we retrieved from the source datasets, the mashed-up data, and the metadata we developed following the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) are compatible with this point, providing URIs.
 * Data are described with rich metadata: we linked a substantial amount of DCAT-AP specification-compliant metadata to our data, including not only all required classes and their corresponding necessary characteristics but also certain suggested and optional features that were helpful for our data.
-* Metadata clearly and explicitly include the identifier of the data they describe: we used the DCAT-AP optional attribute for datasets dct:identifier to attach a unique identifier of the data described with the metadata for each dataset that is a part of a catalogue as well as for our own dataset.
+* Metadata clearly and explicitly include the identifier of the data they describe: we used the DCAT-AP optional attribute for datasets dct:identifier to attach a unique identifier of the data described with the metadata for each dataset that is a part of a catalogue as well as for our dataset.
 
 **Accessible:**
 
 * (Meta)data are retrievable by their identifier using a standardised communications protocol: all the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS.
 * The protocol is open, free, and universally implementable: HTTP and HTTPS are compliant with these characteristics.
-* Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.
+* Metadata is accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.
 
 **Interoperable:**
 
@@ -375,30 +376,30 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 * (Meta)data meet domain-relevant community standards.
 
 ## 🌱 Sustainability
-The data sets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from a variety of sources. The original datasets used for this project are currently being maintained by the appropriate institutions or organisations, but this site was created as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The data sets produced for this project are not actively maintained.
+The datasets used to create Floodata, which examines the dangers by flooding catastrophes and related interventions in the Emilia Romagna area, come from multiple sources. The souce data used for this project is currently being maintained by the originating institutions or organisations. This website re-uses this data, and was developed as the final project for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master's Degree Course in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (a.y. 2021/22) at the [University of Bologna](https://www.unibo.it/it). The datasets produced for this project are not actively maintained.
 
 
 ## 🎢 Visualizations
-We started this phase of our project, writing down a list of questions to describe hydrogeological disasters in Emilia Romagna, also considering the data we have collected. Then, we analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
+We started this phase of the project writing down a list of questions to describe hydrogeological disasters in Emilia Romagna, keeping in mind eventual linitations of the data we have collected. Then, we have analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
 
 ### Questions
 
-1. What kinds of hydrogeological disaster do we find in Emilia Romagna, and what is their distribution on this territory? 
-    - Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations (latitude, longitude and municipality), also their type and amount per type information has been specified in tool tips.<br>
+1. What kinds of hydrogeological disasters do we find in Emilia Romagna, and what is their distribution on this territory? 
+    - Map of Emilia Romagna, divided into provinces, with bubbles pointing to disruptions' locations (latitude, longitude and municipality), also their type and amount per type information has been specified in tooltips.<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/map-comparison-continuous/ )
-    - Sunburst of total amount of disasters divided by province and then divided by typology<br>
+    - Sunburst of the total amount of disasters divided by province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
 2. How potentially harmful are these disasters? Which areas are most affected?
-    - Choropleth map showing the geographycal distribution of risk areas, with complementary pie charts showing idraulic risk, disruption risk, probability of risk for the families, population, enterprises, buildings and cultural heritage.<br>
+    - Choropleth map showing the geographical distribution of risk areas, with complementary pie charts showing hydraulic risk, disruption risk, probability of risk for the families, population, enterprises, buildings and cultural heritage.<br>
     [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
-3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological dissest? Are there more preventive or reparatory initiatives? What kind of interventions have been made in each province, and what is the amount of financings made available for each one of them?
-    - Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments mades by each province <br>
+3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological disruption? Are there more preventive or reparatory initiatives? What kind of interventions have been performed, and what is the amount of financings for each Province?
+    - Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments made by each Province <br>
     [Code example](https://www.highcharts.com/demo/maps/rich-info )
-    -  Bar chart of total amount of financings for preventive and reparatory interventions divided by province<br>
+    -  Bar chart of the total amount of financings for preventive and reparatory interventions divided by Province<br>
     [Code example]https://www.highcharts.com/blog/chartchooser/bar-categorical-comparison/)
-    -  Sunburst of total amount of financings divided by province and then divided by typology<br>
+    -  Sunburst of the total amount of financings divided by Province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
 ### Licences
@@ -409,11 +410,11 @@ We started this phase of our project, writing down a list of questions to descri
 
 
 ## 📢 RDF assertion of data
-Our metadata is supplied in accordance with the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) in order to achieve the goal of providing the user with more reusable and interoperable data. The catalogue's as well as each individual dataset's metadata are supplied [here](https://github.com/ChiaraCati/Owater/tree/main/metadata), each .ttl file has been validated through http://ttl.summerofcode.be/. 
+Our metadata are supplied following the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) to achieve the goal of providing the user with more reusable and interoperable data. The catalogue's – and each dataset– metadata are supplied [here](https://github.com/ChiaraCati/Owater/tree/main/metadata), and each .ttl file has been validated through http://ttl.summerofcode.be/. 
 
-Below we listed metadata used for the catalogue and data sets
+Below we listed metadata used for the catalogue and datasets
 
-|   Metadata       |   Catalogue    |   Data sets   |
+|   Metadata       |   Catalogue    |   Datasets   |
 |   :---           |   :---         |   :---        |
 |   adms:identifier|    ✅          |    ✅          |
 |   dct:title      |    ✅          |    ✅          |

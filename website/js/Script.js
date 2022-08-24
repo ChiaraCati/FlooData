@@ -9,6 +9,25 @@ $(document).ready(function() {
   
     });
 
+    $("#LinkedIspra").click(function(){
+      $(".linkedIspra").toggleClass("is-hidden");
+      $("ion-icon").toggleClass("down");
+  })
+
+    $("#Rendis").click(function(){
+        $("#Rendis").addClass("is-active");
+        $("#Luoghi").removeClass("is-active");
+        $(".rendis").removeClass("is-hidden");
+        $(".luoghi").addClass("is-hidden");
+    })
+
+    $("#Luoghi").click(function(){
+      $("#Luoghi").addClass("is-active");
+      $("#Rendis").removeClass("is-active");
+      $(".luoghi").removeClass("is-hidden");
+      $(".rendis").addClass("is-hidden");
+  })
+
     $("#Catalogue").click(function(){
         $("#Catalogue").addClass("is-active");
         $("#Original").removeClass("is-active");

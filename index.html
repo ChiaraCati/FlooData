@@ -6,6 +6,8 @@
     <title>FlooData</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="website/stylesheat.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
     
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
@@ -367,21 +369,90 @@
           <h1 class="title">Datasets Analysis</h1>
           <p> Qui scriviamo un'introduzione all'analisi: In thi section we will briefly list the steps of our analysis. For more information, please refer to our  <a href="https://github.com/ChiaraCati/Owater">Documentation</a>.</p>
 
-          <b>Original datasets:</b>
-          <ul>
-
-          </ul>
-
           <div id="Quality-dataset" class="block">
           <h3>Quality Analysis</h3>
-          <p> We used several datasets coming from different institutions, to fully cove the several aspects regarding hydrogeological issues in Emilia Romagna. <br>
-            Descrizione tabella? <br>
-            Suddividendo per Source (istituzioni) <br>
-          esempio <br>
-          <h4><a href="#">LinkedIspra</a></h4> contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil <br>
-          poi ci metto tabellina come in metadata della quality analysis dei dataset di quella source.
+          <p> We used several datasets coming from different institutions, to fully cove the several aspects regarding hydrogeological issues in Emilia Romagna.</p>
+            <p>Descrizione tabella? 
+            Suddividendo per Source (istituzioni)esempio </p> 
           
+          <h4 id="LinkedIspra" class="dataset_name">LinkedIspra <span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
+          <div class="linkedIspra is-hidden">
+          <p><a href="#">LinkedIspra</a> contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil <br>
+          poi ci metto tabellina come in metadata della quality analysis dei dataset di quella source.
           </p>
+
+          <div class="tabs is-boxed">
+            <ul>
+              <li id="Rendis" class="is-active">
+                <a>
+                  <span>Rendis</span>
+                </a>
+              </li>
+              <li id="Luoghi">
+                <a>
+                  <span>Luoghi</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="table-container rendis">
+            <table class="table is-striped">
+              <tbody>
+                <tr>
+                  <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                  <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Completness">Completness</abbr></th>
+                  <td>Not satisfied: 93.9%</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Coherence">Coherence</abbr></th>
+                  <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Modified">Modified</abbr></th>
+                  <td>2022-08-11</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Promptness">Promptness</abbr></th>
+                  <td>Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="table-container luoghi is-hidden">
+            <table class="table is-striped">
+              <tbody>
+                <tr>
+                  <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                  <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Completness">Completness</abbr></th>
+                  <td>Not satisfied: 93.9%</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Coherence">Coherence</abbr></th>
+                  <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Modified">Modified</abbr></th>
+                  <td>2022-08-11</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Promptness">Promptness</abbr></th>
+                  <td>Not satisfied: last update on 22/03/2016</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+
           </div>
 
           <div id="Legal-dataset" class="block">

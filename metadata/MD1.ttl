@@ -58,7 +58,7 @@
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Tabular distribution of FlooData's Actions data"@eng;
-    dct:description  "This is the tabular distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
+    dct:description  "This is the CSV distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological disruptions involving Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD1.csv>;
@@ -68,7 +68,7 @@
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Json distribution of FlooData's Actions data"@eng;
-    dct:description  "This is the Json distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
+    dct:description  "This is the JSON distribution of FlooData's dataset containing data on preventive intervertions and reparations due to hydrogeological disruptions involving Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD1.json>;

@@ -53,7 +53,7 @@
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Tabular distribution of  Emilia-Romagna's provinces."@eng;
-    dct:description  "This is the tabular distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
+    dct:description  "This is the CSV distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD3.csv>;
@@ -63,7 +63,7 @@
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Json distribution of  Emilia-Romagna's provinces."@eng;
-    dct:description  "This is the Json distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
+    dct:description  "This is the JSON distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD3.json>;

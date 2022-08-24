@@ -567,11 +567,14 @@ document.addEventListener('DOMContentLoaded', function () {
         if (this.checked) {
             const value = this.value + '';
             Highcharts.getJSON('website/data/MD4.json', function (data) {
-              console.log(data);
+              
                 data.forEach(function (p) {
                     p.code = p.prov_code.toUpperCase();
                     p.value = p[value]
+                    console.log(p.code, p.value);
                 });
+
+                
         
                 // Instantiate the map
                 Highcharts.mapChart('risk_distribution_map', {

@@ -22,7 +22,7 @@ html {
 }
 
  .section{
-    padding: 5rem ;
+    padding: 7rem ;
  }
 
  #Home > section{
@@ -36,8 +36,16 @@ html {
     margin-bottom: 1rem;
  }
 
- .level{
-    padding-top: 4em;
+ .icon_box {
+  padding: 2em;
+ }
+
+ .overview_box {
+  padding-top: 5em;
+ }
+
+ .overview_box > .level-item > div > .title {
+  color: #00d1b2;
  }
 
 .block{
@@ -46,6 +54,14 @@ html {
 
 .clear{
   clear: both;
+}
+
+.special_list {
+  width: 52%;
+  background-color: rgb(234 255 255);
+  border-left: solid 0.5em rgb(4 209 178);
+  padding: 1em;
+  transform: skew(-14deg, 0);
 }
 
 #Chart-container {
@@ -93,4 +109,9 @@ html {
   
   .highcharts-data-table tr:hover {
     background: #f1f7ff;
+  }
+
+
+  .level img{
+    width: 10em;
   }

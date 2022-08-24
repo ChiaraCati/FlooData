@@ -59,7 +59,7 @@
 
     dct:title  "Tabular distribution of FlooData's Actions data"@eng;
     dct:description  "This is the tabular distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
-    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
+    dct:format  <http://publications.europa.eu/resource/authority/file-type/CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD1.csv>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
@@ -69,7 +69,7 @@
 
     dct:title  "Json distribution of FlooData's Actions data"@eng;
     dct:description  "This is the Json distribution of FlooData's dataset containing  data on preventive intervertions and reparations due to hydrogeological dissest dissest involving Emilia Romagna, Italy."@eng;
-    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_JSON>;
+    dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD1.json>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".

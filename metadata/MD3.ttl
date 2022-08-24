@@ -12,7 +12,7 @@
     a       dcatap:Dataset , dcat:Dataset;
 
     dct:title       "Provinces dataset"@en;
-    adms:identifier  "MD4";
+    adms:identifier  "MD3;
     dct:description     "Table containing all names of Emilia-Romagnas provinces."@en;
     dcat:keyword    "provinces", "emilia-romagna", "geographical data", "open data";
     dct:issued      "2022-07-12@"^^xsd:date;
@@ -27,8 +27,8 @@
     dct:source      <https://idrogeo.isprambiente.it/app/page/open-data> ;
     dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
-    dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD4_JSON>;
-    dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD4_CSV>;
+    dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD3_JSON>;
+    dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD3_CSV>;
     dct:rightsHolder    <https://github.com/ChiaraCati/Owater>;
     dct:rights      "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.";
     foaf:homepage "#".
@@ -49,22 +49,22 @@
 
     foaf:name   "Giulia Venditti"@it.
 
-<https://github.com/ChiaraCati/Owater/data/MD4_CSV>
+<https://github.com/ChiaraCati/Owater/data/MD3_CSV>
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Tabular distribution of  Emilia-Romagna's provinces."@eng;
     dct:description  "This is the tabular distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
-    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_CSV>;
+    dct:format  <http://publications.europa.eu/resource/authority/file-type/CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD3.csv>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
-<https://github.com/ChiaraCati/Owater/data/MD4_JSON>
+<https://github.com/ChiaraCati/Owater/data/MD3_JSON>
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Json distribution of  Emilia-Romagna's provinces."@eng;
     dct:description  "This is the Json distribution of datasets containing provinces of Emilia Romagna, Italy, ."@eng;
-    dct:format  <http://publications.europa.eu/resource/authority/file-type/RDF_JSON>;
+    dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
     dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD3.json>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".

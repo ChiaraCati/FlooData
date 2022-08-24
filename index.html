@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="website/stylesheat.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
-    
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
     <script src="https://code.highcharts.com/maps/modules/data.js"></script>
     <script src="https://code.highcharts.com/modules/marker-clusters.js"></script>
@@ -21,9 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
-
     <script type="text/javascript" src="website/js/Script.js"></script>
-
   </head>
   
   <body>
@@ -31,7 +27,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
-            <h1><b>FlooData</b></h1>
+            <h1><strong>FlooData</strong></h1>
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -109,7 +105,7 @@
     </nav>
     
     <div id="Home">
-    <video autoplay muted loop id="myVideo">
+    <video id="myVideo" autoplay muted loop>
       <source src="website/img/video/Waves in the ocean.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
@@ -123,50 +119,39 @@
       </section>
     </div>
 
-    
     <section id="Project" class="section">
       <div class="content is-medium">
         <h1 class="title">Project</h1>
-      <p>
-        As one of the largest Italian regions,  <b><a href="https://en.wikipedia.org/wiki/Emilia-Romagna">Emilia-Romagna</a></b> is characterized by a very diversified hydrogeological conformation: including coastal areas, mountains, hills, and still there is space for a vast lowland area crossed by waterway.
-          But high diveristy in ecosystems also implies several calamities and disasters. Hence, a high degree of attention, multidisciplinary approaches and constant investments deal with these kinds of events and avoid damage to the regional economy and ecosystems.
-      </p>
-      <div class="icon_box">
-      <nav class="level">
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading"><img src="website/img/mountains.png"></p>
-            <p class="title">25,1% mountains</p>
+        <p> As one of the largest Italian regions,  <strong><a href="https://en.wikipedia.org/wiki/Emilia-Romagna">Emilia-Romagna</a></strong> is characterized by a very diversified hydrogeological conformation: including coastal areas, mountains, hills, and still there is space for a vast lowland area crossed by waterway. But high diveristy in ecosystems also implies several calamities and disasters. Hence, a high degree of attention, multidisciplinary approaches and constant investments deal with these kinds of events and avoid damage to the regional economy and ecosystems.</p>
+        <nav class="level icon_box">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading"><img src="website/img/mountains.png"></p>
+              <p class="title">25,1% mountains</p>
+            </div>
           </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading"><img src="website/img/forest.png"></p>
-            <p class="title">27,1% hills</p>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading"><img src="website/img/forest.png"></p>
+              <p class="title">27,1% hills</p>
+            </div>
           </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading"><img src="website/img/river.png"></p>
-            <p class="title">47,8% lowland </p>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading"><img src="website/img/river.png"></p>
+              <p class="title">47,8% lowland </p>
+            </div>
           </div>
-        </div>
-    </nav>
-    <p class="content is-small is-pulled-right">information taken from <a href="https://www.sapere.it/enciclopedia/Em%C3%AClia-Romagna.html#:~:text=Il%20territorio%20dell'Emilia%2DRomagna,47%2C8%25%20da%20pianura.">Sapere.it</a><p></div>
+        </nav>
+        <p class="content is-small is-pulled-right">information taken from <a href="https://www.sapere.it/enciclopedia/Em%C3%AClia-Romagna.html#:~:text=Il%20territorio%20dell'Emilia%2DRomagna,47%2C8%25%20da%20pianura.">Sapere.it</a><p>
    
-      <p class="clear">
-        Hydrogeological disruptions are related to climate change: the increasing of events like landslides and coast erosion may be considered symptoms of the low health condition of the planet due to human activities such as deforestation, overbuilding, industrialization, etc. Thus, we believe it is a common interest to share this data and give citizens an insight into the hydrogeological risk of this area.
-      </p>
-      <p>
-        The actions – that were undertaken by local communities – to avoid and repair this kind of disaster represent the other side of the coin, and <b>FlooData</b> offers them clustered by province. Here we also chose to highlight the difference in financings devolved to <b>reparatory</b> and <b>preventive</b> actions, to highlight which areas prefer – or can – invest principally in the second ones.
-        <span class="br"></span>
-          
-      </p>
+        <p class="clear"> Hydrogeological disruptions are related to climate change: the increasing of events like landslides and coast erosion may be considered symptoms of the low health condition of the planet due to human activities such as deforestation, overbuilding, industrialization, etc. Thus, we believe it is a common interest to share this data and give citizens an insight into the hydrogeological risk of this area.</p>
+        <p>The actions &#45; that were undertaken by local communities &#45; to avoid and repair this kind of disaster represent the other side of the coin, and <strong>FlooData</strong> offers them clustered by province. Here we also chose to highlight the difference in financings devolved to <strong>reparatory</strong> and <strong>preventive</strong> actions, to highlight which areas prefer &#45; or can &#45; invest principally in the second ones.</p>
 
-      <p class="is-pulled-left" style="width: 45%;">
-          <b>FlooData</b> makes re-use of Open Data related to Emilia Romagna's hydrogeological disruptions. All of this data has been gathered from 9 different sources having as themes:
+      <p class="half_paragraph">
+          <strong>FlooData</strong> makes re-use of Open Data related to Emilia Romagna's hydrogeological disruptions. All of this data has been gathered from 9 different sources having as themes:
       </p>
-      <div class="special_list is-pulled-right">
+      <div class="special_list">
         Geo-data<br>
         Hydrogeological disasters<br>
         Human action todeal with this kind of disasters
@@ -204,7 +189,7 @@
       <div class="content is-medium">
         <h1 class="title">Data Inspection</h1>
         <p>This section shows the results of our project. <br>
-          The questions below aim to describe <b>hydrogeological disasters</b> in Emilia Romana. <br>
+          The questions below aim to describe <strong>hydrogeological disasters</strong> in Emilia Romana. <br>
         The graphical visualization and some narrow descriptive text answer the questions giving you a first grasp of the data. <br>
        You can interact with the visualizations, focus on the areas of primary interest to you or get a general overview of the hydrogeological situation in Emilia Romagna. </p>
       
@@ -218,8 +203,8 @@
             <p>Sunburst chart of total amount of disasters divided by province and then divided by typology.</p>
           </div>
           <br>
-          <p>Here we notice the provinces of <b>Bologna</b> and <b>Modena</b> to be the ones with most disruptions recorded, some – e.g., wells of hot water and gas leaks from the ground – are linked to the 2012 earthquake that stroke the region (cf. <a href="https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808">Segnalazioni fenomeni geologici particolari</a>).<br>
-            Landslides and hydraulic disasters are widely present in each province.  We can assess a clear difference in the typology of the disasters between Provinces facing the Adriatic sea. <b>Ferrara</b> is a case worthy of mention, as it is one of the provinces registering fewer disasters while having a heterogeneous distribution of disaster typologies.
+          <p>Here we notice the provinces of <strong>Bologna</strong> and <strong>Modena</strong> to be the ones with most disruptions recorded, some – e.g., wells of hot water and gas leaks from the ground – are linked to the 2012 earthquake that stroke the region (cf. <a href="https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808">Segnalazioni fenomeni geologici particolari</a>).<br>
+            Landslides and hydraulic disasters are widely present in each province.  We can assess a clear difference in the typology of the disasters between Provinces facing the Adriatic sea. <strong>Ferrara</strong> is a case worthy of mention, as it is one of the provinces registering fewer disasters while having a heterogeneous distribution of disaster typologies.
           </p>
 
           <h2>How potentially harmful are these disasters? Which areas are most affected? </h2>
@@ -286,55 +271,55 @@
           <p>       
             <h3>Hydraulic risk:</h3>
             <p>
-              <b>Area</b><br>
+              <strong>Area</strong><br>
               Central Provinces and the ones in the northern part of the coast have very high percentages of area at low risk – Ferrara has a value of almost 100%. Same situation has been detected for medium probability of hydraulic risk. High risk areas ramain distributed in the same way, with a conistent decreasing of the percentages in each Province, with maximum values of around 20% in  Ferrara and Ravenna.
             </p>
             <p>
-              <b>Population</b><br>
+              <strong>Population</strong><br>
               40-50% of the population is at medium risk in all Provinces, with pikes of 99% in Ferrara and 87% in Ravenna, same goes for low low risk. Concerning population at high risk Ferara and Rimini around have values near the 25%, the other Provinces have lower percentages (1-13%). 
             </p>
             <p>
-              <b>Families</b><br>
+              <strong>Families</strong><br>
               Ferara and Rimini around 25%, of families at high risk the others have lower percentages (3-12%). Medium and low risk present more or les the same percentages 60-70% in all provinces, with pikes of 99% in Ferrara and 87% in Ravenna
             </p>
             <p>
-              <b>Buildings</b><br>
+              <strong>Buildings</strong><br>
               Coast Provinces have the highest precentages of buildings ath high risk, with Ferrara and Rimini having values around 20%.
               The western side of the region has medium and low risk values at 30%. Toving forward the coast, these values increase reaching pikes of 100% in Ferrara, and lower again in the southern part of the coast a minimum of 40% (Rimini).
             </p>
             <p>
-              <b>Enterprises</b><br>
+              <strong>Enterprises</strong><br>
               All provinces have values of enterprises at medium and low risk between 50-70%. Pikes are reached in Ferrara (100%), in Ravenna (88%) and in Reggio Emilia (~80%). Enterprise at high risk are very few. 
             </p> 
             <p>
-              <b>Cultural Heritage</b><br>
+              <strong>Cultural Heritage</strong><br>
               high risk is evenly spread arund all the Region, mean value of 9% piacenza and Rimini have lowest values. For medium ad low risk there could be an oerror over Ferrara. on low risk the mean is  around 40-50% and finally has 10% risk. Finally on low  Rimini best doing with 14% Reggio Emilia (93%) and Modena (80%) not doing quite well 
             </p>
 
             <h3>Landslide risk:</h3> 
             <p>
-              <b>Area</b><br>
+              <strong>Area</strong><br>
               On the whole regional area the levels of high risk are low around 10% in all areas. With the southern part of the coast presenting the highest values that are around 15% of areas at very high risk. Medium risk is almost null, as well as low risk. 
             </p>
 
             <p>
-              <b>Population</b><br>
+              <strong>Population</strong><br>
               Also for population the percentages for each typology of risk are very low.
             </p>
             <p>
-              <b>Families</b><br>
+              <strong>Families</strong><br>
               All provinces have almost 0% of families under lanslide risk here, with the only exception of Forlì Cesena which has 3% of its population at very high risk.
             </p>
             <p>
-              <b>Buildings</b><br>
+              <strong>Buildings</strong><br>
                The percentages of very high, low and medium risk are also around 0% here, except for high risk in which we notice and increment of percentage in western Provinces like Piacenza and Parma.
             </p>
             <p>
-              <b>Enterprises</b><br>
+              <strong>Enterprises</strong><br>
               Also here the risk is irrelevant 
             </p>
             <p>
-              <b>Cultural Heritage</b><br>
+              <strong>Cultural Heritage</strong><br>
               CH at landslide risk is mainly located in the southern part of the coast 
             </p>
           </p>
@@ -363,7 +348,7 @@
           <br>
           <p>
             [Inserire qui qualcosa sulla mappa]<br>
-            From the bar chart, we can state that all Provinces are doing pretty well on the preventive matter,<b> Bologna</b> and <b>Modena</b> keep placing themselves on top of the rankings as the two cities that also invest the most in prevention. This factor might have also impacted the limited reparation costs compared to other provinces spending less on prevention – e.g., <b>Parma</b>. <br>
+            From the bar chart, we can state that all Provinces are doing pretty well on the preventive matter,<strong> Bologna</strong> and <strong>Modena</strong> keep placing themselves on top of the rankings as the two cities that also invest the most in prevention. This factor might have also impacted the limited reparation costs compared to other provinces spending less on prevention – e.g., <strong>Parma</strong>. <br>
             As we ended up with a list of more than 290 types of activities, some of them not strictly related to hydrogeological damages, we have selected to display 15 categories for dividing the financings. <em>Others</em> is a general category containing all those activities linked to hydrogeological disruptions but not representing active interventions on the territory. Among the remaining ones, we notice that direct activities dedicated to landslides and floodings, with waterways, are the most financed categories. </p>
           
           <div class="clear"></div>
@@ -802,16 +787,16 @@
         <br>
           <ul>
 
-            <li><b>Website content</b> was released under license <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC-BY-SA 4.0</a></li>
-            <li>The cover's <b>original video</b> was released under license <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.it">CC0 1.0</a></li>
+            <li><strong>Website content</strong> was released under license <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC-BY-SA 4.0</a></li>
+            <li>The cover's <strong>original video</strong> was released under license <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.it">CC0 1.0</a></li>
             <br>
-            <li> <b>Source datasets:</b>
+            <li> <strong>Source datasets:</strong>
               <ul>
                 <li>Creative Commons Attribution (<a href="https://creativecommons.org/licenses/by/4.0/deed.it">CC BY 4.0</a> - <a href="https://creativecommons.org/licenses/by/3.0/legalcode.it">CC BY 3.0 IT</a>)</li>
                 <li>Creative Commons Attribution-ShareAlike (<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC-BY-SA 4.0</a>)</li>
               </ul>
             </li>
-            <li> <b>Mashed-up dataset</b> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC-BY-SA 4.0</a>0</li>
+            <li> <strong>Mashed-up dataset</strong> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC-BY-SA 4.0</a>0</li>
           </ul>
       </section>
 

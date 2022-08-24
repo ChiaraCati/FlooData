@@ -20,32 +20,43 @@ button a:hover {
     width: 100%;
 }
 
+#Home{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
 #myVideo {
     position: relative;
     right: 0;
     bottom: 0;
     z-index: -1;
-    min-width: auto;
-    min-height: 100vh;
+    min-width: fit-content;
+    min-height: fit-content;
 }
 
  .section{
-    padding: 7rem ;
+    padding: 7rem 7rem 0;
  }
 
  #Home > section{
-    position: absolute;
-    top: 50vh;
-    background-color: rgba(240, 255, 255, 0.5);
+  position: absolute;
+  bottom: 30vh;
+  padding: 3rem;
+  background-color: rgba(240, 255, 255, 0.5);
 }
 
- .br{
+ /* .br{
     display: block;
     margin-bottom: 1rem;
- }
+ } */
 
  .icon_box {
   padding: 2em;
+ }
+
+ .icon_box .title {
+  font-size: 1.5rem;
  }
 
  .overview_box {
@@ -75,7 +86,6 @@ button a:hover {
 }
 
 .special_list {
-  width: 52%;
   background-color: rgb(234 255 255);
   border-left: solid 0.5em rgb(4 209 178);
   padding: 1em;
@@ -133,3 +143,15 @@ button a:hover {
   .level img{
     width: 10em;
   }
+
+
+@media screen and (min-width: 769px), print{
+  .half_paragraph {
+    width: 45%;
+    float: left;
+  }
+  .special_list{
+    float: right;
+    width: 52%;
+  }
+}

@@ -7,6 +7,14 @@ html {
     scroll-behavior: smooth;
 }
 
+button a {
+  color: inherit;
+}
+
+button a:hover {
+  color: inherit;
+}
+
 .navbar{
     position: fixed !important;
     width: 100%;

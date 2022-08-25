@@ -35,10 +35,6 @@ button a:hover {
     min-height: fit-content;
 }
 
- .section{
-    padding: 7rem 7rem 0;
- }
-
  #Home > section{
   position: absolute;
   bottom: 30vh;
@@ -130,5 +126,9 @@ button a:hover {
     width: 40%;
     float: right;
   }
+
+  .section{
+    padding: 7rem 7rem 0;
+ }
   
 }

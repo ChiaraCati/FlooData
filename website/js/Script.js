@@ -9,9 +9,309 @@ $(document).ready(function() {
   
     });
 
+    $("#Hydraulic").click(function(){
+      $(".hydraulic").toggleClass("is-hidden")
+      $("#Hydraulic > span > ion-icon").toggleClass("down");
+      $(".landslide").addClass("is-hidden")
+      $("#Landslide > span > ion-icon").removeClass("down");
+      $(".hydraulic_risk").removeClass("is-hidden");
+      $(".landslide_risk").addClass("is-hidden");
+      $("#high_hydraulic_risk_area_p3" ).trigger('click');
+    });
+
+    $(".hydraulic > .panel-tabs > #Area").click(function(){
+      $(".hydraulic > .panel-tabs > #Area").addClass("is-active");
+      $(".hydraulic > .panel-tabs > #Population").removeClass("is-active");
+      $(".hydraulic > .panel-tabs > #Families").removeClass("is-active");
+      $(".hydraulic > .panel-tabs > #Buildings").removeClass("is-active");
+      $(".hydraulic > .panel-tabs > #Enterprises").removeClass("is-active");
+      $(".hydraulic > .panel-tabs > #C_Heritage").removeClass("is-active");
+      $(".hydraulic > .area").removeClass("is-hidden");
+      $(".hydraulic > .population").addClass("is-hidden");
+      $(".hydraulic > .families").addClass("is-hidden");
+      $(".hydraulic > .buildings").addClass("is-hidden");
+      $(".hydraulic > .enterprises").addClass("is-hidden");
+      $(".hydraulic > .c_heritage").addClass("is-hidden");
+      $(".hydraulic_risk > .area").removeClass("is-hidden");
+      $(".hydraulic_risk > .population").addClass("is-hidden");
+      $(".hydraulic_risk > .families").addClass("is-hidden");
+      $(".hydraulic_risk > .buildings").addClass("is-hidden");
+      $(".hydraulic_risk > .enterprises").addClass("is-hidden");
+      $(".hydraulic_risk > .c_heritage").addClass("is-hidden");
+      $("#high_hydraulic_risk_area_p3" ).trigger('click');
+
+  })
+
+  $(".hydraulic > .panel-tabs > #Population").click(function(){
+    $(".hydraulic > .panel-tabs > #Area").removeClass("is-active");
+    $(".hydraulic > .panel-tabs > #Population").addClass("is-active");
+    $(".hydraulic > .panel-tabs > #Families").removeClass("is-active");
+    $(".hydraulic > .panel-tabs > #Buildings").removeClass("is-active");
+    $(".hydraulic > .panel-tabs > #Enterprises").removeClass("is-active");
+    $(".hydraulic > .panel-tabs > #C_Heritage").removeClass("is-active");
+    $(".hydraulic > .area").addClass("is-hidden");
+    $(".hydraulic > .population").removeClass("is-hidden");
+    $(".hydraulic > .families").addClass("is-hidden");
+    $(".hydraulic > .buildings").addClass("is-hidden");
+    $(".hydraulic > .enterprises").addClass("is-hidden");
+    $(".hydraulic > .c_heritage").addClass("is-hidden");
+    $(".hydraulic_risk > .area").addClass("is-hidden");
+      $(".hydraulic_risk > .population").removeClass("is-hidden");
+      $(".hydraulic_risk > .families").addClass("is-hidden");
+      $(".hydraulic_risk > .buildings").addClass("is-hidden");
+      $(".hydraulic_risk > .enterprises").addClass("is-hidden");
+      $(".hydraulic_risk > .c_heritage").addClass("is-hidden");
+      $("#high_hydraulic_risk_population_p3" ).trigger('click');
+
+})
+
+$(".hydraulic > .panel-tabs > #Families").click(function(){
+  $(".hydraulic > .panel-tabs > #Area").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Population").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Families").addClass("is-active");
+  $(".hydraulic > .panel-tabs > #Buildings").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Enterprises").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #C_Heritage").removeClass("is-active");
+  $(".hydraulic > .area").addClass("is-hidden");
+  $(".hydraulic > .population").addClass("is-hidden");
+  $(".hydraulic > .families").removeClass("is-hidden");
+  $(".hydraulic > .buildings").addClass("is-hidden");
+  $(".hydraulic > .enterprises").addClass("is-hidden");
+  $(".hydraulic > .c_heritage").addClass("is-hidden");
+  $(".hydraulic_risk > .area").addClass("is-hidden");
+      $(".hydraulic_risk > .population").addClass("is-hidden");
+      $(".hydraulic_risk > .families").removeClass("is-hidden");
+      $(".hydraulic_risk > .buildings").addClass("is-hidden");
+      $(".hydraulic_risk > .enterprises").addClass("is-hidden");
+      $(".hydraulic_risk > .c_heritage").addClass("is-hidden");
+      $("#high_hydraulic_risk_family_p3" ).trigger('click');
+
+})
+
+
+$(".hydraulic > .panel-tabs > #Buildings").click(function(){
+  $(".hydraulic > .panel-tabs > #Area").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Population").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Families").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Buildings").addClass("is-active");
+  $(".hydraulic > .panel-tabs > #Enterprises").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #C_Heritage").removeClass("is-active");
+  $(".hydraulic > .area").addClass("is-hidden");
+  $(".hydraulic > .population").addClass("is-hidden");
+  $(".hydraulic > .families").addClass("is-hidden");
+  $(".hydraulic > .buildings").removeClass("is-hidden");
+  $(".hydraulic > .enterprises").addClass("is-hidden");
+  $(".hydraulic > .c_heritage").addClass("is-hidden");
+  $(".hydraulic_risk > .area").addClass("is-hidden");
+      $(".hydraulic_risk > .population").addClass("is-hidden");
+      $(".hydraulic_risk > .families").addClass("is-hidden");
+      $(".hydraulic_risk > .buildings").removeClass("is-hidden");
+      $(".hydraulic_risk > .enterprises").addClass("is-hidden");
+      $(".hydraulic_risk > .c_heritage").addClass("is-hidden");
+      $("#high_hydraulic_risk_building_p3" ).trigger('click');
+
+})
+
+
+$(".hydraulic > .panel-tabs > #Enterprises").click(function(){
+  $(".hydraulic > .panel-tabs > #Area").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Population").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Families").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Buildings").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Enterprises").addClass("is-active");
+  $(".hydraulic > .panel-tabs > #C_Heritage").removeClass("is-active");
+  $(".hydraulic > .area").addClass("is-hidden");
+  $(".hydraulic > .population").addClass("is-hidden");
+  $(".hydraulic > .families").addClass("is-hidden");
+  $(".hydraulic > .buildings").addClass("is-hidden");
+  $(".hydraulic > .enterprises").removeClass("is-hidden");
+  $(".hydraulic > .c_heritage").addClass("is-hidden");
+  $(".hydraulic_risk > .area").addClass("is-hidden");
+      $(".hydraulic_risk > .population").addClass("is-hidden");
+      $(".hydraulic_risk > .families").addClass("is-hidden");
+      $(".hydraulic_risk > .buildings").addClass("is-hidden");
+      $(".hydraulic_risk > .enterprises").removeClass("is-hidden");
+      $(".hydraulic_risk > .c_heritage").addClass("is-hidden");
+      $("#high_hydraulic_risk_enterprise_p3" ).trigger('click');
+
+})
+
+
+$(".hydraulic > .panel-tabs > #C_Heritage").click(function(){
+  $(".hydraulic > .panel-tabs > #Area").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Population").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Families").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Buildings").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #Enterprises").removeClass("is-active");
+  $(".hydraulic > .panel-tabs > #C_Heritage").addClass("is-active");
+  $(".hydraulic > .area").addClass("is-hidden");
+  $(".hydraulic > .population").addClass("is-hidden");
+  $(".hydraulic > .families").addClass("is-hidden");
+  $(".hydraulic > .buildings").addClass("is-hidden");
+  $(".hydraulic > .enterprises").addClass("is-hidden");
+  $(".hydraulic > .c_heritage").removeClass("is-hidden");
+  $(".hydraulic_risk > .area").addClass("is-hidden");
+      $(".hydraulic_risk > .population").addClass("is-hidden");
+      $(".hydraulic_risk > .families").addClass("is-hidden");
+      $(".hydraulic_risk > .buildings").addClass("is-hidden");
+      $(".hydraulic_risk > .enterprises").addClass("is-hidden");
+      $(".hydraulic_risk > .c_heritage").removeClass("is-hidden");
+      $("#high_hydraulic_risk_cultural_heritage_p3" ).trigger('click');
+
+})
+
+
+$("#Landslide").click(function(){
+  $(".landslide").toggleClass("is-hidden")
+  $("#Landslide > span > ion-icon").toggleClass("down");
+  $(".hydraulic").addClass("is-hidden")
+  $("#Hydraulic > span > ion-icon").removeClass("down");
+  $(".hydraulic_risk").addClass("is-hidden");
+  $(".landslide_risk").removeClass("is-hidden");
+  $("#very_high_landslide_risk_area_p4").trigger('click');
+});
+
+$(".landslide > .panel-tabs > #Area").click(function(){
+  $(".landslide > .panel-tabs > #Area").addClass("is-active");
+  $(".landslide > .panel-tabs > #Population").removeClass("is-active");
+  $(".landslide > .panel-tabs > #Families").removeClass("is-active");
+  $(".landslide > .panel-tabs > #Buildings").removeClass("is-active");
+  $(".landslide > .panel-tabs > #Enterprises").removeClass("is-active");
+  $(".landslide > .panel-tabs > #C_Heritage").removeClass("is-active");
+  $(".landslide > .area").removeClass("is-hidden");
+  $(".landslide > .population").addClass("is-hidden");
+  $(".landslide > .families").addClass("is-hidden");
+  $(".landslide > .buildings").addClass("is-hidden");
+  $(".landslide > .enterprises").addClass("is-hidden");
+  $(".landslide > .c_heritage").addClass("is-hidden");
+  $(".landslide_risk > .area").removeClass("is-hidden");
+      $(".landslide_risk > .population").addClass("is-hidden");
+      $(".landslide_risk > .families").addClass("is-hidden");
+      $(".landslide_risk > .buildings").addClass("is-hidden");
+      $(".landslide_risk > .enterprises").addClass("is-hidden");
+      $(".landslide_risk > .c_heritage").addClass("is-hidden");
+      $("#very_high_landslide_risk_area_p4").trigger('click');
+})
+
+$(".landslide > .panel-tabs > #Population").click(function(){
+$(".landslide > .panel-tabs > #Area").removeClass("is-active");
+$(".landslide > .panel-tabs > #Population").addClass("is-active");
+$(".landslide > .panel-tabs > #Families").removeClass("is-active");
+$(".landslide > .panel-tabs > #Buildings").removeClass("is-active");
+$(".landslide > .panel-tabs > #Enterprises").removeClass("is-active");
+$(".landslide > .panel-tabs > #C_Heritage").removeClass("is-active");
+$(".landslide > .area").addClass("is-hidden");
+$(".landslide > .population").removeClass("is-hidden");
+$(".landslide > .families").addClass("is-hidden");
+$(".landslide > .buildings").addClass("is-hidden");
+$(".landslide > .enterprises").addClass("is-hidden");
+$(".landslide > .c_heritage").addClass("is-hidden");
+$(".landslide_risk > .area").addClass("is-hidden");
+      $(".landslide_risk > .population").removeClass("is-hidden");
+      $(".landslide_risk > .families").addClass("is-hidden");
+      $(".landslide_risk > .buildings").addClass("is-hidden");
+      $(".landslide_risk > .enterprises").addClass("is-hidden");
+      $(".landslide_risk > .c_heritage").addClass("is-hidden");
+      $("#very_high_landslide_risk_population_p4").trigger('click');
+})
+
+$(".landslide > .panel-tabs > #Families").click(function(){
+$(".landslide > .panel-tabs > #Area").removeClass("is-active");
+$(".landslide > .panel-tabs > #Population").removeClass("is-active");
+$(".landslide > .panel-tabs > #Families").addClass("is-active");
+$(".landslide > .panel-tabs > #Buildings").removeClass("is-active");
+$(".landslide > .panel-tabs > #Enterprises").removeClass("is-active");
+$(".landslide > .panel-tabs > #C_Heritage").removeClass("is-active");
+$(".landslide > .area").addClass("is-hidden");
+$(".landslide > .population").addClass("is-hidden");
+$(".landslide > .families").removeClass("is-hidden");
+$(".landslide > .buildings").addClass("is-hidden");
+$(".landslide > .enterprises").addClass("is-hidden");
+$(".landslide > .c_heritage").addClass("is-hidden");
+$(".landslide_risk > .area").addClass("is-hidden");
+      $(".landslide_risk > .population").addClass("is-hidden");
+      $(".landslide_risk > .families").removeClass("is-hidden");
+      $(".landslide_risk > .buildings").addClass("is-hidden");
+      $(".landslide_risk > .enterprises").addClass("is-hidden");
+      $(".landslide_risk > .c_heritage").addClass("is-hidden");
+      $("#very_high_landslide_risk_family_p4").trigger('click');
+})
+
+
+$(".landslide > .panel-tabs > #Buildings").click(function(){
+$(".landslide > .panel-tabs > #Area").removeClass("is-active");
+$(".landslide > .panel-tabs > #Population").removeClass("is-active");
+$(".landslide > .panel-tabs > #Families").removeClass("is-active");
+$(".landslide > .panel-tabs > #Buildings").addClass("is-active");
+$(".landslide > .panel-tabs > #Enterprises").removeClass("is-active");
+$(".landslide > .panel-tabs > #C_Heritage").removeClass("is-active");
+$(".landslide > .area").addClass("is-hidden");
+$(".landslide > .population").addClass("is-hidden");
+$(".landslide > .families").addClass("is-hidden");
+$(".landslide > .buildings").removeClass("is-hidden");
+$(".landslide > .enterprises").addClass("is-hidden");
+$(".landslide > .c_heritage").addClass("is-hidden");
+$(".landslide_risk > .area").addClass("is-hidden");
+      $(".landslide_risk > .population").addClass("is-hidden");
+      $(".landslide_risk > .families").addClass("is-hidden");
+      $(".landslide_risk > .buildings").removeClass("is-hidden");
+      $(".landslide_risk > .enterprises").addClass("is-hidden");
+      $(".landslide_risk > .c_heritage").addClass("is-hidden");
+      $("#very_high_landslide_risk_building_p4").trigger('click');
+})
+
+
+$(".landslide > .panel-tabs > #Enterprises").click(function(){
+$(".landslide > .panel-tabs > #Area").removeClass("is-active");
+$(".landslide > .panel-tabs > #Population").removeClass("is-active");
+$(".landslide > .panel-tabs > #Families").removeClass("is-active");
+$(".landslide > .panel-tabs > #Buildings").removeClass("is-active");
+$(".landslide > .panel-tabs > #Enterprises").addClass("is-active");
+$(".landslide > .panel-tabs > #C_Heritage").removeClass("is-active");
+$(".landslide > .area").addClass("is-hidden");
+$(".landslide > .population").addClass("is-hidden");
+$(".landslide > .families").addClass("is-hidden");
+$(".landslide > .buildings").addClass("is-hidden");
+$(".landslide > .enterprises").removeClass("is-hidden");
+$(".landslide > .c_heritage").addClass("is-hidden");
+$(".landslide_risk > .area").addClass("is-hidden");
+      $(".landslide_risk > .population").addClass("is-hidden");
+      $(".landslide_risk > .families").addClass("is-hidden");
+      $(".landslide_risk > .buildings").addClass("is-hidden");
+      $(".landslide_risk > .enterprises").removeClass("is-hidden");
+      $(".landslide_risk > .c_heritage").addClass("is-hidden");
+      $("#very_high_landslide_risk_enterprise_p4").trigger('click');
+})
+
+
+$(".landslide > .panel-tabs > #C_Heritage").click(function(){
+$(".landslide > .panel-tabs > #Area").removeClass("is-active");
+$(".landslide > .panel-tabs > #Population").removeClass("is-active");
+$(".landslide > .panel-tabs > #Families").removeClass("is-active");
+$(".landslide > .panel-tabs > #Buildings").removeClass("is-active");
+$(".landslide > .panel-tabs > #Enterprises").removeClass("is-active");
+$(".landslide > .panel-tabs > #C_Heritage").addClass("is-active");
+$(".landslide > .area").addClass("is-hidden");
+$(".landslide > .population").addClass("is-hidden");
+$(".landslide > .families").addClass("is-hidden");
+$(".landslide > .buildings").addClass("is-hidden");
+$(".landslide > .enterprises").addClass("is-hidden");
+$(".landslide > .c_heritage").removeClass("is-hidden");
+$(".landslide_risk > .area").addClass("is-hidden");
+      $(".landslide_risk > .population").addClass("is-hidden");
+      $(".landslide_risk > .families").addClass("is-hidden");
+      $(".landslide_risk > .buildings").addClass("is-hidden");
+      $(".landslide_risk > .enterprises").addClass("is-hidden");
+      $(".landslide_risk > .c_heritage").removeClass("is-hidden");
+      $("#very_high_landslide_risk_cultural_heritage_p4").trigger('click');
+})
+
+
+
+
     $("#LinkedIspra").click(function(){
       $(".linkedIspra").toggleClass("is-hidden");
-      $("ion-icon").toggleClass("down");
+      $("#LinkedIspra > span > ion-icon").toggleClass("down");
   })
 
     $("#Rendis").click(function(){
@@ -657,18 +957,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     } 
 
-
-
+    $("#high_hydraulic_risk_area_p3" ).trigger('click');
 
     Highcharts.chart("finance_bar", {
-
-
 
       chart: {
           type: "bar",
           zoomType: "y",
-          height: 500,
-          width: 600
+          height: 400,
       },
       title: {
           text: "Comparison of financing amounts per region"
@@ -706,7 +1002,7 @@ document.addEventListener('DOMContentLoaded', function () {
       },
       plotOptions: {
           bar: {
-              pointWidth: 20,
+              pointWidth: 13,
           },
           series: {
               groupPadding: 0.0,

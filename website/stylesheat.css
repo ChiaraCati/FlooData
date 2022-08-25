@@ -46,11 +46,6 @@ button a:hover {
   background-color: rgba(240, 255, 255, 0.5);
 }
 
- /* .br{
-    display: block;
-    margin-bottom: 1rem;
- } */
-
  .icon_box {
   padding: 2em;
  }
@@ -139,9 +134,24 @@ button a:hover {
     background: #f1f7ff;
   }
 
+  .chart{
+    margin: 3em auto;
+  }
 
   .level img{
     width: 10em;
+  }
+
+  .prov_name{
+    margin-top: 0 !important;
+  }
+
+  #info, #finance_map, .risk_panel {
+    margin: 3em 0;
+  }
+
+  input{
+    margin-right: 0.5em;
   }
 
 
@@ -154,4 +164,18 @@ button a:hover {
     float: right;
     width: 52%;
   }
+  .w_50{
+    max-width: 70%;
+  }
+
+  #finance_map{
+    width: 58%;
+    float: left;
+  }
+
+  #info{
+    width: 40%;
+    float: right;
+  }
+  
 }

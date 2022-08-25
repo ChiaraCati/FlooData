@@ -18,7 +18,7 @@ $(document).ready(function() {
       $(".landslide_risk").addClass("is-hidden");
       $("#high_hydraulic_risk_area_p3" ).trigger('click');
     });
-
+    
     $(".hydraulic > .panel-tabs > #Area").click(function(){
       $(".hydraulic > .panel-tabs > #Area").addClass("is-active");
       $(".hydraulic > .panel-tabs > #Population").removeClass("is-active");

@@ -531,112 +531,357 @@
       <section id="Analysis" class="section">
         <div class="content is-medium">
           <h1 class="title">Datasets Analysis</h1>
-          <p> Qui scriviamo un'introduzione all'analisi: In thi section we will briefly list the steps of our analysis. For more information, please refer to our  <a href="https://github.com/ChiaraCati/Owater">Documentation</a>.</p>
+          <p>In this section we will briefly list the steps of our analysis. For more information, please refer to our  <a href="https://github.com/ChiaraCati/Owater">Documentation</a>.</p>
 
           <div id="Quality-dataset" class="block">
           <h3>Quality Analysis</h3>
           <p> We used several datasets coming from different institutions, to fully cove the several aspects regarding hydrogeological issues in Emilia Romagna.</p>
-            <p>Descrizione tabella? 
-            Suddividendo per Source (istituzioni)esempio </p> 
-          
+
+          <!-- linkedispra -->
+
           <h4 id="LinkedIspra" class="dataset_name">LinkedIspra <span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
           <div class="linkedIspra is-hidden">
-          <p><a href="#">LinkedIspra</a> contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil <br>
-          poi ci metto tabellina come in metadata della quality analysis dei dataset di quella source.
+            <p><a href="#">LinkedIspra</a> contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil <br>
+            poi ci metto tabellina come in metadata della quality analysis dei dataset di quella source.
+            </p>
+
+            <div class="tabs is-boxed">
+              <ul>
+                <li id="Rendis" class="is-active">
+                  <a>
+                    <span>Rendis</span>
+                  </a>
+                </li>
+                <li id="Luoghi">
+                  <a>
+                    <span>Luoghi</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="table-container rendis">
+              <table class="table is-striped">
+                <tbody>
+                  <tr>
+                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Completness">Completness</abbr></th>
+                    <td>Not satisfied: 93.9%</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Coherence">Coherence</abbr></th>
+                    <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Promptness">Promptness</abbr></th>
+                    <td>Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="table-container luoghi is-hidden">
+              <table class="table is-striped">
+                <tbody>
+                  <tr>
+                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Completness">Completness</abbr></th>
+                    <td>Not satisfied: 93.9%</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Coherence">Coherence</abbr></th>
+                    <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Promptness">Promptness</abbr></th>
+                    <td>Not satisfied: last update on 22/03/2016</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- minerva -->
+
+          <h4 id="MinERva" class="dataset_name">MinERva <span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
+          <div class="minerva is-hidden">
+          <p><a href="#">MinERva</a> is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the Region of Emilia Romagna. It contains various databases classified following the Comprehensive Knowledge Archive Network (CKAN) grouping and of the UN 2030 Agenda in Sustainable Development Goals, an open-source and web-based system, for data gathering, cataloguing and dissemination.
           </p>
 
           <div class="tabs is-boxed">
             <ul>
-              <li id="Rendis" class="is-active">
+              <li id="SegnalazioniFenomeni" class="is-active">
                 <a>
-                  <span>Rendis</span>
+                  <span>Segnalazioni fenomeni geologici particolari</span>
                 </a>
               </li>
-              <li id="Luoghi">
+              <li id="OpereDifesa">
                 <a>
-                  <span>Luoghi</span>
+                  <span>Opere di difesa costiera - 2020</span>
+                </a>
+              </li>
+              <li id="DinamicaMeteomarina">
+                <a>
+                  <span>Dinamica Meteomarina ed Impatti - 1946-2020</span>
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="table-container rendis">
+          <div class="table-container segnalazioniFenomeni">
             <table class="table is-striped">
               <tbody>
                 <tr>
                   <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                  <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                  <td>Satisfied</td>
                 </tr>
                 <tr>
                   <th><abbr title ="Completness">Completness</abbr></th>
-                  <td>Not satisfied: 93.9%</td>
+                  <td>Not satisfied: 81.9%%	</td>
                 </tr>
                 <tr>
                   <th><abbr title ="Coherence">Coherence</abbr></th>
-                  <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Modified">Modified</abbr></th>
-                  <td>2022-08-11</td>
+                  <td>Satisfied</td>
                 </tr>
                 <tr>
                   <th><abbr title ="Promptness">Promptness</abbr></th>
-                  <td>Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022</td>
+                  <td>Not satisfied: Last update was on 31/12/2020</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div class="table-container luoghi is-hidden">
+          <div class="table-container opereDifesa is-hidden">
             <table class="table is-striped">
               <tbody>
                 <tr>
                   <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                  <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                  <td>Not satisfied: There is no clear meaning of some column names</td>
                 </tr>
                 <tr>
                   <th><abbr title ="Completness">Completness</abbr></th>
-                  <td>Not satisfied: 93.9%</td>
+                  <td>Not satisfied: 80.4%	</td>
                 </tr>
                 <tr>
                   <th><abbr title ="Coherence">Coherence</abbr></th>
-                  <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Modified">Modified</abbr></th>
-                  <td>2022-08-11</td>
+                  <td>Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"	</td>
                 </tr>
                 <tr>
                   <th><abbr title ="Promptness">Promptness</abbr></th>
-                  <td>Not satisfied: last update on 22/03/2016</td>
+                  <td>Not satisfied: Last update was on 01/01/2021
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
+
+          <div class="table-container dinamicaMeteomarina is-hidden">
+            <table class="table is-striped">
+              <tbody>
+                <tr>
+                  <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                  <td>Satisfied</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Completness">Completness</abbr></th>
+                  <td>Satisfied</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Coherence">Coherence</abbr></th>
+                  <td>Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205)	</td>
+                </tr>
+                <tr>
+                  <th><abbr title ="Promptness">Promptness</abbr></th>
+                  <td>Not satisfied: Last update was on 01/01/2020</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          </div>
+
+          <!-- idrogeo -->
+          <h4 id="IdroGEO" class="dataset_name">IdroGEO<span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
+          <div class="idroGEO is-hidden">
+            <p><a href="#">IdroGEO</a> is a platform allowing consultation, download and sharing of data, maps, reports, and documents of the Italian Landslide Inventory - IFFI. The platform has an Open Data section, where one can download data concerning landslides, available in Open format and with Creative Commons licences.
+
+
+            <div class="tabs is-boxed">
+              <ul>
+                <li id="Province" class="is-active">
+                  <a>
+                    <span>Province</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+
+            <div class="table-container province">
+              <table class="table is-striped">
+                <tbody>
+                  <tr>
+                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Completness">Completness</abbr></th>
+                    <td>Not satisfied: 99.7%</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Coherence">Coherence</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Promptness">Promptness</abbr></th>
+                    <td>Satisfied: last update 2021 with new ISTAT codes</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 	OpenCoesione -->
+          <h4 id="OpenCoesione" class="dataset_name">	OpenCoesione<span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
+          <div class="openCoesione is-hidden">
+            <p><a href="#">OpenCoesione</a> – the Italian government's open gov initiative on cohesion policies in Italy – makes their datasets available, offering a partial return of the monitoring system managed by the State General Accounting; in a form suitable to respond to the cognitive interests of citizens.
+            <div class="tabs is-boxed">
+              <ul>
+                <li id="Progetti1" class="is-active">
+                  <a>
+                    <span>Progetti esteso EMR 2007-2013</span>
+                  </a>
+                </li>
+                <li id="Progetti2">
+                  <a>
+                    <span>Progetti esteso EMR 2014-2020</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+
+            <div class="table-container progetti1">
+              <table class="table is-striped">
+                <tbody>
+                  <tr>
+                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Completness">Completness</abbr></th>
+                    <td>Not satisfied: 75.8%</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Coherence">Coherence</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Promptness">Promptness</abbr></th>
+                    <td>Satisfied: last update may 2022</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+            <div class="table-container progetti2 is-hidden">
+              <table class="table is-striped">
+                <tbody>
+                  <tr>
+                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Completness">Completness</abbr></th>
+                    <td>Not satisfied: 71.1%</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Coherence">Coherence</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Promptness">Promptness</abbr></th>
+                    <td>Satisfied: last update may 2022</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 	GitHub -->
+          <h4 id="GitHub" class="dataset_name">	Italy Geo<span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
+          <div class="gitHub is-hidden">
+            <p>The data contained in the <a href="#">GitHub repository</a> by <a href="#">Matteo Henry Chinaski</a> is of topological and topographical nature: place names, coordinates, ISTAT codes, dimensions and statistics (out of date) of different Italian areas, spanning from single municipalities to t
+            <div class="tabs is-boxed">
+              <ul>
+                <li id="ItalyGeo" class="is-active">
+                  <a>
+                    <span>italyGeo</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+
+            <div class="table-container italyGeo">
+              <table class="table is-striped">
+                <tbody>
+                  <tr>
+                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Completness">Completness</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Coherence">Coherence</abbr></th>
+                    <td>Satisfied</td>
+                  </tr>
+                  <tr>
+                    <th><abbr title ="Promptness">Promptness</abbr></th>
+                    <td>Not Satisfied: last update 2018</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          
+
+
+
         </div>
-
-
-
-          </div>
 
           <div id="Legal-dataset" class="block">
             <h3>Legal Analysis</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consectetur corporis saepe provident blanditiis amet quas dolores ducimus, dolorem, nobis animi possimus. Laudantium, architecto? Commodi, distinctio ratione animi architecto aspernatur est perspiciatis quidem omnis, assumenda libero temporibus. Nisi, corporis. Error aliquam explicabo possimus quam odit nam obcaecati aliquid animi ea dolor quae atque expedita, nulla odio harum quos laborum corporis rem enim, modi sequi quis culpa quidem. Consequuntur reiciendis maxime vero, libero sunt quos harum molestiae dolorum aliquid obcaecati cumque incidunt, suscipit minima iusto et eligendi qui illo laborum culpa debitis assumenda magni ex voluptas? Minus porro numquam maiores inventore.</p>
+            <p>Riassunto a voce per istituzione della tabella + tabella mash up licenza dei dataset</p>
             </div>
+            
 
             <div id="Ethical-dataset" class="block">
               <h3>Ethical Analysis</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consectetur corporis saepe provident blanditiis amet quas dolores ducimus, dolorem, nobis animi possimus. Laudantium, architecto? Commodi, distinctio ratione animi architecto aspernatur est perspiciatis quidem omnis, assumenda libero temporibus. Nisi, corporis. Error aliquam explicabo possimus quam odit nam obcaecati aliquid animi ea dolor quae atque expedita, nulla odio harum quos laborum corporis rem enim, modi sequi quis culpa quidem. Consequuntur reiciendis maxime vero, libero sunt quos harum molestiae dolorum aliquid obcaecati cumque incidunt, suscipit minima iusto et eligendi qui illo laborum culpa debitis assumenda magni ex voluptas? Minus porro numquam maiores inventore.</p>
+              <p>Riassunto e correggere numeri datasets nel testo della documenttion. * mettere in evidenza articoli ecc citati.</p>
+
               </div>
 
               <div id="Technical-dataset" class="block">
                 <h3>Technical Analysis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consectetur corporis saepe provident blanditiis amet quas dolores ducimus, dolorem, nobis animi possimus. Laudantium, architecto? Commodi, distinctio ratione animi architecto aspernatur est perspiciatis quidem omnis, assumenda libero temporibus. Nisi, corporis. Error aliquam explicabo possimus quam odit nam obcaecati aliquid animi ea dolor quae atque expedita, nulla odio harum quos laborum corporis rem enim, modi sequi quis culpa quidem. Consequuntur reiciendis maxime vero, libero sunt quos harum molestiae dolorum aliquid obcaecati cumque incidunt, suscipit minima iusto et eligendi qui illo laborum culpa debitis assumenda magni ex voluptas? Minus porro numquam maiores inventore.</p>
+                <p>Cards con nome formato, metadata se ci sono), uri e provenance.</p>
+
                 </div>
               
                 <div id="New" class="block">
                   <h3>Mash up dataset</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consectetur corporis saepe provident blanditiis amet quas dolores ducimus, dolorem, nobis animi possimus. Laudantium, architecto? Commodi, distinctio ratione animi architecto aspernatur est perspiciatis quidem omnis, assumenda libero temporibus. Nisi, corporis. Error aliquam explicabo possimus quam odit nam obcaecati aliquid animi ea dolor quae atque expedita, nulla odio harum quos laborum corporis rem enim, modi sequi quis culpa quidem. Consequuntur reiciendis maxime vero, libero sunt quos harum molestiae dolorum aliquid obcaecati cumque incidunt, suscipit minima iusto et eligendi qui illo laborum culpa debitis assumenda magni ex voluptas? Minus porro numquam maiores inventore.</p>
+                  <p>dire che abbiamo utilizzato i principi FAIR per creare i datasets</p>
+                <p> rappresentazione grafica degli steps sena spiegare troppo, che sono pre processin, merging, rifinitura</p>
+                <p>Nome del dataset finale (con dropdown contenente descrizione) e cosa c'è scritto dentro + bottone per download</p>
                   </div>
 
         </div>

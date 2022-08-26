@@ -105,13 +105,13 @@ The below criteria must be met, to manage the level of information quality as se
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |     :---   |
 | **D1 and D2\***       |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     Not satisfied: 93.9%    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels    |  <li>D1: Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022<<li>D2: Not satisfied: last update on 22/03/2016|
-| **D3**         |     Satisfied     |     Not satisfied: 81.9%%    |     Satisfied.     |       Not satisfied: Last update was on 31/12/2020 |
+| **D3**         |     Satisfied     |     Not satisfied: 81.9%%    |     Satisfied    |       Not satisfied: Last update was on 31/12/2020 |
 | **D4**         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 80.4%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
-| **D5**         |     Satisfied     |     Satisfied: 100%    |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205);     |         Not satisfied: Last update was on 01/01/2020 |
+| **D5**         |     Satisfied     |     Satisfied   |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205)     |         Not satisfied: Last update was on 01/01/2020 |
 | **D6** | Satisfied | Not satisfied: 99.7% | Satisfied |      Satisfied: last update 2021 with new ISTAT codes  |
-| **D7**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfired: last update may 2022      |
+| **D7**         |     Satisfied        |      Not satisfied: 75.8%       |      Satisfied         |         Satisfied: last update may 2022      |
 | **D8**         |     Satisfied        |      Not satisfied: 71.1%        |      Satisfied         |         Satisfied: last update may 2022     |
-| **D9**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2017 |
+| **D9**         |     Satisfied        |      Satisfied       |      Satisfied          | Not Satisfied: last update 2018 |
 
 <sup><sub>\* Datasets were merged and sampled down as ReNDiS geographical data relies on Luoghi's. The data frames we used for mash-up were also used as analysis samples of the over one million original entries. </sub></sup>
 

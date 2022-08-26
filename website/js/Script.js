@@ -314,6 +314,25 @@ $(".landslide_risk > .area").addClass("is-hidden");
       $("#LinkedIspra > span > ion-icon").toggleClass("down");
   })
 
+    $("#MinERva").click(function(){
+      $(".minerva").toggleClass("is-hidden");
+      $("#MinERva > span > ion-icon").toggleClass("down");
+  })
+
+    $("#IdroGEO").click(function(){
+      $(".idroGEO").toggleClass("is-hidden");
+      $("#IdroGEO > span > ion-icon").toggleClass("down");
+  })
+    $("#OpenCoesione").click(function(){
+      $(".openCoesione").toggleClass("is-hidden");
+      $("#OpenCoesione > span > ion-icon").toggleClass("down");
+  })
+
+    $("#GitHub").click(function(){
+      $(".gitHub").toggleClass("is-hidden");
+      $("#GitHub > span > ion-icon").toggleClass("down");
+  })
+
     $("#Rendis").click(function(){
         $("#Rendis").addClass("is-active");
         $("#Luoghi").removeClass("is-active");
@@ -327,6 +346,47 @@ $(".landslide_risk > .area").addClass("is-hidden");
       $(".luoghi").removeClass("is-hidden");
       $(".rendis").addClass("is-hidden");
   })
+
+  $("#SegnalazioniFenomeni").click(function(){
+    $("#SegnalazioniFenomeni").addClass("is-active");
+    $("#OpereDifesa").removeClass("is-active");
+    $("#DinamicaMeteomarina").removeClass("is-active");
+    $(".segnalazioniFenomeni").removeClass("is-hidden");
+    $(".opereDifesa").addClass("is-hidden");
+    $(".dinamicaMeteomarina").addClass("is-hidden");
+})
+
+  $("#OpereDifesa").click(function(){
+    $("#OpereDifesa").addClass("is-active");
+    $("#SegnalazioniFenomeni").removeClass("is-active");
+    $("#DinamicaMeteomarina").removeClass("is-active");
+    $(".opereDifesa").removeClass("is-hidden");
+    $(".segnalazioniFenomeni").addClass("is-hidden");
+    $(".dinamicaMeteomarina").addClass("is-hidden");
+  })
+  $("#DinamicaMeteomarina").click(function(){
+    $("#DinamicaMeteomarina").addClass("is-active");
+    $("#SegnalazioniFenomeni").removeClass("is-active");
+    $("#OpereDifesa").removeClass("is-active");
+    $(".dinamicaMeteomarina").removeClass("is-hidden");
+    $(".segnalazioniFenomeni").addClass("is-hidden");
+    $(".opereDifesa").addClass("is-hidden");
+  })
+
+  $("#Progetti1").click(function(){
+    $("#Progetti1").addClass("is-active");
+    $("#Progetti2").removeClass("is-active");
+    $(".progetti1").removeClass("is-hidden");
+    $(".progetti2").addClass("is-hidden");
+})
+
+$("#Progetti2").click(function(){
+  $("#Progetti2").addClass("is-active");
+  $("#Progetti1").removeClass("is-active");
+  $(".progetti2").removeClass("is-hidden");
+  $(".progetti1").addClass("is-hidden");
+})
+
 
     $("#Catalogue").click(function(){
         $("#Catalogue").addClass("is-active");

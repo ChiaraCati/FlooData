@@ -193,7 +193,7 @@ On average, the data gives information about the region as a whole and do not po
 
 
 Data relating to communities of people living in the endangered area comes from the two sets coming from ISPRAS's project ***IdroGeo***. 
-*D6* and *D7* contain information on families living in areas with high, medium and low flooding risk **(?)**. Even though this information is linked to natural persons, it is made available for public interest purposes, anonymized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally, this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
+*D6* and contain information on families living in areas with high, medium and low flooding and hydraulic risks. Even though this information is linked to natural persons, it is made available for public interest purposes, anonymized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally, this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
 Finally, we noticed that **ReNDis** makes accessible the names of whom are responsible for recorded interventions. We consider the presence of identity data in this set legitimate since names of public officers are by nature in the public domain. 
 
 For ethical requirements, we also rely on [Accenture](https://www.accenture.com/us-en)'s Data Ethics Decision Making Guidelines. Thus, data gathered and presented on Floodata has been downloaded directly from sources' websites or other institutional aggregators such as **MinERva** and **OpenCoesione**. 

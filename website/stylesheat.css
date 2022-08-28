@@ -97,8 +97,21 @@ button a:hover {
     margin-top: 0 !important;
   }
 
-  #info, #finance_map, .risk_panel {
+  #info, #finance_map, .risk_panel, .hydraulic_risk, .landslide_risk {
     margin: 3em 0;
+  }
+
+  .panel-tabs{
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+
+  .panel-heading{
+    margin-bottom: 0 !important;
+  }
+
+  .risk_panel, .hydraulic_risk, .landslide_risk{
+    width: 49%;
   }
 
   input{

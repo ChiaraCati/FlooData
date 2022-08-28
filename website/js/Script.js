@@ -1535,9 +1535,6 @@ document.addEventListener('DOMContentLoaded', function () {
           title: {
               text: "Amount of financings - by province & type"
           },
-          subtitle: {
-              text: 'Source: <a href="https://github.com/ChiaraCati/Owater/blob/main/software/final_dataset/MD1.json">MD1</a>'
-            },
 
           plotOptions: {
               sunburst: {

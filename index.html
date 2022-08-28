@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FlooData</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/octoshrimpy/bulma-o-steps/master/bulma-steps.css">
     <link rel="stylesheet" href="website/stylesheat.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
@@ -564,7 +565,7 @@
               <table class="table is-striped">
                 <tbody>
                   <tr>
-                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <th><abbr title ="Accurancy">Accuracy</abbr></th>
                     <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
                   </tr>
                   <tr>
@@ -587,7 +588,7 @@
               <table class="table is-striped">
                 <tbody>
                   <tr>
-                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                    <th><abbr title ="Accurancy">Accuracy</abbr></th>
                     <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
                   </tr>
                   <tr>
@@ -1059,12 +1060,118 @@
 
             </div>
               
-                <div id="New" class="block">
-                  <h3>Mash up dataset</h3>
-                  <p>dire che abbiamo utilizzato i principi FAIR per creare i datasets</p>
-                <p> rappresentazione grafica degli steps sena spiegare troppo, che sono pre processin, merging, rifinitura</p>
-                <p>Nome del dataset finale (con dropdown contenente descrizione) e cosa c'è scritto dentro + bottone per download</p>
+              <div id="New" class="block">
+                <h3>Mash up dataset</h3>
+                <p>For producing the mashed-up data sets we followed the <a href="https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf">FAIR Data Management Guidelines in Horizon 2020</a> </p>
+
+
+
+                <ul class="steps is-dashed is-balanced">
+                  
+                  <li class="steps-segment">
+                    <span class="steps-marker">1</span>
+                    <div class="steps-content">
+                      <p class="is-size-4">Pre-processing</p>
+                      
+                        <p><a href="https://github.com/ChiaraCati/Owater/blob/main/software/rdf_parser.py">rdf_parse.py</a> to parse N-triples into CSV</p>
+                        <p><a href="https://github.com/ChiaraCati/Owater/blob/main/software/dbfconv.py">dbfconv.py</a> to parse DBF files into CSV</p>
+                    </div>
+                  </li>
+                  <li class="steps-segment">
+                    <span class="steps-marker">2</span>
+                    <div class="steps-content ">
+                      <p class="is-size-4">Merging
+                      </p>
+        
+                      <p><a href="https://github.com/ChiaraCati/Owater/blob/main/software/actions.py">actions.py</a> to create MD1</p>
+                      <p><a href="https://github.com/ChiaraCati/Owater/blob/main/software/Disruptions.ipynb">disruptions.ipynb</a> to create MD2</p>
+                      <p><a href="https://github.com/ChiaraCati/Owater/blob/main/software/territory.py">territory.py</a> to create MD3</p>
+                    </div>
+                  </li>
+                  <li class="steps-segment is-active">
+                    <span class="steps-marker">3</span>
+                    <div class="steps-content">
+                      <p class="is-size-4">Revision</p>
+                      <p><a href="https://github.com/ChiaraCati/Owater/blob/main/software/datasets_update.ipynb">datasets_update.ipynb</a> to translate textes and eventual corrections</p>
+                    </div>
+                  </li>
+                  
+                </ul>
+
+                <div class="columns is-desktop">
+
+                  <div class="column">
+                      <div class="card">
+                        <header class="card-header">
+                          <p class="card-header-title">
+                            Actions
+                          </p> 
+                        <button class="card-header-icon" aria-label="more options">
+                            <span id="MD1" class="icon">
+                              <ion-icon name="arrow-down-outline"></ion-icon></span>
+                          </button>
+                        </header>
+                        <div class="card-content  md1 is-hidden">
+                          <div class="content">
+                            Covers Emilia Romagna's data on reparatory and preventive interventions against hydrogeological disasters
+                          </div>
+                        </div>
+                        <footer class="card-footer is-active">
+                          <a href="software/final_dataset/MD1.csv" class="card-footer-item" download="MD1.csv">Download CSV</a>
+                          <a href="software/final_dataset/MD1.json" class="card-footer-item" download="MD1.json">Download JSON</a>
+                        </footer>
+                      </div>  
                   </div>
+                              
+                  <div class="column">
+                    <div class="card">
+                      <header class="card-header">
+                        <p class="card-header-title">
+                          Disruptions
+                        </p> 
+                      <button class="card-header-icon" aria-label="more options">
+                          <span id="MD2" class="icon">
+                            <ion-icon name="arrow-down-outline"></ion-icon></span>
+                        </button>
+                      </header>
+                      <div class="card-content md2 is-hidden">
+                        <div class="content">
+                          Contains data about hydrogeological disasters involving Emilia Romagna.
+                        </div>
+                      </div>
+                      <footer class="card-footer is-active">
+                        <a href="software/final_dataset/MD2.csv" class="card-footer-item" download="MD2.csv">Download CSV</a>
+                        <a href="software/final_dataset/MD2.json" class="card-footer-item" download="MD2.json">Download JSON</a>
+                      </footer>
+                    </div>
+                  </div>
+
+
+                  <div class="column">
+                    <div class="card">
+                      <header class="card-header">
+                        <p class="card-header-title">
+                          Provinces
+                        </p> 
+                      <button class="card-header-icon" aria-label="more options">
+                          <span id="MD3" class="icon">
+                            <ion-icon name="arrow-down-outline"></ion-icon></span>
+                        </button>
+                      </header>
+                      <div class="card-content  md3 is-hidden">
+                        <div class="content">
+                          Contains data on hydraulic and flooding risks, foe area, population, families, buildings, enterprises and cultural heritage. It is divided by province.
+                        </div>
+                      </div>
+                      <footer class="card-footer is-active">
+                        <a href="software/final_dataset/MD3.csv" class="card-footer-item" download="MD3.csv">Download CSV</a>
+                        <a href="software/final_dataset/MD3.json" class="card-footer-item" download="MD3.json">Download JSON</a>
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
 
         </div>
         

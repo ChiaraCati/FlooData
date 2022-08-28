@@ -305,7 +305,7 @@ For creating the new datasets we disposed of four different kinds of file format
 * CSV
 * JSON
 
-#### Pre processing
+#### Pre-processing
 
 
 
@@ -314,12 +314,12 @@ To accomplish this, we developed a script [rdf_parse.py](software/rdf_parser.py)
 The script uses the rdflib to parse the .nt files, and through class "typology", it gathers the main subjects we want to retrieve: instabilities, interventions(financings), and repairs.
 Then for each subject, we extracted the predicates co-occurring with it and used them as labels for creating the data frame's columns. 
 
-For each column to be created we iterated triples formed as <*<Sbject*><*Column label*><*object*> and select the corresponding object as that cell value.
+For each column to be created we iterated triples formed as <*Subject*><*Column label*><*object*> and select the corresponding object as that cell value.
 For inserting geographical data, we started from ReNDiS lots locations and queried the Luoghi dataset looking for their labels, province, latitude and longitude. 
 
 The resulting data frames were temporarily saved in .csv format for later merging with other datasets. 
 
-**DBF** files have been converted automatically into CSV files using the software dbf.py developed for this purpose. The software converts the files keeping their original names using the dbf_read library's DBF method to open this kind of file saved in .csv format.
+**DBF** files have been converted automatically into CSV files using the software [dbfconv.py](software/dbfconv.py) developed for this purpose. The software converts the files keeping their original names using the dbf_read library's DBF method to open this kind of file saved in .csv format.
 #### Merging 
 
 The second step consists of the merging of the JSON and CSV files.
@@ -336,7 +336,10 @@ To create MD3 we crossed place names contained in D6 with data in *D10* to find 
 
 
 Finally, we have  produced **MD2** by selecting and giving standard names to columns representing the data necessary for our project.
-The production workflow is visible in notebook [disruptions.ipynb](software/Disruptions.ipynb), latter touch ups – such as the translation of data from Italian to English – can be found in [datasets_update.ipynb](software/datasets_update.ipynb)
+The production workflow is visible in notebook [disruptions.ipynb](software/Disruptions.ipynb)
+
+#### Revision
+Final modifications have been made to each dataset to translate the data from Italian to English, and remove null values or unnecessary data. This last process can be found in [datasets_update.ipynb](software/datasets_update.ipynb)
 
 A summary table of the produced mashup dataset:
 
@@ -345,6 +348,10 @@ A summary table of the produced mashup dataset:
 |   MD1     |   Actions |   CSV/JSON    |   CC-BY SA 4.0    |    https://github.com/ChiaraCati/Owater/resource/dataset/MD1     |
 |   MD2     |   Disruptions | CSV/JSON  |   CC-BY SA 4.0    |    https://github.com/ChiaraCati/Owater/resource/dataset/MD2     |
 |   MD3     |   Hydrogeological risk in provinces  |  CSV/JSON  |   CC-BY SA 4.0  |   https://github.com/ChiaraCati/Owater/resource/dataset/MD3 |
+
+
+#### FAIR principles
+
 
 In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR). Those principles include three types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data is compliant with the FAIR principles.
 

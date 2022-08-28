@@ -333,6 +333,20 @@ $(".landslide_risk > .area").addClass("is-hidden");
       $("#GitHub > span > ion-icon").toggleClass("down");
   })
 
+    $("#MD1").click(function(){
+      $(".md1").toggleClass("is-hidden");
+      $("#MD1 > span > ion-icon").toggleClass("down");
+  })
+
+    $("#MD2").click(function(){
+      $(".md2").toggleClass("is-hidden");
+      $("#MD2 > span > ion-icon").toggleClass("down");
+  })
+
+    $("#MD3").click(function(){
+      $(".md3").toggleClass("is-hidden");
+      $("#MD3 > span > ion-icon").toggleClass("down");
+  })
     $("#Rendis").click(function(){
         $("#Rendis").addClass("is-active");
         $("#Luoghi").removeClass("is-active");

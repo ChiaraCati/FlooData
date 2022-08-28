@@ -1,3 +1,5 @@
+
+
 body {
     height: 100%;
     width: 100%;
@@ -103,6 +105,10 @@ button a:hover {
     margin-right: 0.5em;
   }
 
+  .content ul {
+    list-style: none !important;
+
+}
 
 @media screen and (min-width: 769px), print{
   .half_paragraph {

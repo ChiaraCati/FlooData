@@ -13,7 +13,7 @@
 
     dct:title       "Actions dataset"@en;
     adms:identifier  "MD1";
-    dct:description     "Table containing data on preventive intervertions and reparations due to hydrogeological dissest happpening in Emilia Romagna, Italy."@en;
+    dct:description     "Set containing data on preventive intervertions and reparations due to hydrogeological dissest happpening in Emilia Romagna, Italy."@en;
     dcat:keyword    "Activities";
     dct:issued      "2022-07-12@"^^xsd:date;
     dct:modified    "2022-07-12@"^^xsd:date;

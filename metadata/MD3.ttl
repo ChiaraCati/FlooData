@@ -13,7 +13,7 @@
 
     dct:title       "Provinces dataset"@en;
     adms:identifier  "MD3;
-    dct:description     "Table containing all names of Emilia-Romagnas provinces."@en;
+    dct:description     "Set containing all names of Emilia-Romagna's provinces and related risks."@en;
     dcat:keyword    "hydrogeological risk", "emilia-romagna","population risk", "geographical data", "open data";
     dct:issued      "2022-07-12@"^^xsd:date;
     dct:modified    "2022-07-12@"^^xsd:date;

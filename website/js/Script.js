@@ -503,7 +503,7 @@ document.addEventListener('DOMContentLoaded', function () {
                   }
                 return 'Clustered points: ' + this.point.clusterPointsAmount;
               }
-              return '<b>' + this.point.municipality + '</b><br>' + this.point.type + '</b><br>Lat: ' + this.point.lat.toFixed(2) + ', Lon: ' + this.point.lon.toFixed(2);
+              return '<b>' + this.point.name + '</b><br>' + this.point.type + '</b><br>Lat: ' + this.point.lat.toFixed(2) + ', Lon: ' + this.point.lon.toFixed(2);
             }
           },
           colorAxis: {
@@ -928,17 +928,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 colorByPoint: true,
             },
             {
-                level: 3,
-                colorVariation: {
-                    key: 'brightness',
-                    to: -0.5
-                },
-            }, {
-                level: 4,
-                colorVariation: {
-                    key: 'brightness',
-                    to: 0.5
-                }
+              level: 3,
+              colorVariation: {
+                  key: 'brightness',
+                  to: -0.2
+              },
             }]
       
         }],
@@ -1003,8 +997,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         maxColor: '#01a189',
                         stops: [
                             [0, '#cff0eb'],
-                            [0.5, '#b6ffe9'],
-                            [0.7, '#03d1b2'],
+                            [0.2, '#b6ffe9'],
+                            [0.6, '#03d1b2'],
                             [1, '#01a189']
                         ]
                       },
@@ -1049,16 +1043,12 @@ document.addEventListener('DOMContentLoaded', function () {
         title: {
             text: "Comparison of financing amounts per region"
         },
-        subtitle: {
-            text: 'Source: <a href="https://github.com/ChiaraCati/Owater/blob/main/software/final_dataset/MD2.json">MD2</a>'
-        },
         xAxis: {
             labels: {
                 style: {
                     fontWeight: 'bold'
                 }
             },
-            color: pieColors,
             categories: ['Bologna',
             'Ferrara',
             'Forlì-Cesena',
@@ -1104,13 +1094,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 "name": "Preventive measure",
                 "data": [1.92315691e+09, 2.49988718e+08, 2.48306967e+08, 4.64813494e+08,
                                 3.29757098e+08, 3.70357333e+08, 3.12735264e+08, 3.82570784e+08,
-                                3.06467836e+08]              
+                                3.06467836e+08],
+                 "color" : '#03d1b2'           
             },
             {
                 "name": "Reparatory intervention",
                 "data": [1.01115056e+08, 5.63814256e+07, 4.03156537e+07, 3.75226643e+07,
                                 1.19907178e+08, 4.75190759e+07, 3.58897010e+07, 3.19237634e+07,
-                                4.71110397e+07]
+                                4.71110397e+07],
+                "color" : '#cff0eb'
             }
         ]
         
@@ -1586,14 +1578,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 level: 3,
                 colorVariation: {
                     key: 'brightness',
-                    to: -0.5
+                    to: -0.2
                 },
-            }, {
-                level: 4,
-                colorVariation: {
-                    key: 'brightness',
-                    to: 0.5
-                }
             }]
       
         }],
@@ -1696,7 +1682,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
               }
               document.querySelector('#info .subheader')
-                  .innerHTML = '<h4>Historical population</h4><small><em>Shift + Click on map to compare province</em></small>';
+                  .innerHTML = '<h4>Funding history</h4><small><em>Shift + Click on map to compare province</em></small>';
     
               if (!provChart) {
                   provChart = Highcharts.chart('province_line_chart', {

@@ -182,7 +182,7 @@ In the following table, we listed all original datasets licences and found them 
 
 ## 🫂 Ethical analysis 
 
-From an *ethical* point of view, we considered the importance of the human being, transparency, accountability, and equality. 
+From an *ethical* point of view, we considered the importance of the human being interest, individiual data control and transparency, accountability, and equality, folowwing [DataEthics' principles](https://dataethics.eu/data-ethics-principles/)
 Along with these ethical aspects, we also considered other criteria such as sustainable re-use of the data gathered, and presence of information of public interest when choosing **FlooData**'s source data, as we wanted to account for the management of financings (Open Coesione), the present risk of hydrogeological disasters in the whole area of Emilia-Romagna, the number of preventive interventions and following reparations. 
 
 The data gathered is transparently managed by producers, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use.

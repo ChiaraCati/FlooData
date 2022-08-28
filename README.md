@@ -7,7 +7,7 @@ FlooData is a project developed by Chiara Catizone and Giulia Venditti for the f
 
 Emilia Romagna is the sixth largest region in Italy in terms of surface area, having a variegated hydrogeological conformation. The resulting heterogeneity of ecosystems is currently undergoing drastic transformations, due to climate change, as stated by the Emilia Romagna's Regional Environmental Protection Agency, [ARPAE](https://www.arpae.it/it), in its report on [climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). Also on the national level, the Italian Institute for Environmental Protection and Research, [ISPRA](https://www.isprambiente.gov.it/it), stated that the Italian hydrogeological morphology is extremely fragile, due to intense weather events and proneness to landslides of the territory.
 
-Our project's objectives are to return an overview of the relationship between hydrogeological disruptions and the measures – undertaken by local communities to deal with them. And to inform end-users on the hydrogeological risk in Emilia Romagna's Provinces. Here, we introduce information on different human activities related to our topic, distinguishing between **preventive measures** and **reparatory interventions**, and making explicit the involvement of local communities in preserving their territory. Also, we present the characterization of each province in terms 
+Our project's objectives are to return an overview of the relationship between hydrogeological disruptions and the measures – undertaken by local communities to deal with them. And to inform end-users on the hydrogeological risk in Emilia Romagna's Provinces. Here, we introduce information on different human activities related to our topic, distinguishing between **preventive measures** and **reparatory interventions**, and making explicit the involvement of local communities in preserving their territory. Also, we present the characterization of each province in term s 
 .
 
 
@@ -83,7 +83,7 @@ The below table is a resume of datasets selected for our project, and that has b
 
 **[Disruptions](datasets/final_dataset/disruptions.csv)** is the second mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna.
 
-**[Province](datasets/final_dataset/province.csv)** is the third mashed-up dataset containing data on flooding risk, area and geographical information of Emilia Romagna's provinces.
+**[Hydrogeological risk](datasets/final_dataset/province.csv)** is the third mashed-up dataset containing data on flooding risk, area and geographical information of Emilia Romagna's provinces.
 
 The below table is a resume of datasets created by FlooData, containing information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps and other graphs.
 
@@ -91,7 +91,7 @@ The below table is a resume of datasets created by FlooData, containing informat
 | :---         |     :---     |     :---     |     :---     |  
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D7**,**D8**,**D9** | 2016 - 2021 |
 | **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| 2016-2021| 
-| **MD3** | [Province](datasets/final_dataset/province.csv) | **D6**,**D9** | 2020 - 2021 |
+| **MD3** | [Hydrogeological risk](datasets/final_dataset/province.csv) | **D6**,**D9** | 2020 - 2021 |
 
 
 ## 💎 Quality analysis of the datasets
@@ -177,7 +177,7 @@ In the following table, we listed all original datasets licences and found them 
 | :---    | :---    | :---                |     :---     |  
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) |  CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 | **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY 3.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
-| **MD3** | [Province](datasets/final_dataset/province.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
+| **MD3** | [Hydrogeological risk](datasets/final_dataset/province.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 
 
 ## 🫂 Ethical analysis 

@@ -207,10 +207,10 @@
 
         <div id="Question_first" class="section">
           <h2 class="subtitle">1. Which types of hydrogeological disaster do we find in Emilia Romagna, and what is their distribution on this territory?</h2>
-          <div id="disaster_map" class="chart w_50"></div>
+          <div id="disaster_map" class="chart cw_50"></div>
           <p>Here we notice the provinces of <strong>Bologna</strong> and <strong>Modena</strong> to be the ones with most disruptions recorded, some &#45; e.g., wells of hot water and gas leaks from the ground &#45; are linked to the 2012 earthquake that stroke the region (cf. <a href="https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808">Segnalazioni fenomeni geologici particolari</a>).</p>
           <p>Landslides and hydraulic disasters are widely present in each province.  We can assess a clear difference in the typology of the disasters between Provinces facing the Adriatic sea. <strong>Ferrara</strong> is a case worthy of mention, as it is one of the provinces registering fewer disasters while having a heterogeneous distribution of disaster typologies.</p>
-          <div id="disaster_sunburst" class="chart w_50"></div>
+          <div id="disaster_sunburst" class="chart cw_50"></div>
         </div>
 
         <div id="Question_second" class="section">
@@ -518,12 +518,12 @@
           </div>
           <p class="clear">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex et modi voluptatum accusamus, tempore quaerat nihil praesentium sint quod consectetur tenetur? Velit, ipsa voluptate, recusandae doloremque delectus magni voluptates odio vero quo dolorem repellat incidunt qui consectetur vitae, facere labore. Qui perspiciatis dignissimos nulla eos inventore rem dolorum fuga sapiente molestiae voluptas, modi, quia optio dolorem cumque explicabo quis voluptatum iste illum delectus. Eius perferendis rerum at amet quidem? Ut quam explicabo error sed quaerat non voluptatem enim accusamus consequatur itaque. Ratione, amet rem optio iure exercitationem libero est, quae similique animi blanditiis, deserunt reprehenderit tempore in assumenda? Animi, cumque.</p>
 
-          <div id="finance_bar" class="w_50 chart"></div>
+          <div id="finance_bar" class="cw_50 chart"></div>
           <p>From the bar chart, we can state that all Provinces are doing pretty well on the preventive matter,<strong> Bologna</strong> and <strong>Modena</strong> keep placing themselves on top of the rankings as the two cities that also invest the most in prevention. This factor might have also impacted the limited reparation costs compared to other provinces spending less on prevention &#45; e.g., <strong>Parma</strong>.</p>
 
           <p class="clear">As we ended up with a list of more than 290 types of activities, some of them not strictly related to hydrogeological damages, we have selected to display 15 categories for dividing the financings. <em>Others</em> is a general category containing all those activities linked to hydrogeological disruptions but not representing active interventions on the territory. Among the remaining ones, we notice that direct activities dedicated to landslides and floodings, with waterways, are the most financed categories.</p>
 
-          <div id="finance_sunburst" class="chart w_50"></div>
+          <div id="finance_sunburst" class="chart cw_50"></div>
         </div>
 
       </div>
@@ -535,370 +535,420 @@
           <p>In this section we will briefly list the steps of our analysis. For more information, please refer to our  <a href="https://github.com/ChiaraCati/Owater">Documentation</a>.</p>
 
           <div id="Quality-dataset" class="block">
-          <h3>Quality Analysis</h3>
-          <p> We used several datasets coming from different institutions, to fully cove the several aspects regarding hydrogeological issues in Emilia Romagna.</p>
+            <h3 class="title is-3">Quality Analysis</h3>
+            <p> We used several datasets coming from different institutions, to fully cove the several aspects regarding hydrogeological issues in Emilia Romagna.</p>
+            <div>
+            <div class="is-pulled-left w_50">
+              <h4 id="LinkedIspra" class="dataset_name">LinkedIspra <span><ion-icon class="arrow is-pulled-right" name="arrow-down-outline"></ion-icon></span> </h4> 
+              <div class="linkedIspra is-hidden">
+                <p><a href="#">LinkedIspra</a> contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil <br>
+                poi ci metto tabellina come in metadata della quality analysis dei dataset di quella source.
+                </p>
 
-          <!-- linkedispra -->
+                <div class="tabs is-boxed">
+                  <ul>
+                    <li id="Rendis" class="is-active">
+                      <a>
+                        <span>Rendis</span>
+                      </a>
+                    </li>
+                    <li id="Luoghi">
+                      <a>
+                        <span>Luoghi</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
 
-          <h4 id="LinkedIspra" class="dataset_name">LinkedIspra <span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
-          <div class="linkedIspra is-hidden">
-            <p><a href="#">LinkedIspra</a> contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil <br>
-            poi ci metto tabellina come in metadata della quality analysis dei dataset di quella source.
-            </p>
+                <div class="table-container rendis">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accuracy</abbr></th>
+                        <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Not satisfied: 93.9%</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
-            <div class="tabs is-boxed">
-              <ul>
-                <li id="Rendis" class="is-active">
-                  <a>
-                    <span>Rendis</span>
-                  </a>
-                </li>
-                <li id="Luoghi">
-                  <a>
-                    <span>Luoghi</span>
-                  </a>
-                </li>
-              </ul>
+                <div class="table-container luoghi is-hidden">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accuracy</abbr></th>
+                        <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Not satisfied: 93.9%</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Not satisfied: last update on 22/03/2016</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
 
-            <div class="table-container rendis">
-              <table class="table is-striped">
-                <tbody>
-                  <tr>
-                    <th><abbr title ="Accurancy">Accuracy</abbr></th>
-                    <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Completness">Completness</abbr></th>
-                    <td>Not satisfied: 93.9%</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Coherence">Coherence</abbr></th>
-                    <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Promptness">Promptness</abbr></th>
-                    <td>Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="is-pulled-right w_50">
+              <h4 id="MinERva" class="dataset_name">MinERva <span><ion-icon class="arrow is-pulled-right" name="arrow-down-outline"></ion-icon></span> </h4> 
+              <div class="minerva is-hidden">
+                <p><a href="#">MinERva</a> is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the Region of Emilia Romagna. It contains various databases classified following the Comprehensive Knowledge Archive Network (CKAN) grouping and of the UN 2030 Agenda in Sustainable Development Goals, an open-source and web-based system, for data gathering, cataloguing and dissemination.
+                </p>
+                
+                <div class="tabs is-boxed">
+                  <ul>
+                    <li id="SegnalazioniFenomeni" class="is-active">
+                      <a>
+                        <span>Segnalazioni fenomeni geologici particolari</span>
+                      </a>
+                    </li>
+                    <li id="OpereDifesa">
+                      <a>
+                        <span>Opere di difesa costiera - 2020</span>
+                      </a>
+                    </li>
+                    <li id="DinamicaMeteomarina">
+                      <a>
+                        <span>Dinamica Meteomarina ed Impatti - 1946-2020</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="table-container segnalazioniFenomeni">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Not satisfied: 81.9%%	</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Not satisfied: Last update was on 31/12/2020</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+      
+                <div class="table-container opereDifesa is-hidden">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                        <td>Not satisfied: There is no clear meaning of some column names</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Not satisfied: 80.4%	</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"	</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Not satisfied: Last update was on 01/01/2021
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+      
+                <div class="table-container dinamicaMeteomarina is-hidden">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205)	</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Not satisfied: Last update was on 01/01/2020</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="clear">
+            <div class="is-pulled-left w_50">
+              <h4 id="IdroGEO" class="dataset_name">IdroGEO<span><ion-icon class="arrow is-pulled-right" name="arrow-down-outline"></ion-icon></span> </h4> 
+              <div class="idroGEO is-hidden">
+                <p><a href="#">IdroGEO</a> is a platform allowing consultation, download and sharing of data, maps, reports, and documents of the Italian Landslide Inventory - IFFI. The platform has an Open Data section, where one can download data concerning landslides, available in Open format and with Creative Commons licences.
+
+
+                <div class="tabs is-boxed">
+                  <ul>
+                    <li id="Province" class="is-active">
+                      <a>
+                        <span>Province</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="table-container province">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Not satisfied: 99.7%</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Satisfied: last update 2021 with new ISTAT codes</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
 
-            <div class="table-container luoghi is-hidden">
-              <table class="table is-striped">
-                <tbody>
-                  <tr>
-                    <th><abbr title ="Accurancy">Accuracy</abbr></th>
-                    <td>Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Completness">Completness</abbr></th>
-                    <td>Not satisfied: 93.9%</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Coherence">Coherence</abbr></th>
-                    <td>Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Promptness">Promptness</abbr></th>
-                    <td>Not satisfied: last update on 22/03/2016</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="is-pulled-right w_50">
+              <h4 id="OpenCoesione" class="dataset_name">	OpenCoesione<span><ion-icon class="arrow is-pulled-right"name="arrow-down-outline"></ion-icon></span> </h4> 
+              <div class="openCoesione is-hidden">
+                <p><a href="#">OpenCoesione</a> – the Italian government's open gov initiative on cohesion policies in Italy – makes their datasets available, offering a partial return of the monitoring system managed by the State General Accounting; in a form suitable to respond to the cognitive interests of citizens.
+                <div class="tabs is-boxed">
+                  <ul>
+                    <li id="Progetti1" class="is-active">
+                      <a>
+                        <span>Progetti esteso EMR 2007-2013</span>
+                      </a>
+                    </li>
+                    <li id="Progetti2">
+                      <a>
+                        <span>Progetti esteso EMR 2014-2020</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="table-container progetti1">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Not satisfied: 75.8%</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Satisfied: last update may 2022</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+
+                <div class="table-container progetti2 is-hidden">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Not satisfied: 71.1%</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Satisfied: last update may 2022</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
+            </div>
+            <div class="clear">
+              <h4 id="GitHub" class="dataset_name">	Italy Geo<span><ion-icon class="arrow is-pulled-right" name="arrow-down-outline"></ion-icon></span> </h4> 
+              <div class="gitHub is-hidden">
+                <p>The data contained in the <a href="#">GitHub repository</a> by <a href="#">Matteo Henry Chinaski</a> is of topological and topographical nature: place names, coordinates, ISTAT codes, dimensions and statistics (out of date) of different Italian areas, spanning from single municipalities to t
+                <div class="tabs is-boxed">
+                  <ul>
+                    <li id="ItalyGeo" class="is-active">
+                      <a>
+                        <span>italyGeo</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="table-container italyGeo">
+                  <table class="table is-striped">
+                    <tbody>
+                      <tr>
+                        <th><abbr title ="Accurancy">Accurancy</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Completness">Completness</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Coherence">Coherence</abbr></th>
+                        <td>Satisfied</td>
+                      </tr>
+                      <tr>
+                        <th><abbr title ="Promptness">Promptness</abbr></th>
+                        <td>Not Satisfied: last update 2018</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
           </div>
-
-          <!-- minerva -->
-
-          <h4 id="MinERva" class="dataset_name">MinERva <span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
-          <div class="minerva is-hidden">
-          <p><a href="#">MinERva</a> is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the Region of Emilia Romagna. It contains various databases classified following the Comprehensive Knowledge Archive Network (CKAN) grouping and of the UN 2030 Agenda in Sustainable Development Goals, an open-source and web-based system, for data gathering, cataloguing and dissemination.
-          </p>
-
-          <div class="tabs is-boxed">
-            <ul>
-              <li id="SegnalazioniFenomeni" class="is-active">
-                <a>
-                  <span>Segnalazioni fenomeni geologici particolari</span>
-                </a>
-              </li>
-              <li id="OpereDifesa">
-                <a>
-                  <span>Opere di difesa costiera - 2020</span>
-                </a>
-              </li>
-              <li id="DinamicaMeteomarina">
-                <a>
-                  <span>Dinamica Meteomarina ed Impatti - 1946-2020</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="table-container segnalazioniFenomeni">
-            <table class="table is-striped">
-              <tbody>
-                <tr>
-                  <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                  <td>Satisfied</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Completness">Completness</abbr></th>
-                  <td>Not satisfied: 81.9%%	</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Coherence">Coherence</abbr></th>
-                  <td>Satisfied</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Promptness">Promptness</abbr></th>
-                  <td>Not satisfied: Last update was on 31/12/2020</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div class="table-container opereDifesa is-hidden">
-            <table class="table is-striped">
-              <tbody>
-                <tr>
-                  <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                  <td>Not satisfied: There is no clear meaning of some column names</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Completness">Completness</abbr></th>
-                  <td>Not satisfied: 80.4%	</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Coherence">Coherence</abbr></th>
-                  <td>Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"	</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Promptness">Promptness</abbr></th>
-                  <td>Not satisfied: Last update was on 01/01/2021
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div class="table-container dinamicaMeteomarina is-hidden">
-            <table class="table is-striped">
-              <tbody>
-                <tr>
-                  <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                  <td>Satisfied</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Completness">Completness</abbr></th>
-                  <td>Satisfied</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Coherence">Coherence</abbr></th>
-                  <td>Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205)	</td>
-                </tr>
-                <tr>
-                  <th><abbr title ="Promptness">Promptness</abbr></th>
-                  <td>Not satisfied: Last update was on 01/01/2020</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          </div>
-
-          <!-- idrogeo -->
-          <h4 id="IdroGEO" class="dataset_name">IdroGEO<span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
-          <div class="idroGEO is-hidden">
-            <p><a href="#">IdroGEO</a> is a platform allowing consultation, download and sharing of data, maps, reports, and documents of the Italian Landslide Inventory - IFFI. The platform has an Open Data section, where one can download data concerning landslides, available in Open format and with Creative Commons licences.
-
-
-            <div class="tabs is-boxed">
-              <ul>
-                <li id="Province" class="is-active">
-                  <a>
-                    <span>Province</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-
-            <div class="table-container province">
-              <table class="table is-striped">
-                <tbody>
-                  <tr>
-                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Completness">Completness</abbr></th>
-                    <td>Not satisfied: 99.7%</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Coherence">Coherence</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Promptness">Promptness</abbr></th>
-                    <td>Satisfied: last update 2021 with new ISTAT codes</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <!-- 	OpenCoesione -->
-          <h4 id="OpenCoesione" class="dataset_name">	OpenCoesione<span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
-          <div class="openCoesione is-hidden">
-            <p><a href="#">OpenCoesione</a> – the Italian government's open gov initiative on cohesion policies in Italy – makes their datasets available, offering a partial return of the monitoring system managed by the State General Accounting; in a form suitable to respond to the cognitive interests of citizens.
-            <div class="tabs is-boxed">
-              <ul>
-                <li id="Progetti1" class="is-active">
-                  <a>
-                    <span>Progetti esteso EMR 2007-2013</span>
-                  </a>
-                </li>
-                <li id="Progetti2">
-                  <a>
-                    <span>Progetti esteso EMR 2014-2020</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-
-            <div class="table-container progetti1">
-              <table class="table is-striped">
-                <tbody>
-                  <tr>
-                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Completness">Completness</abbr></th>
-                    <td>Not satisfied: 75.8%</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Coherence">Coherence</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Promptness">Promptness</abbr></th>
-                    <td>Satisfied: last update may 2022</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-
-            <div class="table-container progetti2 is-hidden">
-              <table class="table is-striped">
-                <tbody>
-                  <tr>
-                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Completness">Completness</abbr></th>
-                    <td>Not satisfied: 71.1%</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Coherence">Coherence</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Promptness">Promptness</abbr></th>
-                    <td>Satisfied: last update may 2022</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <!-- 	GitHub -->
-          <h4 id="GitHub" class="dataset_name">	Italy Geo<span><ion-icon name="arrow-down-outline"></ion-icon></span> </h4> 
-          <div class="gitHub is-hidden">
-            <p>The data contained in the <a href="#">GitHub repository</a> by <a href="#">Matteo Henry Chinaski</a> is of topological and topographical nature: place names, coordinates, ISTAT codes, dimensions and statistics (out of date) of different Italian areas, spanning from single municipalities to t
-            <div class="tabs is-boxed">
-              <ul>
-                <li id="ItalyGeo" class="is-active">
-                  <a>
-                    <span>italyGeo</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-
-            <div class="table-container italyGeo">
-              <table class="table is-striped">
-                <tbody>
-                  <tr>
-                    <th><abbr title ="Accurancy">Accurancy</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Completness">Completness</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Coherence">Coherence</abbr></th>
-                    <td>Satisfied</td>
-                  </tr>
-                  <tr>
-                    <th><abbr title ="Promptness">Promptness</abbr></th>
-                    <td>Not Satisfied: last update 2018</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          
-          
-
-
-
-        </div>
 
           <div id="Legal-dataset" class="block">
-            <h3>Legal Analysis</h3>
-            <div>
-              <h4>LinkedIspra</h4> 
-              <ul>
-                <li><b>Privacy:</b>Rendis contains sensible data: i.e., personal names, of professionals in charge of managing the activities. Luogh is filled with geodata, that by its nature is not sensible.</li>
-                <li><b>Intellectual Property Rights of the Source:</b> both datasets can be reused and published.</li>
-                <li><b>Release license:</b>both datasets have a licence, CC BY 4.0.</li>
-                <li><b>Limitations on public access:</b>there are no reasons related to security, state secre or professional secrecy, thus public access is not limited.</li>
-                <li><b>Economical Conditions:</b> data can be released for free.</li>
-                <li><b>Temporary aspects:</b>information for users about updates are available, Rendis is the only that is updated frequently.</li>
-              </ul>
-              <h4>MinERva</h4>
-              <ul>
-                <li><b>Privacy:</b> no sensible data is contained in the selected datasets.</li>
-                <li><b>Intellectual Property Rights of the Source:</b> ll datasets can be reused and published.</li>
-                <li><b>Release license:</b> All datasets have a licence CC BY 3.0 IT</li>
-                <li><b>Limitations on public access:</b>there are no reasons related to security, state secre or professional secrecy, thus public access is not limited.</li>
-                <li><b>Economical Conditions</b> data can be released for free.</li>
-                <li><b>Temporary aspects</b> information for users about updates are available. Only D3 is updated frequently</li>
-              </ul>
-              <h4>IdroGEO</h4> 
-              <ul>
-                <li><b>Privacy:</b> no sensible data is contained in the dataset.</li>
-                <li><b>Intellectual Property Rights of the Source:</b>the  datasets can be reused and published.</li>
-                <li><b>Release license:</b> the dataset has a 	CC BY SA 4.0 licence</li>
-                <li><b>Limitations on public access:</b>there are no reasons related to security, state secre or professional secrecy, thus public access is not limited.</li>
-                <li><b>Economical Conditions:</b>data can be released for free.</li>
-                <li><b>Temporary aspects:</b> information for users about updates are available.</li>
-              </ul>
-              <h4>OpenCoesione</h4> 
-              <ul>
-                <li><b>Privacy:</b>no sensible data is contained in the datasets.</li>
-                <li><b>Intellectual Property Rights of the Source:</b>the datasets can be reused and published.</li>
-                <li><b>Release license:</b>the two datasets have a CC BY SA 4.0 licence</li>
-                <li><b>Limitations on public access:</b> the datasets represent partial restitution of this monitoring in a form suitable to respond to the cognitive interests of citizens.</li>
-                <li><b>Economical Conditions:</b>data can be released for free.</li>
-                <li><b>Temporary aspects:</b> information for users about updates are available.</li>
-              </ul>
+            <h3 class="title is-3">Legal Analysis</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex fuga nam est ea? Dolorum porro ipsum atque, iure obcaecati vel nemo harum eaque at iusto ducimus sequi ad cupiditate hic!</p>
+
+            <div class="table-container catalogue">
+              <table class="table is-striped">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Dataset</th>
+                    <th>Originals' licences</th>
+                    <th>Final licence</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>MD1</th>
+                    <td>Actions</td>
+                    <td>CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified</td>
+                    <td>CC BY SA 4.0</td>
+                  </tr>
+                  <tr>
+                    <th>MD2</th>
+                    <td>Disruptions</td>
+                    <td>CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY 3.0, Not specified</td>
+                    <td>CC BY SA 4.0</td>
+                  </tr>
+                  <tr>
+                    <th>MD3</th>
+                    <td>Provinces</td>
+                    <td>CC-BY-SA 4.0, Not specified</td>
+                    <td>CC BY SA 4.0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="block">
+              <div class="is-pulled-left w_50">
+                <h4>LinkedIspra</h4> 
+                <ul>
+                  <li><b>Privacy:</b>Rendis contains sensible data: i.e., personal names, of professionals in charge of managing the activities. Luogh is filled with geodata, that by its nature is not sensible.</li>
+                  <li><b>Intellectual Property Rights of the Source:</b> both datasets can be reused and published.</li>
+                  <li><b>Release license:</b>both datasets have a licence, CC BY 4.0.</li>
+                  <li><b>Limitations on public access:</b>there are no reasons related to security, state secre or professional secrecy, thus public access is not limited.</li>
+                  <li><b>Economical Conditions:</b> data can be released for free.</li>
+                  <li><b>Temporary aspects:</b>information for users about updates are available, Rendis is the only that is updated frequently.</li>
+                </ul>
+              </div>
+    
+              <div class="is-pulled-right w_50">
+                <h4>MinERva</h4>
+                <ul>
+                  <li><b>Privacy:</b> no sensible data is contained in the selected datasets.</li>
+                  <li><b>Intellectual Property Rights of the Source:</b> ll datasets can be reused and published.</li>
+                  <li><b>Release license:</b> All datasets have a licence CC BY 3.0 IT</li>
+                  <li><b>Limitations on public access:</b>there are no reasons related to security, state secre or professional secrecy, thus public access is not limited.</li>
+                  <li><b>Economical Conditions</b> data can be released for free.</li>
+                  <li><b>Temporary aspects</b> information for users about updates are available. Only D3 is updated frequently</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="clear">
+              <div class="is-pulled-left w_50">
+                <h4>IdroGEO</h4> 
+                <ul>
+                  <li><b>Privacy:</b> no sensible data is contained in the dataset.</li>
+                  <li><b>Intellectual Property Rights of the Source:</b>the  datasets can be reused and published.</li>
+                  <li><b>Release license:</b> the dataset has a 	CC BY SA 4.0 licence</li>
+                  <li><b>Limitations on public access:</b>there are no reasons related to security, state secre or professional secrecy, thus public access is not limited.</li>
+                  <li><b>Economical Conditions:</b>data can be released for free.</li>
+                  <li><b>Temporary aspects:</b> information for users about updates are available.</li>
+                </ul>
+              </div>
+    
+              <div class="is-pulled-right w_50">
+                <h4>OpenCoesione</h4> 
+                <ul>
+                  <li><b>Privacy:</b>no sensible data is contained in the datasets.</li>
+                  <li><b>Intellectual Property Rights of the Source:</b>the datasets can be reused and published.</li>
+                  <li><b>Release license:</b>the two datasets have a CC BY SA 4.0 licence</li>
+                  <li><b>Limitations on public access:</b> the datasets represent partial restitution of this monitoring in a form suitable to respond to the cognitive interests of citizens.</li>
+                  <li><b>Economical Conditions:</b>data can be released for free.</li>
+                  <li><b>Temporary aspects:</b> information for users about updates are available.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clear">
               <h4>Italy Geo</h4> 
               <ul>
                 <li><b>Privacy:</b>no sensible data is contained in the dataset.</li>
@@ -908,54 +958,21 @@
                 <li><b>Economical Conditions:</b>data can be released for free.</li>
                 <li><b>Temporary aspects</b> information for users about updates are available.</li>
               </ul>
-              
-              <div class="table-container catalogue">
-                <table class="table is-striped">
-                  <thead>
-                    <tr>
-                      <th>ID</th>
-                      <th>Dataset</th>
-                      <th>Originals' licences</th>
-                      <th>Final licence</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th>MD1</th>
-                      <td>Actions</td>
-                      <td>CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified</td>
-                      <td>CC BY SA 4.0</td>
-                    </tr>
-                    <tr>
-                      <th>MD2</th>
-                      <td>Disruptions</td>
-                      <td>CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY 3.0, Not specified</td>
-                      <td>CC BY SA 4.0</td>
-                    </tr>
-                    <tr>
-                      <th>MD3</th>
-                      <td>Provinces</td>
-                      <td>CC-BY-SA 4.0, Not specified</td>
-                      <td>CC BY SA 4.0</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
             </div>
+    
+            
+          </div>
             
 
-            <div id="Ethical-dataset" class="block">
-              <h3>Ethical Analysis</h3>
-              <p>From an <em>ethical</em> point of view, we considered the importance of the human being, transparency, accountability, and equality. We also rely on <a href="https://www.accenture.com/us-en">Accenture</a>'s Data Ethics Decision Making Guidelines.</p>
-              <p>The original datasets represent environmental– and geodata. This kind of data naturally avoids discrimination, stereotyping, crystallization, distortion of the history, misrepresentation of reality, and manipulation of the cultural identity of a country/community.</p>
-              <p>The data gathered is transparently managed by producers, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use, in compliance with the Art. 89 of GDPR.
-              </p> D1, <b>ReNDis</b> makes available to consultation and download the names of people responsible for recorded interventions. We consider the presence of identity data in this set legitimate since names of public officers are by nature in the public domain. </p>
+          <div id="Ethical-dataset" class="block">
+              <h3 class="title is-3">Ethical Analysis</h3>
+              <p>From an <em>ethical</em> point of view, we considered the importance of the human being, transparency, accountability, and equality. We also rely on <a href="https://www.accenture.com/us-en">Accenture</a>'s Data Ethics Decision Making Guidelines. The original datasets represent environmental &#45; and geodata. This kind of data naturally avoids discrimination, stereotyping, crystallization, distortion of the history, misrepresentation of reality, and manipulation of the cultural identity of a country/community.</p>
+              <p>The data gathered is transparently managed by producers, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use, in compliance with the Art. 89 of GDPR. D1, <b>ReNDis</b> makes available to consultation and download the names of people responsible for recorded interventions. We consider the presence of identity data in this set legitimate since names of public officers are by nature in the public domain. </p>
               <p>Finally, we take into account that there are chances of people acting on the collected information to look for a more secure and maintained area within the region Emila Romagna, but that does not look like an ethical issue as much as a normal inferential process granted to citizens.</p>
-
-            </div>
+          </div>
 
             <div id="Technical-dataset" class="block">
-              <h3>Technical Analysis</h3>
+              <h3 class="title is-3">Technical Analysis</h3>
               <p>For a deeper insight on the original data sets' metadata, please refer to our <a href="README.md">documentation</a> and the <a href="technical_table.md">tabular resumeé</a></p>
 
               <div class="tile is-ancestor">

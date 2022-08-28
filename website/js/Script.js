@@ -957,7 +957,6 @@ document.addEventListener('DOMContentLoaded', function () {
                   data.forEach(function (p) {
                       p.code = p.prov_code.toUpperCase();
                       p.value = p[value]
-                      console.log(p.code, p.value);
                   });
 
                   

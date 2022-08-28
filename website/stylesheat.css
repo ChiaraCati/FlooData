@@ -61,7 +61,8 @@ button a:hover {
  }
 
 .block{
-    padding-top: 4em;
+    padding: 4em 0;
+    height: auto;
 }
 
 .clear{
@@ -101,6 +102,9 @@ button a:hover {
     margin: 3em 0;
   }
 
+  .arrow {
+    margin-right: 1em;
+  }
   .panel-tabs{
     overflow: hidden;
     overflow-x: scroll;
@@ -132,8 +136,13 @@ button a:hover {
     float: right;
     width: 52%;
   }
-  .w_50{
+  .cw_50{
     max-width: 70%;
+  }
+
+  .w_50{
+    width: 50%;
+    margin-bottom: 2rem;
   }
 
   #finance_map{

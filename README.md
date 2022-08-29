@@ -7,8 +7,7 @@ FlooData is a project developed by Chiara Catizone and Giulia Venditti for the f
 
 Emilia Romagna is the sixth largest region in Italy in terms of surface area, having a variegated hydrogeological conformation. The resulting heterogeneity of ecosystems is currently undergoing drastic transformations, due to climate change, as stated by the Emilia Romagna's Regional Environmental Protection Agency, [ARPAE](https://www.arpae.it/it), in its report on [climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). Also on the national level, the Italian Institute for Environmental Protection and Research, [ISPRA](https://www.isprambiente.gov.it/it), stated that the Italian hydrogeological morphology is extremely fragile, due to intense weather events and proneness to landslides of the territory.
 
-Our project's objectives are to return an overview of the relationship between hydrogeological disruptions and the measures – undertaken by local communities to deal with them. And to inform end-users on the hydrogeological risk in Emilia Romagna's Provinces. Here, we introduce information on different human activities related to our topic, distinguishing between **preventive measures** and **reparatory interventions**, and making explicit the involvement of local communities in preserving their territory. Also, we present the characterization of each province in term s 
-.
+Our project's objectives are to return an overview of the relationship between hydrogeological disruptions and the measures – undertaken by local communities – to deal with them, and to inform end-users on the hydrogeological risk in Emilia Romagna's Provinces. Here, we introduce information on different human activities related to our topic, distinguishing between **preventive measures** and **reparatory interventions**, and making explicit the involvement of local communities in preserving their territory. Also, we present the characterization of each province in terms of lndslide and hydraulic risk.
 
 
 
@@ -27,10 +26,9 @@ the data of the regions from the cartographic systems of ISPRA
 
 The second ISPRA project we used for creating FlooData is **[IdroGEO](https://idrogeo.isprambiente.it/app/)**, a platform allowing consultation, download and sharing of data, maps, reports, and documents of the Italian Landslide Inventory - [IFFI](https://www.progettoiffi.isprambiente.it/en/). The platform has an [Open Data section](https://idrogeo.isprambiente.it/app/page/open-data), where one can download data concerning landslides, available in Open format and with [Creative Commons](https://creativecommons.org/) licences. 
 </br>
-</br>
 
 Another platform we used is **[MinERva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset)**.
-MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the *[Region of Emilia Romagna](https://www.regione.emilia-romagna.it/)*. It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and of the UN 2030 Agenda in [Sustainable Development Goals](https://www.un.org/en/sustainable-development-goals), an open-source and web-based system, for data gathering, cataloguing and dissemination.
+MinERva is the point of reference and information sharing held by the Directorate General for Territory and Environment Care of the *[Region of Emilia Romagna](https://www.regione.emilia-romagna.it/)*. It contains various databases classified following the Comprehensive Knowledge Archive Network [(CKAN)](https://ckan.org/) grouping and the UN 2030 Agenda in [Sustainable Development Goals](https://www.un.org/en/sustainable-development-goals). MinERva is an open-source and web-based system, for data gathering, cataloguing and dissemination.
 </br>
 
 **[OpenCoesione](https://opencoesione.gov.it/it/)** – the [Italian government](https://www.governo.it/)'s open gov initiative on cohesion policies in Italy – makes their datasets available, offering a partial return of the monitoring system managed by the [State General Accounting](http://www.rgs.mef.gov.it/); in a form suitable to respond to the cognitive interests of citizens. In the [Open Data section](https://opencoesione.gov.it/it/opendata/#!progetti_section), the datasets on projects are available for download and re-use.
@@ -42,7 +40,7 @@ The final data source employed in the construction of FlooData datasets is a **[
 
 ### Original datasets descriptions
 
-**[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil.
+**[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil. Geographical data has labels linked to the second dataset.
 
 **[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/)** was used as support to gather geographical data about *interventions*, *repair* and *instabilities*. It contains places' official names; latitude and longitude of the centroids; polygons (shape); administrative hierarchy; Istat codes, and links to Linked Data Cloud (ISTAT datiopen, Geonames,  DBpedia, etc.)
 
@@ -50,11 +48,11 @@ The final data source employed in the construction of FlooData datasets is a **[
 
 **[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** contains information on the coastal protections present both at sea and in the hinterland of the Emilia-Romagna coast. 
 
-**[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** contains the name of the moslty eroded areas by calmities that have striken in the time-span 1946-2020.
+**[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** contains the name of the moslty eroded areas by calmities that have striken in the time-span 1946-2020. Istat codes of municipalities are present in the dataset.
 
-**[Province](https://idrogeo.isprambiente.it/app/page/open-data)** contains landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, and cultural heritage.  
+**[Province](https://idrogeo.isprambiente.it/app/page/open-data)** contains landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, and cultural heritage. Istat codes of Regions and Provinces are present in the dataset.
 
-**[Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section)** and **[Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section)** contain track records of cohesion projects in Emilia Romagna, transversally describing their management.
+**[Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section)** and **[Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section)** contain track records of cohesion projects in Emilia Romagna, transversally describing their management.they have ISTAT codes and denominations for Region, prvinces and Municipalities. It contains ISTAT codes for each municipality.
 
 **[Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json)** is a dataset we used to link municipalities and provinces coming from previous datasets to their latitude and longitude coordinates.
 
@@ -79,19 +77,21 @@ The below table is a resume of datasets selected for our project, and that has b
 
 ### Mashed-up datasets descriptions
 
-**[Activities](datasets/final_dataset/actions.csv)** is the first mashed-up dataset. It covers Emilia Romagna's data on reparatory and preventive interventions against hydrogeological disasters.
+**[Activities](datasets/final_dataset/actions.csv)** is the first mashed-up dataset. It covers Emilia Romagna's data on reparatory and preventive interventions against hydrogeological disasters. THe data for each activity is about its location, description, type, data and geo-data.
 
-**[Disruptions](datasets/final_dataset/disruptions.csv)** is the second mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna.
+**[Disruptions](datasets/final_dataset/disruptions.csv)** is the second mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna sucha s the type, the municipality in which it is located.
 
 **[Hydrogeological risk](datasets/final_dataset/province.csv)** is the third mashed-up dataset containing data on flooding risk, area and geographical information of Emilia Romagna's provinces.
+
+All mashed-up datasets use geographical data such as latitude, longitude and national standard province abbreviations.
 
 The below table is a resume of datasets created by FlooData, containing information on hydrogeological disasters, interventions and geographical data useful for their visualization on maps and other graphs.
 
 | ID | Dataset | Original dataset | Time span | 
 | :---         |     :---     |     :---     |     :---     |  
-| **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D7**,**D8**,**D9** | 2016 - 2021 |
-| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| 2016-2021| 
-| **MD3** | [Hydrogeological risk](datasets/final_dataset/province.csv) | **D6**,**D9** | 2020 - 2021 |
+| **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D7**,**D8**,**D9** | 2004 - 2021 |
+| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| None| 
+| **MD3** | [Hydrogeological risk](datasets/final_dataset/province.csv) | **D6**,**D9** | None |
 
 
 ## 💎 Quality analysis of the datasets
@@ -135,7 +135,7 @@ Below we present the quantitative data retrieved during our Quality analysis, fu
 ## ⚖️ Legal analysis 
 Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, produce a balanced service in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, rights determination, and licence conditions.
 
-In order to put this into practise, we evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that answered with a Yes, No, or Not Verifiable for each aspect.
+We evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that answered with a Yes, No, or Not Verifiable for each aspect.
 
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
@@ -193,7 +193,7 @@ On average, the data gives information about the region as a whole and do not po
 
 
 Data relating to communities of people living in the endangered area comes from the two sets coming from ISPRAS's project ***IdroGeo***. 
-*D6* and contain information on families living in areas with high, medium and low flooding and hydraulic risks. Even though this information is linked to natural persons, it is made available for public interest purposes, anonymized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally, this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
+*D6* contains information on families living in areas with high, medium and low flooding and hydraulic risks. Even though this information is linked to natural persons, it is made available for public interest purposes, anonymized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally, this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
 Finally, we noticed that **ReNDis** makes accessible the names of whom are responsible for recorded interventions. We consider the presence of identity data in this set legitimate since names of public officers are by nature in the public domain. 
 
 For ethical requirements, we also rely on [Accenture](https://www.accenture.com/us-en)'s Data Ethics Decision Making Guidelines. Thus, data gathered and presented on Floodata has been downloaded directly from sources' websites or other institutional aggregators such as **MinERva** and **OpenCoesione**. 
@@ -398,7 +398,7 @@ We started this phase of the project writing down a list of questions to describ
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
 2. How potentially harmful are these disasters? Which areas are most affected?
-    - Choropleth map showing the geographical distribution of risk areas, with complementary pie charts showing hydraulic risk, disruption risk, probability of risk for the families, population, enterprises, buildings and cultural heritage.<br>
+    - Choropleth map showing the geographical distribution of risk areas, concerning hydraulic risk, landslide risk, and focusing probability of risk for the families, population, enterprises, buildings and cultural heritage.<br>
     [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
 3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological disruption? Are there more preventive or reparatory initiatives? What kind of interventions have been performed, and what is the amount of financings for each Province?

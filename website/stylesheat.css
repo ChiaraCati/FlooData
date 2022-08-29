@@ -127,6 +127,18 @@ button a:hover {
 
 }
 
+.steps-segment{
+  margin-top: 0 !important;
+}
+
+.steps-marker{
+  background-color: #00d1b2 !important;
+}
+
+li.steps-segment::after{
+  background: repeating-linear-gradient(90deg, #00d1b2, #00d1b2 10px, transparent 10px, transparent 20px) !important;
+}
+
 @media screen and (min-width: 769px), print{
   .half_paragraph {
     width: 45%;

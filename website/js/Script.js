@@ -1764,8 +1764,8 @@ document.addEventListener('DOMContentLoaded', function () {
             maxColor: '#01a189',
             stops: [
                 [0, '#cff0eb'],
-                [0.5, '#b6ffe9'],
-                [0.7, '#03d1b2'],
+                [0.1, '#b6ffe9'],
+                [0.4, '#03d1b2'],
                 [1, '#01a189']
             ]
           },

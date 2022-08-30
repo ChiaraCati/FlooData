@@ -127,6 +127,10 @@ button a:hover {
 
 }
 
+.tech{
+  width: 100%;
+}
+
 .steps-segment{
   margin-top: 0 !important;
 }

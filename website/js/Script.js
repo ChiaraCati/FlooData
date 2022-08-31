@@ -569,7 +569,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: 'Basemap',
             borderColor: '#A0A0A0',
             nullColor: 'rgba(200, 200, 200, 0.3)',
-            showInLegend: false
+            showInLegend: false,
           }, {
             type: 'mappoint',
             enableMouseTracking: true,
@@ -577,6 +577,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: 'name',
             color: Highcharts.getOptions().colors[1],
             data: data
+          
           }]
         });
       });
@@ -1638,22 +1639,16 @@ document.addEventListener('DOMContentLoaded', function () {
       for (const code3 in province) {
           if (Object.hasOwnProperty.call(province, code3)) {
               const itemData = province[code3].data;
-              let value = null,
-                  i = itemData.length,
-                  year;
-    
-              while (i--) {
-                  if (typeof itemData[i] === 'number') {
-                      value = itemData[i];
-                      year = categories[i];
-                      break;
-                  }
+              let value = 0; 
+
+              for (const element of itemData) {
+                  value += element;
               }
+          
               data.push({
                   name: province[code3].name,
                   code3: code3,
                   value: value,
-                  year: year.replace(/\s+/g, '')
               });
           }
       }
@@ -1763,9 +1758,9 @@ document.addEventListener('DOMContentLoaded', function () {
             minColor: '#cff0eb',
             maxColor: '#01a189',
             stops: [
-                [0, '#cff0eb'],
-                [0.1, '#b6ffe9'],
-                [0.4, '#03d1b2'],
+                [0.1, '#cff0eb'],
+                [0.15, '#b6ffe9'],
+                [0.3, '#03d1b2'],
                 [1, '#01a189']
             ]
           },
@@ -1781,6 +1776,11 @@ document.addEventListener('DOMContentLoaded', function () {
               name: 'Financing ammount',
               allowPointSelect: true,
               cursor: 'pointer',
+              dataLabels: {
+                  enabled: true,
+                  color: '#FFFFFF',
+                  format: '{point.code3}'
+              },
               states: {
                   select: {
                       color: '#9DC7F1',
@@ -1793,7 +1793,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     
       // Pre-select a prov
-      mapChart.get('it-bo').select();
+      mapChart.get('it-fe').select();
       
   })();
    

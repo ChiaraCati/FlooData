@@ -90,8 +90,8 @@ The below table is a resume of datasets created by FlooData, containing informat
 | ID | Dataset | Original dataset | Time span | 
 | :---         |     :---     |     :---     |     :---     |  
 | **MD1** | [Activities](datasets/final_dataset/actions.csv) | **D1**,**D2**,**D4**,**D7**,**D8**,**D9** | 2004 - 2021 |
-| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| None| 
-| **MD3** | [Hydrogeological risk](datasets/final_dataset/province.csv) | **D6**,**D9** | None |
+| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | **D1**,**D2**,**D3**,**D5**,**D9**| 1946-2021| 
+| **MD3** | [Hydrogeological risk](datasets/final_dataset/province.csv) | **D6**,**D9** | 2014-2018 |
 
 
 ## 💎 Quality analysis of the datasets
@@ -104,7 +104,7 @@ The below criteria must be met, to manage the level of information quality as se
 
 | Dataset | Accurancy | Completness | Coherence | Promptness |
 | :---         |     :---     |     :---     |     :---     |     :---   |
-| **D1 and D2\***       |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to and their respective repairs link to the same contract, and when ossible are represented as a group      |     Not satisfied: 93.9%    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels    |  <li>D1: Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022<<li>D2: Not satisfied: last update on 22/03/2016|
+| **D1 and D2\***       |   Satisfied, it creates meaningful links between different kind of records (e.g., geological instabilities are linked to their respective repairs trough the same contract, and when possible are represented as a groups)    |     Not satisfied: 93.9%    |     Not satisfied: Arbitrary use of uppercase and lowercase and uncomprehensible characters in some labels    |  <li>D1: Satisfied: the dataset is updated daily, ours is updated untill 6/7/2022<li>D2: Not satisfied: last update on 22/03/2016|
 | **D3**         |     Satisfied     |     Not satisfied: 81.9%%    |     Satisfied    |       Not satisfied: Last update was on 31/12/2020 |
 | **D4**         |     Not satisfied: There is no clear meaning of some column names   |      Not satisfied: 80.4%     |     Not satisfied: There is no standard of defining "null" values, empty fields remain empty or are filled by "nessuno"     |         Not satisfied: Last update was on 01/01/2021 |
 | **D5**         |     Satisfied     |     Satisfied   |     Not satisfied: Arbitrary representation of thousands (AAAAMMDD - e.g. 20090205)     |         Not satisfied: Last update was on 01/01/2020 |
@@ -135,7 +135,7 @@ Below we present the quantitative data retrieved during our Quality analysis, fu
 ## ⚖️ Legal analysis 
 Legal analysis is required to ensure the long-term viability of the data generation and dissemination process, produce a balanced service in accordance with the public function and individual rights. As a result, the legal analysis of the sources seeks to assess these precarious balances, emphasising use restrictions, objectives of competence, rights determination, and licence conditions.
 
-We evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that answered with a Yes, No, or Not Verifiable for each aspect.
+We evaluated all legal facets of the dataset lifetime using a reference checklist. The check list consists of a series of questions that answered with a Yes, No, or Not Verifiable each aspect.
 
 **Privacy** | Issues | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 |
 | ----------- | --------| ------|--------|-------|---------|---------|---------| ---------|---------------| ---------|
@@ -149,7 +149,7 @@ We evaluated all legal facets of the dataset lifetime using a reference checklis
 | | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  | 
 | | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  | 
 | | Are you sure you are not using data for which there is a third party license or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | No* |
+| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | No |
 | **Release license** | | |
 | | Do you release the data you own with a license? | Yes | Yes  | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | 
 | | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | No | No  | No | No | No | No  | No  | No  | No  | 
@@ -164,26 +164,26 @@ We evaluated all legal facets of the dataset lifetime using a reference checklis
 | **Temporary aspects** | | |
 | | Do you have a temporary policy for updating the dataset? | No | No  | No | No | No | No  | No  | No  | No  | 
 | | Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | 
-| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | No |  No  | No | No |
+| | Are the data updated frequently in order to heal any information that is harmful to people or organizations? | Yes| No | Yes | No | No |  No  | No | No | No |
 | | Does the data have legal or jurisprudential prohibitions that prevent it from being indexed by search engines? | No | No  | No | No | No | No  | No  | No  | No  | 
 
 ### Licences mashed-up datasets
 
 Final licences for the mashed-up datasets have been chosen according to licence compatibility.
 
-In the following table, we listed all original datasets licences and found them to be all commercial, 3 of them national, all the remaining ones international, as a result of this analysis we decided to give all mashed-up datasets a CC-BY-SA 4.0 licence to allow their mash-up and make them re-usable at international level.
+In the following table, we listed all original datasets licences and found them to be all CC-BY, 3 of them national, all the remaining ones internationaL. As a result of this analysis we decided to give all mashed-up datasets a CC-BY-SA 4.0 licence to allow their mash-up and make them re-usable at international level.
 
 | ID      | Dataset | Originals' licences | Final licence |
 | :---    | :---    | :---                |     :---     |  
-| **MD1** | [Activities](datasets/final_dataset/actions.csv) |  CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
-| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | CC-BY 4.0, CC-BY 4.0, CC-BY 3.0, CC-BY 3.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
+| **MD1** | [Activities](datasets/final_dataset/actions.csv) |  CC-BY 4.0, CC-BY 4.0, CC-BY 3.0 IT, CC-BY-SA 4.0, CC-BY-SA 4.0, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
+| **MD2** | [Disruptions](datasets/final_dataset/disruptions.csv) | CC-BY 4.0, CC-BY 4.0, CC-BY 3.0 IT, CC-BY 3.0 IT, Not specified| [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 | **MD3** | [Hydrogeological risk](datasets/final_dataset/province.csv) | CC-BY-SA 4.0,  Not specified | [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) |
 
 
 ## 🫂 Ethical analysis 
 
-From an *ethical* point of view, we considered the importance of the human being interest, individiual data control and transparency, accountability, and equality, folowwing [DataEthics' principles](https://dataethics.eu/data-ethics-principles/)
-Along with these ethical aspects, we also considered other criteria such as sustainable re-use of the data gathered, and presence of information of public interest when choosing **FlooData**'s source data, as we wanted to account for the management of financings (Open Coesione), the present risk of hydrogeological disasters in the whole area of Emilia-Romagna, the number of preventive interventions and following reparations. 
+From an *ethical* point of view, we considered the importance of the human being interest, individiual data control, transparency, accountability, and equality following the[DataEthics' principles](https://dataethics.eu/data-ethics-principles/).
+Along with these ethical aspects, we also considered other criteria such as sustainable re-use of the data gathered, and presence of information of public interest when choosing **FlooData**'s sources. We wanted to account for the management of financings (Open Coesione), the present risk of hydrogeological disasters in the whole area of Emilia-Romagna, the number of preventive interventions and following reparations. 
 
 The data gathered is transparently managed by producers, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use.
 

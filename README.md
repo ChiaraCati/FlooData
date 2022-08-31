@@ -235,10 +235,12 @@ Data – *D1* and *D2* - are accessible through a Virtuoso SPARQL endpoint, and 
 
 
 #### [Minerva](https://datacatalog.regione.emilia-romagna.it/catalogCTA/)
-Datasets – *D3* *D4* and *D5* - are accessible through a Moka viewer service available for download as OpenData. 
+Datasets – *D3*, *D4* and *D5* - are accessible through a Moka viewer service available for download as OpenData. 
 Along with datasets' metadata, MinERva provides information about the responsible body, reference structure, referent, author
  and dates about catalogue cards and physical data.
+
 *Format* of downloaded data is .zip from which we extracted a .dbf file
+
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 
@@ -263,8 +265,10 @@ Along with datasets' metadata, MinERva provides information about the responsibl
 
 
 #### [IdroGEO](https://idrogeo.isprambiente.it/app/) 
-*D6* data is available for download in different formats: XLS, CSV and JSON. The platform also allows downloading the .csv file containing descriptions and the source of the columns in the datasets. <br>
-*Format* of downloaded data is .csv<br>
+*D6* data is available for download in different formats: XLS, CSV and JSON. The platform also allows downloading the .csv file containing descriptions and the source of the columns in the datasets. 
+
+*Format* of downloaded data is .csv
+
 *Provenance*: https://idrogeo.isprambiente.it/app/page/open-data
 
 IRI is not specified and Basic metadata is provided for *D6* such as:
@@ -277,8 +281,10 @@ IRI is not specified and Basic metadata is provided for *D6* such as:
 
 
 #### [OpenCoesione](https://opencoesione.gov.it/it/)
- *D7* and *D8* representing a part of the projects OpenCOesione is keep ing track of. Everyone can download them in .csv and .xls format.<br>
-*Format* of downloaded data is .csv<br>
+ *D7* and *D8* representing a part of the projects OpenCoesione is keeping track of. Everyone can download them in .csv and .xls format.
+
+*Format* of downloaded data is .csv
+
 *Provenance*: https://opencoesione.gov.it/it/
 
 
@@ -290,8 +296,10 @@ IRI is not specified and Basic metadata is provided for *D7* and *D8*  such as:
 
 
 #### [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) 
-Datasets *D9* can be freely downloaded from GitHub using -curl request or download the file. No specific metadata is supplied, with exceptions made for content labels. <br>
-*Format* of downloaded data is .json <br>
+Datasets *D9* can be freely downloaded from GitHub using -curl request or download the file. No specific metadata is supplied, with exceptions made for content labels. 
+
+*Format* of downloaded data are .json and .xls 
+
 *Provenance*: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json
 
 [Resume table of source datasets' technical analysis](technical_table.md)

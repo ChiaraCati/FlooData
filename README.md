@@ -182,7 +182,7 @@ In the following table, we listed all original datasets licences and found them 
 
 ## 🫂 Ethical analysis 
 
-From an *ethical* point of view, we considered the importance of the human being interest, individiual data control, transparency, accountability, and equality following the[DataEthics' principles](https://dataethics.eu/data-ethics-principles/).
+From an *ethical* point of view, we considered the importance of the human being interest, individiual data control, transparency, accountability, and equality following the [DataEthics' principles](https://dataethics.eu/data-ethics-principles/).
 Along with these ethical aspects, we also considered other criteria such as sustainable re-use of the data gathered, and presence of information of public interest when choosing **FlooData**'s sources. We wanted to account for the management of financings (Open Coesione), the present risk of hydrogeological disasters in the whole area of Emilia-Romagna, the number of preventive interventions and following reparations. 
 
 The data gathered is transparently managed by producers, as documentation on project and/or datasets, licences, and policies are made available to final users, avoiding cognitive biases and legal misunderstanding in terms of data re-use.
@@ -192,9 +192,9 @@ The original datasets mainly represent environmental– and geodata. This kind o
 On average, the data gives information about the region as a whole and do not pose an individual's privacy risk.
 
 
-Data relating to communities of people living in the endangered area comes from the two sets coming from ISPRAS's project ***IdroGeo***. 
-*D6* contains information on families living in areas with high, medium and low flooding and hydraulic risks. Even though this information is linked to natural persons, it is made available for public interest purposes, anonymized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally, this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
-Finally, we noticed that **ReNDis** makes accessible the names of whom are responsible for recorded interventions. We consider the presence of identity data in this set legitimate since names of public officers are by nature in the public domain. 
+Data relating to communities of people living in the endangered area comes from the two sets by ISPRA's project ***IdroGeo***. 
+*D6* contains information on families living in areas with high, medium and low landslide and hydraulic risks. Even though this information is linked to natural persons, it is made available for public interest purposes, anonymized, and in form of statistical data, in compliance with the Art. 89 of GDPR. Additionally, this kind of data – when made public – might be a call to action to sensibilize people on climate change and hydrogeological issues.
+Finally, we noticed that **ReNDis** makes available the names of whom are responsible for recorded interventions. We consider the presence of identity data in this set legitimate since names of public officers are by nature in the public domain. 
 
 For ethical requirements, we also rely on [Accenture](https://www.accenture.com/us-en)'s Data Ethics Decision Making Guidelines. Thus, data gathered and presented on Floodata has been downloaded directly from sources' websites or other institutional aggregators such as **MinERva** and **OpenCoesione**. 
 The datasets used have all been made available for re-use by producers. The re-use of this data on FlooData is consistent with the creators' specific intent of displaying the hydrogeological situation of the studied area.
@@ -209,7 +209,9 @@ Finally, we take into account that there are chances of people acting on the col
 
 #### [LinkedIspra](http://dati.isprambiente.it/) 
 Data – *D1* and *D2* - are accessible through a Virtuoso SPARQL endpoint, and data dumps made of RDF triples of the data were available for download. We downloaded the N-Triples dumps as the SQL EndPoint didn't ensure back-end stability and reliability during our research period. 
+
 *Format* of downloaded data is .nt
+
 *Provenance*: [ISPRA](http://dati.isprambiente.it/id/organization/ispra/html)
 
 | Metadata | **[D1](http://dati.isprambiente.it/id/dissesto/html)** | **[D2](http://dati.isprambiente.it/id/place/html)** |

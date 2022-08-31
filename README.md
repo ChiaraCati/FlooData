@@ -452,6 +452,3 @@ Below we listed metadata used for the catalogue and datasets
 |   dct:rightsHolder|   🚫          |    ✅          |
 |   foaf:homepage  |    ✅          |    ✅          |
 
-## 🌈 Final remarks
-
-[Add conclusions]

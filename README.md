@@ -412,7 +412,7 @@ We started this phase of the project writing down a list of questions to describ
 ### Licences
 
 - **Visualizations:** Highcharts JS which is open-source for non-commercial projects, [Standard Licence Agreement](https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2022/05/02081809/Highsoft-Standard-License-Agreement-14.1-2.pdf) 
-- **Website:** HTML5 template **"Bulma"** by [Jeremy Thomas](https://jgthms.com/), [MIT](https://opensource.org/licenses/mit-license.php), 
+- **Website:** the licence for the template we used (**"Bulma"** by [Jeremy Thomas](https://jgthms.com/)) and our source code is [MIT](https://opensource.org/licenses/mit-license.php), 
   
 
 

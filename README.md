@@ -380,13 +380,13 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 **Interoperable:**
 
 * (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON and CSV. The metadata was described and organised using RDF using the Turtle syntax.
-* (Meta)data use vocabularies that follow FAIR principles: 
+* (Meta)data use vocabularies that follow FAIR principles.
 
 **Reusable**
 
-* Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the originator, and their content.
+* Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the creator, their sources, and their content.
 
-* (Meta)data are released with a clear and accessible data usage license: The FlooData datasets are made available under the terms of the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.it) Licence, which are specific to the dataset and associated metadata we provided.
+* (Meta)data are released with a clear and accessible data usage license: the FlooData datasets are made available under the terms of the [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) Licence, which are specific to the dataset and associated metadata we provided.
 
 * (Meta)data are associated with detailed provenance: in the metadata encoding of our project, data provenance information is provided in a machine-readable way.
 
@@ -397,7 +397,7 @@ The datasets used to create Floodata, which examines the dangers by flooding cat
 
 
 ## 🎢 Visualizations
-We started this phase of the project writing down a list of questions to describe hydrogeological disasters in Emilia Romagna, keeping in mind eventual linitations of the data we have collected. Then, we have analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
+We started this phase of the project writing down a list of questions to describe hydrogeological disasters in Emilia Romagna, keeping in mind eventual limitations of the data we have collected. Then, we have analysed our mashed-up data to answer these questions, and used [Highcharts JS](https://www.highcharts.com/) to plot them in graphs and allow users to make full use of the data in our [website](https://chiaracati.github.io/Owater/).
 
 ### Questions
 
@@ -411,18 +411,18 @@ We started this phase of the project writing down a list of questions to describ
     - Choropleth map showing the geographical distribution of risk areas, concerning hydraulic risk, landslide risk, and focusing probability of risk for the families, population, enterprises, buildings and cultural heritage.<br>
     [Code example](https://www.highcharts.com/blog/tutorials/effectively-visualizing-us-election-results/)
 
-3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological disruption? Are there more preventive or reparatory initiatives? What kind of interventions have been performed, and what is the amount of financings for each Province?
+3. How does the local community react to the water disaster, what is the yearly rate of financings devolved to hydrogeological disruption? Are there more preventive or reparatory initiatives? 
     - Choropleth map showing the distribution of financings over the 9 provinces, with complementary line charts showing the trend of investments made by each Province <br>
     [Code example](https://www.highcharts.com/demo/maps/rich-info )
     -  Bar chart of the total amount of financings for preventive and reparatory interventions divided by Province<br>
-    [Code example]https://www.highcharts.com/blog/chartchooser/bar-categorical-comparison/)
+    [Code example](https://www.highcharts.com/blog/chartchooser/bar-categorical-comparison/)
     -  Sunburst of the total amount of financings divided by Province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
 ### Licences
 
 - **Visualizations:** Highcharts JS which is open-source for non-commercial projects, [Standard Licence Agreement](https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2022/05/02081809/Highsoft-Standard-License-Agreement-14.1-2.pdf) 
-- **Website:** the licence for the template we used (**"Bulma"** by [Jeremy Thomas](https://jgthms.com/)) and our source code is [MIT](https://opensource.org/licenses/mit-license.php), 
+- **Website:** the licence for both the template we used (**"Bulma"** by [Jeremy Thomas](https://jgthms.com/)) and our source code is [MIT](https://opensource.org/licenses/mit-license.php).
   
 
 

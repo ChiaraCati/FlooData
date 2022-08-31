@@ -296,7 +296,7 @@ IRI is not specified and Basic metadata is provided for *D7* and *D8*  such as:
 
 
 #### [Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json) 
-Datasets *D9* can be freely downloaded from GitHub using -curl request or download the file. No specific metadata is supplied, with exceptions made for content labels. 
+Datasets *D9* can be freely downloaded from GitHub using -curl request or download the file. No specific metadata is supplied, with exceptions made for information on the content, available in .md format.
 
 *Format* of downloaded data are .json and .xls 
 
@@ -320,29 +320,29 @@ For creating the new datasets we disposed of four different kinds of file format
 
 
 **N-Triples** files needed to be pre-processed and parsed into data frames. 
-To accomplish this, we developed a script [rdf_parse.py](software/rdf_parser.py) to merge the ReNDi and Luoghi data and create three data frames containing data on hydrogeological disruptions, reparations and their financing. 
-The script uses the rdflib to parse the .nt files, and through class "typology", it gathers the main subjects we want to retrieve: instabilities, interventions(financings), and repairs.
+To accomplish this, we developed a script [rdf_parse.py](software/rdf_parser.py) to merge the ReNDi and Luoghi data and create three sets containing hydrogeological disruptions, reparations and their financing. 
+The script uses rdflib to parse the .nt files, and through class "typology", it gathers the main subjects we want to retrieve: instabilities, interventions(financings), and repairs.
 Then for each subject, we extracted the predicates co-occurring with it and used them as labels for creating the data frame's columns. 
 
-For each column to be created we iterated triples formed as <*Subject*><*Column label*><*object*> and select the corresponding object as that cell value.
+For each column to be created we iterated triples formed as <*Subject*><*Column label*><*Object*> and select the corresponding object as that cell value.
 For inserting geographical data, we started from ReNDiS lots locations and queried the Luoghi dataset looking for their labels, province, latitude and longitude. 
 
 The resulting data frames were temporarily saved in .csv format for later merging with other datasets. 
 
-**DBF** files have been converted automatically into CSV files using the software [dbfconv.py](software/dbfconv.py) developed for this purpose. The software converts the files keeping their original names using the dbf_read library's DBF method to open this kind of file saved in .csv format.
+**DBF** files have been converted automatically into CSV files using the software [dbfconv.py](software/dbfconv.py) developed for this purpose. The software converts the files keeping their original names using the dbf_read library's DBF method to open this kind of file. Finally, we saved it in .csv format.
 #### Merging 
 
 The second step consists of the merging of the JSON and CSV files.
 
 The original data has been mashed-up to create three datasets in FlooDatas's catalogue.
 
-Using our software actions.py and territory .py, we created respectively **MD1**and **MD3**. 
+Using our software [actions.py](software/actions.py) and [territory.py](software/territory.py), we created respectively **MD1** and **MD3**. 
 
 * **actions.py** selects all Emilia-Romagna's projects (subsetting the original dataset when necessary, e.g., DF1), and constructs the columns based on the information we selected from source data frames. 
 Resulting df is then saved into .json and .csv format for future visualization and consultation purposes. 
 
 * **territory.py** is fed with *DF6*. Here we select interesting classes from IdroGeo's datasets such as percentages of risk and attention percentages of families, enterprises and cultural heritage. 
-To create MD3 we crossed place names contained in D6 with data in *D10* to find municipalities' latitude and longitude coordinates.
+To create MD3 we crossed place names contained in D6 with data in *D9* to find municipalities' latitude and longitude coordinates.
 
 
 Finally, we have  produced **MD2** by selecting and giving standard names to columns representing the data necessary for our project.
@@ -363,13 +363,13 @@ A summary table of the produced mashup dataset:
 #### FAIR principles
 
 
-In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable (FAIR). Those principles include three types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data is compliant with the FAIR principles.
+In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Management Guidelines in Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf). To put it another way, we worked to make our research data accessible, searchable, interoperable, and reusable. Those principles include three types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data is compliant with the FAIR principles.
 
 **Findable:**
 
-* (Meta)data are assigned a unique identifier: both the data we retrieved from the source datasets, the mashed-up data, and the metadata we developed following the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) are compatible with this point, providing URIs.
+* (Meta)data are assigned a unique identifier: the mashed-up data and the metadata we developed following the [DCAT AP version 2.0.0 guidelines](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200) are compatible with this point, providing URIs.
 * Data are described with rich metadata: we linked a substantial amount of DCAT-AP specification-compliant metadata to our data, including not only all required classes and their corresponding necessary characteristics but also certain suggested and optional features that were helpful for our data.
-* Metadata clearly and explicitly include the identifier of the data they describe: we used the DCAT-AP optional attribute for datasets dct:identifier to attach a unique identifier of the data described with the metadata for each dataset that is a part of a catalogue as well as for our dataset.
+* Metadata clearly and explicitly include the identifier of the data they describe: we used the DCAT-AP optional attribute for datasets adms:identifier to attach a unique identifier of the data described with the metadata for each dataset that is a part of a catalogue as well as for our dataset.
 
 **Accessible:**
 
@@ -379,7 +379,7 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 
 **Interoperable:**
 
-* (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON, CSV, and XML, and the metadata was described and organised using RDF using the Turtle syntax.
+* (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: the mashed-up data was represented using JSON and CSV. The metadata was described and organised using RDF using the Turtle syntax.
 * (Meta)data use vocabularies that follow FAIR principles: 
 
 **Reusable**

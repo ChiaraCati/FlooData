@@ -1,0 +1,520 @@
+,id,type,municipality,prov_code,latitude,longitude,Date
+0,Erosion-0,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+1,Erosion-1,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+2,Erosion-2,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+3,Erosion-3,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+4,Erosion-4,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+5,Erosion-5,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+6,Erosion-6,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+7,Erosion-7,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+8,Erosion-8,Coast erosion,comacchio,FE,44.69462384,12.18387254,Unknown
+9,Erosion-9,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+10,Erosion-10,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+11,Erosion-11,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+12,Erosion-12,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+13,Erosion-13,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+14,Erosion-14,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+15,Erosion-15,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+16,Erosion-16,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+17,Erosion-17,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+18,Erosion-18,Coast erosion,cervia,RA,44.26092823,12.3498153,Unknown
+19,Erosion-19,Coast erosion,cervia,RA,44.26092823,12.3498153,Unknown
+20,Erosion-20,Coast erosion,cervia,RA,44.26092823,12.3498153,Unknown
+21,Erosion-21,Coast erosion,cesenatico,FC,44.19953513,12.39544168,Unknown
+22,Erosion-22,Coast erosion,cesenatico,FC,44.19953513,12.39544168,Unknown
+23,Erosion-23,Coast erosion,cesenatico,FC,44.19953513,12.39544168,Unknown
+24,Erosion-24,Coast erosion,san mauro pascoli,FC,44.10703239,12.41549224,Unknown
+25,Erosion-25,Coast erosion,bellaria-igea marina,RN,44.14760173,12.45805808,Unknown
+26,Erosion-26,Coast erosion,riccione,RN,44.00002553,12.65505776,Unknown
+27,Erosion-27,Coast erosion,misano adriatico,RN,43.97336095,12.69323617,Unknown
+28,Erosion-28,Coast erosion,goro,FE,44.85381576,12.30276124,Unknown
+29,Erosion-29,Coast erosion,goro,FE,44.85381576,12.30276124,Unknown
+30,Erosion-30,Coast erosion,ravenna,RA,44.41722492,12.19913937,Unknown
+31,Erosion-31,Coast erosion,rimini,RN,44.06090086,12.56562951,Unknown
+32,Erosion-32,Coast erosion,cattolica,RN,43.96376667,12.74464322,Unknown
+33,Erosion-33,Coast erosion,misano adriatico,RN,43.97336095,12.69323617,Unknown
+34,Erosion-34,Coast erosion,riccione,RN,44.00002553,12.65505776,Unknown
+35,Erosion-35,Coast erosion,rimini,RN,44.06090086,12.56562951,Unknown
+36,Erosion-36,Coast erosion,gatteo,FC,44.1096172,12.38611016,Unknown
+37,Erosion-37,Coast erosion,goro,FE,44.85381576,12.30276124,Unknown
+38,instability-212-991df-9,Landslide,Busana,RE,44.379405244983,10.3242505014696,Unknown
+39,instability-108-081di-4,Idraulico,Sant'Agata sul Santerno,RA,44.4509255778894,11.8611695127488,Unknown
+40,instability-08ir395-g11di-2,Idraulico,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+41,instability-08ir416-g11di-13,Idraulico,Rimini,RN,44.0260492354315,12.5837985451325,Unknown
+42,instability-044-095di-4,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+43,instability-208-991di-9,Idraulico,Noceto,PR,44.8067872211886,10.1311501168323,Unknown
+44,instability-fc066b-101df-3,Landslide,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+45,instability-486-065di-4,Idraulico,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+46,instability-219-991df-4,Landslide,Palagano,MO,44.2801625738394,10.6119205338592,Unknown
+47,instability-195-091df-1,Landslide,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+48,instability-707-991di-2,Idraulico,Collagna,RE,44.3251763640087,10.2563795010022,Unknown
+49,instability-194-092df-9,Landslide,Baiso,RE,44.4813359975262,10.6217438315146,Unknown
+50,instability-026-981df-4,Landslide,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+51,instability-08ir010-g31di-6,Idraulico,Medicina,BO,44.5065377118493,11.6531589231081,Unknown
+52,instability-213-991df-6,Landslide,Vezzano sul Crostolo,RE,44.5870378687016,10.5205247183104,Unknown
+53,instability-08ir408-g11di-2,Idraulico,Piacenza,PC,45.0342599204124,9.65575849510844,Unknown
+54,instability-221-991df-6,Landslide,Sestola,MO,44.2349695801993,10.7434939485654,Unknown
+55,instability-037-091di-8,Idraulico,Bore,PR,44.7112020849659,9.8162089654096,Unknown
+56,instability-bo106r-101di-6,Idraulico,Marzabotto,BO,44.3287066701004,11.2029920104072,Unknown
+57,instability-08ir197-g11dc-4,Coastal Disruption,Rimini,RN,44.0260492354315,12.5837985451325,Unknown
+58,instability-08ir339-g11df-9,Landslide,Ottone,PC,44.6256119569628,9.30188529836556,Unknown
+59,instability-08ir147-g11df-15,Landslide,Alseno,PC,44.8873116882708,9.96246577776708,Unknown
+60,instability-209-021di-9,Idraulico,Ramiseto,RE,44.3999558597279,10.239000068107,Unknown
+61,instability-08ir010-g31di-8,Idraulico,Medicina,BO,44.5065377118493,11.6531589231081,Unknown
+62,instability-133-062df-11,Landslide,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+63,instability-08ir453-g11di-4,Idraulico,Parma,PR,44.7792325478157,10.3280699931105,Unknown
+64,instability-08ir397-g11di-4,Idraulico,Bobbio,PC,44.7920262766593,9.3858685825511,Unknown
+65,instability-fc109r-101df-1,Landslide,Roncofreddo,FC,44.0439879520357,12.2659337503069,Unknown
+66,instability-206-021df-3,Landslide,Scandiano,RE,44.598800337671,10.6899139471885,Unknown
+67,instability-718-991df-4,Landslide,Coriano,RN,43.972080065031,12.6090256004297,Unknown
+68,instability-08ir183-g11di-9,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+69,instability-08ir398-g11df-12,Landslide,Cerignale,PC,44.6736901227251,9.35231273274968,Unknown
+70,instability-022-981df-9,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+71,instability-049-091di-7,Idraulico,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+72,instability-041-091di-2,Idraulico,Castelnuovo Rangone,MO,44.5577442466715,10.9506280266554,Unknown
+73,instability-222-991di-6,Idraulico,San Giovanni in Persiceto,BO,44.6443505108545,11.1968627414522,Unknown
+74,instability-716-992di-6,Idraulico,Borgo Tossignano,BO,44.272093475643,11.6107577404867,Unknown
+75,instability-223-021df-14,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+76,instability-199-091di-5,Idraulico,Lugo,RA,44.4773344376502,11.9066018484468,Unknown
+77,instability-026-981df-7,Landslide,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+78,instability-215-991df-4,Landslide,Canossa,RE,44.5246372005171,10.3828048954674,Unknown
+79,instability-176-991df-1,Landslide,Montefiore Conca,RN,43.8786094487979,12.6055927950117,Unknown
+80,instability-08ir070-g11di-6,Idraulico,Modena,MO,44.6438970183065,10.9155350775428,Unknown
+81,instability-219-991df-3,Landslide,Palagano,MO,44.2801625738394,10.6119205338592,Unknown
+82,instability-262-021df-14,Landslide,Roncofreddo,FC,44.0439879520357,12.2659337503069,Unknown
+83,instability-184-991df-3,Landslide,Predappio,FC,44.0922084956989,11.9515345177325,Unknown
+84,instability-209-021di-4,Idraulico,Ramiseto,RE,44.3999558597279,10.239000068107,Unknown
+85,instability-486-062df-4,Landslide,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+86,instability-156-021df-3,Landslide,San Leo,RN,43.9198657036645,12.3740691885464,Unknown
+87,instability-08ir409-g11di-4,Idraulico,Travo,PC,44.8576900716299,9.52595285216489,Unknown
+88,instability-08ir001-g91di-4,Idraulico,Montechiarugolo,PR,44.7043185649266,10.392760907996,Unknown
+89,instability-223-021df-9,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+90,instability-713-991df-4,Landslide,Pianoro,BO,44.3766389462232,11.3566515028008,Unknown
+91,instability-178-991df-1,Landslide,Brisighella,RA,44.159934504768,11.6697138231696,Unknown
+92,instability-08ir001-g31di-6,Idraulico,Budrio,BO,44.5515223609743,11.5449423859963,Unknown
+93,instability-224-021df-11,Landslide,Casalfiumanese,BO,44.2706904094921,11.4830138230391,Unknown
+94,instability-08ir001-g31di-4,Idraulico,Budrio,BO,44.5515223609743,11.5449423859963,Unknown
+95,instability-018-981df-6,Landslide,Pecorara,PC,44.8712025624287,9.3751580329444,Unknown
+96,instability-206-991df-9,Landslide,Bobbio,PC,44.7920262766593,9.3858685825511,Unknown
+97,instability-210-021df-7,Landslide,Baiso,RE,44.4813359975262,10.6217438315146,Unknown
+98,instability-08ir396-g11di-4,Idraulico,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+99,instability-156-021df-1,Landslide,San Leo,RN,43.9198657036645,12.3740691885464,Unknown
+100,instability-bo102r-101df-15,Landslide,Castiglione dei Pepoli,BO,44.1233583432008,11.1956079463872,Unknown
+101,instability-486-062df-1,Landslide,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+102,instability-486-065df-3,Landslide,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+103,instability-08ir364-g11di-13,Idraulico,Ostellato,FE,44.7119418477398,12.0439854515882,Unknown
+104,instability-210-991df-7,Landslide,Solignano,PR,44.6371957692295,9.93820123265488,Unknown
+105,instability-08ir197-g11dc-6,Coastal Disruption,Rimini,RN,44.0260492354315,12.5837985451325,Unknown
+106,instability-051-091dc-3,Coastal Disruption,Riccione,RN,43.9987884203605,12.6448362144615,Unknown
+107,instability-264-021di-6,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+108,instability-221-021df-14,Landslide,Castel di Casio,BO,44.1540944586591,11.019965768731,Unknown
+109,instability-08ir007-g41di-6,Idraulico,Zola Predosa,BO,44.4949287226617,11.2105248344915,Unknown
+110,instability-206-091di-6,Idraulico,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+111,instability-710-991df-14,Landslide,Fiumalbo,MO,44.1788255815864,10.6570373869575,Unknown
+112,instability-486-063df-4,Landslide,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+113,instability-050-091dc-6,Coastal Disruption,Cesenatico,FC,44.1758423081881,12.3800903795143,Unknown
+114,instability-041-091di-7,Idraulico,Castelnuovo Rangone,MO,44.5577442466715,10.9506280266554,Unknown
+115,instability-08ir408-g11di-4,Idraulico,Piacenza,PC,45.0342599204124,9.65575849510844,Unknown
+116,instability-08ir408-g11di-9,Idraulico,Piacenza,PC,45.0342599204124,9.65575849510844,Unknown
+117,instability-222-021df-14,Landslide,Castel di Casio,BO,44.1540944586591,11.019965768731,Unknown
+118,instability-180-991df-3,Landslide,Roncofreddo,FC,44.0439879520357,12.2659337503069,Unknown
+119,instability-08ir011-g31di-8,Idraulico,Molinella,BO,44.6152430422574,11.7503224429659,Unknown
+120,instability-08ir104-g11di-6,Idraulico,Piacenza,PC,45.0342599204124,9.65575849510844,Unknown
+121,instability-08ir033-g11df-12,Landslide,Pievepelago,MO,44.1824193246375,10.5713532392909,Unknown
+122,instability-08ir297-g11di-6,Idraulico,Coriano,RN,43.972080065031,12.6090256004297,Unknown
+123,instability-08ir364-g11di-6,Idraulico,Ostellato,FE,44.7119418477398,12.0439854515882,Unknown
+124,instability-394-061df-9,Landslide,Riolunato,MO,44.2305279239986,10.6520987266154,Unknown
+125,instability-080-071df-11,Landslide,Monchio delle Corti,PR,44.3964392140054,10.1129163015926,Unknown
+126,instability-721-991df-12,Landslide,Civitella di Romagna,FC,44.0032550692916,11.9646489566759,Unknown
+127,instability-08ir202-g11di-2,Idraulico,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+128,instability-714-992df-7,Landslide,Monte San Pietro,BO,44.4261334569962,11.1459563127657,Unknown
+129,instability-196-991df-4,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+130,instability-208-991di-6,Idraulico,Noceto,PR,44.8067872211886,10.1311501168323,Unknown
+131,instability-08ir183-g11di-12,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+132,instability-08ir098-g11di-10,Idraulico,Bondeno,FE,44.9020643370578,11.3645617558736,Unknown
+133,instability-08ir031-g41di-9,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+134,instability-206-021df-6,Landslide,Scandiano,RE,44.598800337671,10.6899139471885,Unknown
+135,instability-065-061df-11,Landslide,Fornovo di Taro,PR,44.6689861483704,10.1026312387909,Unknown
+136,instability-714-991df-11,Landslide,Monte San Pietro,BO,44.4261334569962,11.1459563127657,Unknown
+137,instability-08ir026-g31di-2,Idraulico,Felino,PR,44.6795157896056,10.2387551809406,Unknown
+138,instability-210-991df-3,Landslide,Solignano,PR,44.6371957692295,9.93820123265488,Unknown
+139,instability-08ir048-g11df-9,Landslide,Toano,RE,44.3851236478973,10.5455659716944,Unknown
+140,instability-080-071df-4,Landslide,Monchio delle Corti,PR,44.3964392140054,10.1129163015926,Unknown
+141,instability-486-064df-4,Landslide,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+142,instability-08ir447-g11di-2,Idraulico,Felino,PR,44.6795157896056,10.2387551809406,Unknown
+143,instability-289-065df-9,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+144,instability-471-061df-4,Landslide,Verghereto,FC,43.8076432417394,12.0510496209187,Unknown
+145,instability-790-991df-4,Landslide,Talamello,RN,43.9134251303116,12.2791559995824,Unknown
+146,instability-08ir197-g11dc-8,Coastal Disruption,Rimini,RN,44.0260492354315,12.5837985451325,Unknown
+147,instability-08ir001-g91di-8,Idraulico,Montechiarugolo,PR,44.7043185649266,10.392760907996,Unknown
+148,instability-211-991di-6,Idraulico,Scandiano,RE,44.598800337671,10.6899139471885,Unknown
+149,instability-215-991df-6,Landslide,Canossa,RE,44.5246372005171,10.3828048954674,Unknown
+150,instability-044-094di-9,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+151,instability-790-991di-2,Idraulico,Talamello,RN,43.9134251303116,12.2791559995824,Unknown
+152,instability-08ir027-g31di-2,Idraulico,Zola Predosa,BO,44.4949287226617,11.2105248344915,Unknown
+153,instability-fc065b-101df-12,Landslide,Santa Sofia,FC,43.9007722781334,11.7941195608876,Unknown
+154,instability-205-991df-9,Landslide,Ferriere,PC,44.6169545533,9.49363391730714,Unknown
+155,instability-109-081di-4,Idraulico,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+156,instability-133-063df-11,Landslide,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+157,instability-183-991df-3,Landslide,Sarsina,FC,43.9006189178128,12.122936817466,Unknown
+158,instability-192-991di-5,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+159,instability-bo103r-101df-6,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+160,instability-066-071df-9,Landslide,Bagno di Romagna,FC,43.8660571078466,11.9453525550376,Unknown
+161,instability-bo105r-101di-2,Idraulico,Zola Predosa,BO,44.4949287226617,11.2105248344915,Unknown
+162,instability-bo103r-101df-14,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+163,instability-194-991df-1,Landslide,Casola Valsenio,RA,44.2020305217197,11.6106035296694,Unknown
+164,instability-110-081df-11,Landslide,Sarsina,FC,43.9006189178128,12.122936817466,Unknown
+165,instability-192-991di-9,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+166,instability-08ir031-g41di-2,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+167,instability-218-991df-3,Landslide,Pievepelago,MO,44.1824193246375,10.5713532392909,Unknown
+168,instability-179-991di-7,Idraulico,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+169,instability-08ir382-g11di-6,Idraulico,Longiano,FC,44.0803058141132,12.3413836947294,Unknown
+170,instability-08ir170-g11di-2,Idraulico,Castel San Giovanni,PC,45.057871304891,9.4281830418783,Unknown
+171,instability-189-991df-9,Landslide,Grizzana Morandi,BO,44.2488964349191,11.1305661471355,Unknown
+172,instability-pc091r-101di-4,Idraulico,Vernasca,PC,44.795701663081,9.85408322896183,Unknown
+173,instability-790-992di-2,Idraulico,Talamello,RN,43.9134251303116,12.2791559995824,Unknown
+174,instability-361-021df-9,Landslide,Bobbio,PC,44.7920262766593,9.3858685825511,Unknown
+175,instability-08ir040-g11df-6,Landslide,Farini,PC,44.7166837833602,9.51506118353626,Unknown
+176,instability-08ir396-g11di-2,Idraulico,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+177,instability-219-021df-6,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+178,instability-133-064df-6,Landslide,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+179,instability-08ir403-g11di-2,Idraulico,Farini,PC,44.7166837833602,9.51506118353626,Unknown
+180,instability-071-071df-9,Landslide,Santa Sofia,FC,43.9007722781334,11.7941195608876,Unknown
+181,instability-065-062df-11,Landslide,Fornovo di Taro,PR,44.6689861483704,10.1026312387909,Unknown
+182,instability-191-081df-15,Landslide,Pennabilli,RN,43.8279485240717,12.309438032308,Unknown
+183,instability-08ir404-g11di-4,Idraulico,Ferriere,PC,44.6169545533,9.49363391730714,Unknown
+184,instability-264-022di-9,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+185,instability-712-991df-9,Landslide,Camugnano,BO,44.1554815854831,11.1040268488708,Unknown
+186,instability-08ir032-g31dc-10,Coastal Disruption,Comacchio,FE,44.7014548923959,12.2041662085282,Unknown
+187,instability-199-991di-2,Idraulico,Piacenza,PC,45.0342599204124,9.65575849510844,Unknown
+188,instability-044-093di-8,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+189,instability-08ir406-g11di-2,Idraulico,Morfasso,PC,44.7226637447044,9.72577741874846,Unknown
+190,instability-225-991df-4,Landslide,Brisighella,RA,44.159934504768,11.6697138231696,Unknown
+191,instability-226-991df-14,Landslide,Castiglione dei Pepoli,BO,44.1233583432008,11.1956079463872,Unknown
+192,instability-107-081df-11,Landslide,Roncofreddo,FC,44.0439879520357,12.2659337503069,Unknown
+193,instability-08ir409-g11di-2,Idraulico,Travo,PC,44.8576900716299,9.52595285216489,Unknown
+194,instability-186-991df-9,Landslide,San Benedetto Val di Sambro,BO,44.1980312849519,11.236160668127,Unknown
+195,instability-219-991df-9,Landslide,Palagano,MO,44.2801625738394,10.6119205338592,Unknown
+196,instability-195-991df-4,Landslide,Castiglione dei Pepoli,BO,44.1233583432008,11.1956079463872,Unknown
+197,instability-205-091di-7,Idraulico,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+198,instability-723-991di-6,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+199,instability-289-062df-1,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+200,instability-042-091di-4,Idraulico,Lizzano in Belvedere,BO,44.1640465771771,10.8700853689935,Unknown
+201,instability-722-991df-3,Landslide,Civitella di Romagna,FC,44.0032550692916,11.9646489566759,Unknown
+202,instability-08ir189-g11di-6,Idraulico,Bagnacavallo,RA,44.4392578265822,12.0057234309854,Unknown
+203,instability-191-991df-4,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+204,instability-08ir326-g11df-12,Landslide,San Leo,RN,43.9198657036645,12.3740691885464,Unknown
+205,instability-08ir382-g11di-4,Idraulico,Longiano,FC,44.0803058141132,12.3413836947294,Unknown
+206,instability-08ir326-g11df-1,Landslide,San Leo,RN,43.9198657036645,12.3740691885464,Unknown
+207,instability-08ir395-g11di-9,Idraulico,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+208,instability-044-092di-4,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+209,instability-711-991df-9,Landslide,Pievepelago,MO,44.1824193246375,10.5713532392909,Unknown
+210,instability-134-061df-1,Landslide,San Leo,RN,43.9198657036645,12.3740691885464,Unknown
+211,instability-08ir370-g11di-2,Idraulico,Castel Bolognese,RA,44.3207541826802,11.7870848263222,Unknown
+212,instability-222-021df-4,Landslide,Castel di Casio,BO,44.1540944586591,11.019965768731,Unknown
+213,instability-035-091di-4,Idraulico,Parma,PR,44.7792325478157,10.3280699931105,Unknown
+214,instability-134-062df-6,Landslide,San Leo,RN,43.9198657036645,12.3740691885464,Unknown
+215,instability-177-991di-7,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+216,instability-717-991df-14,Landslide,Verucchio,RN,43.9927439494671,12.4302494361974,Unknown
+217,instability-700-991di-6,Idraulico,Caorso,PC,45.059828079381,9.8530915722925,Unknown
+218,instability-193-991df-9,Landslide,Zocca,MO,44.3609656448932,10.994815317776,Unknown
+219,instability-223-991df-7,Landslide,Bedonia,PR,44.5253575474622,9.57899182126113,Unknown
+220,instability-714-992df-11,Landslide,Monte San Pietro,BO,44.4261334569962,11.1459563127657,Unknown
+221,instability-bo105r-101di-6,Idraulico,Zola Predosa,BO,44.4949287226617,11.2105248344915,Unknown
+222,instability-184-991df-1,Landslide,Predappio,FC,44.0922084956989,11.9515345177325,Unknown
+223,instability-214-991df-4,Landslide,Vetto,RE,44.4814867278215,10.3532048749381,Unknown
+224,instability-220-021df-3,Landslide,Castel d'Aiano,BO,44.2756727867302,11.0180186539359,Unknown
+225,instability-08ir406-g11di-9,Idraulico,Morfasso,PC,44.7226637447044,9.72577741874846,Unknown
+226,instability-720-991df-1,Landslide,Modigliana,FC,44.1491359347075,11.7979481253718,Unknown
+227,instability-486-061df-4,Landslide,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+228,instability-023-981df-4,Landslide,Lizzano in Belvedere,BO,44.1640465771771,10.8700853689935,Unknown
+229,instability-08ir113-g11df-9,Landslide,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+230,instability-mo099r-101df-14,Landslide,Lama Mocogno,MO,44.3030545736765,10.7085385789905,Unknown
+231,instability-219-021df-9,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+232,instability-218-021di-6,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+233,instability-08ir070-g11di-8,Idraulico,Modena,MO,44.6438970183065,10.9155350775428,Unknown
+234,instability-711-991df-11,Landslide,Pievepelago,MO,44.1824193246375,10.5713532392909,Unknown
+235,instability-08ir406-g11df-15,Landslide,Morfasso,PC,44.7226637447044,9.72577741874846,Unknown
+236,instability-181-991df-14,Landslide,Sarsina,FC,43.9006189178128,12.122936817466,Unknown
+237,instability-182-991df-1,Landslide,Brisighella,RA,44.159934504768,11.6697138231696,Unknown
+238,instability-146-071df-4,Landslide,Pennabilli,RN,43.8279485240717,12.309438032308,Unknown
+239,instability-200-991df-9,Landslide,Pecorara,PC,44.8712025624287,9.3751580329444,Unknown
+240,instability-216-991df-9,Landslide,Baiso,RE,44.4813359975262,10.6217438315146,Unknown
+241,instability-08ir040-g11df-3,Landslide,Farini,PC,44.7166837833602,9.51506118353626,Unknown
+242,instability-08ir045-g11df-14,Landslide,Baiso,RE,44.4813359975262,10.6217438315146,Unknown
+243,instability-208-021df-12,Landslide,Ligonchio,RE,44.3052971033538,10.3500845789904,Unknown
+244,instability-048-091di-8,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+245,instability-08ir026-g31di-6,Idraulico,Felino,PR,44.6795157896056,10.2387551809406,Unknown
+246,instability-714-992df-14,Landslide,Monte San Pietro,BO,44.4261334569962,11.1459563127657,Unknown
+247,instability-201-991df-11,Landslide,Bobbio,PC,44.7920262766593,9.3858685825511,Unknown
+248,instability-714-991df-7,Landslide,Monte San Pietro,BO,44.4261334569962,11.1459563127657,Unknown
+249,instability-bo103r-101df-4,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+250,instability-289-061df-14,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+251,instability-08ir014-g31di-9,Idraulico,Malalbergo,BO,44.6874701083213,11.5097936874856,Unknown
+252,instability-213-991df-4,Landslide,Vezzano sul Crostolo,RE,44.5870378687016,10.5205247183104,Unknown
+253,instability-198-991df-4,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+254,instability-08ir405-g11di-4,Idraulico,Ferriere,PC,44.6169545533,9.49363391730714,Unknown
+255,instability-361-021df-6,Landslide,Bobbio,PC,44.7920262766593,9.3858685825511,Unknown
+256,instability-08ir407-g11df-15,Landslide,Ottone,PC,44.6256119569628,9.30188529836556,Unknown
+257,instability-08ir453-g11di-2,Idraulico,Parma,PR,44.7792325478157,10.3280699931105,Unknown
+258,instability-08ir362-g11di-0,Idraulico,Migliarino,FE,44.7746035136604,11.9280960946842,Unknown
+259,instability-133-061df-7,Landslide,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+260,instability-133-065df-11,Landslide,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+261,instability-708-991df-4,Landslide,Viano,RE,44.5497789915038,10.5944534889928,Unknown
+262,instability-08ir031-g41di-6,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+263,instability-289-064df-9,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+264,instability-08ir083-g11di-6,Idraulico,Mezzani,PR,44.9256357049726,10.4457845312345,Unknown
+265,instability-08ir188-g11df-12,Landslide,Novafeltria,RN,43.8828386143298,12.2570241379105,Unknown
+266,instability-398-061df-14,Landslide,Riolunato,MO,44.2305279239986,10.6520987266154,Unknown
+267,instability-08ir027-g31di-6,Idraulico,Zola Predosa,BO,44.4949287226617,11.2105248344915,Unknown
+268,instability-289-063df-9,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+269,instability-704-991di-2,Idraulico,Medesano,PR,44.7274862649565,10.0825066499502,Unknown
+270,instability-224-991df-3,Landslide,San Benedetto Val di Sambro,BO,44.1980312849519,11.236160668127,Unknown
+271,instability-185-991df-9,Landslide,Camugnano,BO,44.1554815854831,11.1040268488708,Unknown
+272,instability-723-991di-7,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+273,instability-225-021df-9,Landslide,Castel di Casio,BO,44.1540944586591,11.019965768731,Unknown
+274,instability-018-981df-11,Landslide,Pecorara,PC,44.8712025624287,9.3751580329444,Unknown
+275,instability-289-066df-9,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+276,instability-084-081di-7,Idraulico,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+277,instability-220-991df-9,Landslide,Montefiorino,MO,44.3427450184958,10.557043680124,Unknown
+278,instability-715-991di-6,Idraulico,Anzola dell'Emilia,BO,44.5651602939912,11.1934188016153,Unknown
+279,instability-068-072df-14,Landslide,Canossa,RE,44.5246372005171,10.3828048954674,Unknown
+280,instability-08ir404-g11di-6,Idraulico,Ferriere,PC,44.6169545533,9.49363391730714,Unknown
+281,instability-08ir447-g11di-6,Idraulico,Felino,PR,44.6795157896056,10.2387551809406,Unknown
+282,instability-08ir062-g11di-0,Idraulico,Salsomaggiore Terme,PR,44.8110448774357,10.01444189091,Unknown
+283,instability-211-991di-8,Idraulico,Scandiano,RE,44.598800337671,10.6899139471885,Unknown
+284,instability-201-991df-7,Landslide,Bobbio,PC,44.7920262766593,9.3858685825511,Unknown
+285,instability-08ir406-g11di-4,Idraulico,Morfasso,PC,44.7226637447044,9.72577741874846,Unknown
+286,instability-264-021di-13,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+287,instability-020-981df-4,Landslide,Baiso,RE,44.4813359975262,10.6217438315146,Unknown
+288,instability-08ir070-g11di-4,Idraulico,Modena,MO,44.6438970183065,10.9155350775428,Unknown
+289,instability-486-061df-3,Landslide,Maiolo,RN,43.8869094938628,12.3154759927908,Unknown
+290,instability-042-091di-7,Idraulico,Lizzano in Belvedere,BO,44.1640465771771,10.8700853689935,Unknown
+291,instability-085-071di-6,Idraulico,San Giovanni in Persiceto,BO,44.6443505108545,11.1968627414522,Unknown
+292,instability-044-093di-9,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+293,instability-220-021df-12,Landslide,Castel d'Aiano,BO,44.2756727867302,11.0180186539359,Unknown
+294,instability-207-092df-15,Landslide,Toano,RE,44.3851236478973,10.5455659716944,Unknown
+295,instability-146-071df-3,Landslide,Pennabilli,RN,43.8279485240717,12.309438032308,Unknown
+296,instability-224-991df-4,Landslide,San Benedetto Val di Sambro,BO,44.1980312849519,11.236160668127,Unknown
+297,instability-08ir392-g11dc-4,Coastal Disruption,Rimini,RN,44.0260492354315,12.5837985451325,Unknown
+298,instability-08ir297-g11di-2,Idraulico,Coriano,RN,43.972080065031,12.6090256004297,Unknown
+299,instability-340-081di-5,Idraulico,Modena,MO,44.6438970183065,10.9155350775428,Unknown
+300,instability-189-992df-9,Landslide,Grizzana Morandi,BO,44.2488964349191,11.1305661471355,Unknown
+301,instability-716-991di-5,Idraulico,Borgo Tossignano,BO,44.272093475643,11.6107577404867,Unknown
+302,instability-072-071df-4,Landslide,Verghereto,FC,43.8076432417394,12.0510496209187,Unknown
+303,instability-077-083di-5,Idraulico,Bentivoglio,BO,44.6347693610772,11.4273664877783,Unknown
+304,instability-086-071di-6,Idraulico,Cesena,FC,44.1569217022985,12.2952709200961,Unknown
+305,instability-214-991df-6,Landslide,Vetto,RE,44.4814867278215,10.3532048749381,Unknown
+306,instability-208-994di-6,Idraulico,Noceto,PR,44.8067872211886,10.1311501168323,Unknown
+307,instability-263-021di-7,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+308,instability-073-071df-9,Landslide,Verghereto,FC,43.8076432417394,12.0510496209187,Unknown
+309,instability-686-991df-14,Landslide,Verucchio,RN,43.9927439494671,12.4302494361974,Unknown
+310,instability-431-061df-11,Landslide,Sarsina,FC,43.9006189178128,12.122936817466,Unknown
+311,instability-187-991df-7,Landslide,Granaglione,BO,44.1060362491154,10.9444517620746,Unknown
+312,instability-180-991df-4,Landslide,Roncofreddo,FC,44.0439879520357,12.2659337503069,Unknown
+313,instability-134-062df-1,Landslide,San Leo,RN,43.9198657036645,12.3740691885464,Unknown
+314,instability-08ir399-g11df-9,Landslide,Coli,PC,44.7368218490708,9.42674034540374,Unknown
+315,instability-197-991di-6,Idraulico,Bentivoglio,BO,44.6347693610772,11.4273664877783,Unknown
+316,instability-08ir397-g11di-2,Idraulico,Bobbio,PC,44.7920262766593,9.3858685825511,Unknown
+317,instability-178-991df-7,Landslide,Brisighella,RA,44.159934504768,11.6697138231696,Unknown
+318,instability-08ir401-g11di-2,Idraulico,Farini,PC,44.7166837833602,9.51506118353626,Unknown
+319,instability-470-061df-4,Landslide,Verghereto,FC,43.8076432417394,12.0510496209187,Unknown
+320,instability-08ir032-g31dc-6,Coastal Disruption,Comacchio,FE,44.7014548923959,12.2041662085282,Unknown
+321,instability-071-072df-9,Landslide,Santa Sofia,FC,43.9007722781334,11.7941195608876,Unknown
+322,instability-025-981df-9,Landslide,Santa Sofia,FC,43.9007722781334,11.7941195608876,Unknown
+323,instability-187-991df-11,Landslide,Granaglione,BO,44.1060362491154,10.9444517620746,Unknown
+324,instability-08ir400-g11di-13,Idraulico,Corte Brugnatella,PC,44.7154804770958,9.34324131927883,Unknown
+325,instability-289-061df-1,Landslide,Loiano,BO,44.2821004284501,11.3266212624283,Unknown
+326,instability-021-981df-4,Landslide,Polinago,MO,44.3616898465417,10.7441754750072,Unknown
+327,instability-pr094r-101df-9,Landslide,Tizzano Val Parma,PR,44.5083110403874,10.1977589213731,Unknown
+328,instability-207-021df-4,Landslide,Villa Minozzo,RE,44.3183407975257,10.4413776854852,Unknown
+329,instability-08ir404-g11di-2,Idraulico,Ferriere,PC,44.6169545533,9.49363391730714,Unknown
+330,instability-08ir395-g11di-4,Idraulico,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+331,instability-08ir002-g31di-4,Idraulico,Bologna,BO,44.4979958900926,11.3334199534071,Unknown
+332,instability-222-021df-6,Landslide,Castel di Casio,BO,44.1540944586591,11.019965768731,Unknown
+333,instability-104-081di-8,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+334,instability-041-091di-4,Idraulico,Castelnuovo Rangone,MO,44.5577442466715,10.9506280266554,Unknown
+335,instability-221-991df-5,Landslide,Sestola,MO,44.2349695801993,10.7434939485654,Unknown
+336,instability-08ir404-g11di-7,Idraulico,Ferriere,PC,44.6169545533,9.49363391730714,Unknown
+337,instability-093-081df-1,Landslide,Fontanelice,BO,44.2497462045666,11.547275354148,Unknown
+338,instability-713-991df-11,Landslide,Pianoro,BO,44.3766389462232,11.3566515028008,Unknown
+339,instability-709-991df-7,Landslide,Baiso,RE,44.4813359975262,10.6217438315146,Unknown
+340,instability-08ir011-g31di-2,Idraulico,Molinella,BO,44.6152430422574,11.7503224429659,Unknown
+341,instability-217-991df-9,Landslide,Montese,MO,44.2673512399754,10.9239933742402,Unknown
+342,instability-019-981df-9,Landslide,Varsi,PR,44.642900194818,9.8493601552521,Unknown
+343,instability-181-991df-4,Landslide,Sarsina,FC,43.9006189178128,12.122936817466,Unknown
+344,instability-264-022di-6,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+345,instability-08ir401-g11di-4,Idraulico,Farini,PC,44.7166837833602,9.51506118353626,Unknown
+346,instability-08ir370-g11di-6,Idraulico,Castel Bolognese,RA,44.3207541826802,11.7870848263222,Unknown
+347,instability-175-991df-9,Landslide,Verucchio,RN,43.9927439494671,12.4302494361974,Unknown
+348,instability-094-081di-6,Idraulico,Forlì,FC,44.2274378075878,12.0498105083093,Unknown
+349,instability-036-091di-6,Idraulico,Parma,PR,44.7792325478157,10.3280699931105,Unknown
+350,instability-209-991di-9,Idraulico,Colorno,PR,44.9418099079643,10.3732069435401,Unknown
+351,instability-bo106r-101di-2,Idraulico,Marzabotto,BO,44.3287066701004,11.2029920104072,Unknown
+352,instability-08ir317-g11df-12,Landslide,Torriana,RN,43.9788193285456,12.3761938225946,Unknown
+353,instability-211-991di-9,Idraulico,Scandiano,RE,44.598800337671,10.6899139471885,Unknown
+354,instability-08ir016-g31di-6,Idraulico,Castello d'Argile,BO,44.6862834581668,11.3025837943229,Unknown
+355,instability-08ir382-g11di-2,Idraulico,Longiano,FC,44.0803058141132,12.3413836947294,Unknown
+356,instability-177-991di-6,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+357,instability-790-991df-3,Landslide,Talamello,RN,43.9134251303116,12.2791559995824,Unknown
+358,instability-188-991df-9,Landslide,Zocca,MO,44.3609656448932,10.994815317776,Unknown
+359,instability-08ir453-g11di-6,Idraulico,Parma,PR,44.7792325478157,10.3280699931105,Unknown
+360,instability-180-991df-6,Landslide,Roncofreddo,FC,44.0439879520357,12.2659337503069,Unknown
+361,instability-08ir010-g31di-9,Idraulico,Medicina,BO,44.5065377118493,11.6531589231081,Unknown
+362,instability-264-021di-9,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+363,instability-08ir318-g11df-15,Landslide,Roncofreddo,FC,44.0439879520357,12.2659337503069,Unknown
+364,instability-08ir398-g11df-7,Landslide,Cerignale,PC,44.6736901227251,9.35231273274968,Unknown
+365,instability-041-091di-8,Idraulico,Castelnuovo Rangone,MO,44.5577442466715,10.9506280266554,Unknown
+366,instability-044-096di-4,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+367,instability-183-991df-12,Landslide,Sarsina,FC,43.9006189178128,12.122936817466,Unknown
+368,instability-218-021di-2,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+369,instability-190-991df-6,Landslide,Lizzano in Belvedere,BO,44.1640465771771,10.8700853689935,Unknown
+370,instability-08ir007-g41di-2,Idraulico,Zola Predosa,BO,44.4949287226617,11.2105248344915,Unknown
+371,instability-223-991df-3,Landslide,Bedonia,PR,44.5253575474622,9.57899182126113,Unknown
+372,instability-209-991di-2,Idraulico,Colorno,PR,44.9418099079643,10.3732069435401,Unknown
+373,instability-195-092df-15,Landslide,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+374,instability-721-991df-7,Landslide,Civitella di Romagna,FC,44.0032550692916,11.9646489566759,Unknown
+375,instability-bo103r-101df-3,Landslide,Gaggio Montano,BO,44.2014296487467,10.9433658924431,Unknown
+376,instability-192-991di-8,Idraulico,Riolo Terme,RA,44.2700313195263,11.6985366138458,Unknown
+377,instability-08ir032-g11di-6,Idraulico,Sala Bolognese,BO,44.6105131327312,11.2484724595236,Unknown
+378,instability-044-091di-8,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+379,instability-263-021di-6,Idraulico,Ravenna,RA,44.4161097613965,12.1879414998409,Unknown
+380,instability-212-991df-3,Landslide,Busana,RE,44.379405244983,10.3242505014696,Unknown
+381,instability-08ir170-g11di-9,Idraulico,Castel San Giovanni,PC,45.057871304891,9.4281830418783,Unknown
+382,instability-217-021di-4,Idraulico,Borgo Tossignano,BO,44.272093475643,11.6107577404867,Unknown
+383,instability-207-991df-15,Landslide,Pecorara,PC,44.8712025624287,9.3751580329444,Unknown
+384,instability-195-091df-15,Landslide,Bettola,PC,44.7786269824878,9.59654095016958,Unknown
+385,instability-08ir401-g11di-7,Idraulico,Farini,PC,44.7166837833602,9.51506118353626,Unknown
+386,instability-190-991df-14,Landslide,Lizzano in Belvedere,BO,44.1640465771771,10.8700853689935,Unknown
+387,instability-714-991df-14,Landslide,Monte San Pietro,BO,44.4261334569962,11.1459563127657,Unknown
+388,instability-024-981df-8,Landslide,Santarcangelo di Romagna,RN,44.0585162498093,12.4297980032092,Unknown
+389,instability-095-081di-6,Idraulico,Forlì,FC,44.2274378075878,12.0498105083093,Unknown
+390,instability-188-991df-14,Landslide,Zocca,MO,44.3609656448932,10.994815317776,Unknown
+391,instability-080-081di-5,Idraulico,Busseto,PR,44.9587588666215,10.060249703101,Unknown
+392,instability-08ir083-g11di-9,Idraulico,Mezzani,PR,44.9256357049726,10.4457845312345,Unknown
+393,instability-077-081di-5,Idraulico,Bentivoglio,BO,44.6347693610772,11.4273664877783,Unknown
+394,instability-209-991di-8,Idraulico,Colorno,PR,44.9418099079643,10.3732069435401,Unknown
+395,instability-pc091r-101di-8,Idraulico,Vernasca,PC,44.795701663081,9.85408322896183,Unknown
+396,instability-08ir183-g11di-2,Idraulico,Bellaria-Igea Marina,RN,44.1317132196122,12.4636358294222,Unknown
+397,instability-044-094di-8,Idraulico,Imola,BO,44.3877798730496,11.7159599685173,Unknown
+398,instability-093-081df-11,Landslide,Fontanelice,BO,44.2497462045666,11.547275354148,Unknown
+399,instability-200-091di-13,Idraulico,Modena,MO,44.6438970183065,10.9155350775428,Unknown
+400,instability-719-991di-6,Idraulico,Riccione,RN,43.9987884203605,12.6448362144615,Unknown
+401,instability-108-082di-6,Idraulico,Sant'Agata sul Santerno,RA,44.4509255778894,11.8611695127488,Unknown
+402,instability-196-091di-9,Idraulico,Busseto,PR,44.9587588666215,10.060249703101,Unknown
+403,instability-08ir032-g11di-2,Idraulico,Sala Bolognese,BO,44.6105131327312,11.2484724595236,Unknown
+404,instability-pc092r-101df-15,Landslide,Pecorara,PC,44.8712025624287,9.3751580329444,Unknown
+405,instability-211-991di-5,Idraulico,Scandiano,RE,44.598800337671,10.6899139471885,Unknown
+406,instability-224-021df-6,Landslide,Casalfiumanese,BO,44.2706904094921,11.4830138230391,Unknown
+407,instability-08ir014-g31di-0,Idraulico,Malalbergo,BO,44.6874701083213,11.5097936874856,Unknown
+408,instability-08ir011-g31di-9,Idraulico,Molinella,BO,44.6152430422574,11.7503224429659,Unknown
+409,instability-08ir002-g31di-9,Idraulico,Bologna,BO,44.4979958900926,11.3334199534071,Unknown
+410,Sign-7979,Wells with hot water,medolla,MO,44.84894472,11.07147687,1/10/2015
+411,Sign-7979,Wells with hot water,medolla,MO,44.84894472,11.07147687,1/10/2015
+412,Sign-7979,Wells with hot water,medolla,MO,44.84894472,11.07147687,1/10/2015
+413,Sign-7979,Wells with hot water,medolla,MO,44.84894472,11.07147687,1/10/2015
+414,Sign-7979,Unknown,mirandola,MO,44.88707754,11.06607716,1/11/2015
+415,Sign-7979,Gas leaks from wells for water and / or from the ground,mirandola,MO,44.88707754,11.06607716,1/9/2016
+416,Sign-7979,Gas leaks from wells for water and / or from the ground,mirandola,MO,44.88707754,11.06607716,1/9/2016
+417,Sign-7979,Wells with hot water,mirandola,MO,44.88707754,11.06607716,1/8/2016
+418,Sign-7979,Presence of fractures and / or sinking into the ground,mirandola,MO,44.88707754,11.06607716,1/8/2012
+419,Sign-7979,Presence of fractures and / or sinking into the ground,mirandola,MO,44.88707754,11.06607716,1/5/2012
+420,Sign-7979,Volcanoes of mud and / or sand,mirandola,MO,44.88707754,11.06607716,1/3/2018
+421,Sign-7979,Wells with hot water,mirandola,MO,44.88707754,11.06607716,1/12/2018
+422,Sign-7979,Wells with hot water,novi di modena,MO,44.89356712,10.90134261,1/10/2015
+423,Sign-7979,Gas leaks from wells for water and / or from the ground,novi di modena,MO,44.89356712,10.90134261,1/3/2016
+424,Sign-7979,Wells with hot water,novi di modena,MO,44.89356712,10.90134261,1/2/2017
+425,Sign-7979,Gas leaks from wells for water and / or from the ground,novi di modena,MO,44.89356712,10.90134261,1/3/2015
+426,Sign-7979,Presence of fractures and / or sinking into the ground,ravarino,MO,44.72446933,11.09999795,1/9/2017
+427,Sign-7979,Wells with hot water,san felice sul panaro,MO,44.83931946,11.14140434,1/9/2012
+428,Sign-7979,Wells with hot water,san felice sul panaro,MO,44.83931946,11.14140434,1/10/2013
+429,Sign-7979,Unknown,san felice sul panaro,MO,44.83931946,11.14140434,1/6/2018
+430,Sign-7979,Wells with hot water,san felice sul panaro,MO,44.83931946,11.14140434,1/10/2018
+431,Sign-7979,Wells with hot water,portomaggiore,FE,44.69780545,11.80577819,1/11/2012
+432,Sign-7979,Gas leaks from wells for water and / or from the ground,vigarano mainarda,FE,44.84176192,11.50031563,1/6/2014
+433,Sign-7979,Gas leaks from wells for water and / or from the ground,vigarano mainarda,FE,44.84176192,11.50031563,1/6/2014
+434,Sign-7979,Presence of fractures and / or sinking into the ground,tresigallo,FE,44.81778085,11.89681521,1/10/2012
+435,Sign-7979,Wells with hot water,alfonsine,RA,44.50631817,12.04064787,1/11/2016
+436,Sign-7979,Gas leaks from wells for water and / or from the ground,bagnacavallo,RA,44.41630012,11.97697277,1/6/2021
+437,Sign-7979,Wells with hot water,faenza,RA,44.28543714,11.88279721,1/6/2017
+438,Sign-7979,Gas leaks from wells for water and / or from the ground,lugo,RA,44.42083388,11.9114825,1/11/2020
+439,Sign-7979,Gas leaks from wells for water and / or from the ground,bertinoro,FC,44.14891351,12.13425106,1/7/2021
+440,Sign-7979,Wells with hot water,forlã,missing,missing,missing,1/7/2018
+441,Sign-7979,Wells with hot water,san mauro pascoli,FC,44.10703239,12.41549224,1/9/2017
+442,Sign-7979,Gas leaks from wells for water and / or from the ground,san giovanni del dosso,MN,44.96608634,11.08112346,1/5/2013
+443,Sign-7979,Wells with hot water,rimini,RN,44.06090086,12.56562951,1/10/2017
+444,Sign-7979,Presence of fractures and / or sinking into the ground,fiscaglia,FE,44.7988,11.9754,1/7/2014
+445,Sign-7979,Wells with hot water,san prospero,MO,44.7879002,11.02289265,1/6/2013
+446,Sign-7979,Wells with hot water,spilamberto,MO,44.5337143,11.02374056,1/6/2016
+447,Sign-7979,Wells with hot water,baricella,BO,44.64706061,11.53455005,1/1/2013
+448,Sign-7979,Gas leaks from wells for water and / or from the ground,baricella,BO,44.64706061,11.53455005,1/4/2018
+449,Sign-7979,Gas leaks from wells for water and / or from the ground,bologna,BO,44.4943668,11.3417208,1/3/2015
+450,Sign-7979,Gas leaks from wells for water and / or from the ground,bologna,BO,44.4943668,11.3417208,1/3/2015
+451,Sign-7979,Gas leaks from wells for water and / or from the ground,bologna,BO,44.4943668,11.3417208,1/3/2015
+452,Sign-7979,Gas leaks from wells for water and / or from the ground,bologna,BO,44.4943668,11.3417208,1/3/2015
+453,Sign-7979,Gas leaks from wells for water and / or from the ground,bologna,BO,44.4943668,11.3417208,1/3/2015
+454,Sign-7979,Wells with hot water,bologna,BO,44.4943668,11.3417208,1/1/2018
+455,Sign-7979,Wells with hot water,bologna,BO,44.4943668,11.3417208,1/1/2018
+456,Sign-7979,Wells with hot water,budrio,BO,44.53751606,11.53563979,1/4/2019
+457,Sign-7979,Gas leaks from wells for water and / or from the ground,crevalcore,BO,44.7226444,11.14703461,1/9/2014
+458,Sign-7979,Wells with hot water,crevalcore,BO,44.7226444,11.14703461,1/10/2015
+459,Sign-7979,Wells with hot water,medicina,BO,44.47644406,11.64047564,1/5/2018
+460,Sign-7979,Unknown,minerbio,BO,44.62520112,11.49080289,1/7/2016
+461,Sign-7979,Wells with hot water,minerbio,BO,44.62520112,11.49080289,1/11/2018
+462,Sign-7979,Wells with hot water,ozzano dell'emilia,BO,44.44483656,11.47820208,1/8/2015
+463,Sign-7979,Wells with hot water,san giovanni in persiceto,BO,44.63877152,11.18779855,1/11/2012
+464,Sign-7979,Presence of fractures and / or sinking into the ground,san giovanni in persiceto,BO,44.63877152,11.18779855,1/9/2015
+465,Sign-7979,Wells with hot water,san lazzaro di savena,BO,44.47047676,11.40805744,1/3/2019
+466,Sign-7979,Gas leaks from wells for water and / or from the ground,argenta,FE,44.61443583,11.83704263,1/10/2020
+467,Sign-7979,Gas leaks from wells for water and / or from the ground,berra,FE,44.97935353,11.97857633,1/3/2013
+468,Sign-7979,Volcanoes of mud and / or sand,bondeno,FE,44.88521609,11.41846422,1/5/2014
+469,Sign-7979,Gas leaks from wells for water and / or from the ground,cento,FE,44.72755647,11.29060992,1/3/2017
+470,Sign-7979,Gas leaks from wells for water and / or from the ground,cento,FE,44.72755647,11.29060992,1/7/2014
+471,Sign-7979,Wells with hot water,cento,FE,44.72755647,11.29060992,1/10/2018
+472,Sign-7979,Gas leaks from wells for water and / or from the ground,copparo,FE,44.89547576,11.82871999,1/1/2017
+473,Sign-7979,Gas leaks from wells for water and / or from the ground,copparo,FE,44.89547576,11.82871999,1/2/2013
+474,Sign-7979,Unknown,ferrara,FE,44.83599085,11.61868934,1/1/2015
+475,Sign-7979,Volcanoes of mud and / or sand,ferrara,FE,44.83599085,11.61868934,1/5/2016
+476,Sign-7979,Presence of fractures and / or sinking into the ground,ferrara,FE,44.83599085,11.61868934,1/8/2013
+477,Sign-7979,Presence of fractures and / or sinking into the ground,migliarino,missing,missing,missing,1/10/2012
+478,Sign-7979,Volcanoes of mud and / or sand,mirabello,missing,missing,missing,1/10/2013
+479,Sign-7979,Gas leaks from wells for water and / or from the ground,mirabello,missing,missing,missing,1/5/2013
+480,Sign-7979,Gas leaks from wells for water and / or from the ground,poggio renatico,FE,44.7647145,11.48545381,1/5/2017
+481,Sign-7979,Presence of fractures and / or sinking into the ground,poggio renatico,FE,44.7647145,11.48545381,1/9/2012
+482,Sign-7979,Wells with hot water,poggio renatico,FE,44.7647145,11.48545381,1/10/2018
+483,Sign-7979,Gas leaks from wells for water and / or from the ground,portomaggiore,FE,44.69780545,11.80577819,1/3/2016
+484,Sign-7979,Volcanoes of mud and / or sand,campagnola emilia,RE,44.84131327,10.75917028,1/5/2013
+485,Sign-7979,Gas leaks from wells for water and / or from the ground,correggio,RE,44.7713424,10.78121506,1/5/2014
+486,Sign-7979,Wells with hot water,fabbrico,RE,44.87159776,10.80950419,1/11/2014
+487,Sign-7979,Wells with hot water,guastalla,RE,44.92239814,10.65403902,1/6/2012
+488,Sign-7979,Wells with hot water,novellara,RE,44.84512566,10.73188909,1/11/2018
+489,Sign-7979,Wells with hot water,poviglio,RE,44.84080694,10.54151678,1/11/2014
+490,Sign-7979,Wells with hot water,rio saliceto,RE,44.80931994,10.80290118,1/11/2014
+491,Sign-7979,Volcanoes of mud and / or sand,viano,RE,44.54828799,10.62040753,1/10/2014
+492,Sign-7979,Volcanoes of mud and / or sand,viano,RE,44.54828799,10.62040753,1/10/2014
+493,Sign-7979,Volcanoes of mud and / or sand,viano,RE,44.54828799,10.62040753,1/10/2014
+494,Sign-7979,Wells with hot water,bastiglia,MO,44.72644995,10.99981167,1/1/2018
+495,Sign-7979,Wells with hot water,bomporto,MO,44.72737543,11.04278703,1/9/2016
+496,Sign-7979,Wells with hot water,bomporto,MO,44.72737543,11.04278703,1/8/2016
+497,Sign-7979,Wells with hot water,bomporto,MO,44.72737543,11.04278703,1/5/2017
+498,Sign-7979,Wells with hot water,camposanto,MO,44.78790421,11.13827895,1/10/2017
+499,Sign-7979,Wells with hot water,camposanto,MO,44.78790421,11.13827895,1/8/2012
+500,Sign-7979,Wells with hot water,carpi,MO,44.78247939,10.88526276,1/10/2012
+501,Sign-7979,Wells with hot water,carpi,MO,44.78247939,10.88526276,1/10/2012
+502,Sign-7979,Volcanoes of mud and / or sand,cavezzo,MO,44.83770031,11.02990462,1/7/2014
+503,Sign-7979,Wells with hot water,cavezzo,MO,44.83770031,11.02990462,1/10/2014
+504,Sign-7979,Wells with hot water,concordia sulla secchia,MO,44.91223653,10.98281203,1/10/2017
+505,Sign-7979,Wells with hot water,concordia sulla secchia,MO,44.91223653,10.98281203,1/9/2013
+506,Sign-7979,Gas leaks from wells for water and / or from the ground,concordia sulla secchia,MO,44.91223653,10.98281203,1/6/2014
+507,Sign-7979,Gas leaks from wells for water and / or from the ground,concordia sulla secchia,MO,44.91223653,10.98281203,1/3/2015
+508,Sign-7979,Gas leaks from wells for water and / or from the ground,concordia sulla secchia,MO,44.91223653,10.98281203,1/3/2015
+509,Sign-7979,Gas leaks from wells for water and / or from the ground,concordia sulla secchia,MO,44.91223653,10.98281203,1/3/2015
+510,Sign-7979,Gas leaks from wells for water and / or from the ground,finale emilia,MO,44.83221342,11.2957332,1/4/2016
+511,Sign-7979,Gas leaks from wells for water and / or from the ground,finale emilia,MO,44.83221342,11.2957332,1/4/2016
+512,Sign-7979,Wells with hot water,finale emilia,MO,44.83221342,11.2957332,1/6/2013
+513,Sign-7979,Wells with hot water,finale emilia,MO,44.83221342,11.2957332,1/1/2014
+514,Sign-7979,Wells with hot water,finale emilia,MO,44.83221342,11.2957332,1/1/2014
+515,Sign-7979,Wells with hot water,medolla,MO,44.84894472,11.07147687,1/10/2017
+516,Sign-7979,Gas leaks from wells for water and / or from the ground,medolla,MO,44.84894472,11.07147687,1/9/2014
+517,Sign-7979,Wells with hot water,medolla,MO,44.84894472,11.07147687,1/10/2015
+518,Sign-7979,Wells with hot water,medolla,MO,44.84894472,11.07147687,1/10/2015

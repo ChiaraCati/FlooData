@@ -7,7 +7,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<https://github.com/ChiaraCati/Owater/resources/catalog/floodCat/>
+<https://github.com/ChiaraCati/FlooData/resources/catalog/floodCat/>
 
     a       dcatap:Catalogue , dcat:Catalog;
 
@@ -17,26 +17,26 @@
     dct:issued      "2022-07-12@"^^xsd:date;
     dct:modified    "2022-07-12@"^^xsd:date;
     dct:modified    "2022-08-11@"^^xsd:date;
-    dcat:datasets   <https://github.com/ChiaraCati/Owater/resource/dataset/MD1>;
-    dcat:datasets   <https://github.com/ChiaraCati/Owater/resource/dataset/MD2>;
-    dcat:datasets   <https://github.com/ChiaraCati/Owater/resource/dataset/MD3>;
-    dct:publisher   <https://github.com/ChiaraCati/Owater>;
-    dct:creator     <https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone>;
-    dct:creator     <https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>;
+    dcat:datasets   <https://github.com/ChiaraCati/FlooData/resource/dataset/MD1>;
+    dcat:datasets   <https://github.com/ChiaraCati/FlooData/resource/dataset/MD2>;
+    dcat:datasets   <https://github.com/ChiaraCati/FlooData/resource/dataset/MD3>;
+    dct:publisher   <https://github.com/ChiaraCati/FlooData>;
+    dct:creator     <https://github.com/ChiaraCati/FlooData/team/#ChiaraCatizone>;
+    dct:creator     <https://github.com/ChiaraCati/FlooData/team/#GiuliaVenditti>;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>; 
     dct:license	    <https://creativecommons.org/licenses/by-sa/4.0/>;
     dct:rights      "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.";
-    foaf:homepage   <https://github.com/ChiaraCati/Owater/index.html>.
+    foaf:homepage   <https://github.com/ChiaraCati/FlooData/index.html>.
 
 
-<https://github.com/ChiaraCati/Owater> 
+<https://github.com/ChiaraCati/FlooData> 
 a foaf:agent;
     foaf:name "FlooData"@en.
 
-<https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone> 
+<https://github.com/ChiaraCati/FlooData/team/#ChiaraCatizone> 
     a   foaf:Person;
     foaf:name "Chiara Catizone"@it.
 
-<https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>
+<https://github.com/ChiaraCati/FlooData/team/#GiuliaVenditti>
     a   foaf:Person;
     foaf:name "Giulia Venditti"@it.

@@ -42,22 +42,22 @@ The final data source employed in the construction of FlooData datasets is a **[
 
 **[ReNDiS](http://dati.isprambiente.it/dataset/il-rendis/)** contains information on interventions, associated lots, georeferencing, projects' financial budgets, disruptions' typologies, lithologies and realized works, classification of hydrogeological disruptions and of works for protecting the soil. Geographical data has labels linked to the second dataset.
 
-**[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/)** was used as support to gather geographical data about *interventions*, *repair* and *instabilities*. It contains places' official names; latitude and longitude of the centroids; polygons (shape); administrative hierarchy; Istat codes, and links to Linked Data Cloud (ISTAT datiopen, Geonames,  DBpedia, etc.)
+**[Luoghi](http://dati.isprambiente.it/dataset/i-luoghi/)** was used as support to gather geographical data about *interventions*, *repair* and *instabilities*. It contains places' official names; latitude and longitude of the centroids; polygons (shape); administrative hierarchy; ISTAT codes, and links to Linked Data Cloud (ISTAT datiopen, Geonames,  DBpedia, etc.)
 
 **[Segnalazioni fenomeni geologici particolari](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808)**, groups reports on particular hydrogeological phenomena made by citizens to the Regional Geological Service since may 2012, in localities hit by that year's earthquake disaster.
 
 **[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** contains information on the coastal protections present both at sea and in the hinterland of the Emilia-Romagna coast. 
 
-**[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** contains the name of the moslty eroded areas by calmities that have striken in the time-span 1946-2020. Istat codes of municipalities are present in the dataset.
+**[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** contains the name of the moslty eroded areas by calmities that have striken in the time-span 1946-2020. ISTAT codes of municipalities are present in the dataset.
 
-**[Province](https://idrogeo.isprambiente.it/app/page/open-data)** contains landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, and cultural heritage. Istat codes of Regions and Provinces are present in the dataset.
+**[Province](https://idrogeo.isprambiente.it/app/page/open-data)** contains landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, and cultural heritage. ISTAT codes of Regions and Provinces are present in the dataset.
 
-**[Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section)** and **[Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section)** contain track records of cohesion projects in Emilia Romagna, transversally describing their management.they have ISTAT codes and denominations for Region, prvinces and Municipalities. It contains ISTAT codes for each municipality.
+**[Progetti esteso EMR 2007-2013](https://opencoesione.gov.it/it/opendata/#!progetti_section)** and **[Progetti esteso EMR 2014-2020](https://opencoesione.gov.it/it/opendata/#!progetti_section)** contain track records of cohesion projects in Emilia Romagna, transversally describing their management. They have ISTAT codes and denominations for region, provinces and municipalities.
 
 **[Italy geo](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json)** is a dataset we used to link municipalities and provinces coming from previous datasets to their latitude and longitude coordinates.
 
 
-The below table is a resume of datasets selected for our project, and that has been mashed up to create FlooData final datasets.
+The below table is a resume of the datasets selected for our project used to create FlooData final datasets.
 
 
 | ID | Dataset | Source | Time span | Licence |
@@ -77,7 +77,7 @@ The below table is a resume of datasets selected for our project, and that has b
 
 ### Mashed-up datasets descriptions
 
-**[Activities](datasets/final_dataset/actions.csv)** is the first mashed-up dataset. It covers Emilia Romagna's data on reparatory and preventive interventions against hydrogeological disasters. THe data for each activity is about its location, description, type, data and geo-data.
+**[Activities](datasets/final_dataset/actions.csv)** is the first mashed-up dataset. It covers Emilia Romagna's data on reparatory and preventive interventions against hydrogeological disasters. The data for each activity is about its location, description, type, date and geo-data.
 
 **[Disruptions](datasets/final_dataset/disruptions.csv)** is the second mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna sucha s the type, the municipality in which it is located.
 

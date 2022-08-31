@@ -7,7 +7,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<https://github.com/ChiaraCati/Owater/resource/dataset/MD2>
+<https://github.com/ChiaraCati/FlooData/resource/dataset/MD2>
 
     a       dcatap:Dataset , dcat:Dataset;
 
@@ -19,9 +19,9 @@
     dct:modified    "2022-07-12@"^^xsd:date;
     dct:modified    "2022-08-11@"^^xsd:date;
     dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
-    dct:publisher   <https://github.com/ChiaraCati/Owater>;
-    dct:creator     <https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone>; 
-    dct:creator     <https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti>;
+    dct:publisher   <https://github.com/ChiaraCati/FlooData>;
+    dct:creator     <https://github.com/ChiaraCati/FlooData/team/#ChiaraCatizone>; 
+    dct:creator     <https://github.com/ChiaraCati/FlooData/team/#GiuliaVenditti>;
     dcat:contactPoint	vcard:Group;
     dct:source      <http://dati.isprambiente.it/id/dissesto> ; 
     dct:source      <http://dati.isprambiente.it/id/place> ;
@@ -29,46 +29,46 @@
     dct:source      <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331/resource/90f18d54-991c-4999-bc91-cb6bbff5335c> ;
     dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
-    dct:distribution    <https://github.com/ChiaraCati/Owater/metadata/MD2_JSON>;
-    dct:distribution    <https://github.com/ChiaraCati/Owater/data/MD2_CSV>;
-    dct:rightsHolder    <https://github.com/ChiaraCati/Owater>;
+    dct:distribution    <https://github.com/ChiaraCati/FlooData/data/MD2_JSON.json>;
+    dct:distribution    <https://github.com/ChiaraCati/FlooData/data/MD2_CSV.csv>;
+    dct:rightsHolder    <https://github.com/ChiaraCati/FlooData>;
     dct:rights      "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.";
     foaf:homepage "#".
 
 
-<https://github.com/ChiaraCati/Owater> 
+<https://github.com/ChiaraCati/FlooData> 
     a       foaf:Agent;
 
     foaf:name   "FlooData"@en.
 
-<https://github.com/ChiaraCati/Owater/team/#ChiaraCatizone> 
+<https://github.com/ChiaraCati/FlooData/team/#ChiaraCatizone> 
     a       foaf:Person;
 
     foaf:name   "Chiara Catizone"@it.
 
-<https://github.com/ChiaraCati/Owater/team/#GiuliaVenditti> 
+<https://github.com/ChiaraCati/FlooData/team/#GiuliaVenditti> 
     a       foaf:Person;
 
     foaf:name   "Giulia Venditti"@it.
 
-<https://github.com/ChiaraCati/Owater/data/MD2_CSV>
+<https://github.com/ChiaraCati/FlooData/data/MD2_CSV.csv>
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Tabular distribution of FlooData's Disasters"@eng;
     dct:description  "This is the CSV distribution of FlooData's dataset containing  data on hydrogeological disruptions happening in Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/CSV>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
-    dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD2.csv>;
+    dcat:accessURL    <https://github.com/ChiaraCati/FlooData/blob/main/datasets/final_dataset/MD2.csv>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
-<https://github.com/ChiaraCati/Owater/data/MD2_JSON>
+<https://github.com/ChiaraCati/FlooData/data/MD2_JSON.json>
     a       dcatap:Distribution , dcat:Distribution; 
 
     dct:title  "Json distribution of FlooData's Disasters"@eng;
     dct:description  "This is the JSON distribution of FlooData's dataset containing  data on hydrogeological disruptions happening in Emilia Romagna, Italy."@eng;
     dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON>;
     dct:licence     <https://creativecommons.org/licenses/by-sa/4.0/>;
-    dcat:accessURL    <https://github.com/ChiaraCati/Owater/blob/main/datasets/final_dataset/MD2.json>;
+    dcat:accessURL    <https://github.com/ChiaraCati/FlooData/blob/main/datasets/final_dataset/MD2.json>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
 

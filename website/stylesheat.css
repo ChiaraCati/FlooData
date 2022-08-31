@@ -127,6 +127,14 @@ button a:hover {
 
 }
 
+#img-team{
+  background: url('website/img/team.jpeg');
+  width: 100%;
+  height: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .tech{
   width: 100%;
 }

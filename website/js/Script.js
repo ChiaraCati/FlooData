@@ -1092,9 +1092,9 @@ document.addEventListener('DOMContentLoaded', function () {
         series: [
             {
                 "name": "Preventive measure",
-                "data": [1.92315691e+09, 2.49988718e+08, 2.48306967e+08, 4.64813494e+08,
-                                3.29757098e+08, 3.70357333e+08, 3.12735264e+08, 3.82570784e+08,
-                                3.06467836e+08],
+                "data": [1923156910, 249988718, 248306967, 464813494,
+                                329757098, 370357333, 312735264, 382570784,
+                                306467836],
                  "color" : '#03d1b2'           
             },
             {
@@ -1745,8 +1745,12 @@ document.addEventListener('DOMContentLoaded', function () {
           },
     
           title: {
-              text: 'Financing distribution in Emilia Romagna in 2021'
+              text: 'Financing distribution in Emilia Romagna'
           },
+
+        subtitle:{
+          text: '(total ammount from 2002 to 2021)'
+        },
     
           mapNavigation: {
               enabled: true,

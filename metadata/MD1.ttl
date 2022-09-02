@@ -6,6 +6,8 @@
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prov: <https://www.w3.org/TR/prov-o/>.
+@prefix cc: <https://wiki.creativecommons.org/wiki/License_Output>.
 
 <https://github.com/ChiaraCati/FlooData/resource/dataset/MD1>
 
@@ -20,24 +22,23 @@
     dct:modified    "2022-08-11@"^^xsd:date;
     dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/ECON>;
     dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
-        dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/GOVE>;
+    dcat:theme      <http://publications.europa.eu/resource/authority/data-theme/GOVE>;
 
     dct:publisher   <https://github.com/ChiaraCati/FlooData>;
     dct:creator     <https://github.com/ChiaraCati/FlooData/team/#ChiaraCatizone>; 
     dct:creator     <https://github.com/ChiaraCati/FlooData/team/#GiuliaVenditti>;
     dcat:contactPoint	vcard:Group;
-    dct:source      <http://dati.isprambiente.it/id/dissesto> ; 
-    dct:source      <http://dati.isprambiente.it/id/place> ;
-    dct:source      <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636> ;
-    dct:source      <https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2007-2013.zip> ;
-    dct:source      <https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip> ;
-    dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json> ;
+
+    a prov:Entity;
+    prov:wasDerivedFrom  <http://dati.isprambiente.it/id/dissesto>, <http://dati.isprambiente.it/id/place>, <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636>, <https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2007-2013.zip>, <https://opencoesione.gov.it/it/opendata/regioni/progetti_esteso_EMR_2014-2020.zip>, <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_geo.json>;
+
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
     dct:distribution    <https://github.com/ChiaraCati/FlooData/data/MD1_JSON.json>;
     dct:distribution    <https://github.com/ChiaraCati/FlooData/data/MD1_CSV.csv>;
     dct:rightsHolder    <https://github.com/ChiaraCati/FlooData>;
     dct:rights      "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.";
     foaf:homepage "#".
+   
 
 
 <https://github.com/ChiaraCati/FlooData> 
@@ -76,5 +77,9 @@
     dcat:accessURL    <https://github.com/ChiaraCati/FlooData/blob/main/datasets/final_dataset/MD1.json>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
+cc:cc-by4.0 a cc:License;
+    cc:legalcode   <https://creativecommons.org/licenses/by-sa/4.0/>;
+    cc:permits    cc:Reproduction, cc:Distribution, cc:DerivativeWorks;
+    cc:requires   cc:Notice, cc:Attribution, cc:ShareAlike.
 
 vcard:Group vcard:hasEmail	"".

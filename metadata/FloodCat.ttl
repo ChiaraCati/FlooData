@@ -6,6 +6,7 @@
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cc: <https://wiki.creativecommons.org/wiki/License_Output>.
 
 <https://github.com/ChiaraCati/FlooData/resources/catalog/floodCat/>
 
@@ -40,3 +41,8 @@ a foaf:agent;
 <https://github.com/ChiaraCati/FlooData/team/#GiuliaVenditti>
     a   foaf:Person;
     foaf:name "Giulia Venditti"@it.
+
+cc:cc-by4.0 a cc:License;
+    cc:legalcode   <https://creativecommons.org/licenses/by-sa/4.0/>;
+    cc:permits    cc:Reproduction, cc:Distribution, cc:DerivativeWorks;
+    cc:requires   cc:Notice, cc:Attribution, cc:ShareAlike.

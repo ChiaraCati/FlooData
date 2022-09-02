@@ -6,6 +6,8 @@
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prov: <https://www.w3.org/TR/prov-o/>.
+@prefix cc: <https://wiki.creativecommons.org/wiki/License_Output>.
 
 <https://github.com/ChiaraCati/FlooData/resource/dataset/MD2>
 
@@ -23,10 +25,10 @@
     dct:creator     <https://github.com/ChiaraCati/FlooData/team/#ChiaraCatizone>; 
     dct:creator     <https://github.com/ChiaraCati/FlooData/team/#GiuliaVenditti>;
     dcat:contactPoint	vcard:Group;
-    dct:source      <http://dati.isprambiente.it/id/dissesto> ; 
-    dct:source      <http://dati.isprambiente.it/id/place> ;
-    dct:source      <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808> ;
-    dct:source      <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331/resource/90f18d54-991c-4999-bc91-cb6bbff5335c> ;
+
+    a prov:Entity;
+    prov:wasDerivedFrom  <http://dati.isprambiente.it/id/dissesto>, <http://dati.isprambiente.it/id/place>, <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2017-06-13t115808>, <https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331/resource/90f18d54-991c-4999-bc91-cb6bbff5335c>;
+
     dct:source      <https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel> ;
     dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
     dct:distribution    <https://github.com/ChiaraCati/FlooData/data/MD2_JSON.json>;
@@ -71,5 +73,9 @@
     dcat:accessURL    <https://github.com/ChiaraCati/FlooData/blob/main/datasets/final_dataset/MD2.json>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
+cc:cc-by4.0 a cc:License;
+    cc:legalcode   <https://creativecommons.org/licenses/by-sa/4.0/>;
+    cc:permits    cc:Reproduction, cc:Distribution, cc:DerivativeWorks;
+    cc:requires   cc:Notice, cc:Attribution, cc:ShareAlike.
 
 vcard:Group vcard:hasEmail	"".

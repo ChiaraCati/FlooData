@@ -437,7 +437,8 @@ Below we listed metadata used for the catalogue and datasets
 |   dct:title      |    ✅          |    ✅          |
 |   dct:description|    ✅          |    ✅          |
 |   dct:keyword    |    🚫          |    ✅          |
-|   dct:issued     |    ✅          |    ✅          |
+|   prov:Entity  |    🚫          |    ✅          |
+|   prov:wasDerivedFrom  |    🚫          |    ✅          |
 |   dct:modified   |    ✅          |    ✅          |
 |   dct:theme      |    🚫          |    ✅          |
 |   dcat:datasets  |    ✅          |    🚫          |
@@ -451,4 +452,5 @@ Below we listed metadata used for the catalogue and datasets
 |   dct:rights     |    ✅          |    ✅          |
 |   dct:rightsHolder|   🚫          |    ✅          |
 |   foaf:homepage  |    ✅          |    ✅          |
+|   cc:cc-by4.0  |    ✅          |    ✅          |
 

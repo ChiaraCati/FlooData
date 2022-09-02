@@ -494,7 +494,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             i++; 
                             arr[i] = j;
                             i++;
-                          }s
+                          }
                       });
     
                       return '<b>' + this.point.clusteredData[0].options.name + '</b><br>' + arr.join('-') + '</b><br>Lat: ' + iterator1.next().value.toFixed(2) + ', Lon: ' + iterator2.next().value.toFixed(2);

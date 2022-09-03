@@ -419,6 +419,8 @@ We started this phase of the project writing down a list of questions to describ
     -  Sunburst of the total amount of financings divided by Province and then divided by typology<br>
     [Code example](https://www.highcharts.com/blog/chartchooser/sunburst-categorical-composition/)
 
+*For the last visualization, we decided to normalize our financing data by divaiding them for the correspondive provice area expressed in kmq*
+
 ### Licences
 
 - **Visualizations:** Highcharts JS which is open-source for non-commercial projects, [Standard Licence Agreement](https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2022/05/02081809/Highsoft-Standard-License-Agreement-14.1-2.pdf) 

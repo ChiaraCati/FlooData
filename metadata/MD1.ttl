@@ -77,7 +77,7 @@
     dcat:accessURL    <https://github.com/ChiaraCati/FlooData/blob/main/datasets/final_dataset/MD1.json>;
     dct:rights "Under this licence you may copy, distribute, display and perform the work and make derivative works and remixes based on it, even for commercial purposes, only if you give the author or licensor the credits (attribution) in the manner specified by the license, and indicating if changes were made.You may distribute derivative works only under a licence identical to the licence that governs the original work.".
 
-cc:cc-by4.0 a cc:License;
+cc:cc-by-sa-4.0  a cc:License;
     cc:legalcode   <https://creativecommons.org/licenses/by-sa/4.0/>;
     cc:permits    cc:Reproduction, cc:Distribution, cc:DerivativeWorks;
     cc:requires   cc:Notice, cc:Attribution, cc:ShareAlike.

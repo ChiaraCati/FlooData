@@ -42,7 +42,7 @@ a foaf:agent;
     a   foaf:Person;
     foaf:name "Giulia Venditti"@it.
 
-cc:cc-by4.0 a cc:License;
+cc:cc-by-sa-4.0 a cc:License;
     cc:legalcode   <https://creativecommons.org/licenses/by-sa/4.0/>;
     cc:permits    cc:Reproduction, cc:Distribution, cc:DerivativeWorks;
     cc:requires   cc:Notice, cc:Attribution, cc:ShareAlike.

@@ -192,3 +192,9 @@ li.steps-segment::after{
   }
   
 }
+
+@media screen and (max-width: 769px) {
+  .datatable {
+    width: 100%;
+  }
+}

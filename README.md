@@ -1,13 +1,13 @@
 # 🌊 FlooData
 
-FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Monica Palmirani at the Master Course of Digital Humanities and Digital Knowledge (Univesity of Bologna) during the A.Y. 2021/2022.
+FlooData is a project developed by Chiara Catizone and Giulia Venditti for the final exam of the course *Open Access and Digital Ethics* held by professor Monica Palmirani at the Master Course of Digital Humanities and Digital Knowledge (University of Bologna) during the A.Y. 2021/2022.
 
 
 ## 🎙 Introduction 
 
 Emilia Romagna is the sixth largest region in Italy in terms of surface area, having a variegated hydrogeological conformation. The resulting heterogeneity of ecosystems is currently undergoing drastic transformations, due to climate change, as stated by the Emilia Romagna's Regional Environmental Protection Agency, [ARPAE](https://www.arpae.it/it), in its report on [climate change in Emilia-Romagna](https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/temi/bio-agro-climambiente/cambiamento-climatico-in-emilia-romagna). Also on the national level, the Italian Institute for Environmental Protection and Research, [ISPRA](https://www.isprambiente.gov.it/it), stated that the Italian hydrogeological morphology is extremely fragile, due to intense weather events and proneness to landslides of the territory.
 
-Our project's objectives are to return an overview of the relationship between hydrogeological disruptions and the measures – undertaken by local communities – to deal with them, and to inform end-users on the hydrogeological risk in Emilia Romagna's Provinces. Here, we introduce information on different human activities related to our topic, distinguishing between **preventive measures** and **reparatory interventions**, and making explicit the involvement of local communities in preserving their territory. Also, we present the characterization of each province in terms of landslide and hydraulic risk.
+Our project's objectives are to return an overview of the relationship between hydrogeological disruptions and the measures – undertaken by local communities – to deal with them, and to inform end-users on the hydrogeological risk in Emilia Romagna's Provinces. Here, we introduce information on different human activities related to our topic, distinguishing between **preventive measures** and **restorative interventions**, and making explicit the involvement of local communities in preserving their territory. Also, we present the characterization of each province in terms of landslide and hydraulic risk.
 
 
 
@@ -48,7 +48,7 @@ The final data source employed in the construction of FlooData datasets is a **[
 
 **[Opere di difesa costiera - 2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2022-01-04t151636)** contains information on the coastal protections present both at sea and in the hinterland of the Emilia-Romagna coast. 
 
-**[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** contains the name of the moslty eroded areas by calmities that have striken in the time-span 1946-2020. ISTAT codes of municipalities are present in the dataset.
+**[Dinamica Meteomarina ed Impatti - Località colpite (numero eventi con impatto) mareggiate 1946-2020](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2021-03-12t110331contains)** contains the name of the mostly eroded areas by calamities that have stricken in the time-span 1946-2020. ISTAT codes of municipalities are present in the dataset.
 
 **[Province](https://idrogeo.isprambiente.it/app/page/open-data)** contains landslide and flood risk indicators relating to territory, population, families, buildings, industry and service, and cultural heritage. ISTAT codes of Regions and Provinces are present in the dataset.
 
@@ -79,7 +79,7 @@ The below table is a resume of the datasets selected for our project used to cre
 
 **[Activities](datasets/final_dataset/actions.csv)** is the first mashed-up dataset. It covers Emilia Romagna's data on reparatory and preventive interventions against hydrogeological disasters. The data for each activity is about its location, description, type, date and geo-data.
 
-**[Disruptions](datasets/final_dataset/disruptions.csv)** is the second mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna sucha s the type, the municipality in which it is located.
+**[Disruptions](datasets/final_dataset/disruptions.csv)** is the second mashed-up dataset containing data about hydrogeological disasters involving Emilia Romagna such as the type, the municipality in which it is located.
 
 **[Hydrogeological risk](datasets/final_dataset/province.csv)** is the third mashed-up dataset containing data on flooding risk, area and geographical information of Emilia Romagna's provinces.
 
@@ -148,10 +148,10 @@ We evaluated all legal facets of the dataset lifetime using a reference checklis
 | **Intellectual Property Rights of the Source** | | |
 | | Did you create the data? | No | No  | No | No | No | No  | No  | No  | No  | 
 | | Are you the owner of the data even if you did not create it yourself? | No | No  | No | No | No | No  | No  | No  | No  | 
-| | Are you sure you are not using data for which there is a third party license or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
-| | If the data is not yours, do you have an agreement or license authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | No |
-| **Release license** | | |
-| | Do you release the data you own with a license? | Yes | Yes  | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | 
+| | Are you sure you are not using data for which there is a third party licence or patent? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  |
+| | If the data is not yours, do you have an agreement or licence authorizing you to publish it? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | No |
+| **Release licence** | | |
+| | Do you release the data you own with a licence? | Yes | Yes  | Yes | Yes | Yes | Yes | Yes  | Yes  | Yes  | 
 | | Have you also included the safeguard clause “In any case, the data cannot be used to re-identify data subjects”? | No | No  | No | No | No | No  | No  | No  | No  | 
 | **Limitations on public access** | | |
 | | Have you checked that there are no legal or contractual impediments preventing the publication of the data? | Yes | Yes  | Yes | Yes | Yes | Yes  | Yes  | Yes  | Yes  | 
@@ -386,7 +386,7 @@ In doing so, we adhered to the FAIR principles outlined in the [FAIR Data Manage
 
 * Meta(data) is richly described with a plurality of accurate and relevant attributes: data and metadata are represented by a wide and varied set of labels, such as the date of data collection and change, the licence, the publisher, the creator, their sources, and their content.
 
-* (Meta)data are released with a clear and accessible data usage license: the FlooData datasets are made available under the terms of the [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) Licence, which are specific to the dataset and associated metadata we provided.
+* (Meta)data are released with a clear and accessible data usage licence: the FlooData datasets are made available under the terms of the [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) Licence, which are specific to the dataset and associated metadata we provided.
 
 * (Meta)data are associated with detailed provenance: in the metadata encoding of our project, data provenance information is provided in a machine-readable way.
 
@@ -449,7 +449,7 @@ Below we listed metadata used for the catalogue and datasets
 |   dct:source     |    🚫          |    ✅          |
 |   dct:language   |    ✅          |    ✅          |
 |   dct:distribution|   🚫          |    ✅          |
-|   dct:license	   |    ✅          |    ✅          |
+|   dct:licence	   |    ✅          |    ✅          |
 |   dct:rights     |    ✅          |    ✅          |
 |   dct:rightsHolder|   🚫          |    ✅          |
 |   foaf:homepage  |    ✅          |    ✅          |

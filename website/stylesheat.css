@@ -115,10 +115,6 @@ button a:hover {
     margin-bottom: 0 !important;
   }
 
-  .risk_panel, .hydraulic_risk, .landslide_risk{
-    width: 49%;
-  }
-
   input{
     margin-right: 0.5em;
   }
@@ -186,5 +182,9 @@ li.steps-segment::after{
   .section{
     padding: 7rem 7rem 0;
  }
+
+ .risk_panel, .hydraulic_risk, .landslide_risk{
+  width: 49%;
+}
   
 }

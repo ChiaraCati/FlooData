@@ -70,6 +70,10 @@ button a:hover {
   clear: both;
 }
 
+.risk_panel, .hydraulic_risk, .landslide_risk{
+  width: 100%;
+}
+
 .down{
   transform: rotate(180deg);
 }
@@ -184,7 +188,7 @@ li.steps-segment::after{
  }
 
  .risk_panel, .hydraulic_risk, .landslide_risk{
-  width: 49%;
-}
+    width: 49%;
+  }
   
 }
